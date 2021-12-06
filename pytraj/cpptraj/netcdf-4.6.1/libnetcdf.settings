@@ -1,0 +1,38 @@
+# NetCDF C Configuration Summary
+==============================
+
+# General
+-------
+NetCDF Version:		4.6.1
+Configured On:		Sun Dec  5 22:04:57 EST 2021
+Host System:		x86_64-apple-darwin18.7.0
+Build Directory: 	/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/netcdf-4.6.1
+Install Prefix:         /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj
+
+# Compiling Options
+-----------------
+C Compiler:		/usr/bin/gcc
+CFLAGS:			 -Wall  -O3 -fPIC  
+CPPFLAGS:		
+LDFLAGS:		
+AM_CFLAGS:		
+AM_CPPFLAGS:		
+AM_LDFLAGS:		
+Shared Library:		no
+Static Library:		yes
+Extra libraries:	-lm 
+
+# Features
+--------
+NetCDF-2 API:		yes
+HDF4 Support:		no
+NetCDF-4 API:		no
+NC-4 Parallel Support:	no
+PNetCDF Support:	no
+DAP2 Support:		no
+DAP4 Support:		no
+Diskless Support:	yes
+MMap Support:		no
+JNA Support:		no
+CDF5 Support:		yes
+ERANGE fill Support:	no

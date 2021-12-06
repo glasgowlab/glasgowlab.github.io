@@ -1,0 +1,14 @@
+MANIFEST
+NOGIT/*
+NOGIT/*/*
+tests/TestListTravis.sh
+build
+tests/*nogit*
+pytraj/*bk
+tests/TestListTravis.sh
+*nogit*
+Makefile
+set_env.sh
+
+# editors
+.vscode

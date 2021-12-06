@@ -1,0 +1,640 @@
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in include
+make[2]: Nothing to be done for `all'.
+Making all in libdispatch
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dparallel.lo -MD -MP -MF .deps/libdispatch_la-dparallel.Tpo -c -o libdispatch_la-dparallel.lo `test -f 'dparallel.c' || echo './'`dparallel.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dparallel.lo -MD -MP -MF .deps/libdispatch_la-dparallel.Tpo -c dparallel.c -o libdispatch_la-dparallel.o
+mv -f .deps/libdispatch_la-dparallel.Tpo .deps/libdispatch_la-dparallel.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dcopy.lo -MD -MP -MF .deps/libdispatch_la-dcopy.Tpo -c -o libdispatch_la-dcopy.lo `test -f 'dcopy.c' || echo './'`dcopy.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dcopy.lo -MD -MP -MF .deps/libdispatch_la-dcopy.Tpo -c dcopy.c -o libdispatch_la-dcopy.o
+mv -f .deps/libdispatch_la-dcopy.Tpo .deps/libdispatch_la-dcopy.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dfile.lo -MD -MP -MF .deps/libdispatch_la-dfile.Tpo -c -o libdispatch_la-dfile.lo `test -f 'dfile.c' || echo './'`dfile.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dfile.lo -MD -MP -MF .deps/libdispatch_la-dfile.Tpo -c dfile.c -o libdispatch_la-dfile.o
+mv -f .deps/libdispatch_la-dfile.Tpo .deps/libdispatch_la-dfile.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-ddim.lo -MD -MP -MF .deps/libdispatch_la-ddim.Tpo -c -o libdispatch_la-ddim.lo `test -f 'ddim.c' || echo './'`ddim.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-ddim.lo -MD -MP -MF .deps/libdispatch_la-ddim.Tpo -c ddim.c -o libdispatch_la-ddim.o
+mv -f .deps/libdispatch_la-ddim.Tpo .deps/libdispatch_la-ddim.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-datt.lo -MD -MP -MF .deps/libdispatch_la-datt.Tpo -c -o libdispatch_la-datt.lo `test -f 'datt.c' || echo './'`datt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-datt.lo -MD -MP -MF .deps/libdispatch_la-datt.Tpo -c datt.c -o libdispatch_la-datt.o
+mv -f .deps/libdispatch_la-datt.Tpo .deps/libdispatch_la-datt.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dattinq.lo -MD -MP -MF .deps/libdispatch_la-dattinq.Tpo -c -o libdispatch_la-dattinq.lo `test -f 'dattinq.c' || echo './'`dattinq.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dattinq.lo -MD -MP -MF .deps/libdispatch_la-dattinq.Tpo -c dattinq.c -o libdispatch_la-dattinq.o
+mv -f .deps/libdispatch_la-dattinq.Tpo .deps/libdispatch_la-dattinq.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dattput.lo -MD -MP -MF .deps/libdispatch_la-dattput.Tpo -c -o libdispatch_la-dattput.lo `test -f 'dattput.c' || echo './'`dattput.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dattput.lo -MD -MP -MF .deps/libdispatch_la-dattput.Tpo -c dattput.c -o libdispatch_la-dattput.o
+mv -f .deps/libdispatch_la-dattput.Tpo .deps/libdispatch_la-dattput.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dattget.lo -MD -MP -MF .deps/libdispatch_la-dattget.Tpo -c -o libdispatch_la-dattget.lo `test -f 'dattget.c' || echo './'`dattget.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dattget.lo -MD -MP -MF .deps/libdispatch_la-dattget.Tpo -c dattget.c -o libdispatch_la-dattget.o
+mv -f .deps/libdispatch_la-dattget.Tpo .deps/libdispatch_la-dattget.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-derror.lo -MD -MP -MF .deps/libdispatch_la-derror.Tpo -c -o libdispatch_la-derror.lo `test -f 'derror.c' || echo './'`derror.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-derror.lo -MD -MP -MF .deps/libdispatch_la-derror.Tpo -c derror.c -o libdispatch_la-derror.o
+mv -f .deps/libdispatch_la-derror.Tpo .deps/libdispatch_la-derror.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dvar.lo -MD -MP -MF .deps/libdispatch_la-dvar.Tpo -c -o libdispatch_la-dvar.lo `test -f 'dvar.c' || echo './'`dvar.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dvar.lo -MD -MP -MF .deps/libdispatch_la-dvar.Tpo -c dvar.c -o libdispatch_la-dvar.o
+mv -f .deps/libdispatch_la-dvar.Tpo .deps/libdispatch_la-dvar.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dvarget.lo -MD -MP -MF .deps/libdispatch_la-dvarget.Tpo -c -o libdispatch_la-dvarget.lo `test -f 'dvarget.c' || echo './'`dvarget.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dvarget.lo -MD -MP -MF .deps/libdispatch_la-dvarget.Tpo -c dvarget.c -o libdispatch_la-dvarget.o
+mv -f .deps/libdispatch_la-dvarget.Tpo .deps/libdispatch_la-dvarget.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dvarput.lo -MD -MP -MF .deps/libdispatch_la-dvarput.Tpo -c -o libdispatch_la-dvarput.lo `test -f 'dvarput.c' || echo './'`dvarput.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dvarput.lo -MD -MP -MF .deps/libdispatch_la-dvarput.Tpo -c dvarput.c -o libdispatch_la-dvarput.o
+mv -f .deps/libdispatch_la-dvarput.Tpo .deps/libdispatch_la-dvarput.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dvarinq.lo -MD -MP -MF .deps/libdispatch_la-dvarinq.Tpo -c -o libdispatch_la-dvarinq.lo `test -f 'dvarinq.c' || echo './'`dvarinq.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dvarinq.lo -MD -MP -MF .deps/libdispatch_la-dvarinq.Tpo -c dvarinq.c -o libdispatch_la-dvarinq.o
+mv -f .deps/libdispatch_la-dvarinq.Tpo .deps/libdispatch_la-dvarinq.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dinternal.lo -MD -MP -MF .deps/libdispatch_la-dinternal.Tpo -c -o libdispatch_la-dinternal.lo `test -f 'dinternal.c' || echo './'`dinternal.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dinternal.lo -MD -MP -MF .deps/libdispatch_la-dinternal.Tpo -c dinternal.c -o libdispatch_la-dinternal.o
+mv -f .deps/libdispatch_la-dinternal.Tpo .deps/libdispatch_la-dinternal.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-ddispatch.lo -MD -MP -MF .deps/libdispatch_la-ddispatch.Tpo -c -o libdispatch_la-ddispatch.lo `test -f 'ddispatch.c' || echo './'`ddispatch.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-ddispatch.lo -MD -MP -MF .deps/libdispatch_la-ddispatch.Tpo -c ddispatch.c -o libdispatch_la-ddispatch.o
+mv -f .deps/libdispatch_la-ddispatch.Tpo .deps/libdispatch_la-ddispatch.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dutf8.lo -MD -MP -MF .deps/libdispatch_la-dutf8.Tpo -c -o libdispatch_la-dutf8.lo `test -f 'dutf8.c' || echo './'`dutf8.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dutf8.lo -MD -MP -MF .deps/libdispatch_la-dutf8.Tpo -c dutf8.c -o libdispatch_la-dutf8.o
+mv -f .deps/libdispatch_la-dutf8.Tpo .deps/libdispatch_la-dutf8.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-nclog.lo -MD -MP -MF .deps/libdispatch_la-nclog.Tpo -c -o libdispatch_la-nclog.lo `test -f 'nclog.c' || echo './'`nclog.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-nclog.lo -MD -MP -MF .deps/libdispatch_la-nclog.Tpo -c nclog.c -o libdispatch_la-nclog.o
+mv -f .deps/libdispatch_la-nclog.Tpo .deps/libdispatch_la-nclog.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dstring.lo -MD -MP -MF .deps/libdispatch_la-dstring.Tpo -c -o libdispatch_la-dstring.lo `test -f 'dstring.c' || echo './'`dstring.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dstring.lo -MD -MP -MF .deps/libdispatch_la-dstring.Tpo -c dstring.c -o libdispatch_la-dstring.o
+mv -f .deps/libdispatch_la-dstring.Tpo .deps/libdispatch_la-dstring.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-ncuri.lo -MD -MP -MF .deps/libdispatch_la-ncuri.Tpo -c -o libdispatch_la-ncuri.lo `test -f 'ncuri.c' || echo './'`ncuri.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-ncuri.lo -MD -MP -MF .deps/libdispatch_la-ncuri.Tpo -c ncuri.c -o libdispatch_la-ncuri.o
+ncuri.c:264:8: warning: explicitly assigning value of variable of type 'char *' to itself [-Wself-assign]
+            p = p; /* p points to the start of the path */
+            ~ ^ ~
+ncuri.c:266:8: warning: explicitly assigning value of variable of type 'char *' to itself [-Wself-assign]
+            p = p; /* p points to the start of the path */
+            ~ ^ ~
+2 warnings generated.
+mv -f .deps/libdispatch_la-ncuri.Tpo .deps/libdispatch_la-ncuri.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-nclist.lo -MD -MP -MF .deps/libdispatch_la-nclist.Tpo -c -o libdispatch_la-nclist.lo `test -f 'nclist.c' || echo './'`nclist.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-nclist.lo -MD -MP -MF .deps/libdispatch_la-nclist.Tpo -c nclist.c -o libdispatch_la-nclist.o
+mv -f .deps/libdispatch_la-nclist.Tpo .deps/libdispatch_la-nclist.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-ncbytes.lo -MD -MP -MF .deps/libdispatch_la-ncbytes.Tpo -c -o libdispatch_la-ncbytes.lo `test -f 'ncbytes.c' || echo './'`ncbytes.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-ncbytes.lo -MD -MP -MF .deps/libdispatch_la-ncbytes.Tpo -c ncbytes.c -o libdispatch_la-ncbytes.o
+mv -f .deps/libdispatch_la-ncbytes.Tpo .deps/libdispatch_la-ncbytes.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-nchashmap.lo -MD -MP -MF .deps/libdispatch_la-nchashmap.Tpo -c -o libdispatch_la-nchashmap.lo `test -f 'nchashmap.c' || echo './'`nchashmap.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-nchashmap.lo -MD -MP -MF .deps/libdispatch_la-nchashmap.Tpo -c nchashmap.c -o libdispatch_la-nchashmap.o
+mv -f .deps/libdispatch_la-nchashmap.Tpo .deps/libdispatch_la-nchashmap.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-nctime.lo -MD -MP -MF .deps/libdispatch_la-nctime.Tpo -c -o libdispatch_la-nctime.lo `test -f 'nctime.c' || echo './'`nctime.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-nctime.lo -MD -MP -MF .deps/libdispatch_la-nctime.Tpo -c nctime.c -o libdispatch_la-nctime.o
+mv -f .deps/libdispatch_la-nctime.Tpo .deps/libdispatch_la-nctime.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-nc.lo -MD -MP -MF .deps/libdispatch_la-nc.Tpo -c -o libdispatch_la-nc.lo `test -f 'nc.c' || echo './'`nc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-nc.lo -MD -MP -MF .deps/libdispatch_la-nc.Tpo -c nc.c -o libdispatch_la-nc.o
+mv -f .deps/libdispatch_la-nc.Tpo .deps/libdispatch_la-nc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-nclistmgr.lo -MD -MP -MF .deps/libdispatch_la-nclistmgr.Tpo -c -o libdispatch_la-nclistmgr.lo `test -f 'nclistmgr.c' || echo './'`nclistmgr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-nclistmgr.lo -MD -MP -MF .deps/libdispatch_la-nclistmgr.Tpo -c nclistmgr.c -o libdispatch_la-nclistmgr.o
+mv -f .deps/libdispatch_la-nclistmgr.Tpo .deps/libdispatch_la-nclistmgr.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-drc.lo -MD -MP -MF .deps/libdispatch_la-drc.Tpo -c -o libdispatch_la-drc.lo `test -f 'drc.c' || echo './'`drc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-drc.lo -MD -MP -MF .deps/libdispatch_la-drc.Tpo -c drc.c -o libdispatch_la-drc.o
+mv -f .deps/libdispatch_la-drc.Tpo .deps/libdispatch_la-drc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dauth.lo -MD -MP -MF .deps/libdispatch_la-dauth.Tpo -c -o libdispatch_la-dauth.lo `test -f 'dauth.c' || echo './'`dauth.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dauth.lo -MD -MP -MF .deps/libdispatch_la-dauth.Tpo -c dauth.c -o libdispatch_la-dauth.o
+mv -f .deps/libdispatch_la-dauth.Tpo .deps/libdispatch_la-dauth.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-doffsets.lo -MD -MP -MF .deps/libdispatch_la-doffsets.Tpo -c -o libdispatch_la-doffsets.lo `test -f 'doffsets.c' || echo './'`doffsets.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-doffsets.lo -MD -MP -MF .deps/libdispatch_la-doffsets.Tpo -c doffsets.c -o libdispatch_la-doffsets.o
+mv -f .deps/libdispatch_la-doffsets.Tpo .deps/libdispatch_la-doffsets.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dwinpath.lo -MD -MP -MF .deps/libdispatch_la-dwinpath.Tpo -c -o libdispatch_la-dwinpath.lo `test -f 'dwinpath.c' || echo './'`dwinpath.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dwinpath.lo -MD -MP -MF .deps/libdispatch_la-dwinpath.Tpo -c dwinpath.c -o libdispatch_la-dwinpath.o
+mv -f .deps/libdispatch_la-dwinpath.Tpo .deps/libdispatch_la-dwinpath.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-dutil.lo -MD -MP -MF .deps/libdispatch_la-dutil.Tpo -c -o libdispatch_la-dutil.lo `test -f 'dutil.c' || echo './'`dutil.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-dutil.lo -MD -MP -MF .deps/libdispatch_la-dutil.Tpo -c dutil.c -o libdispatch_la-dutil.o
+mv -f .deps/libdispatch_la-dutil.Tpo .deps/libdispatch_la-dutil.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libdispatch_la-utf8proc.lo -MD -MP -MF .deps/libdispatch_la-utf8proc.Tpo -c -o libdispatch_la-utf8proc.lo `test -f 'utf8proc.c' || echo './'`utf8proc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libdispatch_la-utf8proc.lo -MD -MP -MF .deps/libdispatch_la-utf8proc.Tpo -c utf8proc.c -o libdispatch_la-utf8proc.o
+mv -f .deps/libdispatch_la-utf8proc.Tpo .deps/libdispatch_la-utf8proc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fPIC     -o libdispatch.la  libdispatch_la-dparallel.lo libdispatch_la-dcopy.lo libdispatch_la-dfile.lo libdispatch_la-ddim.lo libdispatch_la-datt.lo libdispatch_la-dattinq.lo libdispatch_la-dattput.lo libdispatch_la-dattget.lo libdispatch_la-derror.lo libdispatch_la-dvar.lo libdispatch_la-dvarget.lo libdispatch_la-dvarput.lo libdispatch_la-dvarinq.lo libdispatch_la-dinternal.lo libdispatch_la-ddispatch.lo libdispatch_la-dutf8.lo libdispatch_la-nclog.lo libdispatch_la-dstring.lo libdispatch_la-ncuri.lo libdispatch_la-nclist.lo libdispatch_la-ncbytes.lo libdispatch_la-nchashmap.lo libdispatch_la-nctime.lo libdispatch_la-nc.lo libdispatch_la-nclistmgr.lo libdispatch_la-drc.lo libdispatch_la-dauth.lo libdispatch_la-doffsets.lo libdispatch_la-dwinpath.lo libdispatch_la-dutil.lo libdispatch_la-utf8proc.lo   -lm 
+libtool: link: ar cru .libs/libdispatch.a  libdispatch_la-dparallel.o libdispatch_la-dcopy.o libdispatch_la-dfile.o libdispatch_la-ddim.o libdispatch_la-datt.o libdispatch_la-dattinq.o libdispatch_la-dattput.o libdispatch_la-dattget.o libdispatch_la-derror.o libdispatch_la-dvar.o libdispatch_la-dvarget.o libdispatch_la-dvarput.o libdispatch_la-dvarinq.o libdispatch_la-dinternal.o libdispatch_la-ddispatch.o libdispatch_la-dutf8.o libdispatch_la-nclog.o libdispatch_la-dstring.o libdispatch_la-ncuri.o libdispatch_la-nclist.o libdispatch_la-ncbytes.o libdispatch_la-nchashmap.o libdispatch_la-nctime.o libdispatch_la-nc.o libdispatch_la-nclistmgr.o libdispatch_la-drc.o libdispatch_la-dauth.o libdispatch_la-doffsets.o libdispatch_la-dwinpath.o libdispatch_la-dutil.o libdispatch_la-utf8proc.o
+libtool: link: ranlib .libs/libdispatch.a
+libtool: link: ( cd ".libs" && rm -f "libdispatch.la" && ln -s "../libdispatch.la" "libdispatch.la" )
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -DDLL_EXPORT   -Wall  -O3 -fPIC   -MT libnetcdf2_la-dv2i.lo -MD -MP -MF .deps/libnetcdf2_la-dv2i.Tpo -c -o libnetcdf2_la-dv2i.lo `test -f 'dv2i.c' || echo './'`dv2i.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -DDLL_EXPORT -Wall -O3 -fPIC -MT libnetcdf2_la-dv2i.lo -MD -MP -MF .deps/libnetcdf2_la-dv2i.Tpo -c dv2i.c -o libnetcdf2_la-dv2i.o
+mv -f .deps/libnetcdf2_la-dv2i.Tpo .deps/libnetcdf2_la-dv2i.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fPIC     -o libnetcdf2.la  libnetcdf2_la-dv2i.lo  -lm 
+libtool: link: ar cru .libs/libnetcdf2.a  libnetcdf2_la-dv2i.o
+libtool: link: ranlib .libs/libnetcdf2.a
+libtool: link: ( cd ".libs" && rm -f "libnetcdf2.la" && ln -s "../libnetcdf2.la" "libnetcdf2.la" )
+Making all in libsrc
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-v1hpg.lo -MD -MP -MF .deps/libnetcdf3_la-v1hpg.Tpo -c -o libnetcdf3_la-v1hpg.lo `test -f 'v1hpg.c' || echo './'`v1hpg.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-v1hpg.lo -MD -MP -MF .deps/libnetcdf3_la-v1hpg.Tpo -c v1hpg.c -o libnetcdf3_la-v1hpg.o
+mv -f .deps/libnetcdf3_la-v1hpg.Tpo .deps/libnetcdf3_la-v1hpg.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-putget.lo -MD -MP -MF .deps/libnetcdf3_la-putget.Tpo -c -o libnetcdf3_la-putget.lo `test -f 'putget.c' || echo './'`putget.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-putget.lo -MD -MP -MF .deps/libnetcdf3_la-putget.Tpo -c putget.c -o libnetcdf3_la-putget.o
+putget.m4:754:15: warning: unused variable 'fillp' [-Wunused-variable]
+        void *fillp=NULL;
+              ^
+putget.m4:912:1: warning: unused function 'getNCvx_char_char' [-Wunused-function]
+getNCvx_char_char(const NC3_INFO* ncp, const NC_var *varp,
+^
+2 warnings generated.
+mv -f .deps/libnetcdf3_la-putget.Tpo .deps/libnetcdf3_la-putget.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-attr.lo -MD -MP -MF .deps/libnetcdf3_la-attr.Tpo -c -o libnetcdf3_la-attr.lo `test -f 'attr.c' || echo './'`attr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-attr.lo -MD -MP -MF .deps/libnetcdf3_la-attr.Tpo -c attr.c -o libnetcdf3_la-attr.o
+mv -f .deps/libnetcdf3_la-attr.Tpo .deps/libnetcdf3_la-attr.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-nc3dispatch.lo -MD -MP -MF .deps/libnetcdf3_la-nc3dispatch.Tpo -c -o libnetcdf3_la-nc3dispatch.lo `test -f 'nc3dispatch.c' || echo './'`nc3dispatch.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-nc3dispatch.lo -MD -MP -MF .deps/libnetcdf3_la-nc3dispatch.Tpo -c nc3dispatch.c -o libnetcdf3_la-nc3dispatch.o
+mv -f .deps/libnetcdf3_la-nc3dispatch.Tpo .deps/libnetcdf3_la-nc3dispatch.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-nc3internal.lo -MD -MP -MF .deps/libnetcdf3_la-nc3internal.Tpo -c -o libnetcdf3_la-nc3internal.lo `test -f 'nc3internal.c' || echo './'`nc3internal.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-nc3internal.lo -MD -MP -MF .deps/libnetcdf3_la-nc3internal.Tpo -c nc3internal.c -o libnetcdf3_la-nc3internal.o
+mv -f .deps/libnetcdf3_la-nc3internal.Tpo .deps/libnetcdf3_la-nc3internal.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-var.lo -MD -MP -MF .deps/libnetcdf3_la-var.Tpo -c -o libnetcdf3_la-var.lo `test -f 'var.c' || echo './'`var.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-var.lo -MD -MP -MF .deps/libnetcdf3_la-var.Tpo -c var.c -o libnetcdf3_la-var.o
+mv -f .deps/libnetcdf3_la-var.Tpo .deps/libnetcdf3_la-var.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-dim.lo -MD -MP -MF .deps/libnetcdf3_la-dim.Tpo -c -o libnetcdf3_la-dim.lo `test -f 'dim.c' || echo './'`dim.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-dim.lo -MD -MP -MF .deps/libnetcdf3_la-dim.Tpo -c dim.c -o libnetcdf3_la-dim.o
+mv -f .deps/libnetcdf3_la-dim.Tpo .deps/libnetcdf3_la-dim.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-ncx.lo -MD -MP -MF .deps/libnetcdf3_la-ncx.Tpo -c -o libnetcdf3_la-ncx.lo `test -f 'ncx.c' || echo './'`ncx.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-ncx.lo -MD -MP -MF .deps/libnetcdf3_la-ncx.Tpo -c ncx.c -o libnetcdf3_la-ncx.o
+mv -f .deps/libnetcdf3_la-ncx.Tpo .deps/libnetcdf3_la-ncx.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-nc_hashmap.lo -MD -MP -MF .deps/libnetcdf3_la-nc_hashmap.Tpo -c -o libnetcdf3_la-nc_hashmap.lo `test -f 'nc_hashmap.c' || echo './'`nc_hashmap.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-nc_hashmap.lo -MD -MP -MF .deps/libnetcdf3_la-nc_hashmap.Tpo -c nc_hashmap.c -o libnetcdf3_la-nc_hashmap.o
+mv -f .deps/libnetcdf3_la-nc_hashmap.Tpo .deps/libnetcdf3_la-nc_hashmap.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-lookup3.lo -MD -MP -MF .deps/libnetcdf3_la-lookup3.Tpo -c -o libnetcdf3_la-lookup3.lo `test -f 'lookup3.c' || echo './'`lookup3.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-lookup3.lo -MD -MP -MF .deps/libnetcdf3_la-lookup3.Tpo -c lookup3.c -o libnetcdf3_la-lookup3.o
+mv -f .deps/libnetcdf3_la-lookup3.Tpo .deps/libnetcdf3_la-lookup3.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-ncio.lo -MD -MP -MF .deps/libnetcdf3_la-ncio.Tpo -c -o libnetcdf3_la-ncio.lo `test -f 'ncio.c' || echo './'`ncio.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-ncio.lo -MD -MP -MF .deps/libnetcdf3_la-ncio.Tpo -c ncio.c -o libnetcdf3_la-ncio.o
+mv -f .deps/libnetcdf3_la-ncio.Tpo .deps/libnetcdf3_la-ncio.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-memio.lo -MD -MP -MF .deps/libnetcdf3_la-memio.Tpo -c -o libnetcdf3_la-memio.lo `test -f 'memio.c' || echo './'`memio.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-memio.lo -MD -MP -MF .deps/libnetcdf3_la-memio.Tpo -c memio.c -o libnetcdf3_la-memio.o
+mv -f .deps/libnetcdf3_la-memio.Tpo .deps/libnetcdf3_la-memio.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT libnetcdf3_la-posixio.lo -MD -MP -MF .deps/libnetcdf3_la-posixio.Tpo -c -o libnetcdf3_la-posixio.lo `test -f 'posixio.c' || echo './'`posixio.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf3_la-posixio.lo -MD -MP -MF .deps/libnetcdf3_la-posixio.Tpo -c posixio.c -o libnetcdf3_la-posixio.o
+mv -f .deps/libnetcdf3_la-posixio.Tpo .deps/libnetcdf3_la-posixio.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fPIC     -o libnetcdf3.la  libnetcdf3_la-v1hpg.lo libnetcdf3_la-putget.lo libnetcdf3_la-attr.lo libnetcdf3_la-nc3dispatch.lo libnetcdf3_la-nc3internal.lo libnetcdf3_la-var.lo libnetcdf3_la-dim.lo libnetcdf3_la-ncx.lo libnetcdf3_la-nc_hashmap.lo libnetcdf3_la-lookup3.lo libnetcdf3_la-ncio.lo libnetcdf3_la-memio.lo    libnetcdf3_la-posixio.lo  -lm 
+libtool: link: ar cru .libs/libnetcdf3.a  libnetcdf3_la-v1hpg.o libnetcdf3_la-putget.o libnetcdf3_la-attr.o libnetcdf3_la-nc3dispatch.o libnetcdf3_la-nc3internal.o libnetcdf3_la-var.o libnetcdf3_la-dim.o libnetcdf3_la-ncx.o libnetcdf3_la-nc_hashmap.o libnetcdf3_la-lookup3.o libnetcdf3_la-ncio.o libnetcdf3_la-memio.o libnetcdf3_la-posixio.o
+libtool: link: ranlib .libs/libnetcdf3.a
+libtool: link: ( cd ".libs" && rm -f "libnetcdf3.la" && ln -s "../libnetcdf3.la" "libnetcdf3.la" )
+Making all in liblib
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include         -Wall  -O3 -fPIC   -MT libnetcdf_la-nc_initialize.lo -MD -MP -MF .deps/libnetcdf_la-nc_initialize.Tpo -c -o libnetcdf_la-nc_initialize.lo `test -f 'nc_initialize.c' || echo './'`nc_initialize.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -O3 -fPIC -MT libnetcdf_la-nc_initialize.lo -MD -MP -MF .deps/libnetcdf_la-nc_initialize.Tpo -c nc_initialize.c -o libnetcdf_la-nc_initialize.o
+mv -f .deps/libnetcdf_la-nc_initialize.Tpo .deps/libnetcdf_la-nc_initialize.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fPIC   -version-info 14:1:1  -o libnetcdf.la -rpath /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib libnetcdf_la-nc_initialize.lo ../libdispatch/libnetcdf2.la ../libdispatch/libdispatch.la ../libsrc/libnetcdf3.la      -lm 
+libtool: link: (cd .libs/libnetcdf.lax/libnetcdf2.a && ar x "/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/netcdf-4.6.1/liblib/../libdispatch/.libs/libnetcdf2.a")
+libtool: link: (cd .libs/libnetcdf.lax/libdispatch.a && ar x "/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/netcdf-4.6.1/liblib/../libdispatch/.libs/libdispatch.a")
+libtool: link: (cd .libs/libnetcdf.lax/libnetcdf3.a && ar x "/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/netcdf-4.6.1/liblib/../libsrc/.libs/libnetcdf3.a")
+libtool: link: ar cru .libs/libnetcdf.a  libnetcdf_la-nc_initialize.o  .libs/libnetcdf.lax/libnetcdf2.a/libnetcdf2_la-dv2i.o  .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-datt.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dattget.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dattinq.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dattput.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dauth.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dcopy.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-ddim.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-ddispatch.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-derror.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dfile.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dinternal.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-doffsets.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dparallel.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-drc.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dstring.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dutf8.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dutil.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dvar.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dvarget.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dvarinq.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dvarput.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-dwinpath.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-nc.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-ncbytes.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-nchashmap.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-nclist.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-nclistmgr.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-nclog.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-nctime.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-ncuri.o .libs/libnetcdf.lax/libdispatch.a/libdispatch_la-utf8proc.o  .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-attr.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-dim.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-lookup3.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-memio.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-nc3dispatch.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-nc3internal.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-nc_hashmap.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-ncio.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-ncx.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-posixio.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-putget.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-v1hpg.o .libs/libnetcdf.lax/libnetcdf3.a/libnetcdf3_la-var.o 
+libtool: link: ranlib .libs/libnetcdf.a
+libtool: link: rm -fr .libs/libnetcdf.lax
+libtool: link: ( cd ".libs" && rm -f "libnetcdf.la" && ln -s "../libnetcdf.la" "libnetcdf.la" )
+Making all in ncgen3
+depbase=`echo main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT main.o -MD -MP -MF $depbase.Tpo -c -o main.o main.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo load.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT load.o -MD -MP -MF $depbase.Tpo -c -o load.o load.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo escapes.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT escapes.o -MD -MP -MF $depbase.Tpo -c -o escapes.o escapes.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo getfill.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT getfill.o -MD -MP -MF $depbase.Tpo -c -o getfill.o getfill.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo init.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT init.o -MD -MP -MF $depbase.Tpo -c -o init.o init.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo genlib.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT genlib.o -MD -MP -MF $depbase.Tpo -c -o genlib.o genlib.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo ncgentab.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT ncgentab.o -MD -MP -MF $depbase.Tpo -c -o ncgentab.o ncgentab.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fPIC     -o ncgen3 main.o load.o escapes.o getfill.o init.o genlib.o ncgentab.o ../liblib/libnetcdf.la  -lm 
+libtool: link: gcc -Wall -O3 -fPIC -o ncgen3 main.o load.o escapes.o getfill.o init.o genlib.o ncgentab.o  ../liblib/.libs/libnetcdf.a -lm
+Making all in ncgen
+depbase=`echo generate.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT generate.o -MD -MP -MF $depbase.Tpo -c -o generate.o generate.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT main.o -MD -MP -MF $depbase.Tpo -c -o main.o main.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo cdata.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT cdata.o -MD -MP -MF $depbase.Tpo -c -o cdata.o cdata.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo bindata.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT bindata.o -MD -MP -MF $depbase.Tpo -c -o bindata.o bindata.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo genchar.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT genchar.o -MD -MP -MF $depbase.Tpo -c -o genchar.o genchar.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo cvt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT cvt.o -MD -MP -MF $depbase.Tpo -c -o cvt.o cvt.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+cvt.c:557:6: warning: variable 'tmp' is used uninitialized whenever switch case is taken [-Wsometimes-uninitialized]
+case CASE(NC_NIL,NC_NIL):
+     ^~~~~~~~~~~~~~~~~~~
+cvt.c:58:23: note: expanded from macro 'CASE'
+#define CASE(nc1,nc2) (nc1*256+nc2)
+                      ^~~~~~~~~~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:566:5: warning: variable 'tmp' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
+    default:
+    ^~~~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:548:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)  
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:548:3: note: remove the 'if' if its condition is always true
+  if(bytes)  
+  ^~~~~~~~~~~
+cvt.c:544:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)  
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:544:3: note: remove the 'if' if its condition is always true
+  if(bytes)  
+  ^~~~~~~~~~~
+cvt.c:540:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)  
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:540:3: note: remove the 'if' if its condition is always true
+  if(bytes)  
+  ^~~~~~~~~~~
+cvt.c:536:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)  
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:536:3: note: remove the 'if' if its condition is always true
+  if(bytes)  
+  ^~~~~~~~~~~
+cvt.c:532:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)  
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:532:3: note: remove the 'if' if its condition is always true
+  if(bytes)  
+  ^~~~~~~~~~~
+cvt.c:528:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)  
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:528:3: note: remove the 'if' if its condition is always true
+  if(bytes)  
+  ^~~~~~~~~~~
+cvt.c:524:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes) 
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:524:3: note: remove the 'if' if its condition is always true
+  if(bytes) 
+  ^~~~~~~~~~
+cvt.c:520:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)  
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:520:3: note: remove the 'if' if its condition is always true
+  if(bytes)  
+  ^~~~~~~~~~~
+cvt.c:516:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)  
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:516:3: note: remove the 'if' if its condition is always true
+  if(bytes)  
+  ^~~~~~~~~~~
+cvt.c:512:7: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+   if(bytes)
+      ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:512:4: note: remove the 'if' if its condition is always true
+   if(bytes)
+   ^~~~~~~~~
+cvt.c:508:6: warning: variable 'tmp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  if(bytes)
+     ^~~~~
+cvt.c:576:18: note: uninitialized use occurs here
+    dst->value = tmp;
+                 ^~~
+cvt.c:508:3: note: remove the 'if' if its condition is always true
+  if(bytes)
+  ^~~~~~~~~
+cvt.c:18:5: note: variable 'tmp' is declared here
+    Constvalue tmp;
+    ^
+13 warnings generated.
+depbase=`echo data.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT data.o -MD -MP -MF $depbase.Tpo -c -o data.o data.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+data.c:556:4: warning: format specifies type 'unsigned char' but the argument has type 'unsigned int' [-Wformat]
+                        (unsigned int)va_arg(argv,unsigned int));
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_stdio.h:57:62: note: expanded from macro 'snprintf'
+  __builtin___snprintf_chk (str, len, 0, __darwin_obsz(str), __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+data.c:559:4: warning: format specifies type 'unsigned short' but the argument has type 'unsigned int' [-Wformat]
+                        (unsigned int)va_arg(argv,unsigned int));
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_stdio.h:57:62: note: expanded from macro 'snprintf'
+  __builtin___snprintf_chk (str, len, 0, __darwin_obsz(str), __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+data.c:575:4: warning: format specifies type 'char' but the argument has type 'int' [-Wformat]
+                        (signed int)va_arg(argv,signed int));
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_stdio.h:57:62: note: expanded from macro 'snprintf'
+  __builtin___snprintf_chk (str, len, 0, __darwin_obsz(str), __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+data.c:578:4: warning: format specifies type 'short' but the argument has type 'int' [-Wformat]
+                        (signed int)va_arg(argv,signed int));
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_stdio.h:57:62: note: expanded from macro 'snprintf'
+  __builtin___snprintf_chk (str, len, 0, __darwin_obsz(str), __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+4 warnings generated.
+depbase=`echo debug.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT debug.o -MD -MP -MF $depbase.Tpo -c -o debug.o debug.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo escapes.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT escapes.o -MD -MP -MF $depbase.Tpo -c -o escapes.o escapes.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo genc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT genc.o -MD -MP -MF $depbase.Tpo -c -o genc.o genc.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo genbin.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT genbin.o -MD -MP -MF $depbase.Tpo -c -o genbin.o genbin.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+genbin.c:549:22: warning: variable 'stat' is used uninitialized whenever '?:' condition is false [-Wsometimes-uninitialized]
+            default: PANIC1("genbin_defineattr: unexpected basetype: %d",basetype->typ.typecode);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./debug.h:40:25: note: expanded from macro 'PANIC1'
+#define PANIC1(msg,arg) assert(panic(msg,arg))
+                        ^~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h:93:6: note: expanded from macro 'assert'
+    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+genbin.c:566:12: note: uninitialized use occurs here
+    return stat;
+           ^~~~
+genbin.c:549:22: note: remove the '?:' if its condition is always true
+            default: PANIC1("genbin_defineattr: unexpected basetype: %d",basetype->typ.typecode);
+                     ^
+./debug.h:40:25: note: expanded from macro 'PANIC1'
+#define PANIC1(msg,arg) assert(panic(msg,arg))
+                        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h:93:6: note: expanded from macro 'assert'
+    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)
+     ^
+genbin.c:460:13: note: initialize the variable 'stat' to silence this warning
+    int stat;
+            ^
+             = 0
+1 warning generated.
+depbase=`echo generr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT generr.o -MD -MP -MF $depbase.Tpo -c -o generr.o generr.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo genlib.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT genlib.o -MD -MP -MF $depbase.Tpo -c -o genlib.o genlib.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo getfill.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT getfill.o -MD -MP -MF $depbase.Tpo -c -o getfill.o getfill.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo odom.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT odom.o -MD -MP -MF $depbase.Tpo -c -o odom.o odom.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo semantics.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT semantics.o -MD -MP -MF $depbase.Tpo -c -o semantics.o semantics.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo dump.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT dump.o -MD -MP -MF $depbase.Tpo -c -o dump.o dump.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo util.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT util.o -MD -MP -MF $depbase.Tpo -c -o util.o util.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo bytebuffer.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT bytebuffer.o -MD -MP -MF $depbase.Tpo -c -o bytebuffer.o bytebuffer.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo list.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT list.o -MD -MP -MF $depbase.Tpo -c -o list.o list.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo genf77.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT genf77.o -MD -MP -MF $depbase.Tpo -c -o genf77.o genf77.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f77data.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT f77data.o -MD -MP -MF $depbase.Tpo -c -o f77data.o f77data.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo genj.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT genj.o -MD -MP -MF $depbase.Tpo -c -o genj.o genj.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo jdata.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT jdata.o -MD -MP -MF $depbase.Tpo -c -o jdata.o jdata.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo nc_iter.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT nc_iter.o -MD -MP -MF $depbase.Tpo -c -o nc_iter.o nc_iter.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo ncgeny.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT ncgeny.o -MD -MP -MF $depbase.Tpo -c -o ncgeny.o ncgeny.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fPIC     -o ncgen generate.o main.o cdata.o bindata.o genchar.o cvt.o data.o debug.o escapes.o genc.o genbin.o generr.o genlib.o getfill.o odom.o semantics.o dump.o util.o bytebuffer.o list.o genf77.o f77data.o genj.o jdata.o nc_iter.o ncgeny.o ../liblib/libnetcdf.la -lm 
+libtool: link: gcc -Wall -O3 -fPIC -o ncgen generate.o main.o cdata.o bindata.o genchar.o cvt.o data.o debug.o escapes.o genc.o genbin.o generr.o genlib.o getfill.o odom.o semantics.o dump.o util.o bytebuffer.o list.o genf77.o f77data.o genj.o jdata.o nc_iter.o ncgeny.o  ../liblib/.libs/libnetcdf.a -lm
+Making all in ncdump
+Making all in cdl
+make[3]: Nothing to be done for `all'.
+Making all in expected
+make[3]: Nothing to be done for `all'.
+depbase=`echo ncdump.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT ncdump.o -MD -MP -MF $depbase.Tpo -c -o ncdump.o ncdump.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+ncdump.c:2313:6: warning: variable 'ncid' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+                if(nc_status == NC_NOERR)
+                   ^~~~~~~~~~~~~~~~~~~~~
+ncdump.c:2321:30: note: uninitialized use occurs here
+            NC_CHECK( nc_inq_format(ncid, &formatting_specs.nc_kind) );
+                                    ^~~~
+./utils.h:66:38: note: expanded from macro 'NC_CHECK'
+#define NC_CHECK(fncall) {int statnc=fncall;if(statnc!=NC_NOERR)check(statnc,__FILE__,__LINE__);}
+                                     ^~~~~~
+ncdump.c:2313:3: note: remove the 'if' if its condition is always true
+                if(nc_status == NC_NOERR)
+                ^~~~~~~~~~~~~~~~~~~~~~~~~
+ncdump.c:2294:14: note: initialize the variable 'ncid' to silence this warning
+            int ncid, nc_status;
+                    ^
+                     = 0
+1 warning generated.
+depbase=`echo vardata.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT vardata.o -MD -MP -MF $depbase.Tpo -c -o vardata.o vardata.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo dumplib.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT dumplib.o -MD -MP -MF $depbase.Tpo -c -o dumplib.o dumplib.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+dumplib.c:1248:5: warning: variable 'dd' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
+    default:
+    ^~~~~~~
+dumplib.c:1251:12: note: uninitialized use occurs here
+    return dd;
+           ^~
+dumplib.c:1216:14: note: initialize the variable 'dd' to silence this warning
+    double dd;
+             ^
+              = 0.0
+1 warning generated.
+depbase=`echo indent.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT indent.o -MD -MP -MF $depbase.Tpo -c -o indent.o indent.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo nctime0.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT nctime0.o -MD -MP -MF $depbase.Tpo -c -o nctime0.o nctime0.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo utils.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT utils.o -MD -MP -MF $depbase.Tpo -c -o utils.o utils.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo nciter.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT nciter.o -MD -MP -MF $depbase.Tpo -c -o nciter.o nciter.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fPIC     -o ncdump ncdump.o vardata.o dumplib.o indent.o nctime0.o utils.o nciter.o ../liblib/libnetcdf.la -lm 
+libtool: link: gcc -Wall -O3 -fPIC -o ncdump ncdump.o vardata.o dumplib.o indent.o nctime0.o utils.o nciter.o  ../liblib/.libs/libnetcdf.a -lm
+depbase=`echo nccopy.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT nccopy.o -MD -MP -MF $depbase.Tpo -c -o nccopy.o nccopy.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo chunkspec.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT chunkspec.o -MD -MP -MF $depbase.Tpo -c -o chunkspec.o chunkspec.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo dimmap.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -DHAVE_CONFIG_H -I. -I..  -I../include    -Wall  -O3 -fPIC   -MT dimmap.o -MD -MP -MF $depbase.Tpo -c -o dimmap.o dimmap.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fPIC     -o nccopy nccopy.o nciter.o chunkspec.o utils.o dimmap.o ../liblib/libnetcdf.la -lm 
+libtool: link: gcc -Wall -O3 -fPIC -o nccopy nccopy.o nciter.o chunkspec.o utils.o dimmap.o  ../liblib/.libs/libnetcdf.a -lm
+Making all in nctest
+make[2]: Nothing to be done for `all'.
+Making all in nc_test
+make[2]: Nothing to be done for `all'.
+Making all in docs
+Making all in images
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+Making all in examples
+Making all in C
+cp ../../nc_test4/findplugin.sh .
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+make[5]: Nothing to be done for `all-am'.
+Making all in CDL
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+make[2]: Nothing to be done for `all-am'.
+Making install in include
+make[2]: Nothing to be done for `install-exec-am'.
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/include'
+ /usr/bin/install -c -m 644 netcdf.h netcdf_meta.h netcdf_mem.h '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/include'
+Making install in libdispatch
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+Making install in libsrc
+make[2]: Nothing to be done for `install-exec-am'.
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/share/man/man3'
+ /usr/bin/install -c -m 644 netcdf.3 '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/share/man/man3'
+Making install in liblib
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libnetcdf.la '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib'
+libtool: install: /usr/bin/install -c .libs/libnetcdf.lai /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib/libnetcdf.la
+libtool: install: /usr/bin/install -c .libs/libnetcdf.a /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib/libnetcdf.a
+libtool: install: chmod 644 /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib/libnetcdf.a
+libtool: install: ranlib /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib/libnetcdf.a
+make[2]: Nothing to be done for `install-data-am'.
+Making install in ncgen3
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c ncgen3 '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin'
+libtool: install: /usr/bin/install -c ncgen3 /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin/ncgen3
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/share/man/man1'
+ /usr/bin/install -c -m 644 ncgen3.1 '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/share/man/man1'
+Making install in ncgen
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c ncgen '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin'
+libtool: install: /usr/bin/install -c ncgen /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin/ncgen
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/share/man/man1'
+ /usr/bin/install -c -m 644 ncgen.1 '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/share/man/man1'
+Making install in ncdump
+Making install in cdl
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+Making install in expected
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c ncdump nccopy '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin'
+libtool: install: /usr/bin/install -c ncdump /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin/ncdump
+libtool: install: /usr/bin/install -c nccopy /Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin/nccopy
+ .././install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/share/man/man1'
+ /usr/bin/install -c -m 644 ncdump.1 nccopy.1 '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/share/man/man1'
+Making install in nctest
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+Making install in nc_test
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+Making install in docs
+Making install in images
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+Making install in examples
+Making install in C
+/Library/Developer/CommandLineTools/usr/bin/make  install-recursive
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+Making install in CDL
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+ ./install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin'
+ /usr/bin/install -c nc-config '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/bin'
+ ./install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib/pkgconfig'
+ /usr/bin/install -c -m 644 netcdf.pc '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib/pkgconfig'
+ ./install-sh -c -d '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib'
+ /usr/bin/install -c -m 644 libnetcdf.settings '/Users/anumglasgow/Dropbox/lab_website/anumazam.github.io/pytraj/cpptraj/lib'
+/Library/Developer/CommandLineTools/usr/bin/make  install-data-hook
+
++-------------------------------------------------------------+
+| Congratulations! You have successfully installed netCDF!    |
+|                                                             |
+| You can use script "nc-config" to find out the relevant     |
+| compiler options to build your application. Enter           |
+|                                                             |
+|     nc-config --help                                        |
+|                                                             |
+| for additional information.                                 |
+|                                                             |
+| CAUTION:                                                    |
+|                                                             |
+| If you have not already run "make check", then we strongly  |
+| recommend you do so. It does not take very long.            |
+|                                                             |
+| Before using netCDF to store important data, test your      |
+| build with "make check".                                    |
+|                                                             |
+| NetCDF is tested nightly on many platforms at Unidata       |
+| but your platform is probably different in some ways.       |
+|                                                             |
+| If any tests fail, please see the netCDF web site:          |
+| http://www.unidata.ucar.edu/software/netcdf/                |
+|                                                             |
+| NetCDF is developed and maintained at the Unidata Program   |
+| Center. Unidata provides a broad array of data and software |
+| tools for use in geoscience education and research.         |
+| http://www.unidata.ucar.edu                                 |
++-------------------------------------------------------------+
+
