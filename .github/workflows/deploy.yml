@@ -1,0 +1,1 @@
+jupyter-book toc from-project anumazam.github.io -e md -e .ipynb > _toc.yml
