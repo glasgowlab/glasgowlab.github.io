@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resources for CMBSGR6300</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -31,19 +31,21 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe,.cell"
         const thebe_selector_input = "pre,.cell_input div.highlight"
         const thebe_selector_output = ".output,.cell_output"
@@ -51,9 +53,13 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Explore HDX/MS data for LacI" href="7_LacI_demo.html" />
     <link rel="prev" title="Positions" href="5_recruit.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -70,6 +76,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
@@ -77,7 +87,7 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
@@ -110,6 +120,11 @@
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Resources for CMBSGR6300
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_LacI_demo.html">
+   Explore HDX/MS data for LacI
   </a>
  </li>
 </ul>
@@ -178,7 +193,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/anumazam/anumazam.github.io/main//v2/gh/anumazam/anumazam.github.io/main?urlpath=lab/tree/6_advbiochem.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org//v2/gh/anumazam/anumazam.github.io/main?urlpath=lab/tree/6_advbiochem.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="_static/images/logo_binder.svg"
@@ -201,16 +216,21 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#additional-papers-and-notes">
-   Additional papers and notes.
+  <a class="reference internal nav-link" href="#further-reading">
+   Further reading
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#gene-input-functions">
-   Gene input functions.
+   Gene input functions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#class-materials">
+   Class materials
   </a>
  </li>
 </ul>
@@ -224,16 +244,12 @@
         
               <div>
                 
-  <div class="section" id="resources-for-cmbsgr6300">
+  <div class="tex2jax_ignore mathjax_ignore section" id="resources-for-cmbsgr6300">
 <h1>Resources for CMBSGR6300<a class="headerlink" href="#resources-for-cmbsgr6300" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="additional-papers-and-notes">
-<h2>Additional papers and notes.<a class="headerlink" href="#additional-papers-and-notes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="further-reading">
+<h2>Further reading<a class="headerlink" href="#further-reading" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><span class="xref myst">Network motifs, Shoval and Alon.</span></p></li>
-<li><p>:download:<code class="docutils literal notranslate"><span class="pre">Network</span> <span class="pre">motifs,</span> <span class="pre">Shoval</span> <span class="pre">and</span> <span class="pre">Alon</span> <span class="pre">&lt;alon_networkmotifs.pdf&gt;.</span></code></p></li>
-<li><p>.. image:: alon_networkmotifs.pdf</p></li>
-<li><p><span class="xref myst">Lecture notes from class.</span></p></li>
-<li><p><span class="xref myst">Discussion questions.</span></p></li>
+<li><p><a class="reference external" href="https://github.com/anumazam/anumazam.github.io/blob/main/alon_networkmotifs.pdf">Network motifs, Shoval and Alon.</a></p></li>
 <li><p><a class="reference external" href="https://alphafold.ebi.ac.uk/">AlphaFold Protein Structure Database.</a></p></li>
 <li><p>Engineered transcription factors:</p>
 <ul>
@@ -246,7 +262,7 @@
 </ul>
 </div>
 <div class="section" id="gene-input-functions">
-<h2>Gene input functions.<a class="headerlink" href="#gene-input-functions" title="Permalink to this headline">¶</a></h2>
+<h2>Gene input functions<a class="headerlink" href="#gene-input-functions" title="Permalink to this headline">¶</a></h2>
 <p><strong>Step functions as approximations for the input function of a gene</strong></p>
 <p>How similar are the dynamics of the accumulation of protein Y in X -&gt; Y when we use:</p>
 <ol class="simple">
@@ -269,7 +285,7 @@ Run the code with these parameters, and then try changing them.</p>
 <span class="kn">import</span> <span class="nn">matplotlib.patches</span> <span class="k">as</span> <span class="nn">mpatches</span>
 
 
-<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">.</span><span class="mi">001</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">.001</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 
 <span class="c1"># define constants</span>
 
@@ -371,7 +387,7 @@ Run the code with these parameters, and then try changing them.</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">t</span><span class="p">,</span> <span class="n">Y3</span> <span class="o">/</span> <span class="n">Y3</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="p">,</span> <span class="s1">&#39;b--&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;step&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;a*t&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;X*, Y&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="o">-.</span><span class="mi">05</span><span class="p">,</span> <span class="mf">1.05</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="o">-</span><span class="mf">.05</span><span class="p">,</span> <span class="mf">1.05</span><span class="p">)</span>
 
 <span class="c1"># legend</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">mpatches</span><span class="o">.</span><span class="n">Patch</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;X*&#39;</span><span class="p">)</span>
@@ -398,6 +414,15 @@ after X* (black line) appears in the cell.
 </div>
 </div>
 </div>
+<div class="section" id="class-materials">
+<h2>Class materials<a class="headerlink" href="#class-materials" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/anumazam/anumazam.github.io/blob/master/adv_biochem_lecture_notes.pdf">Lecture notes.</a></p></li>
+<li><p><a class="reference external" href="https://github.com/anumazam/anumazam.github.io/blob/master/responsetime_beta.pdf">Additional solution, when f(x) -&gt; beta.</a></p></li>
+<li><p><a class="reference external" href="https://github.com/anumazam/anumazam.github.io/blob/master/part2_gene_transcription.pdf">TF structure slides.</a></p></li>
+<li><p><a class="reference external" href="https://github.com/anumazam/anumazam.github.io/blob/master/discussion_questions.pdf">Discussion questions.</a></p></li>
+</ul>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -423,15 +448,27 @@ after X* (black line) appears in the cell.
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="5_recruit.html" title="previous page">Positions</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="5_recruit.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Positions</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="7_LacI_demo.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Explore HDX/MS data for LacI</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
@@ -445,8 +482,7 @@ after X* (black line) appears in the cell.
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>

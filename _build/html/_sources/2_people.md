@@ -25,9 +25,39 @@ Anum Glasgow (she/her) | *Principal investigator*
 :width: 250px
 :align: left
 ```
-Anum Glasgow is an incoming assistant professor at Columbia University Medical Center in the [Department of Biochemistry and Molecular Biophysics](https://www.biochem.cuimc.columbia.edu/). Anum grew up on the Jersey Shore. She immersed herself in research as an undergraduate in the [Gracias Lab](https://graciaslab.johnshopkins.edu/) building self-folding micro-structures. In graduate school, she studied nature's most beautiful self-folding systems -- proteins -- in the [DTE Lab](https://dtelab.northwestern.edu/) at UC Berkeley. For the last few years, Anum moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the [Kortemme Lab](http://kortemmelab.ucsf.edu/) at UCSF. Anum is pumped to do protein science in NYC!! 
+I am an assistant professor at Columbia University Medical Center in the [Department of Biochemistry and Molecular Biophysics](https://www.biochem.cuimc.columbia.edu/). I grew up on the Jersey Shore. As an undergraduate in the [Gracias Lab](https://graciaslab.johnshopkins.edu/), I built self-folding micro-structures. In graduate school, I studied nature's most beautiful self-folding systems -- proteins -- in the [DTE Lab](https://dtelab.northwestern.edu/) at UC Berkeley. For the last few years, I moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the [Kortemme Lab](http://kortemmelab.ucsf.edu/) at UCSF. I am so pumped to do protein science in NYC!! 
 +++
 email: ag4522 [at] cumc [dot] columbia [dot] edu
+````
+
+````{panels}
+:column: col-lg-12 p-2
+Julia Urban (she/her) | *Graduate student rotating with us!*
+^^^
+```{image} people/julia.jpg
+:alt: julia
+:class: bg-primary mb-1
+:width: 250px
+:align: left
+```
+I am a PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies Program at Columbia. I received my B.S. in Computational & Applied Mathematics & Statistics at William & Mary, where I competed in the iGEM synthetic biology competition. I am interested in synthetic biology and protein engineering.
++++
+email: jau2112 [at] cumc [dot] columbia [dot] edu
+````
+
+````{panels}
+:column: col-lg-12 p-2
+Daniel Camilo Pineda (he/they) | *Undergraduate researcher*
+^^^
+```{image} people/daniel.jpg
+:alt: daniel-is-cool
+:class: bg-primary mb-1
+:width: 250px
+:align: left
+```
+I am a third-year undergraduate student working towards a B.A. in Biochemistry. I was born in Bógota, Colombia, and moved to the US 6 years ago. I lived in Miami, Florida, and obtained my Associate Degree in chemistry at Miami Dade College. There, I worked with Dr. Juan Morata where I became fascinated with viruses and their ability to hack biological mechanisms. Currently, I am learning about protein engineering and computational biology; I am extremely excited to keep studying proteins! Outside the lab, I enjoy reading, playing, and developing videogames, skateboarding, and museums! 
++++
+email: dcp2151 [at] columbia [dot] edu
 ````
 
 ````{panels}

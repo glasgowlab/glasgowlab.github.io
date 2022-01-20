@@ -3,13 +3,9 @@
 
 # # Resources for CMBSGR6300
 
-# ## Additional papers and notes.
+# ## Further reading
 # 
-# * [Network motifs, Shoval and Alon.](alon_networkmotifs.pdf)
-# * :download:`Network motifs, Shoval and Alon <alon_networkmotifs.pdf>.`
-# * .. image:: alon_networkmotifs.pdf
-# * [Lecture notes from class.](adv_biochem_lecture_notes.pdf)
-# * [Discussion questions.](discussion_questions.pdf)
+# * [Network motifs, Shoval and Alon.](https://github.com/anumazam/anumazam.github.io/blob/main/alon_networkmotifs.pdf)
 # * [AlphaFold Protein Structure Database.](https://alphafold.ebi.ac.uk/)
 # 
 # 
@@ -19,7 +15,7 @@
 #   * [Tack et al., 2021](https://www.embopress.org/doi/full/10.15252/msb.202010179)
 #   * [Rondon et al., 2019](https://www.nature.com/articles/s41467-019-12706-4)
 
-# ## Gene input functions.
+# ## Gene input functions
 # 
 # **Step functions as approximations for the input function of a gene**
 # 
@@ -158,6 +154,13 @@ modeled with different gene input functions,
 after X* (black line) appears in the cell.
 ''')
 
+
+# ## Class materials
+# 
+# * [Lecture notes.](https://github.com/anumazam/anumazam.github.io/blob/master/adv_biochem_lecture_notes.pdf)
+# * [Additional solution, when f(x) -> beta.](https://github.com/anumazam/anumazam.github.io/blob/master/responsetime_beta.pdf)
+# * [TF structure slides.](https://github.com/anumazam/anumazam.github.io/blob/master/part2_gene_transcription.pdf)
+# * [Discussion questions.](https://github.com/anumazam/anumazam.github.io/blob/master/discussion_questions.pdf)
 
 # In[ ]:
 

@@ -25,9 +25,24 @@ Anum Glasgow (she/her) | *Principal investigator*
 :width: 250px
 :align: left
 ```
-I am an incoming assistant professor at Columbia University Medical Center in the [Department of Biochemistry and Molecular Biophysics](https://www.biochem.cuimc.columbia.edu/). I grew up on the Jersey Shore. As an undergraduate in the [Gracias Lab](https://graciaslab.johnshopkins.edu/), I built self-folding micro-structures. In graduate school, I studied nature's most beautiful self-folding systems -- proteins -- in the [DTE Lab](https://dtelab.northwestern.edu/) at UC Berkeley. For the last few years, I moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the [Kortemme Lab](http://kortemmelab.ucsf.edu/) at UCSF. I am so pumped to do protein science in NYC!! 
+I am an assistant professor at Columbia University Medical Center in the [Department of Biochemistry and Molecular Biophysics](https://www.biochem.cuimc.columbia.edu/). I grew up on the Jersey Shore. As an undergraduate in the [Gracias Lab](https://graciaslab.johnshopkins.edu/), I built self-folding micro-structures. In graduate school, I studied nature's most beautiful self-folding systems -- proteins -- in the [DTE Lab](https://dtelab.northwestern.edu/) at UC Berkeley. For the last few years, I moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the [Kortemme Lab](http://kortemmelab.ucsf.edu/) at UCSF. I am so pumped to do protein science in NYC!! 
 +++
 email: ag4522 [at] cumc [dot] columbia [dot] edu
+````
+
+````{panels}
+:column: col-lg-12 p-2
+Julia Urban (she/her) | *Graduate student rotating with us!*
+^^^
+```{image} people/julia.jpg
+:alt: julia
+:class: bg-primary mb-1
+:width: 250px
+:align: left
+```
+I am a PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies Program at Columbia. I received my B.S. in Computational & Applied Mathematics & Statistics at William & Mary, where I competed in the iGEM synthetic biology competition. I am interested in synthetic biology and protein engineering.
++++
+email: jau2112 [at] cumc [dot] columbia [dot] edu
 ````
 
 ````{panels}

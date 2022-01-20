@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -31,19 +31,21 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe,.cell"
         const thebe_selector_input = "pre,.cell_input div.highlight"
         const thebe_selector_output = ".output,.cell_output"
@@ -54,7 +56,10 @@
     <link rel="next" title="Research" href="3_projects.html" />
     <link rel="prev" title="Welcome!" href="1_intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -71,6 +76,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
@@ -78,7 +87,7 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
@@ -111,6 +120,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="6_advbiochem.html">
    Resources for CMBSGR6300
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_LacI_demo.html">
+   Explore HDX/MS data for LacI
   </a>
  </li>
 </ul>
@@ -196,7 +210,7 @@
 
   gtag('config', 'G-YXZFB7HB4L');
 </script>
-<div class="section" id="team">
+<div class="tex2jax_ignore mathjax_ignore section" id="team">
 <h1>Team<a class="headerlink" href="#team" title="Permalink to this headline">¶</a></h1>
 <div class="full-width docutils">
 <p>We are recruiting!
@@ -210,10 +224,46 @@ We welcome applicants from all fields of science and engineering, and all walks 
 </div>
 <div class="card-body docutils">
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/anum.jpg"><img alt="anum-roadtripping" class="bg-primary mb-1 align-left" src="_images/anum.jpg" style="width: 250px;" /></a>
-<p class="card-text">Anum Glasgow is an incoming assistant professor at Columbia University Medical Center in the <a class="reference external" href="https://www.biochem.cuimc.columbia.edu/">Department of Biochemistry and Molecular Biophysics</a>. Anum grew up on the Jersey Shore. She immersed herself in research as an undergraduate in the <a class="reference external" href="https://graciaslab.johnshopkins.edu/">Gracias Lab</a> building self-folding micro-structures. In graduate school, she studied nature’s most beautiful self-folding systems – proteins – in the <a class="reference external" href="https://dtelab.northwestern.edu/">DTE Lab</a> at UC Berkeley. For the last few years, Anum moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the <a class="reference external" href="http://kortemmelab.ucsf.edu/">Kortemme Lab</a> at UCSF. Anum is pumped to do protein science in NYC!!</p>
+<p class="card-text">I am an assistant professor at Columbia University Medical Center in the <a class="reference external" href="https://www.biochem.cuimc.columbia.edu/">Department of Biochemistry and Molecular Biophysics</a>. I grew up on the Jersey Shore. As an undergraduate in the <a class="reference external" href="https://graciaslab.johnshopkins.edu/">Gracias Lab</a>, I built self-folding micro-structures. In graduate school, I studied nature’s most beautiful self-folding systems – proteins – in the <a class="reference external" href="https://dtelab.northwestern.edu/">DTE Lab</a> at UC Berkeley. For the last few years, I moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the <a class="reference external" href="http://kortemmelab.ucsf.edu/">Kortemme Lab</a> at UCSF. I am so pumped to do protein science in NYC!!</p>
 </div>
 <div class="card-footer docutils">
 <p class="card-text">email: ag4522 [at] cumc [dot] columbia [dot] edu</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sphinx-bs container pb-4 docutils">
+<div class="row docutils">
+<div class="d-flex col-lg-12 p-2 docutils">
+<div class="card w-100 shadow docutils">
+<div class="card-header docutils">
+<p class="card-text">Julia Urban (she/her) | <em>Graduate student rotating with us!</em></p>
+</div>
+<div class="card-body docutils">
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/julia.jpg"><img alt="julia" class="bg-primary mb-1 align-left" src="_images/julia.jpg" style="width: 250px;" /></a>
+<p class="card-text">I am a PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies Program at Columbia. I received my B.S. in Computational &amp; Applied Mathematics &amp; Statistics at William &amp; Mary, where I competed in the iGEM synthetic biology competition. I am interested in synthetic biology and protein engineering.</p>
+</div>
+<div class="card-footer docutils">
+<p class="card-text">email: jau2112 [at] cumc [dot] columbia [dot] edu</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sphinx-bs container pb-4 docutils">
+<div class="row docutils">
+<div class="d-flex col-lg-12 p-2 docutils">
+<div class="card w-100 shadow docutils">
+<div class="card-header docutils">
+<p class="card-text">Daniel Camilo Pineda (he/they) | <em>Undergraduate researcher</em></p>
+</div>
+<div class="card-body docutils">
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/daniel.jpg"><img alt="daniel-is-cool" class="bg-primary mb-1 align-left" src="_images/daniel.jpg" style="width: 250px;" /></a>
+<p class="card-text">I am a third-year undergraduate student working towards a B.A. in Biochemistry. I was born in Bógota, Colombia, and moved to the US 6 years ago. I lived in Miami, Florida, and obtained my Associate Degree in chemistry at Miami Dade College. There, I worked with Dr. Juan Morata where I became fascinated with viruses and their ability to hack biological mechanisms. Currently, I am learning about protein engineering and computational biology; I am extremely excited to keep studying proteins! Outside the lab, I enjoy reading, playing, and developing videogames, skateboarding, and museums!</p>
+</div>
+<div class="card-footer docutils">
+<p class="card-text">email: dcp2151 [at] columbia [dot] edu</p>
 </div>
 </div>
 </div>
@@ -263,16 +313,27 @@ We are excited to have you.
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="1_intro.html" title="previous page"><strong>Welcome!</strong></a>
-    <a class='right-next' id="next-link" href="3_projects.html" title="next page">Research</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="1_intro.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><strong>Welcome!</strong></p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="3_projects.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Research</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
@@ -286,8 +347,7 @@ We are excited to have you.
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>
