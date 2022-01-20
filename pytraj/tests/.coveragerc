@@ -1,0 +1,49 @@
+# .coveragerc to control coverage.py
+[run]
+branch = True
+source =  pytraj
+#plugins = Cython.Coverage
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    # Have to re-enable the standard pragma
+    pragma: no cover
+
+    # Don't complain about missing debug-only code:
+    def __repr__
+    def __str__
+    if self.debug
+
+    # progress bar
+    def make_bar
+
+    # Don't complain if tests don't hit defensive assertion code:
+    raise RuntimeError
+    raise NotImplementedError
+    raise ImportError
+    except ImportError
+    except NameError
+    if PY3
+    if not PY3
+    to_dataframe
+    if dtype == 'dataframe'
+    warn
+    def dssp_full_residues
+    def show():
+    ProgressBarTrajectory
+    loadpdb_rcsb
+
+    # Don't complain if non-runnable code isn't run:
+    if 0:
+    if __name__ == .__main__.:
+    if not release:
+
+omit = 
+    
+    *.so
+    *.pyx
+    *.pxd
+    */externals/*
+    */sandbox/*
+    */amber_wrapper/*

@@ -1,0 +1,6 @@
+graft scripts
+graft pytraj
+graft examples
+graft contributors
+graft licenses
+include run_tests.py changes.rst
