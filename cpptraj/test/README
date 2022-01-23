@@ -1,0 +1,41 @@
+TESTS for CPPTRAJ: 
+Daniel R. Roe 2010
+Updated 2016-02-02
+
+This directory contains tests which check most of the functionality of cpptraj.
+To run the tests, type 'make test' or 'make test.all'. In order to run the tests
+in parallel, set the environment variable DO_PARALLEL to your MPI command, e.g.
+
+  make clean && DO_PARALLEL="mpiexec -n 2" make test.all
+
+Note that in parallel, tests attempt to determine the number of threads being
+used from the output from 'DO_PARALLEL nproc'. If your MPI run command produces
+extraneous output to STDOUT (e.g. 'ibrun'), you should specify the number of 
+threads to be used by setting the N_THREADS environment variable, otherwise
+tests will probably fail. If running tests for the hybrid MPI/OpenMP binary,
+make sure OMP_NUM_THREADS is appropriately set.
+
+The command 'make clean' can be used to clean up all test output.
+
+For developers: tests can automatically be run with memory checking via valgrind
+by typing 'test.vg'. This requires valgrind to be installed and in your PATH.
+
+Tests are stored in directories with the naming convention 'Test_X', where 'X'
+is a semi-descriptive name indicating what is tested. By default the STDOUT
+output from each test is redirected to 'test.out'. If valgrind is
+used STDERR is redirected to 'valgrind.out'. If not running tests within
+AmberTools (i.e. in a standalone GitHub install), the test results are 
+summarized in Test_Results.dat and Test_Error.dat. Within AmberTools, test
+failures are reported in $AMBERHOME/AmberTools/test/TEST_FAILURES.diff.
+
+Any individual test can be run by itself, e.g. 'make test.general' (see the
+Makefile for a full list of targets), or by changing to the test 
+directory and running './RunTest.sh'. There are several options which can be 
+passed to any 'RunTest.sh', available by typing './RunTest.sh --help'. These
+options can also be passed to Makefile targets via the 'OPT' variable, e.g.
+
+  make test.all OPT=time
+
+Note that all $TESTDIR/RunTest.sh tests require and depend on the existence of 
+MasterTest.sh, which sets up the run environment for each test in a consistent
+way.
