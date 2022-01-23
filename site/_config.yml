@@ -14,6 +14,7 @@ execute:
   allow_errors: true
 
 only_build_toc_files: true
+exclude_patterns: [6_advbiochem.ipynb, 7_LacI_demo.ipynb]
 
 launch_buttons:
   notebook_interface: "jupyterlab"
