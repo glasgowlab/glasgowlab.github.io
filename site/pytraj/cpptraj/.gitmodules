@@ -1,3 +1,0 @@
-[submodule "cmake-buildscripts"]
-	path = cmake
-	url = https://github.com/Amber-MD/cmake-buildscripts.git
