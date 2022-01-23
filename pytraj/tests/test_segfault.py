@@ -3,6 +3,10 @@ import unittest
 import pytraj as pt
 from utils import fn
 
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import zip
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.trajectory.shared_methods import iterframe_master
 from pytraj import dihedral_analysis as da
 """

@@ -14,11 +14,14 @@ class TestTopoloyObjects(unittest.TestCase):
         for idx, atom in enumerate(self.traj.top.atoms):
             assert atom.index == idx, 'residue index'
 
+<<<<<<< HEAD
     def test_atom_bonded_indices(self):
         for atom in self.traj.top.atoms:
             for idx in atom.bonded_indices():
                 assert atom.is_bonded_to(idx)
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
     def test_residue(self):
         for idx, res in enumerate(self.traj.top.residues):
             assert res.index == idx, 'residue index'

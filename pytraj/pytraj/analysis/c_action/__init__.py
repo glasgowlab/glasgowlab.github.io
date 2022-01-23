@@ -5,7 +5,11 @@ from ...datasets.c_datasetlist import DatasetList as CpptrajDatasetList
 from . import c_action
 from ...utils.context import capture_stdout
 from ...trajectory.shared_methods import iterframe_master
+<<<<<<< HEAD
 from io import StringIO
+=======
+from ...externals.six import StringIO
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def do_action(traj, command, action_class, post_process=True, top=None):

@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import time
+=======
+""""""
+from __future__ import absolute_import
+>>>>>>> parent of b8ef017... deleting pytraj
 from .check_and_assert import file_exist, is_generator
 from .check_and_assert import eq
 from .check_and_assert import _import, is_int
@@ -6,7 +11,13 @@ from .check_and_assert import has_, is_array
 from .check_and_assert import ensure_not_none_or_string
 from .Timer import Timer
 from .context import tempfolder
+<<<<<<< HEAD
 from . import convert
+=======
+from ..externals.six.moves import range
+from . import convert
+from ..externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from .tools import WrapBareIterator
 
 
@@ -17,6 +28,7 @@ def fn(name):
     return base + '/../tests/data/' + name
 
 
+<<<<<<< HEAD
 class Timer:
     def __init__(self):
         self._t0 = self.value = None
@@ -30,6 +42,8 @@ class Timer:
 
 
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 def duplicate_traj(orig_traj, n_times):
     '''
     Examples
@@ -72,7 +86,11 @@ def join_mask(m, res=None):
     else:
         res = res
 
+<<<<<<< HEAD
     if isinstance(m, str):
+=======
+    if isinstance(m, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         # 'CA CB' to ['CA', 'CB']
         m = m.split()
     elif not isinstance(m, (list, tuple)):

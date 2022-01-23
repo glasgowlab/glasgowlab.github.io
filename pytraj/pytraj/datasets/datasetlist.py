@@ -3,6 +3,12 @@ import numpy as np
 from collections import OrderedDict
 from pytraj.datasets.c_datasetlist import DatasetList as CpptrajDatasetList
 from pytraj.utils import is_int, is_array, is_generator
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+from pytraj.externals.six.moves import map
+from pytraj.externals.six import iteritems
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.datafiles import DataFile
 from pytraj.core.c_core import ArgList
 from .array import DataArray
@@ -18,7 +24,11 @@ def _groupby(self, key):
     for item in self:
         d[key(item)](item)
     rv = {}
+<<<<<<< HEAD
     for k, v in d.items():
+=======
+    for k, v in iteritems(d):
+>>>>>>> parent of b8ef017... deleting pytraj
         rv[k] = v.__self__
     return rv
 
@@ -114,7 +124,11 @@ class DatasetList(list):
         if dslist:
             if isinstance(dslist, dict):
                 # {'x': [1, 3, 5], 'y': [4, 7, 8]}
+<<<<<<< HEAD
                 for key, values in dslist.items():
+=======
+                for key, values in iteritems(dslist):
+>>>>>>> parent of b8ef017... deleting pytraj
                     self.append(DataArray({key: values}), copy=copy)
             else:
                 for d0 in dslist:
@@ -196,7 +210,11 @@ class DatasetList(list):
 
         if is_int(idx):
             return super(DatasetList, self).__getitem__(idx)
+<<<<<<< HEAD
         elif isinstance(idx, str):
+=======
+        elif isinstance(idx, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             for d0 in self:
                 if d0.key.upper() == idx.upper():
                     d0._base = self
@@ -261,7 +279,11 @@ class DatasetList(list):
         # dont free mem here
         for d0 in self:
             att = getattr(d0, mode)
+<<<<<<< HEAD
             if isinstance(key, str):
+=======
+            if isinstance(key, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 if re.search(key, att):
                     dtmp.append(d0, copy=copy)
             elif isinstance(key, (list, tuple)):
@@ -353,7 +375,11 @@ class DatasetList(list):
             check_key(self, dset.key)
             super(DatasetList, self).append(d0)
         elif isinstance(dset, dict):
+<<<<<<< HEAD
             for key, values in dset.items():
+=======
+            for key, values in iteritems(dset):
+>>>>>>> parent of b8ef017... deleting pytraj
                 check_key(self, key)
                 super(DatasetList, self).append(DataArray({key: values}))
         else:

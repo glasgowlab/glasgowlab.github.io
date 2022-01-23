@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 import os
 from pathlib import Path
 import tempfile
 import numpy as np
 
 from .core.c_core import _load_batch
+=======
+from __future__ import absolute_import
+import os
+import numpy as np
+
+from .core.c_core import _load_batch
+from .externals.six import string_types, PY3
+from .externals.load_other_packages import load_parmed
+>>>>>>> parent of b8ef017... deleting pytraj
 from .serialize.serialize import to_pickle, read_pickle
 from .datafiles.load_samples import load_sample_data
 from .core.c_options import set_error_silent
@@ -235,7 +245,11 @@ def load_traj(filename=None, top=None, *args, **kwd):
     TrajectoryIterator : if frame_indices is None
     Trajectory : if there is indices
     """
+<<<<<<< HEAD
     if isinstance(top, str):
+=======
+    if isinstance(top, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         top = load_topology(top)
     if top is None or top.is_empty():
         top = load_topology(filename)
@@ -282,7 +296,11 @@ def iterload_remd(filename, top=None, T="300.0"):
 
     # add keyword 'remdtraj' to trick cpptraj
     trajin = ' '.join(('trajin', filename, 'remdtraj remdtrajtemp', str(T)))
+<<<<<<< HEAD
     if isinstance(top, str):
+=======
+    if isinstance(top, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         top = load_topology(top)
     else:
         top = top
@@ -513,7 +531,11 @@ def load_topology(filename, option=''):
     # always read box info from pdb
     option = ' '.join(('readbox', option))
 
+<<<<<<< HEAD
     if isinstance(filename, str):
+=======
+    if isinstance(filename, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         parm = ParmFile()
         set_error_silent(True)
         parm.read(filename=filename, top=top, option=option)
@@ -528,6 +550,7 @@ def load_topology(filename, option=''):
     return top
 
 
+<<<<<<< HEAD
 def load_parmed(parm, traj=True, **kwd):
     """return pytraj's Topology or Trajectory objects
 
@@ -556,6 +579,8 @@ def load_parmed(parm, traj=True, **kwd):
         return top
 
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 def loadpdb_rcsb(pdbid):
     """load pdb file from rcsb website
 
@@ -567,8 +592,12 @@ def loadpdb_rcsb(pdbid):
     --------
         io.loadpdb_rcsb("2KOC") # popular RNA hairpin
     """
+<<<<<<< HEAD
     pdbid = pdbid.upper()
     url = 'http://files.rcsb.org/download/{pdbid}.pdb'.format(pdbid=pdbid)
+=======
+    url = 'http://files.rcsb.org/download/{}.pdb'.format(pdbid.upper())
+>>>>>>> parent of b8ef017... deleting pytraj
     return _make_traj_from_remote_file(url)
 
 
@@ -581,6 +610,7 @@ def load_url(url):
 
 
 def _make_traj_from_remote_file(remote_file):
+<<<<<<< HEAD
     _, fname = tempfile.mkstemp()
     content = urlopen(remote_file).read()
     Path(fname).write_text(content.decode())
@@ -598,6 +628,44 @@ def download_pdb(pdbid, location="./"):
 
 # create alias
 download_PDB = download_pdb
+=======
+    import tempfile
+
+    fd, fname = tempfile.mkstemp()
+    txt = urlopen(remote_file).read()
+    with open(fname, 'w') as fh:
+        if PY3:
+            txt = txt.decode()
+        fh.write(txt)
+
+    return load(fname)
+
+
+def download_PDB(pdbid, location="./", overwrite=False):
+    """download pdb to local disk
+
+    Returns
+    -------
+    None
+
+    Notes
+    -----
+    this method is different from `parmed.download_PDB`, which return a `Structure` object
+    """
+    fname = location + pdbid + ".pdb"
+    if os.path.exists(fname) and not overwrite:
+        raise ValueError("must set overwrite to True")
+
+    url = 'http://www.rcsb.org/pdb/files/%s.pdb' % pdbid
+    txt = urlopen(url).read()
+    with open(fname, 'w') as fh:
+        if PY3:
+            txt = txt.decode()
+        fh.write(txt)
+
+
+# create alias
+>>>>>>> parent of b8ef017... deleting pytraj
 load_pdb_rcsb = loadpdb_rcsb
 
 
@@ -929,6 +997,10 @@ def select_atoms(mask, topology):
     >>> pt.select_atoms(traj.top, '@CA')
     array([  4,  15,  39, ..., 159, 173, 197])
     '''
+<<<<<<< HEAD
     if isinstance(mask, Topology) and isinstance(topology, str):
+=======
+    if isinstance(mask, Topology) and isinstance(topology, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         mask, topology = topology, mask
     return topology.select(mask)

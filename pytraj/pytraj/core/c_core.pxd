@@ -1,4 +1,8 @@
 # distutil: language = c++
+<<<<<<< HEAD
+=======
+from __future__ import absolute_import
+>>>>>>> parent of b8ef017... deleting pytraj
 
 from libcpp.string cimport string
 from posix.unistd cimport off_t

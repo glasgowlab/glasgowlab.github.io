@@ -6,7 +6,10 @@ import pytraj as pt
 from utils import fn
 from pytraj.testing import aa_eq
 from pytraj import matrix
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 '''figure out why sign of some eigenvectors are different
 '''
 
@@ -48,8 +51,13 @@ class TestDiagMatrix(unittest.TestCase):
         aa_eq(np.abs(np_vecs), np.abs(cpp_evecs))
 
         # test raise if not having supported dtype
+<<<<<<< HEAD
         with pytest.raises(ValueError):
             pt.matrix.diagonalize(mat, 3, dtype='ndarray')
+=======
+        self.assertRaises(
+            ValueError, lambda: pt.matrix.diagonalize(mat, 3, dtype='ndarray'))
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def test_diagmatrix_mwcovar(self):
         traj = pt.iterload(fn('tz2.nc'), fn('tz2.parm7'))

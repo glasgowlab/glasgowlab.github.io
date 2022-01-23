@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 set -e
 
@@ -28,17 +29,42 @@ function create_venv(){
     fi
 }
 
+=======
+#!/bin/sh
+
+# Must be in pytraj root folder
+
+# add cpptraj folder
+python -c "import auditwheel" || exit 1
+
+function main(){
+    # this function will be run in the end of this script
+    devtools/mkrelease
+    clone_or_update_cpptraj
+    pip_linux
+    pip_osx
+    conda_linux
+    conda_osx
+}
+
+
+>>>>>>> parent of b8ef017... deleting pytraj
 function clone_or_update_cpptraj(){
     if [ ! -d cpptraj ]; then
         git clone https://github.com/amber-md/cpptraj
     else
+<<<<<<< HEAD
         # (cd cpptraj && git pull && git clean -fdx .)
         echo "bla bla"
+=======
+        (cd cpptraj && git pull && git clean -fdx .)
+>>>>>>> parent of b8ef017... deleting pytraj
     fi
 }
 
 
 function pip_linux(){
+<<<<<<< HEAD
     devtools/builder/run_docker_build_wheels_linux.sh
 }
 
@@ -56,6 +82,16 @@ function build_libcpptraj_linux(){
 
 
 function pip_osx(){
+=======
+    sh devtools/builder/run_docker_build_wheels_linux.sh
+}
+
+
+function pip_osx(){
+    (cd cpptraj && git clean -fdx .)
+    export CPPTRAJHOME=`pwd`/cpptraj
+    python scripts/install_libcpptraj.py
+>>>>>>> parent of b8ef017... deleting pytraj
     (cd dist && python ../scripts/build_wheel.py pytraj*.tar.gz)
 }
 
@@ -66,11 +102,18 @@ function conda_linux(){
 
 
 function conda_osx(){
+<<<<<<< HEAD
     # for pyver in 3.5 3.6 3.7 3.8; do
     for pyver in 3.8; do
         conda build devtools/conda-recipe/pytraj --py $pyver
         tarfile=`conda build devtools/conda-recipe/pytraj --py $pyver --output`
 
+=======
+    for pyver in 2.7 3.7 3.5 3.6; do
+        conda build devtools/conda-recipe/pytraj --py $pyver
+        tarfile=`conda build devtools/conda-recipe/pytraj --py $pyver --output`
+    
+>>>>>>> parent of b8ef017... deleting pytraj
         build_dir=dist/conda/osx-64
         if [ ! -d $build_dir ]; then
             mkdir -p $build_dir

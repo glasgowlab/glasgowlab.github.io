@@ -7,6 +7,11 @@ from glob import glob
 import numpy as np
 from .c_traj.c_trajectory import TrajectoryCpptraj
 from .shared_trajectory import SharedTrajectory
+<<<<<<< HEAD
+=======
+from ..externals.six import string_types
+from ..externals.six.moves import range
+>>>>>>> parent of b8ef017... deleting pytraj
 from ..topology.topology import Topology
 from .frame import Frame
 from ..utils import is_int
@@ -114,7 +119,11 @@ class TrajectoryIterator(TrajectoryCpptraj, SharedTrajectory):
 
         if not top:
             self.top = Topology()
+<<<<<<< HEAD
         elif isinstance(top, str):
+=======
+        elif isinstance(top, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             self.top = _load_Topology(top)
         elif isinstance(top, Topology):
             self.top = top.copy()
@@ -202,6 +211,7 @@ class TrajectoryIterator(TrajectoryCpptraj, SharedTrajectory):
 
         frame_slice_ = frame_slice if stride is None else (0, -1, stride)
 
+<<<<<<< HEAD
         if isinstance(filename, str) and os.path.exists(filename):
             super(TrajectoryIterator, self)._load(filename, top_, frame_slice_)
             self._frame_slice_list.append(frame_slice_)
@@ -217,6 +227,19 @@ class TrajectoryIterator(TrajectoryCpptraj, SharedTrajectory):
                     raise ValueError(
                         "Must provie a filename or list of filenames or file pattern"
                     )
+=======
+        if isinstance(filename, string_types) and os.path.exists(filename):
+            super(TrajectoryIterator, self)._load(filename, top_, frame_slice_)
+            self._frame_slice_list.append(frame_slice_)
+        elif isinstance(filename,
+                        string_types) and not os.path.exists(filename):
+
+            flist = sort_filename_by_number(glob(filename))
+            if not flist:
+                raise ValueError(
+                    "must provie a filename or list of filenames or file pattern"
+                )
+>>>>>>> parent of b8ef017... deleting pytraj
                 frame_slice_ = [
                     (0, -1, stride),
                 ] * len(flist) if stride is not None else frame_slice_
@@ -326,7 +349,11 @@ class TrajectoryIterator(TrajectoryCpptraj, SharedTrajectory):
         if mask is None:
             top_ = self.top
         else:
+<<<<<<< HEAD
             if isinstance(mask, str):
+=======
+            if isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 mask = mask
                 top_ = self.top._get_new_from_mask(mask)
             else:

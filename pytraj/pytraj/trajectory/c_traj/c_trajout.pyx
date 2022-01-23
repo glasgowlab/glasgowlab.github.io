@@ -1,4 +1,8 @@
 # distutils: language = c++
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.core.c_dict import TrajFormatDict
 from pytraj.utils.check_and_assert import file_exist
 
@@ -22,8 +26,13 @@ cdef class TrajectoryWriter:
 
     @classmethod
     def help(cls):
+<<<<<<< HEAD
         print("TrajFormat")
         print(TrajFormatDict.keys())
+=======
+        print "TrajFormat"
+        print TrajFormatDict.keys()
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def open(self, filename='', top=Topology(),
              crdinfo=dict(),
@@ -53,7 +62,11 @@ cdef class TrajectoryWriter:
 
         filename = filename.encode("UTF-8")
         # check Topology
+<<<<<<< HEAD
         if isinstance(top, str):
+=======
+        if isinstance(top, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             top_ = Topology(top)
         elif isinstance(top, Topology):
             # assume this is Topology instance
@@ -65,7 +78,11 @@ cdef class TrajectoryWriter:
             options = ' '.join((format.lower(), options))
 
         if options:
+<<<<<<< HEAD
             if isinstance(options, str):
+=======
+            if isinstance(options, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 inputstring = options
                 arglist = <ArgList> ArgList(inputstring)
             elif isinstance(options, ArgList):

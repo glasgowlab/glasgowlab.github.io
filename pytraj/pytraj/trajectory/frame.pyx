@@ -19,6 +19,10 @@ import numpy as np
 from pytraj.utils.check_and_assert import is_int
 from pytraj.core.c_core import ArgList
 from pytraj.trajectory.c_traj.c_trajout import TrajectoryWriter
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 
 DEF RADDEG = 57.29577951308232
 
@@ -170,7 +174,11 @@ cdef class Frame (object):
         # TODO: add assert
         # for internal use
         cdef int i
+<<<<<<< HEAD
         cdef int N = <int> xyz.shape[0] // 3
+=======
+        cdef int N = <int> xyz.shape[0] / 3
+>>>>>>> parent of b8ef017... deleting pytraj
 
         for i in range(N):
             self.thisptr.AddXYZ( &xyz[i*3])
@@ -258,7 +266,11 @@ cdef class Frame (object):
             atm = AtomMask(idx['mask'])
             idx['top']._set_integer_mask(atm)
             return self[atm.indices]
+<<<<<<< HEAD
         elif isinstance(idx, str):
+=======
+        elif isinstance(idx, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # Example: frame['@CA']
             if self.top is not None and not self.top.is_empty():
                 return self[<AtomMask> self.top(idx)]
@@ -266,7 +278,11 @@ cdef class Frame (object):
                 raise ValueError('must have non-empty topology. Use self.set_top'
                                  ' or use self[AtomMask]')
 
+<<<<<<< HEAD
         elif isinstance(idx, tuple) and isinstance(idx[0], str):
+=======
+        elif isinstance(idx, tuple) and isinstance(idx[0], string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # (AtomMask, )
             if len(idx) == 1:
                 return self[idx[0]]
@@ -282,7 +298,11 @@ cdef class Frame (object):
     def __setitem__(self, idx, value):
         if isinstance(idx, AtomMask):
             self.xyz[idx.indices] = value
+<<<<<<< HEAD
         elif isinstance(value, str):
+=======
+        elif isinstance(value, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # assume this is atom mask
             if self.top is None:
                 raise ValueError("must set Topology for frame")
@@ -579,6 +599,7 @@ cdef class Frame (object):
         '''
         def __get__(self):
             '''return unitcell'''
+<<<<<<< HEAD
             # FIXME: return a view?
             cdef Box box = Box()
             cdef _Box _box = self.thisptr.ModifyBox()
@@ -607,6 +628,25 @@ cdef class Frame (object):
     #         cdef double* ptr = self.thisptr.bAddress()
     #         cdef double[:] my_arr = <double[:6]> ptr
     #         return my_arr
+=======
+            cdef Box box = Box()
+            box.thisptr.SetBox(self.thisptr.bAddress())
+            return box
+
+        def __set__(self, other):
+            """
+            other : {Box, array-like}
+            """
+            _box = Box(other)
+            self._boxview[:] = _box[:]
+
+    property _boxview:
+        def __get__(self):
+            """return a memoryview of box array"""
+            cdef double* ptr = self.thisptr.bAddress()
+            cdef double[:] my_arr = <double[:6]> ptr
+            return my_arr
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def set_mass(self, Topology top):
         '''set mass for Frame, requires a Topology

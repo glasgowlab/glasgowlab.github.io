@@ -11,7 +11,11 @@ class TestPBCFromPDB(unittest.TestCase):
         traj = pt.load(fn('small_pbc.pdb'))
         aa_eq(traj.unitcells[0], [51.263, 51.263, 51.263, 90.00, 90.00, 90.00])
         assert traj.top.has_box() == True, 'Topology must has box'
+<<<<<<< HEAD
         assert traj.top.box.type == 'cubic', 'must be ortho box'
+=======
+        assert traj.top.box.type == 'ortho', 'must be ortho box'
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 if __name__ == "__main__":

@@ -1,5 +1,9 @@
 from __future__ import print_function, absolute_import
 import numpy as np
+<<<<<<< HEAD
+=======
+from ..externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from ..utils.decorators import register_pmap
 from .c_action import do_action, c_action
 from .c_action.actionlist import ActionList
@@ -123,7 +127,11 @@ def multivector(traj,
         # cpptraj style
         _names = names
     else:
+<<<<<<< HEAD
         if isinstance(names, str):
+=======
+        if isinstance(names, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             name1, name2 = names.split()
         else:
             # try to unpack

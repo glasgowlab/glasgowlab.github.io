@@ -1,6 +1,10 @@
 # distutils: language = c++
 from __future__ import print_function
 from pytraj.utils.decorators import makesureABC
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.utils import is_generator
 from pytraj.trajectory.shared_methods import iterframe_master
 from cython.operator cimport dereference as deref
@@ -131,7 +135,11 @@ cdef class Action:
 
         self.top = top
 
+<<<<<<< HEAD
         if isinstance(command, str):
+=======
+        if isinstance(command, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             #command = command.encode("UTF-8")
             arglist = ArgList(command)
         elif isinstance(command, ArgList):
@@ -174,11 +182,18 @@ cdef class Action:
         actionsetup_ = _ActionSetup(top.thisptr, crdinfo_.thisptr[0], n_frames_t)
         status = self.baseptr.Setup(actionsetup_)
 
+<<<<<<< HEAD
         if status == ERR or status == SKIP:
             # cpptraj have a bunch of options, so we only check if there is
             # ERR or SKIP
             raise RuntimeError("Failed to setup action. Use pytraj._verbose() to "
                     "turn on the error report.")
+=======
+        if status == ERR:
+            # cpptraj have a bunch of options, so we only check if there is
+            # ERR
+            raise RuntimeError('failed to setup action')
+>>>>>>> parent of b8ef017... deleting pytraj
 
         if get_new_top:
             new_top._own_memory = False

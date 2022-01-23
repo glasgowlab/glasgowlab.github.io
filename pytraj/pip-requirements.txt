@@ -1,7 +1,13 @@
 pyflakes==2.1.1
 numpy
+<<<<<<< HEAD
 cython==0.29.16 # should be used with latest python vesion to cythonize for release.
 # auditwheel==1.7.0
 mock==2.0.0
 parmed
+=======
+cython==0.29
+# auditwheel==1.7.0
+mock==2.0.0
+>>>>>>> parent of b8ef017... deleting pytraj
 pytest

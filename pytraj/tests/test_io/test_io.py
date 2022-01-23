@@ -2,8 +2,11 @@
 import os
 import sys
 import unittest
+<<<<<<< HEAD
 from mock import patch, MagicMock
 from pathlib import Path
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 import numpy as np
 import pytest
 import pytraj as pt
@@ -14,11 +17,14 @@ from pytraj.testing import get_remd_fn
 from pytraj.testing import tempfolder
 from pytraj.io import _get_amberhome
 
+<<<<<<< HEAD
 try:
     import parmed
 except ImportError:
     parmed = None
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 # local
 from utils import fn
 
@@ -34,7 +40,11 @@ tc5b_trajin = fn('Tc5b.x')
 tc5b_top = fn('Tc5b.top')
 
 
+<<<<<<< HEAD
 def test_iterload_comprehensive(tmpdir):
+=======
+def test_iterload_comprehensive():
+>>>>>>> parent of b8ef017... deleting pytraj
     trajin, tn = fn("tz2.ortho.nc"), fn("tz2.ortho.parm7")
 
     # frame_slice
@@ -83,6 +93,7 @@ def test_iterload_comprehensive(tmpdir):
         [pt.iterload(fname, tn)[::3].xyz for fname in filenames])
     aa_eq(xyz_expected, t0.xyz)
 
+<<<<<<< HEAD
     # filename with space
     with tmpdir.as_cwd():
         traj = pt.datafiles.load_tz2()
@@ -91,6 +102,8 @@ def test_iterload_comprehensive(tmpdir):
         traj2 = pt.iterload(fname, traj.top)
         assert traj2.n_frames == traj.n_frames
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 def test_load_comprehensive():
     traj = traj_tz2_ortho
@@ -209,7 +222,11 @@ def test_overwrite():
         pt.write_traj('what.nc', traj, overwrite=True)
 
 
+<<<<<<< HEAD
 def test_get_coordinates_trajectory_iterator():
+=======
+def test_get_coordinates_trajecotoryiterator():
+>>>>>>> parent of b8ef017... deleting pytraj
     '''immutable pytraj.TrajectoryIterator
     '''
     traj = traj_tz2_ortho.copy()
@@ -252,9 +269,15 @@ def test_get_coordinates_trajectory_iterator():
 def test_get_coordinates_trajectory():
     '''mutable pytraj.Trajectory
     '''
+<<<<<<< HEAD
     traj = pt.datafiles.load_tz2_ortho()[:]
     # make a different copy since ``traj`` is mutable
     traj2 = pt.datafiles.load_tz2_ortho()[:]
+=======
+    traj = pt.Trajectory(xyz=traj_tz2_ortho.xyz, top=traj_tz2_ortho.top)
+    # make a different copy since ``traj`` is mutable
+    traj2 = traj.copy()
+>>>>>>> parent of b8ef017... deleting pytraj
 
     # all coordinates
     xyz = pt.get_coordinates(traj)
@@ -306,6 +329,7 @@ def test_single_frame():
         pt.io.load_frame(filename='afddsfdsfa', top=traj.top.filename, index=3)
 
 
+<<<<<<< HEAD
 @patch.object(pt.io, "urlopen")
 def test_download_pdb(mock_urlopen, tmpdir):
     fname = Path(fn("1L2Y.pdb"))
@@ -317,6 +341,16 @@ def test_download_pdb(mock_urlopen, tmpdir):
         pt.io.download_PDB('1l2y')
         t2 = pt.load('1l2y.pdb')
         assert t2.n_atoms == 304, 'must have 304 atoms'
+=======
+# @unittest.skip('download_PDB')
+def test_download_pdb():
+    with tempfolder():
+        pt.io.download_PDB('1l2y', './', overwrite=True)
+        t2 = pt.load('1l2y.pdb')
+        assert t2.n_atoms == 304, 'must have 304 atoms'
+        with pytest.raises(ValueError):
+            pt.io.download_PDB('1l2y', './', overwrite=False)
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def test_short_save():
@@ -594,6 +628,7 @@ def test_leap():
         verbose = False
         traj = pt.io.load_leap(cm % quit, verbose=verbose)
         assert traj.n_atoms == 304
+<<<<<<< HEAD
 
 
 @pytest.mark.skipif(parmed is None, reason="parmed is not available")
@@ -605,3 +640,5 @@ def test_load_parmed():
     aa_eq(parm.get_coordinates(), traj.xyz)
     aa_eq(parm.box, traj.top.box.tolist())
     aa_eq(parm.get_box(), traj.unitcells)
+=======
+>>>>>>> parent of b8ef017... deleting pytraj

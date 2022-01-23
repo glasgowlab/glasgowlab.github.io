@@ -4,6 +4,10 @@ from pytraj import Frame
 from pytraj import pipe
 from pytraj.utils.tools import concat_dict, WrapBareIterator
 from pytraj.datasets import CpptrajDatasetList
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 
 __all__ = [
     'check_valid_command',
@@ -77,7 +81,11 @@ def check_valid_command(commands):
     from pytraj.utils.c_commands import ANALYSIS_COMMANDS
     from pytraj.utils.c_commands import PMAP_EXCLUDED_COMMANDS
 
+<<<<<<< HEAD
     if isinstance(commands, str):
+=======
+    if isinstance(commands, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         commands = [line.strip() for line in commands.split('\n') if line]
     else:
         commands = commands

@@ -37,11 +37,14 @@ try:
 except ImportError:
     pass
 
+<<<<<<< HEAD
 if sys.platform.startswith('linux'):
     libcpptraj = 'libcpptraj.so'
 else:
     libcpptraj = 'libcpptraj.dylib'
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 amber_release = check_flag('--amber_release')
 disable_openmp = check_flag('--disable-openmp')
 use_amberlib = not check_flag('--disable-amberlib')
@@ -92,7 +95,11 @@ if openmp_flag:
     libcpptraj_files = glob(os.path.join(cpptraj_info.lib_dir, 'libcpptraj_omp') + '*')
 
 if (not openmp_flag) or len(libcpptraj_files) == 0:
+<<<<<<< HEAD
     libcpptraj_files = glob(os.path.join(cpptraj_info.lib_dir, libcpptraj) + '*')
+=======
+    libcpptraj_files = glob(os.path.join(cpptraj_info.lib_dir, 'libcpptraj') + '*')
+>>>>>>> parent of b8ef017... deleting pytraj
 
 write_version_py()
 FULLVERSION, GIT_REVISION = get_version_info()
@@ -119,7 +126,10 @@ cython_directives = {
     'boundscheck': False,
     'wraparound': False,
     'auto_pickle': False,
+<<<<<<< HEAD
     'language_level': 3
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 }
 
 if debug:
@@ -169,10 +179,14 @@ if sys.platform.startswith('darwin') and is_clang(os.getenv('CXX')):
 #     # extra_compile_args.append('-stdlib=libstdc++')
 
 
+<<<<<<< HEAD
 if not compile_c_extension:
     ext_modules = []
 else:
     ext_modules = get_ext_modules(
+=======
+ext_modules = get_ext_modules(
+>>>>>>> parent of b8ef017... deleting pytraj
         cpptraj_info=cpptraj_info,
         pytraj_src=pytraj_src,
         compile_c_extension=compile_c_extension,

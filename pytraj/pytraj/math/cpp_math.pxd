@@ -1,4 +1,8 @@
 # distutil: language = c++
+<<<<<<< HEAD
+=======
+# from ..core.box cimport _Box, Box, BoxType
+>>>>>>> parent of b8ef017... deleting pytraj
 from libcpp.vector cimport vector
 
 cdef extern from "Grid.h":
@@ -128,3 +132,19 @@ cdef extern from "Vec3.h":
 cdef class Vec3:
     cdef _Vec3* thisptr
     cdef bint _own_memory
+<<<<<<< HEAD
+=======
+
+
+cdef extern from "ImagedAction.h":
+    cdef cppclass _ImagedAction "ImagedAction":
+        _ImagedAction()
+        void InitImaging(bint)
+        # void SetupImaging(BoxType)
+        bint ImagingEnabled(self)
+        bint UseImage()
+        ImageType()
+
+cdef class ImagedAction:
+    cdef _ImagedAction* thisptr
+>>>>>>> parent of b8ef017... deleting pytraj

@@ -52,13 +52,18 @@ traj = pt.load_sample_data("tz2")
 '''
 
 
+<<<<<<< HEAD
 def assert_equal_topology(top, new_top, traj=None):
+=======
+def assert_equal_topology(top, new_top, traj):
+>>>>>>> parent of b8ef017... deleting pytraj
     import pytraj as pt
     assert new_top.n_atoms == top.n_atoms, 'same n_atoms'
     assert new_top.n_residues == top.n_residues, 'same n_residues'
     assert new_top.n_mols == top.n_mols, 'same n_mols'
     # there are inverted bond indices [5292 5291] vs [5291 5292]
     # so use distance to assert
+<<<<<<< HEAD
     if traj is not None:
         aa_eq(
             pt.distance(traj, new_top.bond_indices),
@@ -67,6 +72,15 @@ def assert_equal_topology(top, new_top, traj=None):
         aa_eq(
             pt.dihedral(traj, new_top.dihedral_indices),
             pt.dihedral(traj, top.dihedral_indices))
+=======
+    aa_eq(
+        pt.distance(traj, new_top.bond_indices),
+        pt.distance(traj, top.bond_indices))
+    # same for dihedral_indices
+    aa_eq(
+        pt.dihedral(traj, new_top.dihedral_indices),
+        pt.dihedral(traj, top.dihedral_indices))
+>>>>>>> parent of b8ef017... deleting pytraj
     aa_eq(new_top.dihedral_indices, top.dihedral_indices)
     aa_eq(new_top.mass, top.mass)
     aa_eq(new_top.charge, top.charge)

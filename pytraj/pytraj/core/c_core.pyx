@@ -4,6 +4,12 @@ from cython.operator cimport dereference as deref
 from cython.operator cimport preincrement as incr
 from ..utils import is_array, is_int
 from ..utils.cyutils import _int_array1d_like_to_memview
+<<<<<<< HEAD
+=======
+from ..externals.six import string_types
+from ..externals.six.moves import range
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.core import c_dict
 
 __all__ = ['AtomMask',
@@ -32,8 +38,13 @@ cdef class AtomMask(object):
                 elif isinstance(args[0], AtomMask):
                     rhs_atm = args[0]
                     self.thisptr = new _AtomMask(rhs_atm.thisptr[0])
+<<<<<<< HEAD
                 elif isinstance(args[0], str):
                     # str
+=======
+                elif isinstance(args[0], string_types):
+                    # string_types
+>>>>>>> parent of b8ef017... deleting pytraj
                     maskstring = args[0].encode("UTF-8")
                     self.thisptr = new _AtomMask(maskstring)
             elif len(args) == 2:
@@ -169,7 +180,11 @@ cdef class NameType:
         if not args:
             self.thisptr = new _NameType()
         elif len(args) == 1:
+<<<<<<< HEAD
             if isinstance(args[0], str):
+=======
+            if isinstance(args[0], string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 s = args[0].encode()
                 self.thisptr = new _NameType(s)
             elif isinstance(args[0], NameType):
@@ -210,7 +225,11 @@ cdef class NameType:
         cdef bytes py_bytes
         cdef NameType rhs
 
+<<<<<<< HEAD
         if isinstance(arg, str):
+=======
+        if isinstance(arg, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             py_bytes = arg.encode()
             c = py_bytes
             if opt == 3:
@@ -424,7 +443,11 @@ cdef class ArgList:
                 if isinstance(args[0], ArgList):
                     rhs = args[0]
                     self.thisptr = new _ArgList(rhs.thisptr[0])
+<<<<<<< HEAD
                 elif isinstance(args[0], str):
+=======
+                elif isinstance(args[0], string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                     sinput = args[0].encode("UTF-8")
                     self.thisptr = new _ArgList(sinput)
                 else:

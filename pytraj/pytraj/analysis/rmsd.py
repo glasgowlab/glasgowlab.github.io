@@ -1,5 +1,9 @@
 import numpy as np
 
+<<<<<<< HEAD
+=======
+from ..externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from ..utils.get_common_objects import (
     get_topology, get_data_from_dtype, get_matrix_from_dataset, get_reference,
     get_fiterator, super_dispatch, get_iterator_from_dslist)
@@ -127,7 +131,11 @@ def pairwise_rmsd(traj=None,
     """
     # we copy Frame coordinates to DatasetCoordsCRD first
 
+<<<<<<< HEAD
     if not isinstance(mask, str):
+=======
+    if not isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         mask = array_to_cpptraj_atommask(mask)
 
     act = c_analysis.Analysis_Rms2d()
@@ -313,10 +321,17 @@ def rmsd(traj=None,
     if ref_mask:
         if not mask:
             raise ValueError('mask must be provided if ref_mask is given')
+<<<<<<< HEAD
         if not isinstance(ref_mask, str):
             ref_mask = array_to_cpptraj_atommask(ref_mask)
 
     if isinstance(mask, str):
+=======
+        if not isinstance(ref_mask, string_types):
+            ref_mask = array_to_cpptraj_atommask(ref_mask)
+
+    if isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         command = [
             mask,
         ]

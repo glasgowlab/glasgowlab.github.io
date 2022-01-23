@@ -48,11 +48,16 @@ cdef extern from "Action.h":
     ctypedef enum RetType "Action::RetType":
         OK "Action::OK"
         ERR "Action::ERR"
+<<<<<<< HEAD
         USE_ORIGINAL_FRAME "Action::USE_ORIGINAL_FRAME"
         SUPPRESS_COORD_OUTPUT "Action::SUPPRESS_COORD_OUTPUT"
         SKIP "Action::SKIP"
         MODIFY_TOPOLOGY "Action::MODIFY_TOPOLOGY"
         MODIFY_COORDS "Action::MODIFY_COORDS"
+=======
+        USEORIGINALFRAME "Action::USEORIGINALFRAME"
+        SUPPRESSCOORDOUTPUT "Action::SUPPRESSCOORDOUTPUT"
+>>>>>>> parent of b8ef017... deleting pytraj
     cdef cppclass _Action "Action" nogil:
         RetType Init(_ArgList&, _ActionInit&, int)
         RetType Setup(_ActionSetup&)

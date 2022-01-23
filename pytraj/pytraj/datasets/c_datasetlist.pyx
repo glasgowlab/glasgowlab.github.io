@@ -13,6 +13,10 @@ from ..utils.cyutils import get_positive_idx
 from collections import defaultdict
 from .cast_dataset import cast_dataset
 from ..utils.check_and_assert import is_array
+<<<<<<< HEAD
+=======
+from ..externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from ..utils import is_int
 from ..datafiles.datafiles import DataFile
 from ..core.c_core import ArgList
@@ -132,7 +136,11 @@ cdef class DatasetList:
             dtmp = cast_dataset(dset, dtype=dset.dtype)
             dtmp._base = self
             return dtmp
+<<<<<<< HEAD
         elif isinstance(idx, str):
+=======
+        elif isinstance(idx, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # return a list of datasets having idx as legend
             for d0 in self:
                 if d0.key.upper() == idx.upper():
@@ -283,6 +291,10 @@ cdef class DatasetList:
         return self.get_legends()
 
     def iteritems(self):
+<<<<<<< HEAD
+=======
+        from pytraj.externals.six import zip
+>>>>>>> parent of b8ef017... deleting pytraj
         for key in self.keys():
             yield key, self[key]
 
@@ -306,7 +318,11 @@ cdef class DatasetList:
         dtmp.set_own_memory(False)
         for d0 in self._base_dataset_iter():
             att = getattr(d0, mode)
+<<<<<<< HEAD
             if isinstance(key, str):
+=======
+            if isinstance(key, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 if re.search(key, att):
                     dtmp._add_existing_set(d0)
             elif isinstance(key, (list, tuple)):

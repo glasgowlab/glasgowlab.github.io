@@ -17,7 +17,11 @@ FRAMENUM = 999
 FARRAY = ts[:FRAMENUM]
 
 
+<<<<<<< HEAD
 class TestTrajectory:
+=======
+class TestTrajectory(unittest.TestCase):
+>>>>>>> parent of b8ef017... deleting pytraj
     def test_len(self):
         N = 10
         farray = FARRAY[:N].copy()
@@ -70,3 +74,10 @@ class TestTrajectory:
         traj = ts
         assert traj["@CA"].shape == (traj.n_frames, traj.top("@CA").n_atoms, 3)
         assert traj[2:4]["@CA"].shape == (2, traj.top("@CA").n_atoms, 3)
+<<<<<<< HEAD
+=======
+
+
+if __name__ == "__main__":
+    unittest.main()
+>>>>>>> parent of b8ef017... deleting pytraj

@@ -2,11 +2,18 @@ import unittest
 import pytraj as pt
 from utils import fn
 from pytraj.testing import aa_eq
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import zip
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj import iterframe_master
 from pytraj import Frame, Trajectory
 
 from utils import tc5b_trajin, tc5b_top
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 text = """
 parm {}
 trajin {}
@@ -68,8 +75,12 @@ class TestIterFrameMaster(unittest.TestCase):
             for frame in pt.iterframe_master([0, 3]):
                 pass
 
+<<<<<<< HEAD
         with pytest.raises(TypeError):
             test_raise()
+=======
+        self.assertRaises(TypeError, lambda: test_raise())
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def test_iter_with_a_list_of_frame_and_trajectory_and_FrameIterator(self):
         traj = pt.iterload(fn('Tc5b.x'), fn('Tc5b.top'))

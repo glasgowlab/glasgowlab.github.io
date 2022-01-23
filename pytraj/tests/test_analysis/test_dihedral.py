@@ -6,7 +6,10 @@ import pytraj as pt
 from pytraj.testing import aa_eq
 
 from utils import fn, tc5b_top, tc5b_trajin
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class TestDihedral(unittest.TestCase):
@@ -51,8 +54,12 @@ class TestDihedral(unittest.TestCase):
         aa_eq([d0], d9)
 
         # raise
+<<<<<<< HEAD
         with pytest.raises(ValueError):
             pt.dihedrals(traj, [[0, 3, 2]])
+=======
+        self.assertRaises(ValueError, lambda: pt.dihedrals(traj, [[0, 3, 2]]))
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 if __name__ == "__main__":

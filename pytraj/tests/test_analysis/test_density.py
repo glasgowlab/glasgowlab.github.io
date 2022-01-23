@@ -6,7 +6,10 @@ import numpy as np
 import pytraj as pt
 from utils import fn
 from pytraj.testing import aa_eq
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class TestDensity(unittest.TestCase):
@@ -61,8 +64,12 @@ class TestDensity(unittest.TestCase):
         def func():
             pt.density(traj, mask=':WAT', density_type='hello')
 
+<<<<<<< HEAD
         with pytest.raises(AssertionError):
             func()
+=======
+        self.assertRaises(AssertionError, func)
+>>>>>>> parent of b8ef017... deleting pytraj
 
         # test 'z' value
         saved_z_values = np.linspace(-24.1250, 23.8750, 193)

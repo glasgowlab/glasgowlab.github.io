@@ -1,13 +1,20 @@
 import numpy as np
 import unittest
 import pytraj as pt
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import zip
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj import Topology, Trajectory, Atom
 from pytraj.core.elements import mass_atomic_number_dict
 from pytraj.testing import aa_eq
 
 # local
 from utils import fn
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 TRAJ = Trajectory(fn("Tc5b.x"), fn("Tc5b.top"))
 
@@ -50,8 +57,12 @@ class TestTopology(unittest.TestCase):
         top[":PC@H*"][0]
 
         old_natoms = top.n_atoms
+<<<<<<< HEAD
         with pytest.raises(ValueError):
             top.join(top)
+=======
+        self.assertRaises(ValueError, lambda: top.join(top))
+>>>>>>> parent of b8ef017... deleting pytraj
         top.join(top.copy())
         assert top.n_atoms == 2 * old_natoms
 
@@ -65,8 +76,12 @@ class TestTopology(unittest.TestCase):
         assert len(top) == top.n_atoms
 
     def test_raise_RuntimeError(self):
+<<<<<<< HEAD
         with pytest.raises(RuntimeError):
             pt.load_topology('dummy')
+=======
+        self.assertRaises(RuntimeError, lambda: pt.load_topology('dummy'))
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def test_get_atom_view(self):
         traj = pt.datafiles.load_ala3()
@@ -118,11 +133,14 @@ class TestTopology(unittest.TestCase):
         assert len(top[:]) == top.n_atoms
         assert len(top[:10]) == 10
 
+<<<<<<< HEAD
         # API
         top.bond_indices
         top.angle_indices
         top.dihedral_indices
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
     def test_simplifed_topology(self):
         '''simplify'''
         top = pt.load_topology(fn('Tc5b.top'))

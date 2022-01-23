@@ -6,6 +6,12 @@ import os
 from glob import glob
 from pytraj.core.c_options import set_world_silent
 
+<<<<<<< HEAD
+=======
+# external
+from pytraj.externals.six import string_types
+
+>>>>>>> parent of b8ef017... deleting pytraj
 from .context import capture_stdout
 
 try:
@@ -77,7 +83,11 @@ def info(obj=None):  # pragma: no cover
         print("action's keys", adict_keys)
         print("analysis' keys", anal_keys)
     else:
+<<<<<<< HEAD
         if isinstance(obj, str):
+=======
+        if isinstance(obj, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             if obj == 'parallel':
                 print(parallel_info())
                 return

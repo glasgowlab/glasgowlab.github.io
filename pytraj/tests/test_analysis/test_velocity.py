@@ -16,8 +16,12 @@ class TestVelocity(unittest.TestCase):
         saved_rst7 = pt.iterload(
             os.path.join(cpptraj_test_dir, 'Test_SetVelocity',
                          'tz2.vel.rst7.save'), fn('tz2.parm7'))
+<<<<<<< HEAD
         # Set default RNG back to Marsaglia
         pt.set_default_rng(0)
+=======
+
+>>>>>>> parent of b8ef017... deleting pytraj
         pt.set_velocity(traj, temperature=298, ig=10)
         aa_eq(traj[0].velocity, saved_rst7[0].velocity)
 

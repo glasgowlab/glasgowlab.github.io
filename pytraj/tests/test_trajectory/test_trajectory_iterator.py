@@ -7,10 +7,16 @@ from utils import fn
 from pytraj.testing import aa_eq
 from pytraj.trajectory.trajectory_iterator import sort_filename_by_number
 from mock import patch
+<<<<<<< HEAD
 import pytest
 
 
 class TestTrajectoryIterator:
+=======
+
+
+class TestTrajectoryIterator(unittest.TestCase):
+>>>>>>> parent of b8ef017... deleting pytraj
     def test_sorting_filelist(self):
         orig_list = [
             'md10.nc', 'md11.nc', 'md12.nc', 'md4.nc', 'md5.nc', 'md100.nc',
@@ -41,8 +47,12 @@ class TestTrajectoryIterator:
         ])
 
         # iterframe (already in doctest), just throwing raise to increase coverage score
+<<<<<<< HEAD
         with pytest.raises(ValueError):
             traj.iterframe(rmsfit='crazy')
+=======
+        self.assertRaises(ValueError, lambda: traj.iterframe(rmsfit='crazy'))
+>>>>>>> parent of b8ef017... deleting pytraj
 
         # raise
         # memory error if load larger than 1GB for xyz
@@ -55,6 +65,7 @@ class TestTrajectoryIterator:
              def mock_get(*args, **kwargs):
                  return 10000000
              mem.__get__ = mock_get
+<<<<<<< HEAD
              with pytest.raises(MemoryError):
                  traj.xyz
 
@@ -72,3 +83,31 @@ class TestTrajectoryIterator:
         # weird Topology
         with pytest.raises(ValueError):
             pt.TrajectoryIterator(fn('Test_RemdTraj/rem.nc.000'), top=pt.Frame)
+=======
+             self.assertRaises(MemoryError, lambda: traj.xyz)
+
+        # can not find filename
+        self.assertRaises(ValueError, lambda: traj._load(None))
+        # has filename but does not have Topology
+        self.assertRaises(
+            ValueError,
+            lambda: pt.TrajectoryIterator(fn('Test_RemdTraj/rem.nc.000'), top=None))
+        self.assertRaises(
+            ValueError,
+            lambda: pt.TrajectoryIterator(fn('Test_RemdTraj/rem.nc.000')))
+        # empty Topology
+        self.assertRaises(
+            ValueError,
+            lambda: pt.TrajectoryIterator(fn('Test_RemdTraj/rem.nc.000'), top=pt.Topology()))
+        # weird Topology
+        self.assertRaises(
+            ValueError,
+            lambda: pt.TrajectoryIterator(fn('Test_RemdTraj/rem.nc.000'), top=pt.Frame))
+
+
+if __name__ == "__main__":
+    unittest.main()
+    # nosetests --with-coverage --cover-package pytraj -vs .
+    # nosetests -vs --processes 6 --process-timeout 200 .
+    # nosetests -vs --processes 6 --process-timeout 200 --with-coverage --cover-package pytraj .
+>>>>>>> parent of b8ef017... deleting pytraj

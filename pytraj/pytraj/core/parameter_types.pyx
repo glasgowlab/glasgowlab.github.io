@@ -24,8 +24,13 @@ cdef class AngleType:
     @property
     def indices(self):
         """return atom indices as a python array"""
+<<<<<<< HEAD
         return np.array([self.thisptr.A1(),
                          self.thisptr.A2(), self.thisptr.A3()])
+=======
+        np.array([self.thisptr.A1(),
+                                         self.thisptr.A2(), self.thisptr.A3()])
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 cdef class LES_AtomType:

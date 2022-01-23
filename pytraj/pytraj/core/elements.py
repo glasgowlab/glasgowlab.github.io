@@ -1,6 +1,11 @@
 """
 Store extra information for Atom's elements
 """
+<<<<<<< HEAD
+=======
+from __future__ import absolute_import
+from ..externals.six.moves import zip
+>>>>>>> parent of b8ef017... deleting pytraj
 # copied from cpptraj's code "Atom.cpp"
 # /** Values taken from 'http://www.webelements.com/' */
 

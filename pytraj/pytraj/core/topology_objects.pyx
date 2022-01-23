@@ -2,6 +2,10 @@
 from cython.operator cimport dereference as deref
 from cython.operator cimport preincrement as incr
 from pytraj.core.c_dict import get_key, AtomicElementDict
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.core.elements import Element
 import numpy as np
 
@@ -53,7 +57,11 @@ cdef class Atom:
     def bonded_indices(self):
         """get bond indices that `self` bonds to
         """
+<<<<<<< HEAD
         cdef int[:] arr = np.empty(self.thisptr.Nbonds(), dtype='i4')
+=======
+        cdef int[:] arr = np.empty(self.thisptr.Nbonds(), dtype='int')
+>>>>>>> parent of b8ef017... deleting pytraj
         cdef bond_iterator it
         cdef int i = 0
 
@@ -256,11 +264,19 @@ cdef class Molecule:
     def __dealloc__(self):
         del self.thisptr
 
+<<<<<<< HEAD
     #def set_first(self, int begin):
     #    self.thisptr.SetFirst(begin)
 
     #def set_last(self, int last):
     #    self.thisptr.SetLast(last)
+=======
+    def set_first(self, int begin):
+        self.thisptr.SetFirst(begin)
+
+    def set_last(self, int last):
+        self.thisptr.SetLast(last)
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def set_solvent(self):
         self.thisptr.SetSolvent()
@@ -268,6 +284,7 @@ cdef class Molecule:
     def set_no_solvent(self):
         self.thisptr.SetNoSolvent()
 
+<<<<<<< HEAD
     #@property
     #def begin_atom(self):
     #    return self.thisptr.BeginAtom()
@@ -275,6 +292,15 @@ cdef class Molecule:
     #@property
     #def end_atom(self):
     #    return self.thisptr.EndAtom()
+=======
+    @property
+    def begin_atom(self):
+        return self.thisptr.BeginAtom()
+
+    @property
+    def end_atom(self):
+        return self.thisptr.EndAtom()
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def is_solvent(self):
         return self.thisptr.IsSolvent()

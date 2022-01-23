@@ -7,6 +7,10 @@ import doctest
 import pytraj as pt
 from utils import fn
 from pytraj import utils
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import PY3
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj import testing
 from pytraj.datafiles import load_samples
 from pytraj import energy_analysis

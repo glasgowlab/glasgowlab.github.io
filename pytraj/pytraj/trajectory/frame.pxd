@@ -4,7 +4,11 @@ from libcpp.vector cimport vector
 from libcpp.string cimport string
 from ..math.cpp_math cimport _Vec3, Vec3, _Matrix_3x3, Matrix_3x3
 from ..core.topology_objects cimport _Atom, Atom
+<<<<<<< HEAD
 from ..core.box cimport _Box, Box
+=======
+from ..core.box cimport _Box, Box, BoxType
+>>>>>>> parent of b8ef017... deleting pytraj
 from ..topology.topology cimport _Topology, Topology
 from ..core.coordinfo cimport _CoordinateInfo, CoordinateInfo
 from ..core.c_core cimport _AtomMask, AtomMask
@@ -49,16 +53,27 @@ cdef extern from "Frame.h" nogil:
         const double * VXYZ(int atnum) const 
         const double * FXYZ(int atnum) const 
         double Mass(int atnum) const 
+<<<<<<< HEAD
         # _Box& BoxCrd() const 
         inline double * xAddress() 
         inline double * vAddress() 
         inline double* fAddress()
         # inline double * bAddress()  # FIXME: remove
+=======
+        _Box& BoxCrd() const 
+        inline double * xAddress() 
+        inline double * vAddress() 
+        inline double* fAddress()
+        inline double * bAddress() 
+>>>>>>> parent of b8ef017... deleting pytraj
         inline double * tAddress() 
         inline int * iAddress() 
         inline const int * iAddress() const 
         inline void SetBoxAngles(const double *)
+<<<<<<< HEAD
         const _Box& BoxCrd()
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
         void SetBox(const _Box&)
         void SetTemperature(double tIn)
         void SetTime(double tIn)
@@ -117,8 +132,11 @@ cdef extern from "Frame.h" nogil:
         _Vec3 CalculateInertia(const _AtomMask&, _Matrix_3x3&) const 
         double CalcTemperature(const _AtomMask&, int) const 
 
+<<<<<<< HEAD
         _Box& ModifyBox()
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 cdef class Frame:
     cdef _Frame* thisptr

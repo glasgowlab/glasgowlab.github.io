@@ -1,7 +1,11 @@
 from .shared_methods import my_str_method
 
 
+<<<<<<< HEAD
 class SharedTrajectory:
+=======
+class SharedTrajectory(object):
+>>>>>>> parent of b8ef017... deleting pytraj
     def view(self, *args, **kwargs):
         return self.visualize(*args, **kwargs)
 

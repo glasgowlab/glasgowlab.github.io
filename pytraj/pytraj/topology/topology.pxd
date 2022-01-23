@@ -2,7 +2,11 @@
 
 from ..cython_extra_header.cpp_vector cimport vector as cppvector
 from ..core.topology_objects cimport _Atom, Atom, _Residue, Residue, _Molecule, Molecule
+<<<<<<< HEAD
 from ..core.box cimport _Box, Box
+=======
+from ..core.box cimport _Box, Box, BoxType
+>>>>>>> parent of b8ef017... deleting pytraj
 from ..core.parameter_types cimport *
 from ..core.c_core cimport (_FileName, FileName, _NameType, NameType)
 from ..core.c_core cimport _AtomMask, AtomMask
@@ -35,7 +39,10 @@ cdef extern from "CoordinateInfo.h":
 cdef extern from "Topology.h": 
     cdef cppclass _Topology "Topology" nogil:
         _Topology() 
+<<<<<<< HEAD
         int DetermineMolecules()
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
         void SetOffset(double oIn)
         void SetDebug(int dIn)
         void SetIpol(int iIn)
@@ -123,6 +130,11 @@ cdef extern from "Topology.h":
         void PrintAngles(const AngleArray&, const _AtomMask&, int&) const
         void PrintDihedrals(const DihedralArray&, const _AtomMask&, int&) const
         inline const _Box& ParmBox() const 
+<<<<<<< HEAD
+=======
+        inline BoxType _BoxType() const 
+        #void SetParmBox(const _Box& bIn)
+>>>>>>> parent of b8ef017... deleting pytraj
         void SetParmBox(_Box& bIn)
         int AddTopAtom(_Atom&, _Residue&)
         void AddAngle(int, int, int)

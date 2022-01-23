@@ -18,8 +18,12 @@ class StrippedTrajectoryIterator(SharedTrajectory):
     """
 
     def __init__(self, origtraj, mask):
+<<<<<<< HEAD
         top = origtraj.top.copy()
         top.strip(mask)
+=======
+        top = origtraj.top.strip(mask, copy=True)
+>>>>>>> parent of b8ef017... deleting pytraj
         self.top = top
         self._traj = origtraj
         self._atm = self._traj.top(mask)

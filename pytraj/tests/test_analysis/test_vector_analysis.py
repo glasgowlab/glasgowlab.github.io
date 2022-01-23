@@ -12,7 +12,10 @@ from pytraj.testing import cpptraj_test_dir
 from pytraj.datasets.c_datasetlist import DatasetList
 from pytraj import ActionList
 from pytraj.analysis.c_action import c_action as CA
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class TestVectorAnalysisModule(unittest.TestCase):
@@ -36,8 +39,12 @@ class TestVectorAnalysisModule(unittest.TestCase):
     def test_vector_raise(self):
         traj = pt.iterload(fn('Tc5b.x'), fn('Tc5b.top'))
         arr = np.arange(100).astype('i4').reshape(2, 25, 2)
+<<<<<<< HEAD
         with pytest.raises(ValueError):
             pt.vector.vector_mask(traj, arr)
+=======
+        self.assertRaises(ValueError, lambda: pt.vector.vector_mask(traj, arr))
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def test_actionlist(self):
         '''test_actionlist

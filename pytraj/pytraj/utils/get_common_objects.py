@@ -3,6 +3,10 @@ from __future__ import absolute_import
 from functools import wraps
 
 # do not import anything else here.
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types, integer_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.utils.convert import array_to_cpptraj_atommask
 from pytraj.trajectory.shared_methods import iterframe_master
 
@@ -35,7 +39,11 @@ def get_topology(traj, top):
     >>> get_topology(None, None) is None
     True
     '''
+<<<<<<< HEAD
     if isinstance(top, str):
+=======
+    if isinstance(top, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         # if provide a filename, load to Topology
         top_ = _load_Topology(top)
     elif top is None:
@@ -98,7 +106,11 @@ def get_list_of_commands(mask_or_commands):
         ...
     ValueError: must be string or list/tuple of strings
     '''
+<<<<<<< HEAD
     if isinstance(mask_or_commands, str):
+=======
+    if isinstance(mask_or_commands, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         return [
             mask_or_commands,
         ]
@@ -146,7 +158,11 @@ def get_reference(traj, ref):
     >>> ref = traj[5]
     >>> frame = get_reference(traj, ref)
     '''
+<<<<<<< HEAD
     if isinstance(ref, int):
+=======
+    if isinstance(ref, integer_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         try:
             ref_ = traj[ref]
             ref_.top = traj.top
@@ -200,7 +216,11 @@ def get_resrange(resrange):
             resrange = [
                 resrange,
             ]
+<<<<<<< HEAD
         if isinstance(resrange, str):
+=======
+        if isinstance(resrange, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             _resrange = "resrange " + resrange
         else:
             _resrange = convert.array_to_cpptraj_range(resrange)
@@ -263,6 +283,7 @@ class super_dispatch(object):
             frame_indices = kwargs.get('frame_indices')
             top = kwargs.get('top')
 
+<<<<<<< HEAD
             if has_mask_arg and isinstance(mask, str):
                 if mask == '':
                     if has_traj_arg:
@@ -275,6 +296,19 @@ class super_dispatch(object):
                             mask = args[1]
                         except IndexError:
                             mask = ''
+=======
+            if has_mask_arg and mask == '':
+                if has_traj_arg:
+                    try:
+                        mask = args[0]
+                    except IndexError:
+                        mask = ''
+                else:
+                    try:
+                        mask = args[1]
+                    except IndexError:
+                        mask = ''
+>>>>>>> parent of b8ef017... deleting pytraj
 
             if has_ref_arg:
                 if ref is None:
@@ -300,7 +334,11 @@ class super_dispatch(object):
                 kwargs['ref'] = get_reference(traj, ref)
 
             # update mask to args or kwargs
+<<<<<<< HEAD
             if has_mask_arg and not isinstance(mask, str):
+=======
+            if has_mask_arg and not isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 mask = array_to_cpptraj_atommask(mask)
             if 'mask' in kwargs:
                 kwargs['mask'] = mask

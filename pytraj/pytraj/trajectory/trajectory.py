@@ -5,6 +5,11 @@ from ..core.box import Box
 from .frame import Frame
 from ..utils.check_and_assert import is_int, is_frame_iter
 from ..utils.convert import array_to_cpptraj_atommask
+<<<<<<< HEAD
+=======
+from ..externals.six import string_types
+from ..externals.six.moves import range
+>>>>>>> parent of b8ef017... deleting pytraj
 from ..core.c_core import AtomMask
 from .shared_trajectory import SharedTrajectory
 
@@ -95,7 +100,11 @@ class Trajectory(SharedTrajectory):
         elif hasattr(filename, 'xyz'):
             # make sure to use `float64`
             self._xyz = filename.xyz.astype(np.float64)
+<<<<<<< HEAD
         elif isinstance(filename, (str, list, tuple)):
+=======
+        elif isinstance(filename, (string_types, list, tuple)):
+>>>>>>> parent of b8ef017... deleting pytraj
             self.load(filename)
         else:
             raise ValueError('filename must be None, a Trajectory or a string')
@@ -315,11 +324,19 @@ class Trajectory(SharedTrajectory):
             atm = None
             arr0 = None
 
+<<<<<<< HEAD
             if isinstance(index, (str, AtomMask)):
                 # return a copy
                 # traj['@CA']
                 atm = self.top(index) if isinstance(index,
                                                     str) else index
+=======
+            if isinstance(index, (string_types, AtomMask)):
+                # return a copy
+                # traj['@CA']
+                atm = self.top(index) if isinstance(index,
+                                                    string_types) else index
+>>>>>>> parent of b8ef017... deleting pytraj
                 traj.top = self.top._modify_state_by_mask(atm)
                 arr0 = self._xyz[:, atm.indices]
                 if self.forces is not None:
@@ -357,7 +374,11 @@ class Trajectory(SharedTrajectory):
                 if len(index) == 1:
                     traj = self[index[0]]
                 elif len(index) == 2 and is_int(index[0]) and isinstance(
+<<<<<<< HEAD
                         index[1], str):
+=======
+                        index[1], string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                     # traj[0, '@CA']: return a stripped Frame
                     frame = self[index[0]].copy()
                     # make AtomMask object
@@ -392,7 +413,11 @@ class Trajectory(SharedTrajectory):
             # traj.xyz = xyz
             # update all atoms, use fast version
             self._xyz[:] = other  # xyz
+<<<<<<< HEAD
         elif isinstance(index, str):
+=======
+        elif isinstance(index, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # update xyz for mask
             # traj['@CA'] = xyz
             atm = self.top(index)
@@ -567,7 +592,11 @@ class Trajectory(SharedTrajectory):
         return self.iterframe(*args, **kwd)
 
     def load(self, filename=''):
+<<<<<<< HEAD
         '''This is for internal use. User should always use
+=======
+        '''load file or files. This is for internal use. User should always use
+>>>>>>> parent of b8ef017... deleting pytraj
         ``pytraj.load`` (or ``iterload``) method
 
         Examples
@@ -597,6 +626,7 @@ class Trajectory(SharedTrajectory):
             raise RuntimeError('Must have a valid Topology')
 
         # always use self.top
+<<<<<<< HEAD
         from pytraj import TrajectoryIterator
         ts = TrajectoryIterator()
         ts.top = self.top.copy()
@@ -606,6 +636,19 @@ class Trajectory(SharedTrajectory):
         self.unitcells = ts.unitcells
         self.forces = ts.forces
         self.velocities = ts.velocities
+=======
+        if isinstance(filename, string_types):
+            from pytraj import TrajectoryIterator
+            ts = TrajectoryIterator()
+            ts.top = self.top.copy()
+            ts._load(filename)
+            self._xyz = ts[:].xyz
+        elif isinstance(filename, (list, tuple)):
+            for fn in filename:
+                self.load(fn)
+        else:
+            raise ValueError('filename must be string or a list of strings')
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def autoimage(self, command=''):
         '''perform autoimage
@@ -918,7 +961,11 @@ class Trajectory(SharedTrajectory):
         if mask is None:
             _top = self.top
         else:
+<<<<<<< HEAD
             if isinstance(mask, str):
+=======
+            if isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 mask = mask
                 _top = self.top._get_new_from_mask(mask)
             else:
@@ -1078,6 +1125,7 @@ class Trajectory(SharedTrajectory):
         for f1, f2, frame in zip(self, other, traj):
             frame.xyz[:] = np.vstack((f1.xyz, f2.xyz))
         return traj
+<<<<<<< HEAD
 
     @property
     def crdinfo(self):
@@ -1090,3 +1138,5 @@ class Trajectory(SharedTrajectory):
          'n_frames': self.n_frames,
          'n_atoms': self.top.n_atoms,
          'box_type': self.unitcells is not None and self.top.box.type or None}
+=======
+>>>>>>> parent of b8ef017... deleting pytraj

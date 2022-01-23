@@ -1,6 +1,18 @@
 # distutils: language = c++
 from cython.operator cimport dereference as deref
+<<<<<<< HEAD
 from pytraj.utils.decorators import makesureABC
+=======
+from pytraj.core.c_dict cimport RetTypeAna, OKANALYSIS, ERRANALYSIS
+from pytraj.utils.decorators import makesureABC
+from pytraj.externals.six import PY3
+from pytraj.externals.six import string_types
+
+cdef extern from "Analysis.h":
+    ctypedef enum RetType "Analysis::RetType":
+        OKANALYSIS "Analysis::OK"
+        ERRANALYSIS "Analysis::ERR"
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 cdef class Analysis:
@@ -43,7 +55,11 @@ cdef class Analysis:
         analysis_setup_ = _AnalysisSetup(dslist.thisptr[0], dflist.thisptr[0])
 
 
+<<<<<<< HEAD
         if isinstance(command, str):
+=======
+        if isinstance(command, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             arglist = ArgList(command)
         elif isinstance(command, ArgList):
             arglist = <ArgList> command

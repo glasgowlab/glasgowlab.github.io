@@ -1,9 +1,17 @@
 """perform nucleic acid analysis
 """
+<<<<<<< HEAD
 
 import numpy as np
 from ..utils.get_common_objects import get_topology, get_resrange
 from ..utils.get_common_objects import get_reference, get_fiterator
+=======
+from __future__ import absolute_import
+import numpy as np
+from ..utils.get_common_objects import get_topology, get_resrange
+from ..utils.get_common_objects import get_reference, get_fiterator
+from pytraj.externals.six import iteritems, string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 
 __all__ = ['nastruct', 'nupars']
 
@@ -17,7 +25,11 @@ def _group(self, key):
     for item in self:
         d[key(item)](item)
     rv = {}
+<<<<<<< HEAD
     for k, v in d.items():
+=======
+    for k, v in iteritems(d):
+>>>>>>> parent of b8ef017... deleting pytraj
         rv[k] = v.__self__
     return rv
 
@@ -116,7 +128,10 @@ def nastruct(traj=None,
     act = c_action.Action_NAstruct(command, top=_top, dslist=dslist)
     act.compute(ref)
     act.compute(fi)
+<<<<<<< HEAD
     act.post_process()
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
     if dtype == 'cpptraj_dataset':
         return dslist
@@ -209,7 +224,11 @@ class nupars(object):
         self._summary(np.mean, indices=range(2, 8))
         '''
         _keys = keys if keys is not None else self.keys()
+<<<<<<< HEAD
         if isinstance(_keys, str):
+=======
+        if isinstance(_keys, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             _keys = [
                 _keys,
             ]

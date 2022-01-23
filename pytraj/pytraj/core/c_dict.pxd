@@ -150,6 +150,7 @@ cdef extern from "Mol2File.h":
         SUBSTRUCT "Mol2File::SUBSTRUCT"
 
 cdef extern from "Box.h":
+<<<<<<< HEAD
     ctypedef enum BoxType "Box::CellShapeType":
         NO_SHAPE "Box::NO_SHAPE"
         CUBIC "Box::CUBIC"
@@ -161,6 +162,14 @@ cdef extern from "Box.h":
         RHOMBOHEDRAL "Box::RHOMBOHEDRAL"
         OCTAHEDRAL "Box::OCTAHEDRAL"
         RHOMBIC_DODECAHEDRON "Box::RHOMBIC_DODECAHEDRON"
+=======
+    ctypedef enum BoxType "Box::BoxType":
+        NOBOX "Box::NOBOX"
+        ORTHO "Box::ORTHO"
+        TRUNCOCT "Box::TRUNCOCT"
+        RHOMBIC "Box::RHOMBIC"
+        NONORTHO "Box::NONORTHO"
+>>>>>>> parent of b8ef017... deleting pytraj
 
 cdef extern from "TrajectoryFile.h":
     ctypedef enum TrajFormatType "TrajectoryFile::TrajFormatType":

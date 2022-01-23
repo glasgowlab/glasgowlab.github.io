@@ -1,6 +1,9 @@
 import unittest
 from pytraj import *
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class Test(unittest.TestCase):
@@ -11,8 +14,12 @@ class Test(unittest.TestCase):
 
             FA(fn('Tc5b.x'), fn('Tc5b.top'))
 
+<<<<<<< HEAD
         with pytest.raises(TypeError):
             test_class()
+=======
+        self.assertRaises(TypeError, lambda: test_class())
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 if __name__ == "__main__":

@@ -52,9 +52,15 @@ class TestActionList(unittest.TestCase):
         aa_eq(traj_on_disk.xyz, traj_on_mem.xyz)
 
     def test_combination_of_differnt_transformations(self):
+<<<<<<< HEAD
         traj_on_disk = pt.datafiles.load_tz2_ortho()
         traj_on_disk_2 = pt.datafiles.load_tz2_ortho()
         traj_on_mem = pt.datafiles.load_tz2_ortho()[:]
+=======
+        traj_on_disk = pt.iterload(fn, tn)
+        traj_on_disk_2 = pt.iterload(fn, tn)
+        traj_on_mem = pt.load(fn, tn)
+>>>>>>> parent of b8ef017... deleting pytraj
 
         ref = pt.autoimage(traj_on_disk[:1])
 
@@ -81,6 +87,11 @@ class TestActionList(unittest.TestCase):
         aa_eq(traj_on_mem[:1].xyz, traj_on_disk[:1].xyz)
         aa_eq(traj_on_mem[:].xyz, traj_on_disk[:].xyz)
 
+<<<<<<< HEAD
+=======
+        from pytraj.externals.six import zip
+
+>>>>>>> parent of b8ef017... deleting pytraj
         for f0, f1 in zip(traj_on_disk(0, 8, 2), traj_on_mem(0, 8, 2)):
             aa_eq(f0.xyz, f1.xyz)
 

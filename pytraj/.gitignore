@@ -9,9 +9,14 @@ tests/TestListTravis.sh
 *nogit*
 Makefile
 set_env.sh
+<<<<<<< HEAD
 venv
 __pycache__
 
 # editors
 .idea
+=======
+
+# editors
+>>>>>>> parent of b8ef017... deleting pytraj
 .vscode

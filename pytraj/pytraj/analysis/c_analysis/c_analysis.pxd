@@ -20,11 +20,18 @@ cdef extern from "ActionState.h":
 
 ctypedef _ActionInit _AnalysisSetup
 
+<<<<<<< HEAD
 cdef extern from "Analysis.h": 
     ctypedef enum RetType "Analysis::RetType":
         OKANALYSIS "Analysis::OK"
         ERRANALYSIS "Analysis::ERR"
 
+=======
+
+cdef extern from "Analysis.h": 
+    ctypedef enum RetType "Analysis::RetType":
+        pass
+>>>>>>> parent of b8ef017... deleting pytraj
     cdef cppclass _Analysis "Analysis" nogil:
         RetType Setup(_ArgList&, _AnalysisSetup&, int)
         RetType Analyze()

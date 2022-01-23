@@ -6,6 +6,10 @@ import pytraj as pt
 from utils import fn
 from pytraj.testing import aa_eq
 from pytraj.testing import cpptraj_test_dir
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import zip
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.analysis.nmr import _ired
 
 parm_dir = cpptraj_test_dir + '/Test_IRED/1IEE_A_prot.prmtop'

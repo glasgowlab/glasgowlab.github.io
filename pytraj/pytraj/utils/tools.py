@@ -3,12 +3,21 @@ If want to use external package, import it inside the function
 
 This module stores all useful functions that does not fit to anywhere else.
 """
+<<<<<<< HEAD
 
+=======
+from __future__ import absolute_import
+import sys as _sys
+>>>>>>> parent of b8ef017... deleting pytraj
 import os
 from itertools import islice
 from collections import OrderedDict, defaultdict
 import numpy as np
+<<<<<<< HEAD
 from functools import reduce
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class WrapBareIterator(object):
@@ -68,6 +77,20 @@ def _array_to_cpptraj_range(seq):
     return ",".join((str(i + 1) for i in seq))
 
 
+<<<<<<< HEAD
+=======
+# string_types, PY2, PY3, iteritems were copied from six.py
+# see license in $PYTRAJHOME/license/externals/
+PY2 = _sys.version_info[0] == 2
+PY3 = _sys.version_info[0] == 3
+
+if PY3:
+    _iteritems = "items"
+else:  # pragma: no covert
+    _iteritems = "iteritems"
+
+
+>>>>>>> parent of b8ef017... deleting pytraj
 def iteritems(d, **kw):
     """Return an iterator over the (key, value) pairs of a dictionary.
 
@@ -77,8 +100,20 @@ def iteritems(d, **kw):
     x 3
     y 4
     """
+<<<<<<< HEAD
     return iter(d.items())(**kw)
 
+=======
+    return iter(getattr(d, _iteritems)(**kw))
+
+
+try:
+    # PY3
+    from functools import reduce
+except ImportError:
+    #
+    pass
+>>>>>>> parent of b8ef017... deleting pytraj
 
 # this module gathers commonly used functions
 # from toolz, stackoverflow, ... and from myself
@@ -198,7 +233,11 @@ def flatten(x):
     result = []
     for el in x:
         # if isinstance(el, (list, tuple)):
+<<<<<<< HEAD
         if hasattr(el, "__iter__") and not isinstance(el, str):
+=======
+        if hasattr(el, "__iter__") and not isinstance(el, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             result.extend(flatten(el))
         else:
             result.append(el)
@@ -248,7 +287,13 @@ def dict_to_ndarray(dict_of_array):
     """
     if not isinstance(dict_of_array, OrderedDict):
         raise NotImplementedError("support only OrderedDict")
+<<<<<<< HEAD
     return np.array([v for _, v in dict_of_array.items()])
+=======
+    from pytraj.externals.six import iteritems
+
+    return np.array([v for _, v in iteritems(dict_of_array)])
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def concat_dict(iterables):
@@ -267,7 +312,11 @@ def concat_dict(iterables):
             # make a copy of first dict
             new_dict.update(d)
         else:
+<<<<<<< HEAD
             for k, v in new_dict.items():
+=======
+            for k, v in iteritems(new_dict):
+>>>>>>> parent of b8ef017... deleting pytraj
                 new_dict[k] = np.concatenate((new_dict[k], d[k]))
     return new_dict
 
@@ -288,7 +337,11 @@ def merge_coordinates(iterables):
            [ 34.4160347 ,   8.53098011,  15.01716137],
            [ 34.29132462,   8.27471733,  16.50368881]])
     """
+<<<<<<< HEAD
     return np.vstack([f.xyz.copy() for f in iterables])
+=======
+    return np.vstack((f.xyz.copy() for f in iterables))
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def merge_frames(iterables):
@@ -303,7 +356,11 @@ def merge_frames(iterables):
     <Frame with 15879 atoms>
     """
     from pytraj import Frame
+<<<<<<< HEAD
     xyz = np.vstack([f.xyz.copy() for f in iterables])
+=======
+    xyz = np.vstack((f.xyz.copy() for f in iterables))
+>>>>>>> parent of b8ef017... deleting pytraj
     frame = Frame()
     frame.append_xyz(xyz)
     return frame
@@ -421,6 +478,10 @@ def split_traj_by_residues(traj, start=0, stop=-1, step=1):
     >>> print(t0.top.n_residues)
     1
     '''
+<<<<<<< HEAD
+=======
+    from pytraj.externals.six.moves import range
+>>>>>>> parent of b8ef017... deleting pytraj
     from pytraj.utils.cyutils import get_positive_idx
 
     _stop = get_positive_idx(stop, traj.top.n_residues)
@@ -505,6 +566,10 @@ def merge_trajs(traj1, traj2, start_new_mol=True, n_frames=None):
     -----
     Code might be changed
     """
+<<<<<<< HEAD
+=======
+    from pytraj.externals.six import zip
+>>>>>>> parent of b8ef017... deleting pytraj
     from pytraj import Trajectory
     import numpy as np
 
@@ -534,8 +599,13 @@ def merge_trajs(traj1, traj2, start_new_mol=True, n_frames=None):
 
     # merge Topology
     top = top1.copy()
+<<<<<<< HEAD
     #if start_new_mol:
     #    top.start_new_mol()
+=======
+    if start_new_mol:
+        top.start_new_mol()
+>>>>>>> parent of b8ef017... deleting pytraj
     top.join(top2)
     traj.top = top
 

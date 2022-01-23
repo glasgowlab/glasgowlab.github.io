@@ -3,6 +3,10 @@ import numpy as np
 import pytraj as pt
 from utils import fn
 from pytraj.testing import aa_eq
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import zip
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.testing import aa_eq
 
 

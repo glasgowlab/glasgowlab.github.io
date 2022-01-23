@@ -8,6 +8,10 @@ from pytraj import ired_vector_and_matrix, rotation_matrix
 from pytraj import NH_order_parameters
 from multiprocessing import cpu_count
 from pytraj.utils.tools import concat_dict
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.utils.get_common_objects import get_reference
 
 from .base import worker_by_func
@@ -153,7 +157,11 @@ def _pmap(func, traj, *args, **kwargs):
     if 'ref' in kwargs:
         kwargs['ref'] = get_reference(traj, kwargs['ref'])
 
+<<<<<<< HEAD
     if isinstance(func, (list, tuple, str)):
+=======
+    if isinstance(func, (list, tuple, string_types)):
+>>>>>>> parent of b8ef017... deleting pytraj
         # assume using _load_batch_pmap
         from pytraj.parallel.base import _load_batch_pmap
         #check_valid_command(func)

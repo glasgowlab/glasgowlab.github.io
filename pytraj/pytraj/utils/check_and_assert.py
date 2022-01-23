@@ -1,6 +1,10 @@
 from __future__ import absolute_import
 import os
 import numbers
+<<<<<<< HEAD
+=======
+from ..externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def eq(arr0, arr1):
@@ -12,14 +16,32 @@ def file_exist(filename):
     return os.path.isfile(filename)
 
 
+<<<<<<< HEAD
 def is_range(obj):
     return 'range' in obj.__class__.__name__
+=======
+def is_word_in_class_name(obj, word):
+    """check if a `word` is in obj.__class__.__name__
+    """
+    return word in obj.__class__.__name__
+
+
+def is_range(obj):
+    return is_word_in_class_name(obj, 'range')
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def is_array(obj):
     """check if a `word` is in obj.__class__.__name__
     """
+<<<<<<< HEAD
     return 'array' in obj.__class__.__name__
+=======
+    if is_word_in_class_name(obj, 'array'):
+        return True
+    else:
+        return False
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def are_instance(obj_list, cls):
@@ -83,7 +105,11 @@ def ensure_not_none_or_string(obj):
     '''
     name = obj.__str__()
     msg = "<%s> is a wrong input. Can not use `None` or string type" % name
+<<<<<<< HEAD
     if obj is None or isinstance(obj, str):
+=======
+    if obj is None or isinstance(obj, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         raise ValueError(msg)
 
 

@@ -4,7 +4,11 @@ from utils import fn
 import numpy as np
 import unittest
 from pytraj.testing import aa_eq
+<<<<<<< HEAD
 import pytest
+=======
+from pytraj.externals.six import izip as zip
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class TestSearchHbonds(unittest.TestCase):
@@ -24,8 +28,13 @@ class TestSearchHbonds(unittest.TestCase):
             aa_eq(mydict[key], mydict_np[key])
 
         # raise if dtype='hbond' and series=False
+<<<<<<< HEAD
         with pytest.raises(ValueError):
             pt.hbond(traj, series=False, dtype='hbond')
+=======
+        self.assertRaises(ValueError,
+                          lambda: pt.hbond(traj, series=False, dtype='hbond'))
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def test_hbonds_with_image(self):
         traj = pt.iterload(fn('tz2.ortho.nc'), fn('tz2.ortho.parm7'))

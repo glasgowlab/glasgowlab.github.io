@@ -1,14 +1,27 @@
 # distutils: language = c++
 import os
+<<<<<<< HEAD
 import warnings
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 import numpy as np
 from ..trajectory import Trajectory
 
 from ...utils.cyutils import get_positive_idx
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from ..shared_methods import (my_str_method, _xyz, _box)
 from ...utils.check_and_assert import ensure_exist
 from ...utils.check_and_assert import is_array, is_range
 
+<<<<<<< HEAD
+=======
+# do not use compat for range here. Let Cython handle
+#from ..externals.six.moves import range
+
+>>>>>>> parent of b8ef017... deleting pytraj
 
 def _split_range(int chunksize, int start, int stop):
     '''split a given range to n_chunks
@@ -51,6 +64,11 @@ cdef class TrajectoryCpptraj:
         top : Topology-like object
         take_slice : add slice
         '''
+<<<<<<< HEAD
+=======
+        ensure_exist(filename)
+
+>>>>>>> parent of b8ef017... deleting pytraj
         cdef Topology tmp_top
         cdef ArgList _arglist
 
@@ -84,7 +102,11 @@ cdef class TrajectoryCpptraj:
         # slice(0, 10, None) --> python does not take last `10`
         arg = " ".join((str(start), str(stop), str(step)))
 
+<<<<<<< HEAD
         if isinstance(filename, str):
+=======
+        if isinstance(filename, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # use absolute path so we can go to different folder
             filename = os.path.abspath(filename)
             _arglist = ArgList(arg)
@@ -195,7 +217,11 @@ cdef class TrajectoryCpptraj:
 
         if mask is not None:
             #    del frame.thisptr
+<<<<<<< HEAD
             if isinstance(mask, str):
+=======
+            if isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 atm = self.top(mask)
             else:
                 try:
@@ -269,7 +295,11 @@ cdef class TrajectoryCpptraj:
                     if self._being_transformed:
                         self._do_transformation(frame)
                     farray._xyz[idx] = frame.xyz
+<<<<<<< HEAD
                     farray._boxes[idx] = frame.box.values
+=======
+                    farray._boxes[idx] = frame.box._get_data()
+>>>>>>> parent of b8ef017... deleting pytraj
                 yield farray
 
     def __setitem__(self, idx, value):
@@ -304,26 +334,40 @@ cdef class TrajectoryCpptraj:
             self.tmpfarray = _farray
             # hold _farray in self.tmpfarray to avoid memory lost
             return self.tmpfarray
+<<<<<<< HEAD
         elif isinstance(idxs, str):
+=======
+        elif isinstance(idxs, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # return array with given mask
             # traj['@CA']
             mask = idxs
             try:
                 return self[self.top(mask)]
             except:
+<<<<<<< HEAD
                 raise NotImplementedError(f"not supported keyword {idxs}")
+=======
+                txt = "not supported keyword `%s`" % idxs
+                raise NotImplementedError(txt)
+>>>>>>> parent of b8ef017... deleting pytraj
         elif isinstance(idxs, slice):
             start, stop, step = idxs.indices(self.n_frames)
             self.tmpfarray = self._load_traj_by_indices(range(start, stop, step))
             return self.tmpfarray
         else:
+<<<<<<< HEAD
             # not is a slice or string or AtomMask
+=======
+            # not is a slice
+>>>>>>> parent of b8ef017... deleting pytraj
             if idxs == ():
                 return self
             elif isinstance(idxs, tuple):
                 idxs_size = len(idxs)
                 if idxs_size >= 4:
                     raise NotImplementedError("number of elements must me smaller than 4")
+<<<<<<< HEAD
                 elif idxs_size == 1:
                     return self[idxs[0]]
 
@@ -331,13 +375,21 @@ cdef class TrajectoryCpptraj:
                     # move the atom stripping to the end
                     idxs = tuple(idxs[1:] + (idxs[0],))
                 idx0 = idxs[0]
+=======
+                idx0 = idxs[0]
+
+>>>>>>> parent of b8ef017... deleting pytraj
                 idx1 = idxs[1]
                 if isinstance(self[idx0], Frame):
                     frame = self[idx0]
                     if self._being_transformed:
                         self._do_transformation(frame)
                     self.tmpfarray = frame
+<<<<<<< HEAD
                     if isinstance(idx1, str):
+=======
+                    if isinstance(idx1, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                         # traj[0, '@CA']
                         atm = self.top(idx1)
                         self.tmpfarray = Frame(frame, atm)
@@ -348,7 +400,11 @@ cdef class TrajectoryCpptraj:
                 elif isinstance(self[idx0], Trajectory):
                     farray = self[idx0]
                     self.tmpfarray = farray
+<<<<<<< HEAD
                     if isinstance(idx1, AtomMask) or isinstance(idx1, str):
+=======
+                    if isinstance(idx1, AtomMask) or isinstance(idx1, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                         if idxs_size == 2:
                             return self.tmpfarray[idxs[1]]
                         else:
@@ -359,6 +415,7 @@ cdef class TrajectoryCpptraj:
                         except:
                             raise NotImplementedError()
             elif is_array(idxs) or isinstance(idxs, list) or is_range(idxs):
+<<<<<<< HEAD
                 # Always return a Trajectory object
                 # traj[[2, 6, 3]]
                 # support indexing that having 'len'
@@ -368,6 +425,12 @@ cdef class TrajectoryCpptraj:
                         raise IndexError("boolean index did not match the number of frames = %s " % self.n_frames)
                     # Overwrite the `idxs`
                     idxs = np.arange(self.n_frames, dtype='int')[new_idxs]
+=======
+                # traj[[2, 6, 3]]
+                # support indexing that having 'len'
+                if any(isinstance(x, bool) for x in idxs):
+                    raise NotImplementedError("do not support bool indexing")
+>>>>>>> parent of b8ef017... deleting pytraj
                 self.tmpfarray = self._load_traj_by_indices(idxs)
                 return self.tmpfarray
 
@@ -459,14 +522,21 @@ cdef class TrajectoryCpptraj:
                 self.thisptr.GetFrame(i, frame.thisptr[0])
                 if self._being_transformed:
                     self._do_transformation(frame)
+<<<<<<< HEAD
                 traj.unitcells[j] = frame.box.values
+=======
+                traj.unitcells[j] = frame.box._get_data()
+>>>>>>> parent of b8ef017... deleting pytraj
                 if has_time:
                     traj.time[j] = frame.time
             return traj
 
         else:
             traj.velocities = np.zeros((n_frames, n_atoms, 3), dtype='f8')
+<<<<<<< HEAD
             traj.forces = np.zeros((n_frames, n_atoms, 3), dtype='f8')
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
             # slower
             frame = Frame()
             frame.thisptr[0] = self.thisptr.AllocateFrame()
@@ -479,9 +549,14 @@ cdef class TrajectoryCpptraj:
                 if self._being_transformed:
                     self._do_transformation(frame)
                 traj.xyz[j] = frame.xyz
+<<<<<<< HEAD
                 traj.unitcells[j] = frame.box.values
                 traj.velocities[j] = frame.velocity
                 traj.forces[j] = frame.force
+=======
+                traj.unitcells[j] = frame.box._get_data()
+                traj.velocities[j] = frame.velocity
+>>>>>>> parent of b8ef017... deleting pytraj
                 if has_time:
                     traj.time[j] = frame.time
             return traj
@@ -613,11 +688,14 @@ cdef class TrajectoryCpptraj:
          'n_atoms': 5293,
          'n_frames': 10}
         '''
+<<<<<<< HEAD
         warnings.warn("deprecated, use crdinfo", DeprecationWarning)
         return self._crdinfo
 
     @property
     def crdinfo(self):
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
         return self._crdinfo
 
     property _crdinfo:

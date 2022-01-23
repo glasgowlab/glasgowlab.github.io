@@ -143,6 +143,7 @@ MOL2WRITEMODEDict = {
 }
 
 BoxTypeDict = {
+<<<<<<< HEAD
         "NO_SHAPE": NO_SHAPE,
         "CUBIC": CUBIC,
         "TETRAGONAL": TETRAGONAL,
@@ -153,6 +154,13 @@ BoxTypeDict = {
         "RHOMBOHEDRAL": RHOMBOHEDRAL,
         "OCTAHEDRAL": OCTAHEDRAL,
         "RHOMBIC_DODECAHEDRON": RHOMBIC_DODECAHEDRON
+=======
+    "NOBOX": NOBOX,
+    "ORTHO": ORTHO,
+    "TRUNCOCT": TRUNCOCT,
+    "RHOMBIC": RHOMBIC,
+    "NONORTHO": NONORTHO,
+>>>>>>> parent of b8ef017... deleting pytraj
 }
 
 TrajFormatDict = {

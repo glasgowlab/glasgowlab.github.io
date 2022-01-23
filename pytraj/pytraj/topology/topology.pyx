@@ -13,10 +13,25 @@ import numpy as np
 from pytraj.core.c_dict import get_key, AtomicElementDict
 from pytraj.utils.check_and_assert import is_int, is_array
 from pytraj.utils.context import capture_stdout
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import PY2, PY3, string_types
+from pytraj.externals.six.moves import range
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.utils.check_and_assert import is_int
 from pytraj.core.c_dict import ParmFormatDict
 from pytraj.utils.convert import array_to_cpptraj_atommask
 
+<<<<<<< HEAD
+=======
+PY2 = sys.version_info[0] == 2
+PY3 = sys.version_info[0] == 3
+
+if PY3:
+    string_types = str
+else:
+    string_types = basestring
+>>>>>>> parent of b8ef017... deleting pytraj
 
 __all__ = ['Topology', 'ParmFile', 'SimplifiedTopology', 'SimplifiedAtom', 'SimplifiedResidue']
 
@@ -272,7 +287,11 @@ cdef class Topology:
                 # negative indexing
                 atom.thisptr[0] = self.thisptr.index_opr(self.n_atoms + i)
             return atom
+<<<<<<< HEAD
         elif isinstance(idx, str):
+=======
+        elif isinstance(idx, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # return atom object iterator with given mask
             # self(idx) return AtomMask object
             mask = idx
@@ -293,10 +312,15 @@ cdef class Topology:
                 range(idx.first_atom_index, idx.last_atom_index))
             return self._get_new_from_mask(mask)
         elif isinstance(idx, Molecule):
+<<<<<<< HEAD
             # TODO fix for Molecule Unit
             #mol = idx
             #mask = array_to_cpptraj_atommask(range(mol.begin_atom, mol.end_atom))
             raise NotImplementedError("")
+=======
+            mol = idx
+            mask = array_to_cpptraj_atommask(range(mol.begin_atom, mol.end_atom))
+>>>>>>> parent of b8ef017... deleting pytraj
         else:
             raise NotImplementedError("")
 
@@ -479,6 +503,12 @@ cdef class Topology:
             set_world_silent(True)
         print(out)
 
+<<<<<<< HEAD
+=======
+    def start_new_mol(self):
+        self.thisptr.StartNewMol()
+
+>>>>>>> parent of b8ef017... deleting pytraj
     property filename:
         """return original filename. This is for testing purpose.
         """
@@ -567,7 +597,11 @@ cdef class Topology:
             atm = self(mask)
             return self._modify_state_by_mask(atm)
 
+<<<<<<< HEAD
     def strip(Topology self, mask):
+=======
+    def strip(Topology self, mask, copy=False):
+>>>>>>> parent of b8ef017... deleting pytraj
         """strip atoms with given mask"""
         cdef AtomMask atm
         cdef Topology new_top
@@ -577,11 +611,20 @@ cdef class Topology:
         if atm.n_atoms == 0:
             raise ValueError("number of stripped atoms must be > 1")
         atm.invert_mask()
+<<<<<<< HEAD
 
         cdef _Topology *top_ptr = self.thisptr.modifyStateByMask(atm.thisptr[0])
         # Delete existing topology to avoid memory leak
         del self.thisptr
         self.thisptr = top_ptr
+=======
+        new_top = self._modify_state_by_mask(atm)
+
+        if copy:
+            return new_top
+        else:
+            self.thisptr[0] = new_top.thisptr[0]
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def is_empty(self):
         return self.n_atoms == 0
@@ -704,11 +747,18 @@ cdef class Topology:
 
             for btype.thisptr[0] in bondarray:
                 yield btype
+<<<<<<< HEAD
                 btype = BondType()
 
     property angles:
         def __get__(self):
             """return angle iterator"""
+=======
+
+    property angles:
+        def __get__(self):
+            """return bond iterator"""
+>>>>>>> parent of b8ef017... deleting pytraj
             cdef AngleArray anglearray, anglearray_h
             cdef AngleType atype = AngleType()
 
@@ -718,7 +768,10 @@ cdef class Topology:
 
             for atype.thisptr[0] in anglearray:
                 yield atype
+<<<<<<< HEAD
                 atype = AngleType()
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
     property dihedrals:
         def __get__(self):
@@ -732,7 +785,10 @@ cdef class Topology:
 
             for dhtype.thisptr[0] in dharr:
                 yield dhtype
+<<<<<<< HEAD
                 dhtype = DihedralType()
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
     property bond_indices:
         def __get__(self):
@@ -761,16 +817,28 @@ cdef class Topology:
             atom.set_mol(mol_number)
             residue = Residue(resname, resid)
             self.add_atom(atom, residue)
+<<<<<<< HEAD
+=======
+            if idx == 0:
+                self.start_new_mol()
+            if mol_number > MOLNUM:
+                self.start_new_mol()
+                MOLNUM += 1
+>>>>>>> parent of b8ef017... deleting pytraj
 
         # add box
         box = Box(d['box'])
         self.box = box
 
         self.add_bonds(d['bond_index'])
+<<<<<<< HEAD
         self.thisptr.DetermineMolecules()
         dihedral_index = d['dihedral_index']
         if dihedral_index.shape[0] != 0:
             self.add_dihedrals(d['dihedral_index'])
+=======
+        self.add_dihedrals(d['dihedral_index'])
+>>>>>>> parent of b8ef017... deleting pytraj
 
     @classmethod
     def from_dict(cls, dict_data):
@@ -862,7 +930,11 @@ cdef class Topology:
         from pytraj.utils import tempfolder
 
         with tempfolder():
+<<<<<<< HEAD
             self.save("tmp.prmtop")
+=======
+            self.save("tmp.prmtop", overwrite=True)
+>>>>>>> parent of b8ef017... deleting pytraj
             return pmd.load_file("tmp.prmtop")
 
 cdef class ParmFile:
@@ -890,7 +962,11 @@ cdef class ParmFile:
         if not option:
             self.thisptr.ReadTopology(_top.thisptr[0], filename, debug)
         else:
+<<<<<<< HEAD
             if isinstance(option, str):
+=======
+            if isinstance(option, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
                 arglist = ArgList(option)
             else:
                 arglist = <ArgList > option

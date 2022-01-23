@@ -1,10 +1,18 @@
 #!/usr/bin/env python
 
+<<<<<<< HEAD
+=======
+from __future__ import print_function
+>>>>>>> parent of b8ef017... deleting pytraj
 import unittest
 import pytraj as pt
 from utils import fn
 from pytraj.testing import aa_eq
 from pytraj.utils.get_common_objects import super_dispatch
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class TestSuperDispatch(unittest.TestCase):
@@ -28,14 +36,22 @@ class TestSuperDispatch(unittest.TestCase):
 
         # make sure to convert array to Amber mask
         def func_convert_mask_array(traj, top=None, mask=None):
+<<<<<<< HEAD
             assert isinstance(mask, str)
+=======
+            assert isinstance(mask, string_types)
+>>>>>>> parent of b8ef017... deleting pytraj
 
         func = super_dispatch()(func_convert_mask_array)
         func(self.traj, mask=[0, 3, 7])
 
         # test all: top, mask, ref
         def func_all_3(traj, mask='', ref=0, top=None):
+<<<<<<< HEAD
             assert isinstance(mask, str)
+=======
+            assert isinstance(mask, string_types)
+>>>>>>> parent of b8ef017... deleting pytraj
             assert isinstance(ref, pt.Frame)
             assert isinstance(top, pt.Topology)
 

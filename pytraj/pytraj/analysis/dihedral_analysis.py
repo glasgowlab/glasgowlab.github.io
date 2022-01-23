@@ -67,6 +67,10 @@ def %s(traj=None, resrange="",
     from ..datasets.c_datasetlist import DatasetList
     from .c_action.c_action import Action_MultiDihedral
     from ..utils.get_common_objects import get_data_from_dtype
+<<<<<<< HEAD
+=======
+    from ..externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
     from ..utils import is_int
 
     if range360:
@@ -78,7 +82,11 @@ def %s(traj=None, resrange="",
         if is_int(resrange):
             resrange = [resrange,]
 
+<<<<<<< HEAD
         if isinstance(resrange, str):
+=======
+        if isinstance(resrange, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             _resrange = "resrange " + str(resrange)
         else:
             from pytraj.utils import convert as cv

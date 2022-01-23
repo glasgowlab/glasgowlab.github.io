@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 import pickle
+=======
+from __future__ import absolute_import
+from ..externals.six.moves import cPickle as pkl
+from ..externals.six import PY3
+
+>>>>>>> parent of b8ef017... deleting pytraj
 
 # all below are adapted from pandas package
 def to_pickle(obj, path):
@@ -12,7 +19,11 @@ def to_pickle(obj, path):
         File path
     """
     with open(path, 'wb') as f:
+<<<<<<< HEAD
         pickle.dump(obj, f, protocol=pickle.HIGHEST_PROTOCOL)
+=======
+        pkl.dump(obj, f, protocol=pkl.HIGHEST_PROTOCOL)
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def read_pickle(path):
@@ -43,9 +54,19 @@ def read_pickle(path):
         # cpickle
         # GH 6899
         with open(path, 'rb') as fh:
+<<<<<<< HEAD
             return pickle.load(fh)
+=======
+            return pkl.load(fh)
+>>>>>>> parent of b8ef017... deleting pytraj
 
     try:
         return try_read(path)
     except:
+<<<<<<< HEAD
         return try_read(path, encoding='latin1')
+=======
+        if PY3:
+            return try_read(path, encoding='latin1')
+        raise
+>>>>>>> parent of b8ef017... deleting pytraj

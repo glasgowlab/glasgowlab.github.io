@@ -15,6 +15,10 @@ from .utils.context import tempfolder
 from .utils.context import capture_stdout
 from .utils.convert import array_to_cpptraj_atommask
 from .utils.convert import array2d_to_cpptraj_maskgroup
+<<<<<<< HEAD
+=======
+from .externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from .datasets.c_datasetlist import DatasetList as CpptrajDatasetList
 from .datasets.datasetlist import DatasetList
 from .trajectory.shared_methods import iterframe_master
@@ -223,8 +227,11 @@ def distance(traj=None,
     traj = get_fiterator(traj, frame_indices)
     top_ = get_topology(traj, top)
     noimage_ = 'noimage' if not image else ''
+<<<<<<< HEAD
     if hasattr(traj, 'crdinfo') and not traj.crdinfo['has_box'] and top_.has_box():
         noimage_ = 'noimage'
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
     cm_arr = np.asarray(command)
 
@@ -249,7 +256,11 @@ def distance(traj=None,
             dslist = DatasetList({'distance': arr})
             return get_data_from_dtype(dslist, dtype)
 
+<<<<<<< HEAD
     elif isinstance(command, (list, tuple, str, np.ndarray)):
+=======
+    elif isinstance(command, (list, tuple, string_types, np.ndarray)):
+>>>>>>> parent of b8ef017... deleting pytraj
         # create a list
         if not isinstance(command, np.ndarray):
             list_of_commands = get_list_of_commands(command)
@@ -260,7 +271,11 @@ def distance(traj=None,
         actlist = ActionList()
 
         for cm in list_of_commands:
+<<<<<<< HEAD
             if noimage_:
+=======
+            if not image:
+>>>>>>> parent of b8ef017... deleting pytraj
                 cm = ' '.join((cm, noimage_))
             actlist.add(c_action.Action_Distance(), cm, top_, dslist=c_dslist)
 
@@ -365,9 +380,15 @@ def pairwise_distance(traj=None,
 
     top_ = get_topology(traj, top)
     indices_1 = top_.select(mask_1) if isinstance(mask_1,
+<<<<<<< HEAD
                                                   str) else mask_1
     indices_2 = top_.select(mask_2) if isinstance(mask_2,
                                                   str) else mask_2
+=======
+                                                  string_types) else mask_1
+    indices_2 = top_.select(mask_2) if isinstance(mask_2,
+                                                  string_types) else mask_2
+>>>>>>> parent of b8ef017... deleting pytraj
     arr = np.array(list(product(indices_1, indices_2)))
     mat = distance(
         traj, mask=arr, dtype=dtype, top=top_, frame_indices=frame_indices)
@@ -435,7 +456,11 @@ def angle(traj=None,
     cm_arr = np.asarray(command)
 
     if 'int' not in cm_arr.dtype.name:
+<<<<<<< HEAD
         if isinstance(command, str):
+=======
+        if isinstance(command, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # need to remove 'n_frames' keyword since Action._master does not use
             # it
             try:
@@ -576,7 +601,11 @@ def dihedral(traj=None,
     cm_arr = np.asarray(command)
 
     if 'int' not in cm_arr.dtype.name:
+<<<<<<< HEAD
         if isinstance(command, str):
+=======
+        if isinstance(command, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # need to remove 'n_frames' keyword since Action._master does not use
             # it
             try:
@@ -642,7 +671,11 @@ def mindist(traj=None,
     >>> traj = pt.datafiles.load_tz2()
     >>> data = pt.mindist(traj, '@CA @H')
     '''
+<<<<<<< HEAD
     if not isinstance(command, str):
+=======
+    if not isinstance(command, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         command = array2d_to_cpptraj_maskgroup(command)
     command = "mindist " + command
 
@@ -1021,10 +1054,17 @@ def rdf(traj=None,
     '''
 
     traj = get_fiterator(traj, frame_indices)
+<<<<<<< HEAD
     if not isinstance(solvent_mask, str):
         solvent_mask = array_to_cpptraj_atommask(solvent_mask)
 
     if not isinstance(solute_mask, str) and solute_mask is not None:
+=======
+    if not isinstance(solvent_mask, string_types):
+        solvent_mask = array_to_cpptraj_atommask(solvent_mask)
+
+    if not isinstance(solute_mask, string_types) and solute_mask is not None:
+>>>>>>> parent of b8ef017... deleting pytraj
         solute_mask = array_to_cpptraj_atommask(solute_mask)
 
     spacing_ = str(bin_spacing)
@@ -1156,8 +1196,11 @@ def autoimage(traj, mask="", frame_indices=None, top=None):
     >>> traj = pt.datafiles.load_tz2_ortho()[:]
     >>> traj = pt.autoimage(traj)
     '''
+<<<<<<< HEAD
     top = top or traj.top
     assert top.has_box(), "Topology must have box information"
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
     _assert_mutable(traj)
     command = mask
     do_action(traj, command, c_action.Action_AutoImage, top=top)
@@ -1240,7 +1283,11 @@ def mean_structure(traj,
         fi = get_fiterator(traj, frame_indices)
 
     c_dslist = CpptrajDatasetList()
+<<<<<<< HEAD
     if not isinstance(mask, str):
+=======
+    if not isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         mask = array_to_cpptraj_atommask(mask)
     else:
         mask = mask
@@ -1311,7 +1358,11 @@ def get_velocity(traj, mask=None, frame_indices=None):
     if mask is None:
         atm_indices = None
     else:
+<<<<<<< HEAD
         if not isinstance(mask, str):
+=======
+        if not isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # array-like
             atm_indices = mask
         else:
@@ -1416,7 +1467,11 @@ def multidihedral(traj=None,
     >>> data = pt.multidihedral(traj, dihedral_types='phi psi', resrange=[3, 4, 8])
     """
     if resrange:
+<<<<<<< HEAD
         if isinstance(resrange, str):
+=======
+        if isinstance(resrange, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             _resrange = "resrange " + str(resrange)
         else:
             from pytraj.utils import convert as cv
@@ -1516,7 +1571,11 @@ def bfactors(traj=None,
 
     # need to convert to string mask
     # do not use super_dispatch again
+<<<<<<< HEAD
     if not isinstance(mask, str):
+=======
+    if not isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         mask = array_to_cpptraj_atommask(mask)
     command_ = " ".join((mask, byres_text, "bfactor"))
     return atomicfluct(
@@ -1822,7 +1881,11 @@ def native_contacts(traj=None,
     act = c_action.Action_NativeContacts()
     c_dslist = CpptrajDatasetList()
 
+<<<<<<< HEAD
     if not isinstance(mask2, str):
+=======
+    if not isinstance(mask2, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         # [1, 3, 5] to "@1,3,5
         mask2 = array_to_cpptraj_atommask(mask2)
     mask_ = ' '.join((mask, mask2))
@@ -2205,7 +2268,11 @@ def center(traj=None,
     --------
     pytraj.translate
     """
+<<<<<<< HEAD
     if not isinstance(center, str):
+=======
+    if not isinstance(center, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         center = 'point ' + ' '.join(str(x) for x in center)
     else:
         if center.lower() not in ['box', 'origin']:
@@ -2293,7 +2360,11 @@ def replicate_cell(traj=None,
     >>> new_traj = pt.replicate_cell(traj, direction=('001', '0-10'))
     >>> new_traj = pt.replicate_cell(traj, direction=['001', '0-10'])
     '''
+<<<<<<< HEAD
     if isinstance(direction, str):
+=======
+    if isinstance(direction, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         _direction = direction
     elif isinstance(direction, (list, tuple)):
         # example: direction = ('001, '0-10')
@@ -2323,7 +2394,11 @@ def set_dihedral(traj, resid=0, dihedral_type=None, deg=0, top=None):
     -------
     updated traj
     '''
+<<<<<<< HEAD
     if not isinstance(resid, str):
+=======
+    if not isinstance(resid, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         resid = str(resid + 1)
     deg = str(deg)
 
@@ -2602,10 +2677,17 @@ def gist(traj,
         User should always use the default dtype
     """
     grid_center_ = grid_center if isinstance(grid_center,
+<<<<<<< HEAD
                                              str) else " ".join(
                                                  str(x) for x in grid_center)
     grid_center_ = ' '.join(('gridcntr ', grid_center_))
     grid_dim_ = grid_dim if isinstance(grid_dim, str) else " ".join(
+=======
+                                             string_types) else " ".join(
+                                                 str(x) for x in grid_center)
+    grid_center_ = ' '.join(('gridcntr ', grid_center_))
+    grid_dim_ = grid_dim if isinstance(grid_dim, string_types) else " ".join(
+>>>>>>> parent of b8ef017... deleting pytraj
         str(x) for x in grid_dim)
     grid_dim_ = ' '.join(('griddim', grid_dim_))
     grid_spacing_ = str(grid_spacing)
@@ -2672,7 +2754,11 @@ def density(traj,
 
     delta_ = 'delta {}'.format(delta)
 
+<<<<<<< HEAD
     if isinstance(mask, str):
+=======
+    if isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         mask_ = '"' + mask + '"'
     elif isinstance(mask, (list, tuple)):
         mask_ = ' '.join(['"' + m + '"' for m in mask])
@@ -2878,7 +2964,11 @@ def strip(obj, mask):
     ValueError: object must be either Trajectory or Topology
     '''
 
+<<<<<<< HEAD
     if isinstance(obj, str) and not isinstance(mask, str):
+=======
+    if isinstance(obj, string_types) and not isinstance(mask, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         obj, mask = mask, obj
 
     kept_mask = '!(' + mask + ')'

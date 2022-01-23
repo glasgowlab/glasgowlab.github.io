@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import pytest
+=======
+import unittest
+>>>>>>> parent of b8ef017... deleting pytraj
 import pytraj as pt
 from utils import fn
 import numpy as np
 from pytraj import Trajectory
 from pytraj.testing import aa_eq
+<<<<<<< HEAD
 from pytraj.utils import Timer
 from pytraj.testing import cpptraj_test_dir
 import time
@@ -14,14 +19,29 @@ class TestSlicingTrajectory:
         traj = pt.iterload(fn('Tc5b.x'), fn('Tc5b.top'))
         xyz_source = traj.xyz[:].copy()
         traj_mem = traj[:]
+=======
+
+
+class TestSlicingTrajectory(unittest.TestCase):
+    def test_array_like(self):
+        traj = pt.iterload(fn('Tc5b.x'), fn('Tc5b.top'))
+        FA = traj[:]
+>>>>>>> parent of b8ef017... deleting pytraj
 
         # slicing with list or array
         indices = [1, 2, 3]
         fa = traj[indices]
+<<<<<<< HEAD
         fa2 = traj_mem[indices]
         fa3 = traj[range(1, 4)]
         fa4 = traj_mem[range(1, 4)]
         assert isinstance(fa, Trajectory)
+=======
+        fa2 = FA[indices]
+        fa3 = traj[range(1, 4)]
+        fa4 = FA[range(1, 4)]
+        self.assertIsInstance(fa, Trajectory)
+>>>>>>> parent of b8ef017... deleting pytraj
         # from TrajectoryIterator
         aa_eq(fa[0].xyz, traj[1].xyz)
         aa_eq(fa[1].xyz, traj[2].xyz)
@@ -29,16 +49,20 @@ class TestSlicingTrajectory:
         aa_eq(fa2[1].xyz, traj[2].xyz)
         aa_eq(fa2[0].xyz, traj[1].xyz)
 
+<<<<<<< HEAD
         # a list with one element
         assert isinstance(traj[[1,]], Trajectory)
         aa_eq(traj[[1,]].xyz, traj[1:2].xyz)
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
         # from "range"
         aa_eq(fa3[1].xyz, traj[2].xyz)
         aa_eq(fa3[0].xyz, traj[1].xyz)
         aa_eq(fa4[1].xyz, traj[2].xyz)
         aa_eq(fa4[0].xyz, traj[1].xyz)
 
+<<<<<<< HEAD
         # tuple
         aa_eq(traj[(1,)].xyz, xyz_source[1])
 
@@ -56,6 +80,8 @@ class TestSlicingTrajectory:
             traj[[False, True]]
 
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
     def test_velocity(self):
         traj = pt.iterload(
             fn('issue807/trunc.nc'), fn("issue807/system.prmtop"))
@@ -80,6 +106,7 @@ class TestSlicingTrajectory:
         aa_eq(traj[0, atm, 0], xyz[0][indices][0])
 
 
+<<<<<<< HEAD
 def test_slice_from_on_disk_trajectory():
     traj = pt.iterload(fn('Tc5b.x'), fn('Tc5b.top'))[:]
     
@@ -87,6 +114,12 @@ def test_slice_from_on_disk_trajectory():
     aa_eq(traj[3, 3], traj[3][3, :])
 
     # frame
+=======
+def test_slice_from_Trajin_Single():
+    # create Trajectory from Trajing_Single
+    traj = pt.iterload(fn('Tc5b.x'), fn('Tc5b.top'))[:]
+    aa_eq(traj[3, 3], traj[3][3, :])
+>>>>>>> parent of b8ef017... deleting pytraj
     frame1 = traj[1]
     aa_eq(frame1[0], traj[1][:, :][0])
     assert traj[0, 0, 0] == -16.492
@@ -109,6 +142,7 @@ def test_slice_from_on_disk_trajectory():
     traj[:, atm]
 
 
+<<<<<<< HEAD
 def test_speed():
 
     top_fname = f"{cpptraj_test_dir}/DOPC.parm7"
@@ -127,6 +161,8 @@ def test_speed():
     assert abs(t0.value - t1.value) < 0.5
 
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 def test_segmentation_fault():
     # NOTE: no assert, just check for segfault
     traj = pt.load(fn('Tc5b.x'), fn('Tc5b.top'))

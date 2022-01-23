@@ -5,7 +5,10 @@ import pytraj as pt
 from utils import fn
 from pytraj.testing import aa_eq
 from pytraj import load_batch
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class TestState(unittest.TestCase):
@@ -52,8 +55,12 @@ class TestState(unittest.TestCase):
         radgyr @CA nomax
         '''
 
+<<<<<<< HEAD
         with pytest.raises(ValueError):
             load_batch(t0, text)
+=======
+        self.assertRaises(ValueError, lambda: load_batch(t0, text))
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 if __name__ == "__main__":

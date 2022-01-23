@@ -21,6 +21,7 @@ def info():
     s = Cpptraj.Defines()
     return s.decode()
 
+<<<<<<< HEAD
 # These are functions in cpptraj specially wrapped for pytraj
 cdef extern from "ExternalFxn.h":
     void EXT_SetDefaultRng(int)
@@ -33,6 +34,8 @@ cdef extern from "ExternalFxn.h":
 def set_default_rng(rtype):
     EXT_SetDefaultRng(rtype) 
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 cdef extern from "CpptrajStdio.h":
     void SuppressErrorMsg(bint)
     void SetWorldSilent(bint)

@@ -5,6 +5,10 @@ from utils import fn
 
 from pytraj import adict
 from pytraj.testing import aa_eq, cpptraj_test_dir
+<<<<<<< HEAD
+=======
+from pytraj.externals.six import zip
+>>>>>>> parent of b8ef017... deleting pytraj
 from pytraj.utils.tools import rmsd_1darray
 
 
@@ -72,6 +76,7 @@ class TestRegular(unittest.TestCase):
         assert rmsd_1darray(xyz1.flatten(), xyz2.flatten()) < 1E-10
 
 
+<<<<<<< HEAD
 class TestWithRmsfit:
     def test_on_disk_trajectory(self, tmpdir):
         with tmpdir.as_cwd():
@@ -90,6 +95,25 @@ class TestWithRmsfit:
             # ensure iterable without memory freeing
             for f1, f2 in zip(p_traj, saved_traj):
                 aa_eq(f1.xyz, f2.xyz)
+=======
+class TestWithRmsfit(unittest.TestCase):
+    def test_on_disk_trajectory(self):
+        # TrajectoryIterrator
+        output = "ok_to_delete.nc"
+        traj = pt.iterload(fn('tz2.ortho.nc'), fn('tz2.ortho.parm7'))
+        pt.write_traj(
+            output,
+            traj(autoimage=True, rmsfit=(0, '@CA,C,N')),
+            overwrite=True)
+
+        saved_traj = pt.load(fn('tz2.autoimage_with_rmsfit.nc'), traj.top)
+        p_traj = pt.load(output, traj.top)
+
+        aa_eq(saved_traj.xyz, p_traj.xyz)
+        # ensure iterable without memory freeing
+        for f1, f2 in zip(p_traj, saved_traj):
+            aa_eq(f1.xyz, f2.xyz)
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def test_in_memory_trajectory(self):
         traj = pt.load(fn('tz2.ortho.nc'), fn('tz2.ortho.parm7'))
@@ -111,3 +135,9 @@ def test_autoimage_for_tightly_packed_systems():
     pt.autoimage(traj, 'anchor :96 origin')
     aa_eq(traj.xyz, saved_traj.xyz)
 
+<<<<<<< HEAD
+=======
+
+if __name__ == "__main__":
+    unittest.main()
+>>>>>>> parent of b8ef017... deleting pytraj

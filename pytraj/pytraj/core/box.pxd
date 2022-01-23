@@ -4,6 +4,7 @@ from ..cython_extra_header.cpp_vector cimport vector
 
 
 cdef extern from "Box.h": 
+<<<<<<< HEAD
     ctypedef enum CellShapeType "Box::CellShapeType":
         NO_SHAPE "Box::NO_SHAPE"
         CUBIC "Box::CUBIC"
@@ -30,6 +31,23 @@ cdef extern from "Box.h":
         int SetupFromUcell(const _Matrix_3x3 &)
         int SetupFromUcell(const double*)
         int SetupFromXyzAbg(const double*)
+=======
+    ctypedef enum BoxType "Box::BoxType":
+        NOBOX "Box::NOBOX"
+        ORTHO "Box::ORTHO"
+        TRUNCOCT "Box::TRUNCOCT"
+        RHOMBIC "Box::RHOMBIC"
+        NONORTHO "Box::NONORTHO"
+    cdef cppclass _Box "Box":
+        _Box() 
+        _Box(const double *)
+        _Box(const _Box &)
+        _Box(_Matrix_3x3 const)
+        #_Box & operator =(const _Box &)
+        const char * TypeName() const 
+        void SetBetaLengths(double, double, double, double)
+        void SetBox(const double *)
+>>>>>>> parent of b8ef017... deleting pytraj
         void SetTruncOct() 
         void SetNoBox() 
         void SetMissingInfo(const _Box &)
@@ -40,6 +58,7 @@ cdef extern from "Box.h":
         void SetAlpha(double ain)
         void SetBeta(double bin)
         void SetGamma(double gin)
+<<<<<<< HEAD
         # BoxType Type() const 
         # double BoxX() const 
         # double BoxY() const 
@@ -51,6 +70,19 @@ cdef extern from "Box.h":
         _Vec3 Center() const 
         _Vec3 Lengths() const 
         const double * XyzPtr() 
+=======
+        BoxType Type() const 
+        double BoxX() const 
+        double BoxY() const 
+        double BoxZ() const 
+        double Alpha() const 
+        double Beta() const 
+        double Gamma() const 
+        bint HasBox() const 
+        _Vec3 Center() const 
+        _Vec3 Lengths() const 
+        double * boxPtr() 
+>>>>>>> parent of b8ef017... deleting pytraj
         #const double * boxPtr() const 
         #const double& index_opr "operator[]"(int idx)const 
         double& index_opr "operator[]"(int idx)

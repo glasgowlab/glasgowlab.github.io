@@ -42,7 +42,10 @@ Supported platforms: Linux, OSX
 - from AMBER suite distribution [http://ambermd.org/](http://ambermd.org/#AmberTools).
 
 - from conda: `conda install -c ambermd pytraj`
+<<<<<<< HEAD
 - from AmberTools: `conda install -c conda-forge ambertools`
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 - from pip: `pip install pytraj`
 
@@ -85,9 +88,15 @@ Contributors and Acknowledgement
 Citation
 --------
 
+<<<<<<< HEAD
 If you would like to acknowledge our work, please cite both ``cpptraj`` and ``pytraj``.
 
 Something like: 
+=======
+If you would like to acknowledge our work, please cite both ``cpptraj`` and ``pytraj`` papers.
+
+something like: 
+>>>>>>> parent of b8ef017... deleting pytraj
 
     "...used pytraj [1], a Python package binding to cpptraj program [2]"
 

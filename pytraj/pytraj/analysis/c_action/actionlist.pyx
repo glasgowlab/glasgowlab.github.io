@@ -1,6 +1,10 @@
 # distutils: language = c++
 from cython.operator cimport dereference as deref
 
+<<<<<<< HEAD
+=======
+from ...externals.six import string_types
+>>>>>>> parent of b8ef017... deleting pytraj
 from .c_action import ActionDict
 from ...trajectory.shared_methods import iterframe_master
 
@@ -62,7 +66,11 @@ def pipe(traj, commands, DatasetList dslist=DatasetList(), frame_indices=None):
 
     if isinstance(commands, (list, tuple)):
         commands = commands
+<<<<<<< HEAD
     elif isinstance(commands, str):
+=======
+    elif isinstance(commands, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
         commands = [line.lstrip().rstrip()
                     for line in commands.split('\n') if line.strip() != '']
 
@@ -159,7 +167,11 @@ def compute(lines, traj, *args, **kwd):
     else:
         kwd.pop('color')
 
+<<<<<<< HEAD
     if isinstance(lines, (list, tuple, str)):
+=======
+    if isinstance(lines, (list, tuple, string_types)):
+>>>>>>> parent of b8ef017... deleting pytraj
         ref = kwd.get('ref')
         if ref is not None:
             if isinstance(ref, Frame):
@@ -298,7 +310,11 @@ cdef class ActionList:
         cdef _ActionInit actioninit_
         actioninit_ = _ActionInit(dslist.thisptr[0], dflist.thisptr[0])
 
+<<<<<<< HEAD
         if isinstance(action, str):
+=======
+        if isinstance(action, string_types):
+>>>>>>> parent of b8ef017... deleting pytraj
             # create action object from string
             action_ = ActionDict()[action]
         else:
@@ -314,8 +330,16 @@ cdef class ActionList:
         status = self.thisptr.AddAction(action_.baseptr, _arglist.thisptr[0],
                                         actioninit_)
 
+<<<<<<< HEAD
         if status != 0:
             raise ValueError("ERROR: " + "%s %s" % (action, command))
+=======
+        if check_status:
+            # return "0" if sucess "1" if failed
+            return status
+        else:
+            return None
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def setup(self, Topology top, crdinfo={}, n_frames_t=0, bint exit_on_error=True):
         '''perform Topology checking and some stuff

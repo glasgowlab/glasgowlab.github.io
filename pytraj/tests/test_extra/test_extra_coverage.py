@@ -51,6 +51,7 @@ class TestExtraCoverage(unittest.TestCase):
     def testget_common_objects(self):
         # raises
         # raise if try to index traj()
+<<<<<<< HEAD
         with pytest.raises(TypeError):
             get_reference(self.traj(), 3)
         with pytest.raises(TypeError):
@@ -59,6 +60,13 @@ class TestExtraCoverage(unittest.TestCase):
         # specify wrong mask
         with pytest.raises(TypeError):
             pt.superpose(self.traj[:], 3)
+=======
+        self.assertRaises(TypeError, lambda: get_reference(self.traj(), 3))
+        self.assertRaises(TypeError, lambda: get_reference(self.traj(), None))
+
+        # specify wrong mask
+        self.assertRaises(TypeError, lambda: pt.superpose(self.traj[:], 3))
+>>>>>>> parent of b8ef017... deleting pytraj
 
     def test_all_actions(self):
         with pytest.raises(ValueError):

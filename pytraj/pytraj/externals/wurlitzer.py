@@ -1,14 +1,46 @@
+<<<<<<< HEAD
 # The MIT License (MIT)
 # 
 # Copyright (c) 2016 Min RK
 
+=======
+# Note: This code is copied from
+# https://github.com/minrk/wurlitzer
+# git tag: e9549c29ead108cbe4e7cf5bf0cbe0dcbc1ce9e0
+
+# The MIT License (MIT)
+#
+# Copyright (c) 2016 Min RK
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+>>>>>>> parent of b8ef017... deleting pytraj
 """Capture C-level FD output on pipes
 
 Use `wurlitzer.pipes` or `wurlitzer.sys_pipes` as context managers.
 """
 from __future__ import print_function
 
+<<<<<<< HEAD
 __version__ = '2.0.2.dev'
+=======
+__version__ = '0.2.1.dev'
+>>>>>>> parent of b8ef017... deleting pytraj
 
 __all__ = [
     'pipes',
@@ -20,6 +52,7 @@ __all__ = [
 
 from contextlib import contextmanager
 import ctypes
+<<<<<<< HEAD
 import errno
 from fcntl import fcntl, F_GETFL, F_SETFL
 import io
@@ -39,6 +72,14 @@ except ImportError:
 import sys
 import threading
 import time
+=======
+from fcntl import fcntl, F_GETFL, F_SETFL
+import io
+import os
+import select
+import sys
+import threading
+>>>>>>> parent of b8ef017... deleting pytraj
 import warnings
 
 libc = ctypes.CDLL(None)
@@ -60,6 +101,7 @@ if _default_encoding.lower() == 'ascii':
     _default_encoding = 'utf8'  # pragma: no cover
 
 
+<<<<<<< HEAD
 def dup2(a, b, timeout=3):
     """Like os.dup2, but retry on EBUSY"""
     dup_err = None
@@ -77,6 +119,8 @@ def dup2(a, b, timeout=3):
         raise dup_err
 
 
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 class Wurlitzer(object):
     """Class for Capturing Process-level FD output via dup2
     
@@ -113,7 +157,11 @@ class Wurlitzer(object):
         self._save_fds[name] = save_fd
 
         pipe_out, pipe_in = os.pipe()
+<<<<<<< HEAD
         dup2(pipe_in, real_fd)
+=======
+        os.dup2(pipe_in, real_fd)
+>>>>>>> parent of b8ef017... deleting pytraj
         os.close(pipe_in)
         self._real_fds[name] = real_fd
 
@@ -125,7 +173,11 @@ class Wurlitzer(object):
     def _decode(self, data):
         """Decode data, if any
         
+<<<<<<< HEAD
         Called before passing to stdout/stderr streams
+=======
+        Called before pasing to stdout/stderr streams
+>>>>>>> parent of b8ef017... deleting pytraj
         """
         if self.encoding:
             data = data.decode(self.encoding, 'replace')
@@ -147,6 +199,7 @@ class Wurlitzer(object):
         """Finish handle, if anything should be done when it's all wrapped up."""
         pass
 
+<<<<<<< HEAD
     def _flush(self):
         """flush sys.stdout/err and low-level FDs"""
         if self._stdout and sys.stdout:
@@ -167,6 +220,18 @@ class Wurlitzer(object):
         # create pipe for stdout
         pipes = [self._control_r]
         names = {self._control_r: 'control'}
+=======
+    def __enter__(self):
+        # flush anything out before starting
+        libc.fflush(c_stdout_p)
+        libc.fflush(c_stderr_p)
+        # setup handle
+        self._setup_handle()
+
+        # create pipe for stdout
+        pipes = []
+        names = {}
+>>>>>>> parent of b8ef017... deleting pytraj
         if self._stdout:
             pipe = self._setup_pipe('stdout')
             pipes.append(pipe)
@@ -176,6 +241,7 @@ class Wurlitzer(object):
             pipes.append(pipe)
             names[pipe] = 'stderr'
 
+<<<<<<< HEAD
         # flush pipes in a background thread to avoid blocking
         # the reader thread when the buffer is full
         flush_queue = Queue()
@@ -234,17 +300,38 @@ class Wurlitzer(object):
                         pipes.remove(fd)
                         poller.unregister(fd)
                         os.close(fd)
+=======
+        def forwarder():
+            """Forward bytes on a pipe to stream messages"""
+            while True:
+                # flush libc's buffers before calling select
+                libc.fflush(c_stdout_p)
+                libc.fflush(c_stderr_p)
+                r, w, x = select.select(pipes, [], [], self.flush_interval)
+                if not r:
+                    # nothing to read, next iteration will flush and check again
+                    continue
+                for pipe in r:
+                    name = names[pipe]
+                    data = os.read(pipe, 1024)
+                    if not data:
+                        # pipe closed, stop polling
+                        pipes.remove(pipe)
+>>>>>>> parent of b8ef017... deleting pytraj
                     else:
                         handler = getattr(self, '_handle_%s' % name)
                         handler(data)
                 if not pipes:
                     # pipes closed, we are done
                     break
+<<<<<<< HEAD
             # stop flush thread
             flush_queue.put('stop')
             flush_thread.join()
             # cleanup pipes
             [os.close(pipe) for pipe in pipes]
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
         self.thread = threading.Thread(target=forwarder)
         self.thread.daemon = True
@@ -253,6 +340,7 @@ class Wurlitzer(object):
         return self.handle
 
     def __exit__(self, exc_type, exc_value, traceback):
+<<<<<<< HEAD
         # flush before exiting
         self._flush()
 
@@ -260,11 +348,24 @@ class Wurlitzer(object):
         os.write(self._control_w, b'\1')
         self.thread.join()
         os.close(self._control_w)
+=======
+        # flush the underlying C buffers
+        libc.fflush(c_stdout_p)
+        libc.fflush(c_stderr_p)
+        # close FDs, signaling output is complete
+        for real_fd in self._real_fds.values():
+            os.close(real_fd)
+        self.thread.join()
+>>>>>>> parent of b8ef017... deleting pytraj
 
         # restore original state
         for name, real_fd in self._real_fds.items():
             save_fd = self._save_fds[name]
+<<<<<<< HEAD
             dup2(save_fd, real_fd)
+=======
+            os.dup2(save_fd, real_fd)
+>>>>>>> parent of b8ef017... deleting pytraj
             os.close(save_fd)
         # finalize handle
         self._finish_handle()
@@ -273,12 +374,21 @@ class Wurlitzer(object):
 @contextmanager
 def pipes(stdout=PIPE, stderr=PIPE, encoding=_default_encoding):
     """Capture C-level stdout/stderr in a context manager.
+<<<<<<< HEAD
 
     The return value for the context manager is (stdout, stderr).
 
     Examples
     --------
 
+=======
+    
+    The return value for the context manager is (stdout, stderr).
+    
+    Examples
+    --------
+    
+>>>>>>> parent of b8ef017... deleting pytraj
     >>> with capture() as (stdout, stderr):
     ...     printf("C-level stdout")
     ... output = stdout.read()
@@ -336,11 +446,15 @@ def sys_pipes(encoding=_default_encoding):
 
 
 _mighty_wurlitzer = None
+<<<<<<< HEAD
 _mighty_lock = threading.Lock()
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def sys_pipes_forever(encoding=_default_encoding):
     """Redirect all C output to sys.stdout/err
+<<<<<<< HEAD
 
     This is not a context manager; it turns on C-forwarding permanently.
     """
@@ -349,15 +463,30 @@ def sys_pipes_forever(encoding=_default_encoding):
         if _mighty_wurlitzer is None:
             _mighty_wurlitzer = sys_pipes(encoding)
             _mighty_wurlitzer.__enter__()
+=======
+    
+    This is not a context manager; it turns on C-forwarding permanently.
+    """
+    global _mighty_wurlitzer
+    if _mighty_wurlitzer is None:
+        _mighty_wurlitzer = sys_pipes(encoding)
+    _mighty_wurlitzer.__enter__()
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def stop_sys_pipes():
     """Stop permanent redirection started by sys_pipes_forever"""
     global _mighty_wurlitzer
+<<<<<<< HEAD
     with _mighty_lock:
         if _mighty_wurlitzer is not None:
             _mighty_wurlitzer.__exit__(None, None, None)
             _mighty_wurlitzer = None
+=======
+    if _mighty_wurlitzer is not None:
+        _mighty_wurlitzer.__exit__(None, None, None)
+        _mighty_wurlitzer = None
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def load_ipython_extension(ip):
@@ -386,6 +515,9 @@ def unload_ipython_extension(ip):
         return
     ip.events.unregister('pre_execute', sys_pipes_forever)
     ip.events.unregister('post_execute', stop_sys_pipes)
+<<<<<<< HEAD
     # sys_pipes_forever was called in pre_execute
     # after unregister we need to call it explicitly:
     stop_sys_pipes()
+=======
+>>>>>>> parent of b8ef017... deleting pytraj

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #!/usr/bin/env python
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 import os
 import sys
 import Cython
@@ -44,4 +47,8 @@ else:
 
 cythonize(
     [pfile + '.pyx' for pfile in pyxfiles],
+<<<<<<< HEAD
+=======
+    nthreads=int(os.environ.get('NUM_THREADS', 4)),
+>>>>>>> parent of b8ef017... deleting pytraj
     compiler_directives=cython_directives, )

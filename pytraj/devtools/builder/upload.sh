@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 set -e
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 function main(){
     upload_pip

@@ -3,7 +3,10 @@ import pytraj as pt
 from utils import fn
 import unittest
 from pytraj.testing import aa_eq
+<<<<<<< HEAD
 import pytest
+=======
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 class Test(unittest.TestCase):
@@ -17,8 +20,13 @@ class Test(unittest.TestCase):
         aa_eq(traj0.xyz, traj1.xyz)
 
         # raise if not find files
+<<<<<<< HEAD
         with pytest.raises(ValueError):
             pt.iterload("./data/xyz_cool*.x", traj0.top)
+=======
+        self.assertRaises(ValueError,
+                          lambda: pt.iterload("./data/xyz_cool*.x", traj0.top))
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 if __name__ == "__main__":

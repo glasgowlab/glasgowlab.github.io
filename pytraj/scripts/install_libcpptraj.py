@@ -165,6 +165,7 @@ def install_libcpptraj(compiler='', build_flag='', n_cpus=4):
     except OSError:
         pass
 
+<<<<<<< HEAD
     cm = 'bash configure {build_flag} {compiler}'.format(
         build_flag=build_flag,
         compiler=compiler)
@@ -177,6 +178,34 @@ def install_libcpptraj(compiler='', build_flag='', n_cpus=4):
 
     subprocess.check_call('make libcpptraj -j{}'.format(n_cpus).split())
     os.chdir(cwd)
+=======
+    if sys.platform.startswith('win'):
+        _install_libcpptraj_win_msys2()
+    else:
+        cxx_overwrite = ''
+
+        # We don't need this anymore?
+        # if IS_OSX:
+        #     if ((compiler == 'clang' or 'clang' in os.getenv('CXX', '')) or
+        #         (os.getenv('CXX') and is_clang(os.getenv('CXX')))):
+        #         # cxx_overwrite = 'CXX="clang++ -stdlib=libstdc++"'
+        print('cxx_overwrite flag', cxx_overwrite)
+
+        cm = 'bash configure {build_flag} {compiler} {cxx_overwrite}'.format(
+            build_flag=build_flag,
+            compiler=compiler,
+            cxx_overwrite=cxx_overwrite)
+
+        print('configure command: ', cm)
+        # do not use subprocess to avoid split cxx_overwrite command
+        os.system(cm)
+
+        if IS_OSX:
+            add_cpptraj_cxx_to_config('config.h', CPPTRAJ_CXX)
+
+        subprocess.check_call('make libcpptraj -j{}'.format(n_cpus).split())
+        os.chdir(cwd)
+>>>>>>> parent of b8ef017... deleting pytraj
 
 
 def parse_args():

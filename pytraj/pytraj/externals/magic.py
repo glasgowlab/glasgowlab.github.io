@@ -206,7 +206,11 @@ def errorcheck_null(result, func, args):
 
 
 def errorcheck_negative_one(result, func, args):
+<<<<<<< HEAD
     if result == -1:
+=======
+    if result is -1:
+>>>>>>> parent of b8ef017... deleting pytraj
         err = magic_error(args[0])
         raise MagicException(err)
     else:

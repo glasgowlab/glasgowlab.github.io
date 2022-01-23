@@ -3,7 +3,19 @@ from contextlib import contextmanager
 import tempfile
 from shutil import rmtree
 
+<<<<<<< HEAD
 from ..externals.wurlitzer import pipes
+=======
+try:
+    from ..externals.wurlitzer import pipes
+except ImportError:
+
+    def pipes():
+        # win sucks
+        yield "", ""
+
+
+>>>>>>> parent of b8ef017... deleting pytraj
 capture_stdout = pipes
 
 
