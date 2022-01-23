@@ -1,3 +1,0 @@
-parm tz2.parm7
-trajin tz2.nc 1 1
-mask "(:3@CA <@5.0)" maskout mask.tz2.dat
