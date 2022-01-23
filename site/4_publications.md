@@ -20,16 +20,19 @@
 :align: right
 :alt: Allostery in the lac repressor.
 ```
-<br/>
+
+*New preprint!*
+
 <br/>
 <br/>
 
-*New preprint!*
 
 __Anum Glasgow__, Helen T. Hobbs, Zion R. Perry, Susan Marqusee\*, and Tanja Kortemme\*. [Ligand-induced changes in dynamics mediate long-range allostery in the *lac* repressor.](https://doi.org/10.1101/2021.11.30.470682) *bioRxiv*, December 2021.
 <br/>
 <br/>
-Explore our HDX/MS data for LacI [here]().
+Explore our HDX/MS data for LacI [here](https://mybinder.org/v2/gh/anumazam/anumazam.github.io/main?labpath=site%2F7_LacI_demo.ipynb).
+*New preprint!*
+
 <br/>
 <br/>
 <br/>
