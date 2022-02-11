@@ -32,17 +32,17 @@ email: ag4522 [at] cumc [dot] columbia [dot] edu
 
 ````{panels}
 :column: col-lg-12 p-2
-Julia Urban (she/her) | *Graduate student rotating with us!*
+Kyle Helms (he/him) | *Graduate student rotating with us!*
 ^^^
-```{image} people/julia.jpg
-:alt: julia
+```{image} people/kyleH.png
+:alt: kyleH
 :class: bg-primary mb-1
 :width: 300px
 :align: left
 ```
-I am a PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies Program at Columbia. I received my B.S. in Computational & Applied Mathematics & Statistics at William & Mary, where I competed in the iGEM synthetic biology competition. I am interested in synthetic biology and protein engineering.
+I am a PhD student in the Integrated Program of Cellular, Molecular, and Biomedical Studies at Columbia. I’m coming directly from my undergraduate studies in Biology at New Mexico State University. As an undergraduate MARC Fellow in the Curtiss Lab, I used fruit flies as a model to study protein interactions during development. Before coming to NYC, I spent a virtual summer at UCSF developing computational approaches to analyze archaeal replication in the Gross Lab. At Columbia, I am excited to continue studying proteins and their associations to health and disease.
 +++
-email: jau2112 [at] cumc [dot] columbia [dot] edu
+email: kmh2249 [at] cumc [dot] columbia [dot] edu
 ````
 
 ````{panels}
@@ -58,6 +58,21 @@ Daniel Camilo Pineda (he/they) | *Undergraduate researcher*
 I am a third-year undergraduate student working towards a B.A. in Biochemistry. I was born in Bógota, Colombia, and moved to the US 6 years ago. I lived in Miami, Florida, and obtained my Associate Degree in chemistry at Miami Dade College. There, I worked with Dr. Juan Morata where I became fascinated with viruses and their ability to hack biological mechanisms. Currently, I am learning about protein engineering and computational biology; I am extremely excited to keep studying proteins! Outside the lab, I enjoy reading, playing, and developing videogames, skateboarding, and museums! 
 +++
 email: dcp2151 [at] columbia [dot] edu
+````
+
+````{panels}
+:column: col-lg-12 p-2
+Julia Urban (she/her) | *Graduate student rotating with us!*
+^^^
+```{image} people/julia.jpg
+:alt: julia
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies Program at Columbia. I received my B.S. in Computational & Applied Mathematics & Statistics at William & Mary, where I competed in the iGEM synthetic biology competition. I am interested in synthetic biology and protein engineering.
++++
+email: jau2112 [at] cumc [dot] columbia [dot] edu
 ````
 
 ````{panels}
