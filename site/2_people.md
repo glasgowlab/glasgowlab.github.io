@@ -85,7 +85,8 @@ Kyle Weber (he/him) | *Research associate*
 :width: 300px
 :align: left
 ```
-I am currently a Research Assistant in the Glasgow lab and soon to be PhD student in the Integrated Program of Cellular, Molecular, and Biomedical Studies at Columbia. I received my bachelor’s degree from the University of Florida in Biotechnology as well as a minor in Bioinformatics. My previous research focused on mitigating the effects of citrus greening, a bacterial pathogenic infection, in citrus plants. I specialized in RNA-Seq experiments, genome assemblies, and isoform discovery to uncover mechanisms of resistance. My current interests are in metabolic engineering and synthetic biology. I wish to create novel enzymes and transcription factors for the use in synthetic systems.+++
+I am currently a Research Assistant in the Glasgow lab and soon to be PhD student in the Integrated Program of Cellular, Molecular, and Biomedical Studies at Columbia. I received my bachelor’s degree from the University of Florida in Biotechnology as well as a minor in Bioinformatics. My previous research focused on mitigating the effects of citrus greening, a bacterial pathogenic infection, in citrus plants. I specialized in RNA-Seq experiments, genome assemblies, and isoform discovery to uncover mechanisms of resistance. My current interests are in metabolic engineering and synthetic biology. I wish to create novel enzymes and transcription factors for the use in synthetic systems.
++++
 email: kcw2152 [at] cumc [dot] columbia [dot] edu
 ````
 
