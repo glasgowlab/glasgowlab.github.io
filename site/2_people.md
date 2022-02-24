@@ -92,6 +92,21 @@ email: kcw2152 [at] cumc [dot] columbia [dot] edu
 
 ````{panels}
 :column: col-lg-12 p-2
+Malcolm Wells (he/him) | *Graduate student*
+^^^
+```{image} people/malcolm.jpegg
+:alt: computational_kyle
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a second-year PhD student in physics at Columbia. I did my undergrad also in physics at Columbia, and before starting here I did research in condensed matter physics and genomics labs. I am excited about protein biophysics and currently studying allostery using HDX mass spectrometry.
++++
+email: mw3079 [at] columbia [dot] edu
+````
+
+````{panels}
+:column: col-lg-12 p-2
 *Our next member*
 ^^^
 ```{image} people/bird.png
