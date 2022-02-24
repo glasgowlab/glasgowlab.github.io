@@ -94,8 +94,8 @@ email: kcw2152 [at] cumc [dot] columbia [dot] edu
 :column: col-lg-12 p-2
 Malcolm Wells (he/him) | *Graduate student*
 ^^^
-```{image} people/malcolm.jpegg
-:alt: computational_kyle
+```{image} people/malcolm.jpeg
+:alt: malcolm
 :class: bg-primary mb-1
 :width: 300px
 :align: left
