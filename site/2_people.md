@@ -47,7 +47,7 @@ email: kmh2249 [at] cumc [dot] columbia [dot] edu
 
 ````{panels}
 :column: col-lg-12 p-2
-Daniel Camilo Pineda (he/they) | *Undergraduate researcher*
+Daniel Camilo Pineda (they/them) | *Undergraduate researcher*
 ^^^
 ```{image} people/daniel.jpg
 :alt: daniel-is-cool
