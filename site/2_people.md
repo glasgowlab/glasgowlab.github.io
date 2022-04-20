@@ -21,9 +21,6 @@
 <br/>
 <br/>
 
-We are recruiting!
-We welcome applicants from all fields of science and engineering, and all walks of life.
-
 ````{panels}
 :column: col-lg-12 p-2
 Anum Glasgow (she/her) | *Principal investigator*
@@ -58,7 +55,7 @@ email: dcp2151 [at] columbia [dot] edu
 :column: col-lg-12 p-2
 Andrew Reckers (he/him) | *Graduate student rotating with us!*
 ^^^
-```{image} people/andrew.jpeg
+```{image} people/andrew.jpg
 :alt: andrew
 :class: bg-primary mb-1
 :width: 300px
