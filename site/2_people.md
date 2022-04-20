@@ -12,6 +12,14 @@
 
 `````{div} full-width
 
+```{image} people/lab_photos/20220329_lab_photo.jpg
+:alt: lab-banana
+:class: bg-primary
+:width: 600 px
+:align: center
+```
+
+
 We are recruiting!
 We welcome applicants from all fields of science and engineering, and all walks of life.
 
@@ -32,21 +40,6 @@ email: ag4522 [at] cumc [dot] columbia [dot] edu
 
 ````{panels}
 :column: col-lg-12 p-2
-Kyle Helms (he/him) | *Graduate student rotating with us!*
-^^^
-```{image} people/kyleH.png
-:alt: kyleH
-:class: bg-primary mb-1
-:width: 300px
-:align: left
-```
-I am a PhD student in the Integrated Program of Cellular, Molecular, and Biomedical Studies at Columbia. I’m coming directly from my undergraduate studies in Biology at New Mexico State University. As an undergraduate MARC Fellow in the Curtiss Lab, I used fruit flies as a model to study protein interactions during development. Before coming to NYC, I spent a virtual summer at UCSF developing computational approaches to analyze archaeal replication in the Gross Lab. At Columbia, I am excited to continue studying proteins and their associations to health and disease.
-+++
-email: kmh2249 [at] cumc [dot] columbia [dot] edu
-````
-
-````{panels}
-:column: col-lg-12 p-2
 Daniel Camilo Pineda (they/them) | *Undergraduate researcher*
 ^^^
 ```{image} people/daniel.jpg
@@ -62,17 +55,32 @@ email: dcp2151 [at] columbia [dot] edu
 
 ````{panels}
 :column: col-lg-12 p-2
-Julia Urban (she/her) | *Graduate student rotating with us!*
+Andrew Reckers (he/him) | *Graduate student rotating with us!*
 ^^^
-```{image} people/julia.jpg
-:alt: julia
+```{image} people/andrew.jpeg
+:alt: andrew
 :class: bg-primary mb-1
 :width: 300px
 :align: left
 ```
-I am a PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies Program at Columbia. I received my B.S. in Computational & Applied Mathematics & Statistics at William & Mary, where I competed in the iGEM synthetic biology competition. I am interested in synthetic biology and protein engineering.
+I am a PhD student in the Integrated Program hailing from California. I obtained my bachelor’s degree from Whitman College, where I studied Environmental Studies and Biology. Most recently, I was a research technician in Dr. Roy Gerona’s lab at UC San Francisco, using mass spectrometry to study forensic toxicology and antibiotic therapy adherence. I am interested in cool proteins and cool science!
 +++
-email: jau2112 [at] cumc [dot] columbia [dot] edu
+email: arr2230 [at] cumc [dot] columbia [dot] edu
+````
+
+````{panels}
+:column: col-lg-12 p-2
+Belen Sundberg (she/her) | *Graduate student rotating with us!*
+^^^
+```{image} people/belen.jpg
+:alt: belen
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a first year PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies at Columbia University. Before beginning my PhD, I received my B.A. in Biology from NYU and worked as a technician at Columbia’s Chio Laboratory, investigating redox adaptations acquired by Pancreatic Ductal Adenocarcinoma cells to survive persistent oxidative stress. I am very excited to investigate the effects of cancer-associated mutations on allosteric regulation in a key glycolytic enzyme, PFK1, and dive into the world of computational biology during my rotation at the Glasgow Lab!
++++
+email: bs3281 [at] cumc [dot] columbia [dot] edu
 ````
 
 ````{panels}
