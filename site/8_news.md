@@ -25,7 +25,7 @@ Some updates:
 - after optimizing and troubleshooting for a couple months, Malcolm collected our first large HDX/MS datasets (shoutout to the world-class [ASRC MS facility](https://asrc.gc.cuny.edu/structbio/)!!)
 - Daniel got an Amgen scholarship for summer research
 - Daniel, Kyle W. and Anum completed Columbia's [Lab-to-Market bootcamp](https://www.irvinginstitute.columbia.edu/services/life-science-accelerator-lab-market-boot-camp)
-- we tested our first designed proteins
+- Kyle designed and tested his first set of artificial transcription factors
 - we applied for grants
 - we all gave our first group meetings
 - Daniel and Kyle W. learned a lot at pyrosetta bootcamp
