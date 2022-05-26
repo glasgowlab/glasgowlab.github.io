@@ -24,7 +24,7 @@ Some updates:
 - our next batch of rotation students, Andrew Reckers and Belen Sundberg, joined us in April. They are really awesome
 - after optimizing and troubleshooting for a couple months, Malcolm collected our first large HDX/MS datasets (shoutout to the world-class [ASRC MS facility](https://asrc.gc.cuny.edu/structbio/)!!)
 - Daniel got an Amgen scholarship for summer research
-- Daniel, Kyle W. and Anum completed Columbia's [Lab-to-Market bootcamp](https://www.irvinginstitute.columbia.edu/services/life-science-accelerator-lab-market-boot-camp)
+- Daniel, Kyle W. and Anum completed Columbia's [Lab-to-Market bootcamp](https://www.irvinginstitute.columbia.edu/services/life-science-accelerator-lab-market-boot-camp) - here's a [1 min video](20210106_AAG_video.mp4) about our project.
 - Kyle W. designed and tested his first set of artificial transcription factors (and was admitted to Columbia for grad school!)
 - we applied for grants
 - we all gave our first group meetings
