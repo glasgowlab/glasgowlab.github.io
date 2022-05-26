@@ -22,7 +22,7 @@ Some updates:
 - we had some lab renovations and got equipment
 - our first two rotation students, Kyle Helms and Julia Urban, joined us in January and left us in April. We miss them and their fantastic science
 - our next batch of rotation students, Andrew Reckers and Belen Sundberg, joined us in April. They are really awesome
-- after optimizing and troubleshooting for a couple months, Malcolm collected our first large HDX/MS datasets
+- after optimizing and troubleshooting for a couple months, Malcolm collected our first large HDX/MS datasets (shoutout to the world-class [ASRC MS facility](https://asrc.gc.cuny.edu/structbio/)!!)
 - Daniel got an Amgen scholarship for summer research
 - Daniel, Kyle W. and Anum completed Columbia's [Lab-to-Market bootcamp](https://www.irvinginstitute.columbia.edu/services/life-science-accelerator-lab-market-boot-camp)
 - we tested our first designed proteins
