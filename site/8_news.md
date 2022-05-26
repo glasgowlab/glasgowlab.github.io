@@ -26,7 +26,7 @@ Some updates:
 - Daniel got an Amgen scholarship for summer research
 - Daniel, Kyle W. and Anum completed Columbia's [Lab-to-Market bootcamp](https://www.irvinginstitute.columbia.edu/services/life-science-accelerator-lab-market-boot-camp) - here's a 1-min video about our project
 <br>
-<video height=350" controls src="../_static/videos/20210106_AAG_video.mp4"></video>
+<video height="350" controls src="../_static/videos/20210106_AAG_video.mp4"></video>
 <br>
 - Kyle W. designed and tested his first set of artificial transcription factors (and was admitted to Columbia for grad school!)
 - we applied for grants
