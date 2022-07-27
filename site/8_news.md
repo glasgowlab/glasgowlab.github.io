@@ -13,14 +13,14 @@
 
 ````{div} full-width
 
-**5/26/21** The Glasgow Lab is HERE 😎
+**5/26/22** The Glasgow Lab is HERE 😎
 
 It's been a great first semester!
 
 ```{image} people/lab_photos/20220329_lab_photo.jpg
 :alt: lab-banana
 :class: bg-primary
-:width: 300 px
+:width: 350 px
 :align: right
 ```
 Some updates:
