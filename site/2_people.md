@@ -9,7 +9,7 @@
 </script>
 
 # Team
-
+`````{div} full-width
 ````{panels}
 :column: col-lg-12 p-2
 Anum Glasgow (she/her) | *Principal investigator*
@@ -129,5 +129,6 @@ email: mw3079 [at] columbia [dot] edu
 Are you interested in joining us?
 We are excited to have you.
 <br/>
++++
 ````
-
+`````
