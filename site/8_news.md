@@ -17,6 +17,18 @@
 
 It's been a great first semester!
 
+<br/>
+<br/>
+
+```{image} people/lab_photos/20220329_lab_photo.jpg
+:alt: lab-banana
+:class: bg-primary
+:width: 600 px
+:align: left
+```
+<br/>
+<br/>
+
 Some updates:
 - our lab is a member of the [Rosetta Commons](https://www.rosettacommons.org/)
 - we had some lab renovations and got equipment

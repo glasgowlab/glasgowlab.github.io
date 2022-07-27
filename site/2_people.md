@@ -9,18 +9,6 @@
 </script>
 
 # Team
-
-`````{div} full-width
-
-```{image} people/lab_photos/20220329_lab_photo.jpg
-:alt: lab-banana
-:class: bg-primary
-:width: 600 px
-:align: center
-```
-<br/>
-<br/>
-
 ````{panels}
 :column: col-lg-12 p-2
 Anum Glasgow (she/her) | *Principal investigator*
@@ -53,7 +41,7 @@ email: dcp2151 [at] columbia [dot] edu
 
 ````{panels}
 :column: col-lg-12 p-2
-Andrew Reckers (he/him) | *Graduate student rotating with us!*
+Andrew Reckers (he/him) | *Graduate student*
 ^^^
 ```{image} people/andrew.jpg
 :alt: andrew
@@ -68,7 +56,20 @@ email: arr2230 [at] cumc [dot] columbia [dot] edu
 
 ````{panels}
 :column: col-lg-12 p-2
-Belen Sundberg (she/her) | *Graduate student rotating with us!*
+Neel Shanmugam (he/him) | *Undergraduate researcher*
+^^^
+```{image} people/neel.jpg
+:alt: neel_smiley
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I was born and raised in Richardson, TX. I am currently a freshman undergraduate at Columbia University majoring in Biomedical Engineering. I have prior research experience with molecular dynamics simulations and solvation chemistry. I am currently working on PARROTS, a pipeline for rapidly engineering antiviral therapeutics. Outside of research, I love eating strawberries, playing tennis, lifting weights, and taking long walks.
+````
+
+````{panels}
+:column: col-lg-12 p-2
+Belen Sundberg (she/her) | *Graduate student*
 ^^^
 ```{image} people/belen.jpg
 :alt: belen
