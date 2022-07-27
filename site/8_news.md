@@ -17,22 +17,20 @@
 
 It's been a great first semester!
 
-<br/>
-<br/>
-
-```{image} people/lab_photos/20220329_lab_photo.jpg
-:alt: lab-banana
-:class: bg-primary
-:width: 600 px
-:align: left
-```
-<br/>
-<br/>
-
 Some updates:
 - our lab is a member of the [Rosetta Commons](https://www.rosettacommons.org/)
 - we had some lab renovations and got equipment
 - our first two rotation students, Kyle Helms and Julia Urban, joined us in January and left us in April. We miss them and their fantastic science
+
+
+```{image} people/lab_photos/20220329_lab_photo.jpg
+:alt: lab-banana
+:class: bg-primary
+:width: 200 px
+:align: left
+```
+<br/>
+
 - our next batch of rotation students, Andrew Reckers and Belen Sundberg, joined us in April. They are really awesome
 - after optimizing and troubleshooting for a couple months, Malcolm collected our first large HDX/MS datasets (shoutout to the world-class [ASRC MS facility](https://asrc.gc.cuny.edu/structbio/)!!)
 - Daniel got an Amgen scholarship for summer research
