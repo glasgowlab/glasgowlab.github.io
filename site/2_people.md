@@ -12,15 +12,6 @@
 
 `````{div} full-width
 
-```{image} people/lab_photos/20220329_lab_photo.jpg
-:alt: lab-banana
-:class: bg-primary
-:width: 600 px
-:align: center
-```
-<br/>
-<br/>
-
 ````{panels}
 :column: col-lg-12 p-2
 Anum Glasgow (she/her) | *Principal investigator*
