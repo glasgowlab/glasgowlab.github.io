@@ -12,8 +12,7 @@
 `````{div} full-width
 Come talk to us at our group meeting in the Hammer 5 conference room at 3 pm on Mondays.
 
-````{admonition}
-:column: col-lg-12 p-2
+````{card}
 Anum Glasgow (she/her) | *Principal investigator*
 ^^^
 ```{image} people/anum.jpg
@@ -27,8 +26,7 @@ I am an assistant professor at Columbia University Medical Center in the [Depart
 email: ag4522 [at] cumc [dot] columbia [dot] edu
 ````
 
-````{panels}
-:column: col-lg-12 p-2
+````{card}
 Daniel Camilo Pineda (they/them) | *Undergraduate researcher*
 ^^^
 ```{image} people/daniel.jpg
