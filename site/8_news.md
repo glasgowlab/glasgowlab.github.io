@@ -24,7 +24,7 @@ Some updates:
 ```{image} people/lab_photos/20220329_lab_photo.jpg
 :alt: lab-banana
 :class: bg-primary
-:width: 200 px
+:width: 250 px
 :align: left
 ```
 - our first two rotation students, Kyle Helms and Julia Urban, joined us in January and left us in April. We miss them and their fantastic science

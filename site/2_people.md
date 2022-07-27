@@ -10,6 +10,8 @@
 
 # Team
 `````{div} full-width
+Come talk to us at our group meeting in the Hammer 5 conference room at 3 pm on Mondays.
+
 ````{panels}
 :column: col-lg-12 p-2
 Anum Glasgow (she/her) | *Principal investigator*
