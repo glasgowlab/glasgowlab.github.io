@@ -66,6 +66,8 @@ Neel Shanmugam (he/him) | *Undergraduate researcher*
 :align: left
 ```
 I was born and raised in Richardson, TX. I am currently a freshman undergraduate at Columbia University majoring in Biomedical Engineering. I have prior research experience with molecular dynamics simulations and solvation chemistry. I am currently working on PARROTS, a pipeline for rapidly engineering antiviral therapeutics. Outside of research, I love eating strawberries, playing tennis, lifting weights, and taking long walks.
++++
+email: neel_shanmugam [at] hotmail [dot] com
 ````
 
 ````{panels}
