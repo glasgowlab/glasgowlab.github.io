@@ -40,8 +40,7 @@ I am a third-year undergraduate student working towards a B.A. in Biochemistry. 
 email: dcp2151 [at] columbia [dot] edu
 ````
 
-````{panels}
-:column: col-lg-12 p-2
+````{card}
 Andrew Reckers (he/him) | *Graduate student*
 ^^^
 ```{image} people/andrew.jpg
@@ -55,8 +54,7 @@ I am a PhD student in the Integrated Program hailing from California. I obtained
 email: arr2230 [at] cumc [dot] columbia [dot] edu
 ````
 
-````{panels}
-:column: col-lg-12 p-2
+````{card}
 Neel Shanmugam (he/him) | *Undergraduate researcher*
 ^^^
 ```{image} people/neel.jpg
@@ -70,8 +68,7 @@ I was born and raised in Richardson, TX. I am currently a freshman undergraduate
 email: neel [underscore] shanmugam [at] hotmail [dot] com
 ````
 
-````{panels}
-:column: col-lg-12 p-2
+````{card}
 Belen Sundberg (she/her) | *Graduate student*
 ^^^
 ```{image} people/belen.jpg
@@ -85,8 +82,7 @@ I am a first year PhD student in the Integrated Program in Cellular, Molecular, 
 email: bs3281 [at] cumc [dot] columbia [dot] edu
 ````
 
-````{panels}
-:column: col-lg-12 p-2
+````{card}
 Kyle Weber (he/him) | *Research associate*
 ^^^
 ```{image} people/kyleW.jpg
@@ -100,8 +96,7 @@ I am currently a Research Assistant in the Glasgow lab and soon to be PhD studen
 email: kcw2152 [at] cumc [dot] columbia [dot] edu
 ````
 
-````{panels}
-:column: col-lg-12 p-2
+````{card}
 Malcolm Wells (he/him) | *Graduate student*
 ^^^
 ```{image} people/malcolm.jpeg
@@ -115,8 +110,7 @@ I am a second-year PhD student in physics at Columbia. I did my undergrad also i
 email: mw3079 [at] columbia [dot] edu
 ````
 
-````{panels}
-:column: col-lg-12 p-2
+````{card}
 *Our next member*
 ^^^
 ```{image} people/bird.png
@@ -129,6 +123,5 @@ email: mw3079 [at] columbia [dot] edu
 Are you interested in joining us?
 We are excited to have you.
 <br/>
-+++
 ````
 `````
