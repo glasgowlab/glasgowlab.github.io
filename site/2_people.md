@@ -9,6 +9,7 @@
 </script>
 
 # Team
+`````
 ````{panels}
 :column: col-lg-12 p-2
 Anum Glasgow (she/her) | *Principal investigator*
