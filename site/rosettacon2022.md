@@ -14,24 +14,21 @@
 ````{div} full-width
 
 **Andrew Reckers**
-Predicting disruptions in protein conformational landscapes
-[Poster](https://github.com/glasgowlab/home/blob/main/AR_rosettacon_poster_2022.pdf)
+ | [Predicting disruptions in protein conformational landscapes](https://github.com/glasgowlab/home/blob/main/AR_rosettacon_poster_2022.pdf)
 
 Abstract
 <br/>
 While experimental and computational techniques to determine protein structure have improved dramatically in recent years, static structures do not provide a complete understanding of protein function. Mutations can cause allosteric conformational changes which are currently difficult to predict, often leading to aberrant function and disease. We are building a high-throughput pipeline for investigating mutation-driven conformational changes in proteins using a barcoded, computationally designed protein library analyzed with hydrogen-deuterium exchange with mass spectrometry (HDX/MS). Using the resulting dataset, we will develop a machine learning model that can predict the effects of mutations on the conformational states of proteins.
 
 **Neel Shanmugam**
-Protein Antivirals by Rapid Redesign of Tertiary Structures (PARROTS)
-[Poster](https://github.com/glasgowlab/home/blob/main/RosettaCON_neel.pdf)
+ | [Protein Antivirals by Rapid Redesign of Tertiary Structures (PARROTS)](https://github.com/glasgowlab/home/blob/main/RosettaCON_neel.pdf)
 
 Abstract
 <br/>
 We propose a new, rapid and generalizable pipeline for engineering small and easy-to-produce alternatives to established antiviral protein therapeutics. PARROTS replaces native human serum albumin (HSA) helical bundles with computationally-designed helical bundles that tightly bind to viral antigens: HSA-traps.
 
 **Belen Sundberg**
-Reengineering allosteric regulation of bacterial PFK-1
-[Poster](https://github.com/glasgowlab/home/blob/main/RosettaCon_Poster_20220725_noMS_belen_final.pdf)
+ | [Reengineering allosteric regulation of bacterial PFK-1](https://github.com/glasgowlab/home/blob/main/RosettaCon_Poster_20220725_noMS_belen_final.pdf)
 
 Abstract
 <br/>
