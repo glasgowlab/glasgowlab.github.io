@@ -83,7 +83,7 @@ email: bs3281 [at] cumc [dot] columbia [dot] edu
 ````
 
 ````{card}
-Kyle Weber (he/him) | *Research associate*
+Kyle C Weber (he/him) | *Research associate*
 ^^^
 ```{image} people/kyleW.jpg
 :alt: computational_kyle
