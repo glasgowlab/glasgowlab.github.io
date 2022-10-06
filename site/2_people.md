@@ -10,7 +10,7 @@
 
 # Team
 `````{div} full-width
-Come talk to us at our group meeting in the Hammer 5 conference room at 3 pm on Mondays.
+Come talk to us at our group meeting in the Hammer 5 conference room at 1 pm on Fridays.
 
 ````{card}
 Anum Glasgow (she/her) | *Principal investigator*
