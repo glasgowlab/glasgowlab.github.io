@@ -49,7 +49,7 @@ Chenlin Lu (he/him) | *Postdoctoral Research Fellow*
 :width: 300px
 :align: left
 ```
-I am currently a postdoctoral researcher at Columbia University. I received my B. A and Ph. D. degree in Chemical Engineering from Tsinghua University. My prior research focused on the conformational dynamics of enzymes and the creation of novel-to-nature protein-metal cluster composites utilizing both computational and experimental methods. To pursue my interests in understanding and designing fantastic molecular machines: proteins, I moved to the Glasgow lab. I am excited to combine MD simulation with HDX mass spectrometry to investigate the allosteric regulation of a critical enzyme in glycolysis.
+I am currently a postdoctoral researcher at Columbia University. I received my B.A. and Ph.D. degree in Chemical Engineering from Tsinghua University. My prior research focused on the conformational dynamics of enzymes and the creation of novel-to-nature protein-metal cluster composites utilizing both computational and experimental methods. To pursue my interests in understanding and designing fantastic molecular machines: proteins, I moved to the Glasgow lab. I am excited to combine MD simulation with HDX mass spectrometry to investigate the allosteric regulation of a critical enzyme in glycolysis.
 +++
 email: cl4354 [at] columbia [dot] edu
 ````
