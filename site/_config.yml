@@ -42,7 +42,7 @@ parse:
 
 # Information about where the book exists on the web
 repository:
-  url: https://glasgowlab.github.io/anumazam.github.io/site/1_intro.html  # Online location of your book
+  url: https://github.com/glasgowlab/glasgowlab.github.io/blob/main/site/1_intro.html  # Online location of your book
   # path_to_book: lab_webpage  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
