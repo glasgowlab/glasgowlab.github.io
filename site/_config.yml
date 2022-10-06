@@ -42,7 +42,7 @@ parse:
 
 # Information about where the book exists on the web
 repository:
-  url: https://www.glasgowlab.org  # Online location of your book
+  url: https://glasgowlab.github.io/lab_website/site/1_intro.html  # Online location of your book
   # path_to_book: lab_webpage  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
