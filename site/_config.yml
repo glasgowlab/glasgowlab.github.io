@@ -7,6 +7,9 @@ logo: logo.png
 #html:
 #  extra_navbar: 
 
+# custom domain
+url: "glasgowlab.org" 
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
