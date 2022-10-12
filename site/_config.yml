@@ -10,7 +10,7 @@ logo: logo.png
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: cache
+  execute_notebooks: auto
   allow_errors: true
 
 only_build_toc_files: true
@@ -20,6 +20,7 @@ launch_buttons:
   notebook_interface: "jupyterlab"
   thebe: true
   binderhub_url: https://mybinder.org/
+  colab_url: "https://colab.research.google.com"
 
 # Define the name of the latex output file for PDF builds
 #latex:
