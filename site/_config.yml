@@ -19,7 +19,7 @@ exclude_patterns: [7_LacI_demo.ipynb]
 launch_buttons:
   notebook_interface: "jupyterlab"
   thebe: true
-  binderhub_url: https://mybinder.org/
+  binderhub_url: "https://mybinder.org/"
   colab_url: "https://colab.research.google.com"
 
 # Define the name of the latex output file for PDF builds
@@ -43,8 +43,8 @@ parse:
 
 # Information about where the book exists on the web
 repository:
-  url: https://glasgowlab.org # Online location of your book
-  # path_to_book: lab_webpage  # Optional path to your book, relative to the repository root
+  url: https://github.com/glasgowlab/glasgowlab.github.io # Online location of your book
+  path_to_book: site  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
