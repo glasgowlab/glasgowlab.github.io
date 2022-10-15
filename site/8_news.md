@@ -23,8 +23,8 @@ Some updates:
 -	We are grateful for support from the JGI/DOE Community Research Program in Functional Genomics (towards computationally redesigning transcription factors for continuous microbial bioprocessing of plastics), Orange Grove Bio and Alleycorp (backing our PARROTS pipeline to build new antiviral biotherapeutics), NIH NIGMS (for our efforts to understand general principles for protein allostery), and the Alice Bohmfalk Foundation (funds to buy a lot of computers).
 -	Our lab co-hosted an NSF GRFP writing workshop in September, and we put in a few of our own applications.
 -	I’m proud of our lab members for working together and helping each other grow their projects.
--	Our tomato plants also grew a lot.
--	
+-	Our tomato plants also grew a lot. See below.
+
 ```{image} people/other_photos/tomatoes.jpg
 :alt: lab-photo
 :class: bg-primary mb-1
@@ -32,6 +32,7 @@ Some updates:
 :align: center
 ```
 
+-------------------
 
 **5/26/22** The Glasgow Lab is HERE 😎
 
