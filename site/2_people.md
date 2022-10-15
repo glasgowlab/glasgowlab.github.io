@@ -10,8 +10,13 @@
 
 # Team
 `````{div} full-width
-{image} people/lab_photos/20221007_group.jpg
 
+```{image} people/lab_photos/20221007_group.jpg
+:alt: lab-photo
+:class: bg-primary mb-1
+:width: 1000px
+:align: center
+```
 
 Come talk to us at our group meeting in the Hammer 5 conference room at 1 pm on Fridays.
 
