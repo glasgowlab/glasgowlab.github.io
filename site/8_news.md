@@ -20,24 +20,11 @@ Some updates:
 -	Neel joined us as a  Rosetta intern over the summer, and then lucky for us, he continues here as a Columbia undergraduate!
 -	Chenlin joined the lab as our venerated postdoc!
 -	Despite COVID hitting our group (again), Belen and Neel made it to RosettaCon 2022, where they presented cool posters.
-```{image} people/other_photos/neel_poster.jpg
-:alt: neel presents his poster
-:class: bg-primary
-:width: 100 px
-:align: left
-```
-```{image} people/other_photos/belen_poster.jpg
-:alt: belen presents her poster
-:class: bg-primary
-:width: 100 px
-:align: center
-```
-```{image} people/other_photos/rosettacon.jpg
-:alt: rosettacon
-:class: bg-primary
-:width: 100 px
-:align: right
-```
+<p float="left">
+  <img src="/people/other_photos/neel_poster.jpg" width="100" />
+  <img src="people/other_photos/belen_poster.jpg" width="100" /> 
+  <img src="people/other_photos/rosettacon.jpg" width="100" />
+</p>
 -	We are grateful for support from the JGI/DOE Community Research Program in Functional Genomics (towards computationally redesigning transcription factors for continuous microbial bioprocessing of plastics), Orange Grove Bio and Alleycorp (backing our PARROTS pipeline to build new antiviral biotherapeutics), NIH NIGMS (for our efforts to understand general principles for protein allostery), the Alice Bohmfalk Foundation (funds to buy computers), and the NSF ACCESS program (compute credits).
 -	Our lab co-hosted an NSF GRFP writing workshop in September, and we put in a few of our own applications.
 -	I’m proud of our lab members for working together and helping each other grow their projects.
