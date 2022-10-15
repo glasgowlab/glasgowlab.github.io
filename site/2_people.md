@@ -10,6 +10,9 @@
 
 # Team
 `````{div} full-width
+{image} people/lab_photos/20221007_group.jpg
+
+
 Come talk to us at our group meeting in the Hammer 5 conference room at 1 pm on Fridays.
 
 ````{card}
