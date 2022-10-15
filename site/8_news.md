@@ -13,6 +13,26 @@
 
 ````{div} full-width
 
+**10/15/2022** We’ve had a good summer and fall.
+
+Some updates:
+-	Belen and Andrew officially joined the lab, and Kyle is officially a graduate student!
+-	Neel joined us as a summer Rosetta intern over the summer, and then lucky for us, he continues here as a Columbia undergraduate!
+-	Chenlin joined the lab as our venerated postdoc!
+-	Despite COVID (again), Belen and Neel made it to RosettaCon 2022, where they presented cool posters.
+-	We are grateful for support from the JGI/DOE Community Research Program in Functional Genomics (towards computationally redesigning transcription factors for continuous microbial bioprocessing of plastics), Orange Grove Bio and Alleycorp (backing our PARROTS pipeline to build new antiviral biotherapeutics), NIH NIGMS (for our efforts to understand general principles for protein allostery), and the Alice Bohmfalk Foundation (funds to buy a lot of computers).
+-	Our lab co-hosted an NSF GRFP writing workshop in September, and we put in a few of our own applications.
+-	I’m proud of our lab members for working together and helping each other grow their projects.
+-	Our tomato plants also grew a lot.
+-	
+```{image} people/other_photos/tomatoes.jpg
+:alt: lab-photo
+:class: bg-primary mb-1
+:width: 1000px
+:align: center
+```
+
+
 **5/26/22** The Glasgow Lab is HERE 😎
 
 It's been a great first semester!
