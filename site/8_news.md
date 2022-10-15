@@ -32,7 +32,7 @@ Some updates:
 :align: center
 ```
 
--------------------
+---
 
 **5/26/22** The Glasgow Lab is HERE 😎
 
