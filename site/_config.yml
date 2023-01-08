@@ -17,6 +17,10 @@ logo: logo.png
 execute:
   execute_notebooks: auto
   allow_errors: true
+  exclude_patterns:
+    - '7_LacI_demo.ipynb'
+    - '6_advbiochem.ipynb'
+    - 'rosettacon2022.md'
 
 only_build_toc_files: true
 exclude_patterns: [7_LacI_demo.ipynb]
