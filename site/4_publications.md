@@ -14,9 +14,7 @@
 
 ````{div} full-width
 
-*Preprints*
-
-Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. Rizo, Thomas H. Pospiech Jr., Irene Lui, Mathew T. Laurie, Jeff Glasgow, Chau Q. Le, Yun Zhang, Devan Diwanji, Evelyn Hernandez, Jocelyne Lopez, Komal Ishwar Pawar, Sergei Pourmal, Amber M. Smith, Fengbo Zhou, QCRG Structural Biology Consortium, Joseph DeRisi, Tanja Kortemme, Oren S. Rosenberg, __Anum Glasgow__\*, Kevin K. Leung\*, James A. Wells\*, and Kliment A. Verba\*. [Computational pipeline provides mechanistic understanding of Omicron variant of concern neutralizing engineered ACE2 receptor traps.](https://www.biorxiv.org/content/10.1101/2022.08.09.503400v1) *bioRxiv*, August 2022.
+Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. Rizo, Thomas H. Pospiech Jr., Irene Lui, Mathew T. Laurie, Jeff Glasgow, Chau Q. Le, Yun Zhang, Devan Diwanji, Evelyn Hernandez, Jocelyne Lopez, Komal Ishwar Pawar, Sergei Pourmal, Amber M. Smith, Fengbo Zhou, QCRG Structural Biology Consortium, Joseph DeRisi, Tanja Kortemme, Oren S. Rosenberg, __Anum Glasgow__\*, Kevin K. Leung\*, James A. Wells\*, and Kliment A. Verba\*. [Computational pipeline provides mechanistic understanding of Omicron variant of concern neutralizing engineered ACE2 receptor traps.](https://www.biorxiv.org/content/10.1101/2022.08.09.503400v1) *Structure* 31, 1–12, February 2023. (\*, co-corresponding authors)
 
 <br/>
 <br/>
@@ -28,7 +26,8 @@ Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. R
 :alt: Allostery in the lac repressor.
 ```
 
-__Anum Glasgow__, Helen T. Hobbs, Zion R. Perry, Susan Marqusee\*, and Tanja Kortemme\*. [Ligand-induced changes in dynamics mediate long-range allostery in the *lac* repressor.](https://doi.org/10.1101/2021.11.30.470682) *bioRxiv*, December 2021.
+__Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee<sup>†</sup>, and Tanja Kortemme<sup>†</sup>. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://doi.org/10.1101/2021.11.30.470682) Accepted at *Nature Communications*, February 2023. (\*, corresponding author; <sup>†</sup>, these authors jointly advised this work.)
+
 <br/>
 <br/>
 *Explore our HDX/MS data for LacI [here](https://mybinder.org/v2/gh/anumazam/anumazam.github.io/main?labpath=site%2F7_LacI_demo.ipynb).*
@@ -47,7 +46,7 @@ __Anum Glasgow__, Helen T. Hobbs, Zion R. Perry, Susan Marqusee\*, and Tanja Kor
 :align: left
 :alt: Solution-based serology to detect COVID antibodies.
 ```
-Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Irene Lui, Katarina Pance, Shion A. Lim, Jeff E. Glasgow, __Anum A. Glasgow__, Keirstinne Turcios, Nikita S. Iyer, Leonel Torres, Michael J. Peluso, Timothy J. Henrich, Taia T. Wang, Cristina M. Tato, Kevin K. Leung, Bryan Greenhouse, and James A. Wells. [Engineering luminescent biosensors for point-of-care SARS-CoV-2 antibody detection.](https://www.doi.org/10.1038/s41587-021-00878-8) *Nature Biotechnology*, 39(8):928–935, August 2021.
+Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Irene Lui, Katarina Pance, Shion A. Lim, Jeff E. Glasgow, __Anum A. Glasgow__, Keirstinne Turcios, Nikita S. Iyer, Leonel Torres, Michael J. Peluso, Timothy J. Henrich, Taia T. Wang, Cristina M. Tato, Kevin K. Leung, Bryan Greenhouse, and James A. Wells. [Engineering luminescent biosensors for point-of-care SARS-CoV-2 antibody detection.](https://www.doi.org/10.1038/s41587-021-00878-8) *Nature Biotechnology*, 39(8):928–935, August 2021. (\*, co-first authors)
 
 <br/>
 <br/>
@@ -66,7 +65,7 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 <br/>
 <br/>
 
-__Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. [Engineered ACE2 receptor traps potently neutralize SARS-CoV-2.](https://www.doi.org/10.1073/pnas.2016093117) *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020.
+__Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. [Engineered ACE2 receptor traps potently neutralize SARS-CoV-2.](https://www.doi.org/10.1073/pnas.2016093117) *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020. (\*, co-first authors)
 
 +++
 +++
@@ -83,7 +82,7 @@ __Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Ya
 :alt: De novo design of a protein-based biosensor.
 ```
 
-__Anum A. Glasgow\*__, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan Ritterson, Amanda L. Loshbaugh, Jenna Pellegrino, Cody Krivacic, Roland A. Pache, Kyle A. Barlow, Noah Ollikainen, Deborah Jeon, Mark J. S. Kelly, James S. Fraser, and Tanja Kortemme. [Computational design of a modular protein sense/response system.](https://www.doi.org/10.1126/science.aax8780) *Science*, 366(6468):1024–1028, November 2019.
+__Anum A. Glasgow\*__, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan Ritterson, Amanda L. Loshbaugh, Jenna Pellegrino, Cody Krivacic, Roland A. Pache, Kyle A. Barlow, Noah Ollikainen, Deborah Jeon, Mark J. S. Kelly, James S. Fraser, and Tanja Kortemme. [Computational design of a modular protein sense/response system.](https://www.doi.org/10.1126/science.aax8780) *Science*, 366(6468):1024–1028, November 2019. (\*, co-first authors)
 
 +++
 +++
@@ -182,7 +181,7 @@ Jeong-Hyun Cho, __Anum Azam__, and David H. Gracias. [Three Dimensional Nanofabr
 <br/>
 <br/>
 
-David J. Filipiak\*, __Anum Azam\*__, Timothy G. Leong, and David H. Gracias. [Hierarchical self-assembly of complex polyhedral microcontainers.](https://www.doi.org/10.1088/0960-1317/19/7/075012) *Journal of Micromechanics and Microengineering*, 19(7):075012, June 2009.
+David J. Filipiak\*, __Anum Azam\*__, Timothy G. Leong, and David H. Gracias. [Hierarchical self-assembly of complex polyhedral microcontainers.](https://www.doi.org/10.1088/0960-1317/19/7/075012) *Journal of Micromechanics and Microengineering*, 19(7):075012, June 2009. (\*, co-first authors)
 
 <br/>
 <br/>
