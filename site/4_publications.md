@@ -14,15 +14,6 @@
 
 ````{div} full-width
 
-Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. Rizo, Thomas H. Pospiech Jr., Irene Lui, Mathew T. Laurie, Jeff Glasgow, Chau Q. Le, Yun Zhang, Devan Diwanji, Evelyn Hernandez, Jocelyne Lopez, Komal Ishwar Pawar, Sergei Pourmal, Amber M. Smith, Fengbo Zhou, QCRG Structural Biology Consortium, Joseph DeRisi, Tanja Kortemme, Oren S. Rosenberg, __Anum Glasgow__\*, Kevin K. Leung\*, James A. Wells\*, and Kliment A. Verba\*. [Computational pipeline provides mechanistic understanding of Omicron variant of concern neutralizing engineered ACE2 receptor traps.](https://www.cell.com/structure/fulltext/S0969-2126(23)00030-8) *Structure* 31, 1–12, February 2023. (\* co-corresponding authors)
-
-<br/>
-<br/>
-
-+++
-+++
-+++
-
 ```{image} ref_figures/lacI.png
 :height: 200px
 :class: bg-primary mb-1
@@ -30,7 +21,7 @@ Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. R
 :alt: Allostery in the lac repressor.
 ```
 
-__Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee<sup>†</sup>, and Tanja Kortemme<sup>†</sup>. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://doi.org/10.1101/2021.11.30.470682) Accepted at *Nature Communications*, February 2023. (\* corresponding author; <sup>†</sup> these authors jointly advised this work.)
+__Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee<sup>†</sup>, and Tanja Kortemme<sup>†</sup>. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://www.nature.com/articles/s41467-023-36798-1) *Nature Communications* 14(1179), February 2023. (\* corresponding author; <sup>†</sup> these authors jointly advised this work.)
 
 <br/>
 <br/>
@@ -38,6 +29,15 @@ __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan M
 *Explore our HDX/MS data for LacI [here](https://mybinder.org/v2/gh/anumazam/anumazam.github.io/main?labpath=site%2F7_LacI_demo.ipynb).*
 
 <br/>
+<br/>
+<br/>
+
++++
++++
++++
+
+Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. Rizo, Thomas H. Pospiech Jr., Irene Lui, Mathew T. Laurie, Jeff Glasgow, Chau Q. Le, Yun Zhang, Devan Diwanji, Evelyn Hernandez, Jocelyne Lopez, Komal Ishwar Pawar, Sergei Pourmal, Amber M. Smith, Fengbo Zhou, QCRG Structural Biology Consortium, Joseph DeRisi, Tanja Kortemme, Oren S. Rosenberg, __Anum Glasgow__\*, Kevin K. Leung\*, James A. Wells\*, and Kliment A. Verba\*. [Computational pipeline provides mechanistic understanding of Omicron variant of concern neutralizing engineered ACE2 receptor traps.](https://www.cell.com/structure/fulltext/S0969-2126(23)00030-8) *Structure* 31, 1–12, February 2023. (\* co-corresponding authors)
+
 <br/>
 <br/>
 
