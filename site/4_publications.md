@@ -14,6 +14,13 @@
 
 ````{div} full-width
 
+
+Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pineda Rodriguez__, Andrea MacFadden, Francesca Cendali, Morkos A. Henen, Jeffrey S. Kieft, __Anum Glasgow__, and Anna-Lena Steckelberg. [An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1.](https://www.biorxiv.org/content/10.1101/2023.06.07.544141v1) *bioRxiv*, June 2023. (\* co-first authors)
+
+<br/>
+<br/>
+<br/>
+
 ```{image} ref_figures/lacI.png
 :height: 200px
 :class: bg-primary mb-1
