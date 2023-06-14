@@ -99,7 +99,7 @@ Belen Sundberg (she/her) | *Graduate student*
 :width: 300px
 :align: left
 ```
-I am a first year PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies at Columbia University. Before beginning my PhD, I received my B.A. in Biology from NYU and worked as a technician at Columbia’s Chio Laboratory, investigating redox adaptations acquired by Pancreatic Ductal Adenocarcinoma cells to survive persistent oxidative stress. I am very excited to investigate the effects of cancer-associated mutations on allosteric regulation in a key glycolytic enzyme, PFK1, and dive into the world of computational biology during my rotation at the Glasgow Lab!
+I am a second year PhD candidate in the Integrated Program in Cellular, Molecular, and Biomedical Studies at Columbia University. Before beginning my PhD, I received my B.A. in Biology from NYU and worked as a technician at Columbia’s Chio Laboratory, investigating redox adaptations acquired by Pancreatic Ductal Adenocarcinoma cells to survive persistent oxidative stress. At the Glasgow lab, my work is centered on understanding the allosteric regulation of conserved, key glycolytic enzyme PFK-1. A more detailed picture of PFK-1's conformational ensemble will allow for the rational design of new classes of allosteric therapeutics to target this essential enzyme in diseases such as cancer. Additionally, uncovering the differences in allosteric mechanisms between human and pathogenic orthologs of PFK-1 can inform the design of cool new antibiotics.
 +++
 email: bs3281 [at] cumc [dot] columbia [dot] edu
 ````
