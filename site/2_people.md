@@ -14,11 +14,11 @@
 ```{image} people/lab_photos/20230615_group_crop.png
 :alt: lab-photo
 :class: bg-primary mb-1
-:width: 1000px
+:width: 750px
 :align: center
 ```
-
-Come talk to us at our group meeting in the Hammer 5 conference room at 1 pm on Fridays.
+<br>
+Come talk to us at our group meeting in the Hammer 5 conference room at 9:30 AM on Wednesdays.
 
 ````{card}
 Anum Glasgow (she/her) | *Principal investigator*
