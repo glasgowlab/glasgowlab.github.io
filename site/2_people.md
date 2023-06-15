@@ -11,7 +11,7 @@
 # Team
 `````{div} full-width
 
-```{image} people/lab_photos/20221007_group.jpg
+```{image} people/lab_photos/20230615_group_crop.png
 :alt: lab-photo
 :class: bg-primary mb-1
 :width: 1000px
