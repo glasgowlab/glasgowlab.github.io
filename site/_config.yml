@@ -22,8 +22,8 @@ execute:
     - '6_advbiochem.ipynb'
     - 'rosettacon2022.md'
 
-only_build_toc_files: false
-exclude_patterns: [7_LacI_demo.ipynb]
+only_build_toc_files: true
+exclude_patterns: [7_LacI_demo.ipynb, 6_advbiochem.ipynb, rosettacon2022.md]
 
 launch_buttons:
   notebook_interface: "jupyterlab"
