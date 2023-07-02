@@ -15,13 +15,13 @@
 **7/2/2023** It's summer!
 
 We have a lot to celebrate:
-- Columbia undergraduates Emily and Pranav joined the lab, and they both also secured outside summer funding to support their research.
+- Columbia undergraduates Emily and Pranav joined the lab, and they both also secured outside summer funding to support their research. Nice!
 - We got some of our work out there:
-  - [A large collaborative paper](https://www.sciencedirect.com/science/article/pii/S0969212623000308?via%3Dihub) that describes our computational pipeline to get more information from cryo-EM structures of complexes, and which shows how our designed ACE2 traps neutralize new strains of SARS-CoV-2. (So crazy to see hypotheses about strategies for mutation-resistant viral therapeutics tested in real life.)
+  - [A large collaborative paper](https://www.sciencedirect.com/science/article/pii/S0969212623000308?via%3Dihub) that describes our computational pipeline to get more information from cryo-EM structures of complexes, and which shows how our designed ACE2 traps neutralize new strains of SARS-CoV-2. (So crazy to see hypotheses about strategies for developing mutation-resistant viral therapeutics tested in real life.)
   - [Our paper](https://www.nature.com/articles/s41467-023-36798-1) diving into the allosteric mechanism of the _lac_ repressor.
   - [A preprint](https://www.biorxiv.org/content/10.1101/2023.06.07.544141v1) in collaboration with our neighbors in the Steckelberg lab, which is about the evolution of viral protein inhibition of the human ribosome.
-- At the end of the summer, Daniel will join the Biophysics graduate program at UC Berkeley! Our first graduate. :') They will do great in California.
-- Melody and Airam join us for the summer from the Amgen program and the Rosetta Commons REU program, respectively.
+- At the end of the summer, Daniel will join the Biophysics graduate program at UC Berkeley! Congratulations to our first graduate. :') They will do great in California.
+- Melody and Airam join us for the summer from the Amgen program and the Rosetta Commons REU program, respectively. Welcome!
 - Belen and Andrew were the first students from our lab to pass their qualifying exams! Great job. See their [cool](people/other_photos/20230616_web_update/belen_quals.png) [posters](people/other_photos/20230616_web_update/andrew_quals.jpg) (courtesy of Chenlin and Savannah).
 
 ```{toggle}
