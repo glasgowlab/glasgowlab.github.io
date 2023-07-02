@@ -23,11 +23,12 @@ We have a lot to celebrate:
 - At the end of the summer, Daniel will join the Biophysics graduate program at UC Berkeley! Our first graduate. :') They will do great out there.
 - Melody and Airam join us for the summer from the Amgen program and the Rosetta Commons REU program, respectively.
 - Belen and Andrew were the first students from our lab to pass qualifying exams!
+
 Belen's qual              |  Andrew's qual
 :-------------------------:|:-------------------------:
-![](people/other_photos/20230616_web_update/belen_quals.png) |  ![](people/other_photos/andrew_quals.jpg)
+<img src="people/other_photos/20230616_web_update/belen_quals.png" width="200"/> |  <img src="people/other_photos/20230616_web_update/andrew_quals.jpg" width="200"/>
 
-```{toggle}Some more quals photos.
+```{toggle}
 ![](people/other_photos/20230616_web_update/belen_quals_board.jpg)
 ![](people/other_photos/20230616_web_update/belen_quals_party.jpg)
 Chenlin made this colorful poster.
@@ -37,54 +38,41 @@ Chenlin made this colorful poster.
 Emily made this amazing cake, and Savannah designed the poster.
 ```
 - We finally have functional, networked servers.
-```{image} people/other_photos/20230616_web_update/kyle_computer.jpg
-:width: 200 px
-:align: right
-```
-```{image} people/other_photos/20230616_web_update/chenlin_computer.jpg
-:width: 200 px
-:align: right
-```
+<img src="people/other_photos/20230616_web_update/kyle_computer.jpg" width="200"/>
+<img src="people/other_photos/20230616_web_update/chenlin_computer.jpg" width="200"/>
+
 - Daniel presented his work at the SURF poster session, Kyle gave a talk in the BMB seminar series, and Chenlin gave a talk at the Columbia Biochem/Biophysics Mixer.
 ```{image} people/other_photos/20230616_web_update/daniel_poster.jpg
 :width: 200 px
-:align: right
+:align: left
 ```
 ```{image} people/other_photos/20230616_web_update/kyle_presentation.jpg
 :width: 200 px
-:align: right
+:align: center
 ```
 - Andrew was Honorably Mentioned for his NSF GRFP application. Nice!
 - Belen organized two lessons at Hamilton Grange Middle School in Washington Heights to engage in some fun science with our young neighbors.
-```{image} people/other_photos/20230616_web_update/kids_1.jpg
-:width: 100 px
-:align: right
+
+```{toggle}
+![](people/other_photos/20230616_web_update/kids_1.jpg)
+![](people/other_photos/20230616_web_update/kids_2.jpg)
+![](people/other_photos/20230616_web_update/kids_3.jpg)
+![](people/other_photos/20230616_web_update/kids_4.jpg)
 ```
-```{image} people/other_photos/20230616_web_update/kids_2.jpg
-:width: 100 px
-:align: right
-```
-```{image} people/other_photos/20230616_web_update/kids_3.jpg
-:width: 100 px
-:align: right
-```
-```{image} people/other_photos/20230616_web_update/kids_4.jpg
-:width: 100 px
-:align: right
-```
+
 - Daniel and Kyle started the summer off by organizing a useful intra-lab computational workshop.
 ```{image} people/other_photos/20230616_web_update/comp_workshop.jpg
-:width: 200 px
-:align: right
+:width: 400 px
+:align: left
 ```
 We are working hard this summer to move our projects along!
 ```{image} people/other_photos/20230616_web_update/20221007_group.jpg
 :width: 300 px
-:align: right
+:align: left
 ```
 ```{image} people/other_photos/20230616_web_update/squash.jpg
 :width: 300 px
-:align: right
+:align: center
 ```
 
 **10/15/2022** We’ve had a good summer and fall.
