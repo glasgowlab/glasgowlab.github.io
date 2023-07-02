@@ -20,28 +20,27 @@ We have a lot to celebrate:
   - [A large collaborative paper](https://www.sciencedirect.com/science/article/pii/S0969212623000308?via%3Dihub) that describes our computational pipeline to get more information from cryo-EM structures of complexes, and which shows how our designed ACE2 traps neutralize new strains of SARS-CoV-2. (So crazy to see hypotheses about strategies for mutation-resistant viral therapeutics tested in real life.)
   - [Our paper](https://www.nature.com/articles/s41467-023-36798-1) diving into the allosteric mechanism of the _lac_ repressor.
   - [A preprint](https://www.biorxiv.org/content/10.1101/2023.06.07.544141v1) in collaboration with our neighbors in the Steckelberg lab, which is about the evolution of viral protein inhibition of the human ribosome.
-- At the end of the summer, Daniel will join the Biophysics graduate program at UC Berkeley! Our first graduate. :') They will do great out there.
+- At the end of the summer, Daniel will join the Biophysics graduate program at UC Berkeley! Our first graduate. :') They will do great in California.
 - Melody and Airam join us for the summer from the Amgen program and the Rosetta Commons REU program, respectively.
 - Belen and Andrew were the first students from our lab to pass their qualifying exams! Great job. See their [cool](people/other_photos/20230616_web_update/belen_quals.png) [posters](people/other_photos/20230616_web_update/andrew_quals.jpg) (courtesy of Chenlin and Savannah).
 
 ```{toggle}
 <img src="people/other_photos/20230616_web_update/belen_quals_board.jpg" width="400"/>
 <img src="people/other_photos/20230616_web_update/belen_quals_party.jpg" width="400"/>
-<br>
 <img src="people/other_photos/20230616_web_update/andrew_face_cake.jpg" width="400"/>
 <img src="people/other_photos/20230616_web_update/andrew_quals_board.jpg" width="400"/>
 
 Emily made this amazing cake that looks like Andrew's face.
 ```
 - We finally have functional, networked servers.
-<br>
+<br><br>
 <img src="people/other_photos/20230616_web_update/kyle_computer.jpg" width="200"/>
 <img src="people/other_photos/20230616_web_update/chenlin_computer.jpg" width="200"/>
 <br>
 - Daniel presented their work at the SURF poster session, Kyle gave a talk in the BMB seminar series, and Chenlin gave a talk at the Columbia Biochem/Biophysics Mixer.
-<br>
+<br><br>
 <img src="people/other_photos/20230616_web_update/daniel_poster.jpg" width="400"/>
-<img src="people/other_photos/20230616_web_update/kyle_presentation.jpg" width="200"/>
+<img src="people/other_photos/20230616_web_update/kyle_presentation.jpg" width="250"/>
 <br>
 - Andrew was Honorably Mentioned for his NSF GRFP application. Nice!
 - Belen organized two lessons at Hamilton Grange Middle School in Washington Heights to engage in some fun science with our young neighbors.
@@ -49,13 +48,12 @@ Emily made this amazing cake that looks like Andrew's face.
 ```{toggle}
 <img src="people/other_photos/20230616_web_update/kids_1.jpg" width="300"/>
 <img src="people/other_photos/20230616_web_update/kids_2.jpg" width="300"/>
-<br>
 <img src="people/other_photos/20230616_web_update/kids_3.jpg" width="300"/>
 <img src="people/other_photos/20230616_web_update/kids_4.jpg" width="300"/>
 ```
 
 - Daniel and Kyle started the summer off by organizing a useful intra-lab computational workshop.
-<br>
+<br><br>
 <img src="people/other_photos/20230616_web_update/comp_workshop.jpg" width="400"/>
 <br>
 
