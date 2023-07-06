@@ -49,7 +49,21 @@ email: erk2172 [at] columbia [dot] edu
 ````
 
 ````{card}
-Daniel Camilo Pineda (they/them) | *Undergraduate researcher*
+Savannah McBride (she/her) | *Graduate Student*
+^^^
+```{image} people/sav.jpg
+:alt: savannah
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a second-year PhD student in the Department of Genetics and Development. I received my B.A. in Biology from Reed College in Portland, OR. Prior to starting graduate school, I was a research assistant in Dr. Fikadu Tafesse's lab at OHSU, where I worked on COVID antibody research and evaluated novel small molecules as antiviral therapeutics. I am interested in exploring new methods of protein design and understanding how protein conformational dynamics underlie protein function. Outside of the lab, I enjoy exploring NYC, going to stand-up comedy shows, and sitting in Central Park with my friends.
++++
+email: skm2191 [at] cumc [dot] columbia [dot] edu
+````
+
+````{card}
+Daniel Camilo Pineda (they/them) | *Post-bacc researcher*
 ^^^
 ```{image} people/daniel.jpg
 :alt: daniel-is-cool
@@ -57,7 +71,7 @@ Daniel Camilo Pineda (they/them) | *Undergraduate researcher*
 :width: 300px
 :align: left
 ```
-I am a third-year undergraduate student working towards a B.A. in Biochemistry. I was born in Bógota, Colombia, and moved to the US 6 years ago. I lived in Miami, Florida, and obtained my Associate Degree in chemistry at Miami Dade College. There, I worked with Dr. Juan Morata where I became fascinated with viruses and their ability to hack biological mechanisms. Currently, I am learning about protein engineering and computational biology; I am extremely excited to keep studying proteins! Outside the lab, I enjoy reading, playing, and developing videogames, skateboarding, and museums! 
+I earned my B.A. in Biochemistry at Columbia. I was born in Bógota, Colombia, and moved to the US 6 years ago. I lived in Miami, Florida, and obtained my Associate Degree in chemistry at Miami Dade College. There, I worked with Dr. Juan Morata where I became fascinated with viruses and their ability to hack biological mechanisms. Currently, I am learning about protein engineering and computational biology; I am extremely excited to keep studying proteins! Outside the lab, I enjoy reading, playing, and developing videogames, skateboarding, and museums! 
 +++
 email: dcp2151 [at] columbia [dot] edu
 ````
@@ -141,7 +155,7 @@ Malcolm Wells (he/him) | *Graduate student*
 :width: 300px
 :align: left
 ```
-I am a second-year PhD student in physics at Columbia. I did my undergrad also in physics at Columbia, and before starting here I did research in condensed matter physics and genomics labs. I am excited about protein biophysics and currently studying allostery using HDX mass spectrometry.
+I am a PhD student in physics at Columbia. I did my undergrad also in physics at Columbia, and before starting here I did research in condensed matter physics and genomics labs. I am excited about protein biophysics and currently studying allostery using HDX mass spectrometry.
 +++
 email: mw3079 [at] columbia [dot] edu
 ````
