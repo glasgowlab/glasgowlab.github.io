@@ -37,8 +37,8 @@ email: ag4522 [at] cumc [dot] columbia [dot] edu
 ````{card}
 Emily Kilroy (she/her) | *Undergraduate researcher*
 ^^^
-```{image} people/emily.jpg
-:alt: emily
+```{image} people/sav.jpg
+:alt: savannah
 :class: bg-primary mb-1
 :width: 300px
 :align: left
