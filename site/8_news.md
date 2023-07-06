@@ -21,7 +21,7 @@ We have a lot to celebrate:
   - [A preprint](https://www.biorxiv.org/content/10.1101/2023.06.07.544141v1) in collaboration with our neighbors in the Steckelberg lab, which is about the evolution of viral protein inhibition of the human ribosome.
 - At the end of the summer, Daniel will join the Biophysics graduate program at UC Berkeley! Congratulations to our first graduate. :') They will do great in California.
 - Columbia undergraduates Emily and Pranav joined the lab, and they both also secured outside summer funding to support their research. Nice! Thanks very much, I. I. Rabi Scholars Program and Donald Margolis Internship Fund.
-- After a productive rotation, Savannah McBride offially joins the lab fom the CUMC Genetics and Development graduate program. Welcome!
+- After a productive rotation, Savannah McBride officially joined the lab fom the CUMC Genetics and Development graduate program. Welcome!
 - Melody and Airam join us for the summer from the Amgen program and the Rosetta Commons REU program, respectively. Welcome!
 - Belen and Andrew were the first students from our lab to pass their qualifying exams! Great job. See their [cool](people/other_photos/20230616_web_update/belen_quals.png) [posters](people/other_photos/20230616_web_update/andrew_quals.jpg) (courtesy of Chenlin and Savannah).
 
