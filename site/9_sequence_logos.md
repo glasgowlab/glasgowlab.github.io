@@ -8,22 +8,22 @@ This tool is able to generate sequence logos  and 3d scatter plots from a protei
 
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
     <div style="flex: 1; padding-right: 5px;">
-        <img src="preview1.png" alt="Figure One" style="width: 100%;"/>
+        <img src="sequence_logos/preview1.png" alt="Figure One" style="width: 100%;"/>
         <p style="text-align: center; font-weight: bold;">Figure One</p>
     </div>
     <div style="flex: 1; padding-left: 5px;">
-        <img src="preview2.png" alt="Figure Two" style="width: 100%;"/>
+        <img src="sequence_logos/preview2.png" alt="Figure Two" style="width: 100%;"/>
         <p style="text-align: center; font-weight: bold;">Figure Two</p>
     </div>
 </div>
 
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
     <div style="flex: 1; padding-right: 5px;">
-        <img src="preview3.png" alt="Figure Three" style="width: 100%;"/>
+        <img src="sequence_logos/preview3.png" alt="Figure Three" style="width: 100%;"/>
         <p style="text-align: center; font-weight: bold;">Figure Three</p>
     </div>
     <div style="flex: 1; padding-left: 5px;">
-        <img src="preview4.png" alt="Figure Four" style="width: 100%;"/>
+        <img src="sequence_logos/preview4.png" alt="Figure Four" style="width: 100%;"/>
         <p style="text-align: center; font-weight: bold;">Figure Four</p>
     </div>
 </div>
