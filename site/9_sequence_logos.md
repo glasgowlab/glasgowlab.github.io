@@ -24,7 +24,7 @@ This tool is able to generate sequence logos  and 3d scatter plots from a protei
 | --- | --- |
 | ![Figure 3](sequence_logos/preview3.png) | ![Figure 4](sequence_logos/preview4.png) |
 
-Click [here](https://colab.research.google.com/github/DanielP520/sequence_logo_project/blob/main/LogoMaker.ipynb) to use the interactive Google Colab tool. 
+Click [here](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb) to use the interactive Google Colab tool. 
 
 ***Credits***: 
 
