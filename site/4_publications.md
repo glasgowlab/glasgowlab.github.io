@@ -13,9 +13,12 @@
 ## Publications
 
 ````{div} full-width
+__Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing many simultaneous protein interactions with a binding partner](https://www.biorxiv.org/content/10.1101/2023.09.04.556273v1) *bioRxiv*, September 2023.
 
+<br/>
+<br/>
 
-Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pineda Rodriguez__, Andrea MacFadden, Francesca Cendali, Morkos A. Henen, Jeffrey S. Kieft, __Anum Glasgow__, and Anna-Lena Steckelberg. [An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1.](https://www.biorxiv.org/content/10.1101/2023.06.07.544141v1) *bioRxiv*, June 2023. (\* co-first authors)
+Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pineda Rodriguez__, Andrea MacFadden, Francesca Cendali, Morkos A. Henen, Jeffrey S. Kieft, __Anum Glasgow__, and Anna-Lena Steckelberg. [An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1.](https://www.sciencedirect.com/science/article/pii/S0022283623003704) *Journal of Molecular Biology*, September 2023. (\* co-first authors)
 
 <br/>
 <br/>
