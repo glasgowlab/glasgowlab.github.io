@@ -18,7 +18,7 @@
 :align: center
 ```
 <br>
-Come talk to us at our group meeting in the Hammer 5 conference room at 9:30 AM on Wednesdays.
+Come talk to us at our group meeting in the Hammer 5 conference room at 1:30 PM on Mondays.
 
 ````{card}
 Anum Glasgow (she/her) | *Principal investigator*
@@ -49,34 +49,6 @@ email: erk2172 [at] columbia [dot] edu
 ````
 
 ````{card}
-Savannah McBride (she/her) | *Graduate Student*
-^^^
-```{image} people/sav.jpg
-:alt: savannah
-:class: bg-primary mb-1
-:width: 300px
-:align: left
-```
-I am a second-year PhD student in the Department of Genetics and Development. I received my B.A. in Biology from Reed College in Portland, OR. Prior to starting graduate school, I was a research assistant in Dr. Fikadu Tafesse's lab at OHSU, where I worked on COVID antibody research and evaluated novel small molecules as antiviral therapeutics. I am interested in exploring new methods of protein design and understanding how protein conformational dynamics underlie protein function. Outside of the lab, I enjoy exploring NYC, going to stand-up comedy shows, and sitting in Central Park with my friends.
-+++
-email: skm2191 [at] cumc [dot] columbia [dot] edu
-````
-
-````{card}
-Daniel Camilo Pineda (they/them) | *Post-bacc researcher*
-^^^
-```{image} people/daniel.jpg
-:alt: daniel-is-cool
-:class: bg-primary mb-1
-:width: 300px
-:align: left
-```
-I earned my B.A. in Biochemistry at Columbia. I was born in Bógota, Colombia, and moved to the US 6 years ago. I lived in Miami, Florida, and obtained my Associate Degree in chemistry at Miami Dade College. There, I worked with Dr. Juan Morata where I became fascinated with viruses and their ability to hack biological mechanisms. Currently, I am learning about protein engineering and computational biology; I am extremely excited to keep studying proteins! Outside the lab, I enjoy reading, playing, and developing videogames, skateboarding, and museums! 
-+++
-email: dcp2151 [at] columbia [dot] edu
-````
-
-````{card}
 Chenlin Lu (he/him) | *Postdoctoral Research Fellow*
 ^^^
 ```{image} people/chenlin.jpg
@@ -91,6 +63,34 @@ email: cl4354 [at] columbia [dot] edu
 ````
 
 ````{card}
+Airam Martinez Rodriguez (she/her) | *Rosetta intern*
+^^^
+```{image} people/airam.jpg
+:alt: airam-is-cool
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a fourth year undergraduate student pursuing a B.S. in Bioengineering. I am from Central California, where I am currently obtaining my degree at the University of California, Merced. Prior to joining the lab, I did an NSF fellowship at the P. LiWang Lab, in which I designed and produced chemokine protein variants for improving protein-protein interactions to control inflammatory diseases. This past summer, I joined the Glasgow Lab through the Rosetta Commons, where I developed a computational pipeline to analyze differences in H-D exchange among homologous secondary structures across the lysozyme family, with the purpose of understanding how secondary structures interact to enable lysozyme's hydrolyzing function. Outside the lab, I volunteer for the UCSF Fresno mobile clinic, and I love to go hiking at Yosemite National Park.
++++
+email: amartinezrodriguez2 [at] ucmerced [dot] edu
+````
+
+````{card}
+Savannah McBride (she/her) | *Graduate Student*
+^^^
+```{image} people/sav.jpg
+:alt: savannah
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a second-year PhD student in the Department of Genetics and Development. I received my B.A. in Biology from Reed College in Portland, OR. Prior to starting graduate school, I was a research assistant in Dr. Fikadu Tafesse's lab at OHSU, where I worked on COVID antibody research and evaluated novel small molecules as antiviral therapeutics. I am interested in exploring new methods of protein design and understanding how protein conformational dynamics underlie protein function. Outside of the lab, I enjoy exploring NYC, going to stand-up comedy shows, and sitting in Central Park with my friends.
++++
+email: skm2191 [at] cumc [dot] columbia [dot] edu
+````
+
+````{card}
 Andrew Reckers (he/him) | *Graduate student*
 ^^^
 ```{image} people/andrew.jpg
@@ -102,20 +102,6 @@ Andrew Reckers (he/him) | *Graduate student*
 I am a PhD student in the Integrated Program hailing from California. I obtained my bachelor’s degree from Whitman College, where I studied Environmental Studies and Biology. Most recently, I was a research technician in Dr. Roy Gerona’s lab at UC San Francisco, using mass spectrometry to study forensic toxicology and antibiotic therapy adherence. I am interested in cool proteins and cool science!
 +++
 email: arr2230 [at] cumc [dot] columbia [dot] edu
-````
-
-````{card}
-Neel Shanmugam (he/him) | *Undergraduate researcher*
-^^^
-```{image} people/neel.jpg
-:alt: neel_smiley
-:class: bg-primary mb-1
-:width: 300px
-:align: left
-```
-I was born and raised in Richardson, TX. I am currently a freshman undergraduate at Columbia University majoring in Biomedical Engineering. I have prior research experience with molecular dynamics simulations and solvation chemistry. I am currently working on PARROTS, a pipeline for rapidly engineering antiviral therapeutics. Outside of research, I love eating strawberries, playing tennis, lifting weights, and taking long walks.
-+++
-email: neel [underscore] shanmugam [at] hotmail [dot] com
 ````
 
 ````{card}
