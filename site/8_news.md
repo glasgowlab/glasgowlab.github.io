@@ -56,7 +56,6 @@ Emily made this amazing cake that looks like Andrew's face.
 <br><br>
 <img src="people/other_photos/20230616_web_update/comp_workshop.jpg" width="400"/>
 <br><br>
-
 We are working hard this summer to move our projects along!
 <br><br>
 <img src="people/other_photos/20230616_web_update/20221007_group.jpg" width="500"/>
