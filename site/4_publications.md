@@ -12,7 +12,6 @@
 (my-label)=
 ## Publications
 
-````{div} full-width
 __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing many simultaneous protein interactions with a binding partner.](https://www.biorxiv.org/content/10.1101/2023.09.04.556273v1) *bioRxiv*, September 2023. Check out MAGPIE on Google CoLab [here](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb).
 
 <br/>
@@ -204,5 +203,4 @@ David J. Filipiak\*, __Anum Azam\*__, Timothy G. Leong, and David H. Gracias. [H
 
 __Anum Azam__, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. [Compactness Determines the Success of Cube and Octahedron Self-Assembly.](https://www.doi.org/10.1371/journal.pone.0004451) *PLOS ONE*, 4(2):e4451, February 2009.
 
-````
 <!-- #endregion -->
