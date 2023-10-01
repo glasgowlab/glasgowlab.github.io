@@ -9,7 +9,6 @@
 </script>
 
 # Team
-`````{div} full-width
 
 ```{image} people/lab_photos/20230615_group_crop.png
 :alt: lab-photo
@@ -160,4 +159,3 @@ Are you interested in joining us?
 We are excited to have you.
 <br/>
 ````
-`````
