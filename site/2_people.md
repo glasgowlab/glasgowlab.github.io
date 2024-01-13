@@ -100,7 +100,7 @@ Daniel Sultanov (he/him) | *Postdoctoral research scientist*
 :width: 300px
 :align: left
 ```
-I am a computational and experimental biologist focusing on integrating evolution into understanding and designing protein allostery. I received my PhD in Genomics from New York University, where I was working on evolution of macromolecular RNA-protein machines. Before that, I worked as a biochemist at Fox Chase Cancer Center in Philadelphia, PA, where I was investigating step-by-step recognition of DNA-breaks in chromatin. I received my BSc in Biochemistry and MSc in Molecular Biology from Moscow State University in Russia
+I am a computational and experimental biologist focusing on integrating evolution into understanding and designing protein allostery. I received my PhD in Genomics from New York University, where I was working on evolution of macromolecular RNA-protein machines. Before that, I worked as a biochemist at Fox Chase Cancer Center in Philadelphia, PA, where I was investigating step-by-step recognition of DNA-breaks in chromatin. I received my BSc in Biochemistry and MSc in Molecular Biology from Moscow State University in Russia.
 +++
 email: ds4316 [at] cumc [dot] columbia [dot] edu
 ````
