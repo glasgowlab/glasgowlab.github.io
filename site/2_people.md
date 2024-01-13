@@ -50,7 +50,7 @@ email: erk2172 [at] columbia [dot] edu
 ````
 
 ````{card}
-Chenlin Lu (he/him) | *Postdoctoral Research Fellow*
+Chenlin Lu (he/him) | *Postdoctoral research fellow*
 ^^^
 ```{image} people/chenlin.jpg
 :alt: chenlin
@@ -64,21 +64,7 @@ email: cl4354 [at] columbia [dot] edu
 ````
 
 ````{card}
-Airam Martinez Rodriguez (she/her) | *Rosetta intern*
-^^^
-```{image} people/airam.jpg
-:alt: airam-is-cool
-:class: bg-primary mb-1
-:width: 300px
-:align: left
-```
-I am a fourth year undergraduate student pursuing a B.S. in Bioengineering. I am from Central California, where I am currently obtaining my degree at the University of California, Merced. Prior to joining the lab, I did an NSF fellowship at the P. LiWang Lab, in which I designed and produced chemokine protein variants for improving protein-protein interactions to control inflammatory diseases. This past summer, I joined the Glasgow Lab through the Rosetta Commons, where I developed a computational pipeline to analyze differences in H-D exchange among homologous secondary structures across the lysozyme family, with the purpose of understanding how secondary structures interact to enable lysozyme's hydrolyzing function. Outside the lab, I volunteer for the UCSF Fresno mobile clinic, and I love to go hiking at Yosemite National Park.
-+++
-email: amartinezrodriguez2 [at] ucmerced [dot] edu
-````
-
-````{card}
-Savannah McBride (she/her) | *Graduate Student*
+Savannah McBride (she/her) | *Graduate student*
 ^^^
 ```{image} people/sav.jpg
 :alt: savannah
@@ -104,6 +90,21 @@ I am a PhD student in the Integrated Program hailing from California. I obtained
 +++
 email: arr2230 [at] cumc [dot] columbia [dot] edu
 ````
+
+````{card}
+Daniel Sultanov (he/him) | *Postdoctoral research scientist*
+^^^
+```{image} people/daniel_sultanov.jpg
+:alt: daniel
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a computational and experimental biologist focusing on integrating evolution into understanding and designing protein allostery. I received my PhD in Genomics from New York University, where I was working on evolution of macromolecular RNA-protein machines. Before that, I worked as a biochemist at Fox Chase Cancer Center in Philadelphia, PA, where I was investigating step-by-step recognition of DNA-breaks in chromatin. I received my BSc in Biochemistry and MSc in Molecular Biology from Moscow State University in Russia
++++
+email: ds4316 [at] cumc [dot] columbia [dot] edu
+````
+
 
 ````{card}
 Belen Sundberg (she/her) | *Graduate student*
