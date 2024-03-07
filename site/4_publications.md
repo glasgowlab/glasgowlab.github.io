@@ -12,7 +12,7 @@
 (my-label)=
 ## Publications
 
-__Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing many simultaneous protein interactions with a binding partner.](https://www.biorxiv.org/content/10.1101/2023.09.04.556273v2) *bioRxiv*, March 2024. Check out MAGPIE on Google CoLab [here](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb).
+__Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing protein-ligand interactions.](https://www.biorxiv.org/content/10.1101/2023.09.04.556273v2) *bioRxiv*, March 2024. Check out MAGPIE on Google CoLab [here](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb).
 
 <br/>
 <br/>
