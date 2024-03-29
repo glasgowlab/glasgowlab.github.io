@@ -22,6 +22,20 @@ Come talk to us at our group meeting in the Hammer 5 conference room at 1:30 PM 
 <br>
 
 ````{card}
+Erin Ahern (she/her) | *Undergraduate researcher*
+^^^
+```{image} people/erin.png
+:alt: erin
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am currently a senior at Columbia University pursuing a B.A. in Biophysics. I grew up in New York City and love going to college here as well. Before joining the lab, I was a Rosetta Intern at the Schoeder Lab in Leipzig, Germany. I became fascinated by computational methods to engineer binder proteins with the potential use for therapeutics. At the Glasgow lab, I am excited to work on PARROTS, a pipeline to rapidly engineer antiviral therapeutics and experimentally test binders. Outside of the lab, I enjoy exploring museums, going to concerts, traveling, and hiking.
++++
+email: eca2133 [at] columbia [dot] edu
+````
+
+````{card}
 Anum Glasgow (she/her) | *Principal investigator*
 ^^^
 ```{image} people/anum.jpg
@@ -105,7 +119,6 @@ I am a computational and experimental biologist focusing on integrating evolutio
 email: ds4316 [at] cumc [dot] columbia [dot] edu
 ````
 
-
 ````{card}
 Belen Sundberg (she/her) | *Graduate student*
 ^^^
@@ -146,20 +159,6 @@ Malcolm Wells (he/him) | *Graduate student*
 I am a PhD student in physics at Columbia. I did my undergrad also in physics at Columbia, and before starting here I did research in condensed matter physics and genomics labs. I am excited about protein biophysics and currently studying allostery using HDX mass spectrometry.
 +++
 email: mw3079 [at] columbia [dot] edu
-````
-
-````{card}
-Erin Ahern (she/her) | *Undergraduate researcher*
-^^^
-```{image} people/erin.png
-:alt: erin
-:class: bg-primary mb-1
-:width: 300px
-:align: left
-```
-I am a senior at Columbia University pursuing a B.A. in Biophysics. I grew up in New York City and love going to college here as well. Before joining the lab, I was a Rosetta Intern at the Schoeder Lab in Leipzig, Germany. I became fascinated by computational methods to engineer binder proteins with the potential use for therapeutics. At the Glasgow lab, I am excited to work on PARROTS, a pipeline to rapidly engineer antiviral therapeutics and experimentally test binders. Outside of the lab, I enjoy exploring museums, going to concerts, traveling, and hiking.
-+++
-email: eca2133 [at] columbia [dot] edu
 ````
 
 ````{card}
