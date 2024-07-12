@@ -10,14 +10,14 @@
 
 # Team
 
-```{image} people/lab_photos/20230615_group_crop.png
+```{image} people/lab_photos/20250509_group.jpg
 :alt: lab-photo
 :class: bg-primary mb-1
 :width: 750px
 :align: center
 ```
 <br>
-Come talk to us at our group meeting in the Hammer 5 conference room at 1:30 PM on Mondays.
+Come talk to us at our group meeting in the Hammer 5 conference room at 9:30 AM on Thursdays.
 <br>
 <br>
 
