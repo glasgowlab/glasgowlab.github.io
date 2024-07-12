@@ -18,11 +18,16 @@
 :align: left
 :alt: Calculate thousands of interaction energies on the fly.
 ```
+<br/>
+<br/>
+<br/>
 
 __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing protein-ligand interactions.](https://onlinelibrary.wiley.com/doi/10.1002/pro.5027) *Protein Science*, 33(8), July 2024.
 <br/>
 <br/>
 *Check out MAGPIE on Google CoLab [here](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb).*
+<br/>
+[Github repo](https://github.com/glasgowlab/MAGPIE/tree/local-version) / [Tutorial](https://magpie-docs.readthedocs.io/en/latest/Introduction.html)
 <br/>
 <br/>
 <br/>
