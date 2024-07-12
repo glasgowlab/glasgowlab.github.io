@@ -12,7 +12,14 @@
 (my-label)=
 ## Publications
 
-__Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing protein-ligand interactions.](https://www.biorxiv.org/content/10.1101/2023.09.04.556273v2) Accepted at *Protein Science*, May 2024.
+```{image} ref_figures/magpie_energies.png
+:height: 130px
+:class: bg-primary mb-1
+:align: left
+:alt: Calculate thousands of interaction energies on the fly.
+```
+
+__Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing protein-ligand interactions.](https://onlinelibrary.wiley.com/doi/10.1002/pro.5027) *Protein Science*, 33(8), July 2024.
 <br/>
 <br/>
 *Check out MAGPIE on Google CoLab [here](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb).*
@@ -20,7 +27,7 @@ __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anu
 <br/>
 <br/>
 
-Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pineda Rodriguez__, Andrea MacFadden, Francesca Cendali, Morkos A. Henen, Jeffrey S. Kieft, __Anum Glasgow__, and Anna-Lena Steckelberg. [An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1.](https://www.sciencedirect.com/science/article/pii/S0022283623003704) *Journal of Molecular Biology*, September 2023. (\* co-first authors)
+Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pineda Rodriguez__, Andrea MacFadden, Francesca Cendali, Morkos A. Henen, Jeffrey S. Kieft, __Anum Glasgow__, and Anna-Lena Steckelberg. [An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1.](https://www.sciencedirect.com/science/article/pii/S0022283623003704) *Journal of Molecular Biology*, 435(20), October 2023. (\* co-first authors)
 
 <br/>
 <br/>
