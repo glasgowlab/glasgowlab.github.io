@@ -13,7 +13,7 @@
 ## Publications
 
 ```{image} ref_figures/magpie_energies.png
-:height: 130px
+:height: 300px
 :class: bg-primary mb-1
 :align: left
 :alt: Calculate thousands of interaction energies on the fly.
