@@ -20,7 +20,6 @@
 ```
 <br/>
 <br/>
-<br/>
 
 __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing protein-ligand interactions.](https://onlinelibrary.wiley.com/doi/10.1002/pro.5027) *Protein Science*, 33(8), July 2024.
 <br/>
@@ -31,6 +30,12 @@ __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anu
 <br/>
 <br/>
 <br/>
+<br/>
+
++++
++++
++++
+
 
 Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pineda Rodriguez__, Andrea MacFadden, Francesca Cendali, Morkos A. Henen, Jeffrey S. Kieft, __Anum Glasgow__, and Anna-Lena Steckelberg. [An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1.](https://www.sciencedirect.com/science/article/pii/S0022283623003704) *Journal of Molecular Biology*, 435(20), October 2023. (\* co-first authors)
 
