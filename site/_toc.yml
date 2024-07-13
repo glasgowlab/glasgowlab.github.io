@@ -5,6 +5,4 @@ chapters:
 - file: 3_projects
 - file: 4_publications
 - file: 5_recruit
-- file: 6_advbiochem.ipynb
 - file: 8_news
-- file: 9_sequence_logos
