@@ -22,7 +22,7 @@ Come talk to us at our group meeting in the Hammer 5 conference room at 9:30 AM 
 <br>
 
 ````{card}
-Erin Ahern (she/her) | *Undergraduate researcher*
+Erin Ahern (she/her) | *[Postbac researcher](https://www.rosettacommons.org/about/post-baccalaureate-program)*
 ^^^
 ```{image} people/erin.png
 :alt: erin
@@ -30,7 +30,7 @@ Erin Ahern (she/her) | *Undergraduate researcher*
 :width: 300px
 :align: left
 ```
-I am currently a senior at Columbia University pursuing a B.A. in Biophysics. I grew up in New York City and love going to college here as well. Before joining the lab, I was a Rosetta Intern at the Schoeder Lab in Leipzig, Germany. I became fascinated by computational methods to engineer binder proteins with the potential use for therapeutics. At the Glasgow lab, I am excited to work on PARROTS, a pipeline to rapidly engineer antiviral therapeutics and experimentally test binders. Outside of the lab, I enjoy exploring museums, going to concerts, traveling, and hiking.
+I earned my B.A. in Biophysics at Columbia University. I grew up in New York City and love going to college here as well. Before joining the lab, I was a Rosetta Intern at the Schoeder Lab in Leipzig, Germany. I became fascinated by computational methods to engineer binder proteins with the potential use for therapeutics. At the Glasgow lab, I am working on PARROTS, a pipeline to rapidly engineer antiviral therapeutics and experimentally test binders. Outside of the lab, I enjoy exploring museums, going to concerts, traveling, and hiking.
 +++
 email: eca2133 [at] columbia [dot] edu
 ````
