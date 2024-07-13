@@ -20,6 +20,8 @@ execute:
   exclude_patterns:
     - '7_LacI_demo.ipynb'
     - 'rosettacon2022.md'
+    - '6_advbiochem.ipynb'
+    - '9_sequence_logos.md'
 
 only_build_toc_files: true
 exclude_patterns: [7_LacI_demo.ipynb, rosettacon2022.md]
