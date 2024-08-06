@@ -49,7 +49,7 @@ __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anu
 <br/>
 *Check out MAGPIE on Google CoLab [here](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb).*
 <br/>
-[Github repo](https://github.com/glasgowlab/MAGPIE/tree/local-version) / [Tutorial](https://magpie-docs.readthedocs.io/en/latest/Introduction.html)
+[Github repo](https://github.com/glasgowlab/MAGPIE/tree/local-version) / [Tutorial](https://magpie-docs.readthedocs.io/en/latest/Introduction.html).*
 <br/>
 <br/>
 <br/>
