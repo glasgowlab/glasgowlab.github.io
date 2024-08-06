@@ -12,6 +12,29 @@
 (my-label)=
 ## Publications
 
+```{image} ref_figures/dhfr_apo-mtx_ddg.png
+:height: 300px
+:class: bg-primary mb-1
+:align: right
+:alt: Derive site-resolved ∆Gop
+```
+<br/>
+<br/>
+
+__Chenlin Lu1__\*, __Malcolm L. Wells1__\*, __Andrew Reckers__, and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v1) *bioRxiv*, 2024.  (\* co-first authors)
+<br/>
+<br/>
+*Check out PIGEON-FEATHER [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
++++
++++
++++
+
 ```{image} ref_figures/magpie_energies.png
 :height: 300px
 :class: bg-primary mb-1
