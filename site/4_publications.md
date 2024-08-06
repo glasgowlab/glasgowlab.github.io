@@ -13,7 +13,7 @@
 ## Publications
 
 ```{image} ref_figures/dhfr_apo-mtx_ddg.png
-:height: 300px
+:height: 200px
 :class: bg-primary mb-1
 :align: right
 :alt: Derive site-resolved ∆Gop
