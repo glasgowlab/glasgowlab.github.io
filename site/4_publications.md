@@ -21,10 +21,10 @@
 <br/>
 <br/>
 
-__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v1) *bioRxiv*, 2024.  (\* co-first authors)
+__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v1) *bioRxiv*, August 2024.  (\* co-first authors)
 <br/>
 <br/>
-*Check out PIGEON-FEATHER [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
+Check out PIGEON-FEATHER: [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
 <br/>
 <br/>
 <br/>
@@ -49,7 +49,7 @@ __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anu
 <br/>
 *Check out MAGPIE on Google CoLab [here](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb).*
 <br/>
-[Github repo](https://github.com/glasgowlab/MAGPIE/tree/local-version) / [Tutorial](https://magpie-docs.readthedocs.io/en/latest/Introduction.html).*
+[Github repo](https://github.com/glasgowlab/MAGPIE/tree/local-version) / [Tutorial](https://magpie-docs.readthedocs.io/en/latest/Introduction.html).
 <br/>
 <br/>
 <br/>
@@ -73,15 +73,10 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 :align: right
 :alt: Allostery in the lac repressor.
 ```
+<br/>
 
 __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee<sup>†</sup>, and Tanja Kortemme<sup>†</sup>. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://www.nature.com/articles/s41467-023-36798-1) *Nature Communications* 14(1179), February 2023. (\* corresponding author; <sup>†</sup> these authors jointly advised this work.)
 
-<br/>
-<br/>
-
-*Explore our HDX/MS data for LacI [here](https://mybinder.org/v2/gh/anumazam/anumazam.github.io/main?labpath=site%2F7_LacI_demo.ipynb).*
-
-<br/>
 <br/>
 <br/>
 
@@ -105,6 +100,15 @@ Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. R
 :alt: Solution-based serology to detect COVID antibodies.
 ```
 Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Irene Lui, Katarina Pance, Shion A. Lim, Jeff E. Glasgow, __Anum A. Glasgow__, Keirstinne Turcios, Nikita S. Iyer, Leonel Torres, Michael J. Peluso, Timothy J. Henrich, Taia T. Wang, Cristina M. Tato, Kevin K. Leung, Bryan Greenhouse, and James A. Wells. [Engineering luminescent biosensors for point-of-care SARS-CoV-2 antibody detection.](https://www.doi.org/10.1038/s41587-021-00878-8) *Nature Biotechnology*, 39(8):928–935, August 2021. (\* co-first authors)
+
+<br/>
+<br/>
+
++++
++++
++++
+
+Jeff Glasgow\*, __Anum Glasgow__\*, Tanja Kortemme and James A. Wells, [Reply to Liu *et al.*: Specific mutations matter in specificity and catalysis in ACE2.](https://www.pnas.org/doi/full/10.1073/pnas.2024450118) *Proceedings of the National Academy of Sciences*, 118(15) e2024450118, April 2021. (\* co-first authors)
 
 <br/>
 <br/>
