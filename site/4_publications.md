@@ -68,7 +68,9 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 <br/>
 <br/>
 <br/>
-
++++
++++
++++
 
 ```{image} ref_figures/lacI.png
 :height: 200px
@@ -76,6 +78,8 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 :align: right
 :alt: Allostery in the lac repressor.
 ```
+<br/>
+<br/>
 
 __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee<sup>†</sup>, and Tanja Kortemme<sup>†</sup>. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://www.nature.com/articles/s41467-023-36798-1) *Nature Communications* 14(1179), February 2023. (\* corresponding author)
 
@@ -92,7 +96,6 @@ __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan M
 
 Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. Rizo, Thomas H. Pospiech Jr., Irene Lui, Mathew T. Laurie, Jeff Glasgow, Chau Q. Le, Yun Zhang, Devan Diwanji, Evelyn Hernandez, Jocelyne Lopez, Komal Ishwar Pawar, Sergei Pourmal, Amber M. Smith, Fengbo Zhou, QCRG Structural Biology Consortium, Joseph DeRisi, Tanja Kortemme, Oren S. Rosenberg, __Anum Glasgow__\*, Kevin K. Leung\*, James A. Wells\*, and Kliment A. Verba\*. [Computational pipeline provides mechanistic understanding of Omicron variant of concern neutralizing engineered ACE2 receptor traps.](https://www.cell.com/structure/fulltext/S0969-2126(23)00030-8) *Structure* 31, 1–12, February 2023. (\* co-corresponding authors)
 
-<br/>
 <br/>
 <br/>
 
@@ -138,7 +141,6 @@ Jeff Glasgow\*, __Anum Glasgow__\*, Tanja Kortemme and James A. Wells, [Reply to
 
 <br/>
 <br/>
-<br/>
 
 __Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. [Engineered ACE2 receptor traps potently neutralize SARS-CoV-2.](https://www.doi.org/10.1073/pnas.2016093117) *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020. (\* co-first authors)
 
@@ -162,6 +164,7 @@ __Anum A. Glasgow\*__, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, 
 +++
 +++
 +++
+<br/>
 <br/>
 <br/>
 
