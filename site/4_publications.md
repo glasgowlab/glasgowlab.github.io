@@ -12,6 +12,8 @@
 (my-label)=
 ## Publications
 
+__Bold__ indicates our lab members.
+
 ```{image} ref_figures/dhfr_apo-mtx_ddg.png
 :height: 200px
 :class: bg-primary mb-1
@@ -67,8 +69,7 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
+
 
 ```{image} ref_figures/lacI.png
 :height: 200px
@@ -99,6 +100,8 @@ Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. R
 +++
 +++
 +++
+
+### Pre-CUMC publications
 
 ```{image} ref_figures/spluc.jpg
 :height: 150px
