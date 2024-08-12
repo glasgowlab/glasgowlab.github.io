@@ -81,8 +81,6 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 <br/>
 
 __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee<sup>†</sup>, and Tanja Kortemme<sup>†</sup>. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://www.nature.com/articles/s41467-023-36798-1) *Nature Communications* 14(1179), February 2023. (\* corresponding author)
-
-
 <br/>
 <br/>
 <br/>
@@ -93,14 +91,13 @@ __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan M
 +++
 
 Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. Rizo, Thomas H. Pospiech Jr., Irene Lui, Mathew T. Laurie, Jeff Glasgow, Chau Q. Le, Yun Zhang, Devan Diwanji, Evelyn Hernandez, Jocelyne Lopez, Komal Ishwar Pawar, Sergei Pourmal, Amber M. Smith, Fengbo Zhou, QCRG Structural Biology Consortium, Joseph DeRisi, Tanja Kortemme, Oren S. Rosenberg, __Anum Glasgow__\*, Kevin K. Leung\*, James A. Wells\*, and Kliment A. Verba\*. [Computational pipeline provides mechanistic understanding of Omicron variant of concern neutralizing engineered ACE2 receptor traps.](https://www.cell.com/structure/fulltext/S0969-2126(23)00030-8) *Structure* 31, 1–12, February 2023. (\* co-corresponding authors)
-
 <br/>
 <br/>
 +++
 +++
 +++
 
-#### Pre-CUMC publications
+__Pre-CUMC publications__
 </br>
 
 ```{image} ref_figures/spluc.jpg
