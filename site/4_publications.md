@@ -80,7 +80,7 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 <br/>
 <br/>
 
-__Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee<sup>†</sup>, and Tanja Kortemme<sup>†</sup>. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://www.nature.com/articles/s41467-023-36798-1) *Nature Communications* 14(1179), February 2023. (\* corresponding author)
+__Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee, and Tanja Kortemme. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://www.nature.com/articles/s41467-023-36798-1) *Nature Communications* 14(1179), February 2023. (\* corresponding author)
 <br/>
 <br/>
 <br/>
@@ -98,6 +98,7 @@ Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. R
 +++
 
 __Pre-CUMC publications__
+</br>
 </br>
 
 ```{image} ref_figures/spluc.jpg
