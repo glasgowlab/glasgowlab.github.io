@@ -58,9 +58,13 @@ Check out MAGPIE: [Google CoLab](https://colab.research.google.com/github/glasgo
 +++
 +++
 
+<br/>
+<br/>
 
 Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pineda Rodriguez__, Andrea MacFadden, Francesca Cendali, Morkos A. Henen, Jeffrey S. Kieft, __Anum Glasgow__, and Anna-Lena Steckelberg. [An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1.](https://www.sciencedirect.com/science/article/pii/S0022283623003704) *Journal of Molecular Biology*, 435(20), October 2023. (\* co-first authors)
 
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -75,11 +79,10 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 
 __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan Marqusee<sup>†</sup>, and Tanja Kortemme<sup>†</sup>. [Ligand-specific changes in conformational flexibility mediate long-range allostery in the *lac* repressor.](https://www.nature.com/articles/s41467-023-36798-1) *Nature Communications* 14(1179), February 2023. (\* corresponding author; <sup>†</sup> these authors jointly advised this work.)
 
-<br/>
-<br/>
-<br/>
-<br/>
 
+<br/>
+<br/>
+<br/>
 
 +++
 +++
@@ -143,7 +146,7 @@ __Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Ya
 <br/>
 
 ```{image} ref_figures/biosensor.png
-:height: 110px
+:height: 150px
 :class: mb-1
 :align: left
 :alt: De novo design of a protein-based biosensor.
