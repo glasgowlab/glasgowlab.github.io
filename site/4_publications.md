@@ -64,7 +64,6 @@ Check out MAGPIE: [Google CoLab](https://colab.research.google.com/github/glasgo
 <br/>
 
 Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pineda Rodriguez__, Andrea MacFadden, Francesca Cendali, Morkos A. Henen, Jeffrey S. Kieft, __Anum Glasgow__, and Anna-Lena Steckelberg. [An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1.](https://www.sciencedirect.com/science/article/pii/S0022283623003704) *Journal of Molecular Biology*, 435(20), October 2023. (\* co-first authors)
-
 <br/>
 <br/>
 <br/>
@@ -89,7 +88,6 @@ __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan M
 <br/>
 <br/>
 <br/>
-
 +++
 +++
 +++
