@@ -83,6 +83,8 @@ __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan M
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 +++
 +++
@@ -146,7 +148,7 @@ __Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Ya
 <br/>
 
 ```{image} ref_figures/biosensor.png
-:height: 150px
+:height: 130px
 :class: mb-1
 :align: left
 :alt: De novo design of a protein-based biosensor.
