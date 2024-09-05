@@ -30,25 +30,25 @@ Many updates from the last year:
 
 - **Student achievements.** Kyle and Savannah passed their quals with flying colors, and Erin graduated with her BS in Biology, with department honors! We are so pleased that she's sticking around for another year as a postbac together with Steven, after teaching the Rosetta interns bootcamp (twice).
 <br><br>
-<img src="people/other_photos/20240904_update/postbacs.jpg" width="300"/>
+<img src="people/other_photos/20240904_update/postbacs_office.jpg" width="300"/>
 <br><br>
 
 - **Presentations.** Chenlin, Andrew, Savannah, Chloe, Erin, Emily, and Daniel traveled near and far to present posters! Belen, Airam, Malcolm, and Chenlin gave talks on their work. They won a lot of prizes, including a really big check...
 
 ```{toggle}
-<img src="people/other_photos/20240904_update/presentations/sav_poster.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/kyle_poster.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/emily_erin_poster.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/daniel_poster.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/chloe_poster_1.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/chenlin_poster_2.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/belen_talk_2.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/chenlin_poster_1.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/andrew_poster_1.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/airam_poster.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/andrew_poster_2.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/belen_talk_1.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/presentations/airam_check.jpg" width="300"/>
+<img src="people/other_photos/20240904_update/presentations/sav_poster.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/kyle_poster.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/presentations/emily_erin_poster.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/daniel_poster.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/chloe_poster_1.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/presentations/chenlin_poster_2.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/belen_talk_2.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/presentations/chenlin_poster_1.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/andrew_poster_1.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/airam_poster.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/andrew_poster_2.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/belen_talk_1.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/presentations/airam_check.jpg" width="400"/>
 ```
 
 - **Intra-lab education.** Chenlin, Erin, and Steven taught our annual summer computational workshop, with a focus this year on MD simulations and PyRosetta. It was amazing. Belen and Kyle got creative in a protein folding design challenge in our Molecular Biophysics course.
@@ -61,7 +61,7 @@ Many updates from the last year:
 
 August              |  September
 :-------------------------:|:-------------------------:
-![](people/20240904_update/plants_1.jpg)  |  ![](people/other_photos/plants_2.jpg)
+![](people/other_photos/20240904_update/plants_1.jpg)  |  ![](people/other_photos/20240904_update/plants_2.jpg)
 
 
 We are definitely in log phase, watch this space for more cool science this year!!
