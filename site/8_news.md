@@ -30,7 +30,7 @@ Many updates from the last year:
 
 - **Student achievements.** Kyle and Savannah passed their quals with flying colors, and Erin graduated with her BS in Biology, with department honors! We are so pleased that she's sticking around for another year as a postbac together with Steven, after teaching the Rosetta interns bootcamp (twice).
 <br><br>
-<img src="people/other_photos/20240904_update/postbacs_office.jpg" width="300"/>
+<img src="people/other_photos/20240904_update/postbacs_conv.jpg" width="300"/>
 <br><br>
 
 - **Presentations.** Chenlin, Andrew, Savannah, Chloe, Erin, Emily, and Daniel traveled near and far to present posters! Belen, Airam, Malcolm, and Chenlin gave talks on their work. They won a lot of prizes, including a really big check...
