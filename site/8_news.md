@@ -24,33 +24,32 @@ Many updates from the last year:
 - **Fellowships.** Our students knocked it out of the park this year.
   - Savannah and Kyle won NSF Graduate Research Fellowships! 
   - Belen earned an NIH NIAID F31!
-<img src="people/other_photos/20240904_update/nsf_fellows.jpg" width="450"/>
+<img src="people/other_photos/20240904_update/nsf_fellows.jpg" width="350"/>
 
 - **Student achievements.** Kyle and Savannah passed their quals with flying colors, and Erin graduated with her BS in Biology, with department honors! We are so pleased that she's sticking around for another year as a postbac together with Steven, after teaching the Rosetta interns bootcamp (twice).
-<img src="people/other_photos/20240904_update/postbacs_conv.jpg" width="450"/>
+<img src="people/other_photos/20240904_update/postbacs_conv.jpg" width="350"/>
 
 - **Presentations.** Chenlin, Andrew, Savannah, Chloe, Erin, Emily, and Daniel traveled near and far to present posters! Belen, Airam, Malcolm, and Chenlin gave talks on their work. They won a lot of prizes, including a really big check...
 
 ```{toggle}
 <img src="people/other_photos/20240904_update/presentations/sav_poster.jpg" width="250"/>
-<img src="people/other_photos/20240904_update/presentations/kyle_poster.jpg" width="450"/>
 <img src="people/other_photos/20240904_update/presentations/emily_erin_poster.jpg" width="250"/>
+<img src="people/other_photos/20240904_update/presentations/kyle_poster.jpg" width="500"/>
 <img src="people/other_photos/20240904_update/presentations/daniel_poster.jpg" width="250"/>
-<img src="people/other_photos/20240904_update/presentations/chloe_poster_1.jpg" width="450"/>
 <img src="people/other_photos/20240904_update/presentations/chenlin_poster_2.jpg" width="250"/>
-<img src="people/other_photos/20240904_update/presentations/belen_talk_2.jpg" width="450"/>
+<img src="people/other_photos/20240904_update/presentations/chloe_poster_1.jpg" width="500"/>
 <img src="people/other_photos/20240904_update/presentations/chenlin_poster_1.jpg" width="250"/>
 <img src="people/other_photos/20240904_update/presentations/andrew_poster_1.jpg" width="250"/>
 <img src="people/other_photos/20240904_update/presentations/airam_poster.jpg" width="250"/>
 <img src="people/other_photos/20240904_update/presentations/andrew_poster_2.jpg" width="250"/>
-<img src="people/other_photos/20240904_update/presentations/belen_talk_1.jpg" width="450"/>
-<img src="people/other_photos/20240904_update/presentations/airam_check.jpg" width="450"/>
+<img src="people/other_photos/20240904_update/presentations/belen_talk.png" width="500"/>
+<img src="people/other_photos/20240904_update/presentations/airam_check.jpg" width="500"/>
 ```
 
 - **Intra-lab education.** Chenlin, Erin, and Steven taught our annual summer computational workshop, with a focus this year on MD simulations and PyRosetta. It was amazing. Belen and Kyle got creative in a protein folding design challenge in our Molecular Biophysics course.
 <br><br>
-<img src="people/other_photos/20240904_update/chenlin_comp_workshop.jpg" width="450"/>
-<img src="people/other_photos/20240904_update/belen_kyle_class.jpg" width="450"/>
+<img src="people/other_photos/20240904_update/chenlin_comp_workshop.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/belen_kyle_class.jpg" width="400"/>
 <br><br>
 
 - **Gardening.** Our bench garden is out of control. Can you spot the giant okras?
