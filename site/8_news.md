@@ -14,47 +14,43 @@
 **9/4/2024** A new academic year begins after a super-fast summer.
 
 Many updates from the last year:
-- **New lab members.** Daniel Sultanov joined the lab as a postdoc last Fall after finishing his Ph.D. at NYU. Chloe Allan from Barnard joined us in the Spring and spent the summer here as an [SRI student](https://barnard.edu/summer-research-institute). Steven Rimmasch arrived in the summer from Utah as a [RaMP postbac](https://new.nsf.gov/funding/opportunities/research-mentoring-postbaccalaureates-biological)! We are lucky to have you guys!
+- **New lab members.** Daniel Sultanov joined the lab as a postdoc last Fall after finishing his Ph.D. at NYU. Chloe Allan from Barnard joined us in the Spring and spent the summer here as an [SRI student](https://barnard.edu/summer-research-institute). Steven Rimmasch arrived in the summer from Utah as an [NSF-Rosetta Commons RaMP postbac](https://new.nsf.gov/funding/opportunities/research-mentoring-postbaccalaureates-biological). We are lucky to have you guys!
 
 - **Preprints and publications.** Some of our recent work that we hope you find interesting, useful and fun:
-  - Our [MAGPIE](https://onlinelibrary.wiley.com/doi/10.1002/pro.5027) method was published in _Protein Science_! Use it to visualize and analyze protein-ligand interactions _en masse_. Congrats to authors Daniel, Kyle, and Belen. (MAGPIE = Mapping Areas of Genetic Parsimony in Epitopes.)
-  - Our [PIGEON-FEATHER](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v1.full) method is available on _bioRxiv_! Ever wonder how every single amino acid in your protein energetically contributes to its conformational ensemble, and how that changes when it binds a ligand or amasses mutations? We have you covered. Congrats to authors Chenlin, Malcolm, and Andrew. (PIGEON-FEATHER = Peptide ID Generation for Exchange Of Nuclei - Free Energy Assignment Through Hydrogen Exchange Rates.)
-  - We also contributed to this [perspective](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00212-0) in _Cell Systems_ about how machine learning can be useful for biological discovery.
+  - Our [MAGPIE](https://onlinelibrary.wiley.com/doi/10.1002/pro.5027) method was published in _Protein Science_! Use it to visualize and analyze protein-ligand interactions _en masse_. Congrats to authors Daniel, Kyle, and Belen.
+  - Our [PIGEON-FEATHER](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v1.full) method is available on _bioRxiv_! Have you ever wondered how every single amino acid in your protein contributes energetically to its conformational ensemble, and how that changes due to ligand binding or mutations? We have you covered. Congrats to authors Chenlin, Malcolm, and Andrew.
+  - We also contributed to this [perspective](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00212-0) in _Cell Systems_ about how machine learning in protein modeling and design can be useful for biological discovery.
 
 - **Fellowships.** Our students knocked it out of the park this year.
+<img src="people/other_photos/20240904_update/nsf_fellows.jpg" width="450"/>
   - Savannah and Kyle won NSF Graduate Research Fellowships! 
   - Belen earned an NIH NIAID F31!
-<br><br>
-<img src="people/other_photos/20240904_update/nsf_fellows.jpg" width="300"/>
-<br><br>
 
 - **Student achievements.** Kyle and Savannah passed their quals with flying colors, and Erin graduated with her BS in Biology, with department honors! We are so pleased that she's sticking around for another year as a postbac together with Steven, after teaching the Rosetta interns bootcamp (twice).
-<br><br>
-<img src="people/other_photos/20240904_update/postbacs_conv.jpg" width="300"/>
-<br><br>
+- <img src="people/other_photos/20240904_update/postbacs_conv.jpg" width="450"/>
 
 - **Presentations.** Chenlin, Andrew, Savannah, Chloe, Erin, Emily, and Daniel traveled near and far to present posters! Belen, Airam, Malcolm, and Chenlin gave talks on their work. They won a lot of prizes, including a really big check...
 
 ```{toggle}
 <img src="people/other_photos/20240904_update/presentations/sav_poster.jpg" width="250"/>
-<img src="people/other_photos/20240904_update/presentations/kyle_poster.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/presentations/kyle_poster.jpg" width="450"/>
 <img src="people/other_photos/20240904_update/presentations/emily_erin_poster.jpg" width="250"/>
 <img src="people/other_photos/20240904_update/presentations/daniel_poster.jpg" width="250"/>
-<img src="people/other_photos/20240904_update/presentations/chloe_poster_1.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/presentations/chloe_poster_1.jpg" width="450"/>
 <img src="people/other_photos/20240904_update/presentations/chenlin_poster_2.jpg" width="250"/>
-<img src="people/other_photos/20240904_update/presentations/belen_talk_2.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/presentations/belen_talk_2.jpg" width="450"/>
 <img src="people/other_photos/20240904_update/presentations/chenlin_poster_1.jpg" width="250"/>
 <img src="people/other_photos/20240904_update/presentations/andrew_poster_1.jpg" width="250"/>
 <img src="people/other_photos/20240904_update/presentations/airam_poster.jpg" width="250"/>
 <img src="people/other_photos/20240904_update/presentations/andrew_poster_2.jpg" width="250"/>
-<img src="people/other_photos/20240904_update/presentations/belen_talk_1.jpg" width="400"/>
-<img src="people/other_photos/20240904_update/presentations/airam_check.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/presentations/belen_talk_1.jpg" width="450"/>
+<img src="people/other_photos/20240904_update/presentations/airam_check.jpg" width="450"/>
 ```
 
 - **Intra-lab education.** Chenlin, Erin, and Steven taught our annual summer computational workshop, with a focus this year on MD simulations and PyRosetta. It was amazing. Belen and Kyle got creative in a protein folding design challenge in our Molecular Biophysics course.
 <br><br>
-<img src="people/other_photos/20240904_update/chenlin_comp_workshop.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/belen_kyle_class.jpg" width="300"/>
+<img src="people/other_photos/20240904_update/chenlin_comp_workshop.jpg" width="450"/>
+<img src="people/other_photos/20240904_update/belen_kyle_class.jpg" width="450"/>
 <br><br>
 
 - **Gardening.** Our bench garden is out of control. Can you spot the giant okras?
@@ -68,16 +64,15 @@ We are definitely in log phase, watch this space for more cool science this year
 
 ```{toggle}
 <img src="people/other_photos/20240904_update/20230615_group_crop.png" width="300"/>
-<img src="people/other_photos/20240904_update/20231215_iceskate.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/eclipse_1.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/eclipse_2.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/little_pfk1.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/rosettacon_2024_1.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/rosettacon_2024_2.jpg" width="300"/>
-<img src="people/other_photos/20240904_update/sav_nickel_columns.jpg" width="300"/>
+<img src="people/other_photos/20240904_update/20231215_iceskate.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/eclipse_1.jpg" width="350"/>
+<img src="people/other_photos/20240904_update/eclipse_2.jpg" width="350"/>
+<img src="people/other_photos/20240904_update/little_pfk1.jpg" width="350"/>
+<img src="people/other_photos/20240904_update/rosettacon_2024_2.jpg" width="350"/>
+<img src="people/other_photos/20240904_update/sav_nickel_columns.jpg" width="500"/>
 ```
 
-
+---
 **7/2/2023** It's summer!
 
 We have a lot to celebrate:
