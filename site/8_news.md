@@ -27,7 +27,7 @@ Many updates from the last year:
   - Belen earned an NIH NIAID F31!
   - Erin graduated with her BS in Biology, with department honors! We are so pleased that she's sticking around for another year as a postbac together with Steven, after a brief break to teach the Rosetta bootcamp (twice).
 
-<br><br>
+<br>
 <img src="people/other_photos/20240904_update/nsf_fellows.jpg" width="450"/>
 <img src="people/other_photos/20240904_update/postbacs_conv.jpg" width="400"/>
 <br><br>
@@ -71,7 +71,8 @@ We are definitely in log phase, watch this space for more cool science this year
 <img src="people/other_photos/20240904_update/eclipse_2.jpg" width="400"/>
 <img src="people/other_photos/20240904_update/little_pfk1.jpg" width="400"/>
 <img src="people/other_photos/20240904_update/rosettacon_2024_2.jpg" width="400"/>
-<img src="people/other_photos/20240904_update/sav_nickel_columns.jpg" width="800"/>
+<img src="people/other_photos/20240904_update/sav_nickel_columns.jpg" width="532"/>
+<img src="people/other_photos/20240904_update/andrew_airam_rcon.jpg" width="266"/>
 ```
 
 <br>
