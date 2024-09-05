@@ -71,8 +71,8 @@ We are definitely in log phase, watch this space for more cool science this year
 <img src="people/other_photos/20240904_update/eclipse_2.jpg" width="400"/>
 <img src="people/other_photos/20240904_update/little_pfk1.jpg" width="400"/>
 <img src="people/other_photos/20240904_update/rosettacon_2024_2.jpg" width="400"/>
-<img src="people/other_photos/20240904_update/sav_nickel_columns.jpg" width="532"/>
-<img src="people/other_photos/20240904_update/andrew_airam_rcon.jpg" width="266"/>
+<img src="people/other_photos/20240904_update/sav_nickel_columns.jpg" width="400"/>
+<img src="people/other_photos/20240904_update/andrew_airam_rcon.jpg" width="400"/>
 ```
 
 <br>
