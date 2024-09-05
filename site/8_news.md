@@ -22,12 +22,12 @@ Many updates from the last year:
   - We also contributed to this [perspective](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00212-0) in _Cell Systems_ about how machine learning in protein modeling and design can be useful for biological discovery.
 
 - **Fellowships.** Our students knocked it out of the park this year.
-<img src="people/other_photos/20240904_update/nsf_fellows.jpg" width="450"/>
   - Savannah and Kyle won NSF Graduate Research Fellowships! 
   - Belen earned an NIH NIAID F31!
+<img src="people/other_photos/20240904_update/nsf_fellows.jpg" width="450"/>
 
 - **Student achievements.** Kyle and Savannah passed their quals with flying colors, and Erin graduated with her BS in Biology, with department honors! We are so pleased that she's sticking around for another year as a postbac together with Steven, after teaching the Rosetta interns bootcamp (twice).
-- <img src="people/other_photos/20240904_update/postbacs_conv.jpg" width="450"/>
+<img src="people/other_photos/20240904_update/postbacs_conv.jpg" width="450"/>
 
 - **Presentations.** Chenlin, Andrew, Savannah, Chloe, Erin, Emily, and Daniel traveled near and far to present posters! Belen, Airam, Malcolm, and Chenlin gave talks on their work. They won a lot of prizes, including a really big check...
 
