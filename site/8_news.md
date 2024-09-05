@@ -11,7 +11,7 @@
 
 # News
 
-**9/4/2024** A new academic year begins after a fast summer.
+**9/4/2024** A new academic year begins after a super-fast summer.
 
 Many updates from the last year:
 - **New lab members.** Daniel Sultanov joined the lab as a postdoc last Fall after finishing his Ph.D. at NYU. Chloe Allan from Barnard joined us in the Spring and spent the summer here as an [SRI student](https://barnard.edu/summer-research-institute). Steven Rimmasch arrived in the summer from Utah as a [RaMP postbac](https://new.nsf.gov/funding/opportunities/research-mentoring-postbaccalaureates-biological)! We are lucky to have you guys!
@@ -21,7 +21,7 @@ Many updates from the last year:
   - Our [PIGEON-FEATHER](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v1.full) method is available on _bioRxiv_! Ever wonder how every single amino acid in your protein energetically contributes to its conformational ensemble, and how that changes when it binds a ligand or amasses mutations? We have you covered. Congrats to authors Chenlin, Malcolm, and Andrew. (PIGEON-FEATHER = Peptide ID Generation for Exchange Of Nuclei - Free Energy Assignment Through Hydrogen Exchange Rates.)
   - We also contributed to this [perspective](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00212-0) in _Cell Systems_ about how machine learning can be useful for biological discovery.
 
-- **Fellowships.** Our students knocked it out of the park this year...
+- **Fellowships.** Our students knocked it out of the park this year.
   - Savannah and Kyle won NSF Graduate Research Fellowships! 
   - Belen earned an NIH NIAID F31!
 <br><br>
