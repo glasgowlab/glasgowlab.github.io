@@ -40,14 +40,14 @@ Many updates from the last year:
 ```{toggle}
 <img src="people/other_photos/20240904_update/presentations/sav_poster.jpg" width="266"/>
 <img src="people/other_photos/20240904_update/presentations/emily_erin_poster.jpg" width="266"/>
-<img src="people/other_photos/20240904_update/presentations/daniel_poster.jpg" width="266"/>
-<img src="people/other_photos/20240904_update/presentations/kyle_poster.jpg" width="532"/>
-<img src="people/other_photos/20240904_update/presentations/chenlin_poster_2.jpg" width="266"/>
 <img src="people/other_photos/20240904_update/presentations/chenlin_poster_1.jpg" width="266"/>
+<img src="people/other_photos/20240904_update/presentations/kyle_poster.jpg" width="532"/>
+<img src="people/other_photos/20240904_update/presentations/andrew_poster_2.jpg" width="266"/>
+<img src="people/other_photos/20240904_update/presentations/daniel_poster.jpg" width="266"/>
 <img src="people/other_photos/20240904_update/presentations/chloe_poster_1.jpg" width="532"/>
 <img src="people/other_photos/20240904_update/presentations/andrew_poster_1.jpg" width="266"/>
 <img src="people/other_photos/20240904_update/presentations/airam_poster.jpg" width="266"/>
-<img src="people/other_photos/20240904_update/presentations/andrew_poster_2.jpg" width="266"/>
+<img src="people/other_photos/20240904_update/presentations/chenlin_poster_2.jpg" width="266"/>
 <img src="people/other_photos/20240904_update/presentations/belen_talk.png" width="400"/>
 <img src="people/other_photos/20240904_update/presentations/airam_check.jpg" width="400"/>
 ```
