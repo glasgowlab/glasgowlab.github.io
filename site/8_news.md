@@ -25,6 +25,7 @@ Many updates from the last year:
   - Malcolm passed his thesis prospectus!
   - Kyle and Savannah passed their quals!
   - ... and they both earned NSF Graduate Research Fellowships!
+  - Melody earned an NSF GRFP honorable mention! (and is now back in our lab for their first rotation as a grad student! Yeah!)
   - Belen earned an NIH F31 fellowship!
   - Andrew spearheaded major mass spec troubleshooting and repair efforts!
   - Erin graduated with her BS in Biology, with department honors! We are so pleased that she's sticking around for another year as a postbac together with Steven, after a brief break to teach the Rosetta bootcamp (twice).
