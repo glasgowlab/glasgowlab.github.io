@@ -1,4 +1,4 @@
 jupyter-book
 matplotlib==3.3.2
-numpy==2.1.0
+numpy==1.25.0
 scipy==1.14.1
