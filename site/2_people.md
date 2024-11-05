@@ -106,6 +106,20 @@ email: arr2230 [at] cumc [dot] columbia [dot] edu
 ````
 
 ````{card}
+Steven Rimmasch (they/them) | *[Postbac researcher](https://www.rosettacommons.org/about/post-baccalaureate-program)*
+^^^
+```{image} people/steven.jpeg
+:alt: steven
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I received my B.S. in Chemistry from Weber State University. I grew up in Utah and love outdoor activities like backpacking and climbing. I was introduced to Molecular Dynamics (MD) during my REU in the Igumenova lab at Texas A&M. This began my passion for computational methods as well as my interest in protein dynamics. In the Glasgow lab I work on predicting experimental protection factors from MD data as well as studying the effects of ligand binding on a protein's conformational ensemble. In graduate school I want to to continue studying proteins using MD as well as develop methods for enzyme engineering.
++++
+email: sr4261 [at] cumc [dot] columbia [dot] edu
+````
+
+````{card}
 Daniel Sultanov (he/him) | *Postdoctoral research scientist*
 ^^^
 ```{image} people/daniel_sultanov.jpg
