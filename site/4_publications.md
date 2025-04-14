@@ -14,19 +14,45 @@
 
 __Bold__ indicates our lab members.
 
-```{image} ref_figures/dhfr_apo-mtx_ddg.png
-:height: 200px
-:class: bg-primary mb-1
-:align: right
+```{image} ref_figures/fig4_v2_glab_website.png
+:height: 220px
+:class: mb-1 mt-0
+:align: left
 :alt: Derive site-resolved ∆Gop
 ```
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v1) *bioRxiv*, August 2024.  (\* co-first authors)
+__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, Zhen Gong, and __Anum Glasgow__. [Conserved energetic changes drive function in an ancient protein fold.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v1) *bioRxiv*, April 2025.  (\* co-first authors)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
++++
++++
++++
+
+
+```{image} ref_figures/20240720_fig1_glab_website.png
+:height: 140px
+:class: mb-1 mt-0
+:align: right
+:alt: Derive site-resolved ∆Gop
+```
+
+__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v2) *bioRxiv*, August 2024.  (\* co-first authors)
 <br/>
 <br/>
 Check out PIGEON-FEATHER: [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
+
 <br/>
 <br/>
 <br/>
