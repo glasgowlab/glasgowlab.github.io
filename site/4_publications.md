@@ -18,7 +18,7 @@ __Bold__ indicates our lab members.
 :height: 220px
 :class: mb-1 mt-0
 :align: left
-:alt: Derive site-resolved ∆Gop
+:alt: radar plots
 ```
 <br/>
 <br/>
@@ -54,10 +54,7 @@ Check out PIGEON-FEATHER: [Github repo](https://github.com/glasgowlab/PIGEON-FEA
 <br/>
 <br/>
 <br/>
-<br/>
-+++
-+++
-+++
+
 
 ```{image} ref_figures/magpie_energies.png
 :height: 300px
@@ -75,9 +72,7 @@ Check out MAGPIE: [Google CoLab](https://colab.research.google.com/github/glasgo
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
+
 +++
 +++
 +++
@@ -89,6 +84,19 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 <br/>
 <br/>
 <br/>
+
++++
++++
++++
+
+<br/>
+<br/>
+
+Birte Höcker, Peilong Lu, __Anum Glasgow__, Debora S. Marks, Pranam Chatterjee, Joanna S. G. Slusky, Ora Schueler-Furman, and Possu Huang, [How can the protein design community best support biologists who want to harness AI tools for protein structure prediction and design?](https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(23)00212-0) *Cell Systems* 14(8), August 2023. (Invited commentary.)
+
+<br/>
+<br/>
+
 +++
 +++
 +++
@@ -108,6 +116,7 @@ __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan M
 <br/>
 <br/>
 <br/>
+
 +++
 +++
 +++
