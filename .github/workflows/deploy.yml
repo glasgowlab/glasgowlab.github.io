@@ -34,4 +34,6 @@ jobs:
     - name: Build the book
       run: |
         if [ ! -f site/_toc.yml ]; then
-          jupyter-book
+          jupyter-book toc from-project site -e .md -e .ipynb > site/_toc.yml
+        fi
+        jupyter-book build site
