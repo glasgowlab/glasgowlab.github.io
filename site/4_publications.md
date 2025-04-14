@@ -34,8 +34,6 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 +++
 +++
 +++
@@ -53,8 +51,6 @@ __Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, and __Anum Glasgow
 <br/>
 Check out PIGEON-FEATHER: [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
 
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
