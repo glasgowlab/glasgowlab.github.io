@@ -16,7 +16,6 @@ __Bold__ indicates our lab members.
 
 +++
 +++
-
 +++
 <img src="ref_figures/fig4_v2_glab_website.png" height="220"/>
 
