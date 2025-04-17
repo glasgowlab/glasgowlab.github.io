@@ -18,12 +18,8 @@ __Bold__ indicates our lab members.
 +++
 +++
 
-```{image} ref_figures/fig4_v2_glab_website.png
-:height: 220px
-:class: mb-1 mt-0
-:align: left
-:alt: radar plots
-```
+<img src="ref_figures/fig4_v2_glab_website.png" height="220"/>
+
 <br/>
 <br/>
 <br/>
@@ -33,9 +29,7 @@ __Bold__ indicates our lab members.
 <br/>
 <br/>
 
-__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, Zhen Gong, and __Anum Glasgow__. [Conserved energetic changes drive function in an ancient protein fold.]
-<br/>
-(https://www.biorxiv.org/content/10.1101/2025.04.02.646877v1) *bioRxiv*, April 2025.  (\* co-first authors)
+__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, Zhen Gong, and __Anum Glasgow__. [Conserved energetic changes drive function in an ancient protein fold.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v1) *bioRxiv*, April 2025.  (\* co-first authors)
 <br/>
 <br/>
 <br/>
