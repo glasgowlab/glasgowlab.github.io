@@ -10,7 +10,7 @@
 
 # Team
 
-```{image} people/lab_photos/20250403_group.png
+```{image} people/lab_photos/20250630_group.jpg
 :alt: lab-photo
 :class: bg-primary mb-1
 :width: 750px
