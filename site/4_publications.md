@@ -14,6 +14,18 @@
 
 __Bold__ indicates our lab members.
 
+<br/>
+<br/>
+
++++
++++
++++
+
+Prashath Karunaraj, Remkes Scheele, __Malcolm L. Wells__, Ruchita Rathod, Sophia Abrahamson, Lila C. Taylor, Ipek S. Gokulu, Lamia Chowdhury, Abiha Kazmi, Weixiao Song, Peter Hornbeck, Jing Li, __Anum Glasgow__ and Neil Vasan. [A hotspot phosphorylation site on SHP2 drives oncoprotein activation and drug resistance.](https://www.biorxiv.org/content/10.1101/2025.06.11.659120v1.full) *bioRxiv*, June 2025.
+
+<br/>
+<br/>
+
 +++
 +++
 +++
@@ -40,7 +52,7 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 :alt: Derive site-resolved ∆Gop
 ```
 
-__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v2) *bioRxiv*, August 2024.  (\* co-first authors)
+__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, __Savannah McBride__ and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v2) *accepted, Nature Chemical Biology*, June 2025.  (\* co-first authors)
 <br/>
 <br/>
 Check out PIGEON-FEATHER: [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
