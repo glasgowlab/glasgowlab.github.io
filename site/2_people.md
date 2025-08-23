@@ -50,6 +50,21 @@ email: ag4522 [at] cumc [dot] columbia [dot] edu
 ````
 
 ````{card}
+Will Hyatt (he/him) | *Graduate student*
+^^^
+```{image} people/will.jpg
+:alt: will
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a PhD student in the Department of Biological Sciences specializing in structural biology and biophysics. I received my B.Sc. in Molecular Bioscience at Rochester Institute of Technology, conducting research with Dr. Jeremy Cody on the total synthesis of novel small-molecule therapeutics. I then received my M.A. in Biotechnology from Columbia University in the lab of John Hunt where I focused on macromolecular structure determination using CryoEM.
+My current work focuses on developing models for refining in-silico protein design applied to protein-based therapeutics and genomic medicine.
++++
+email: wwh2122 [at] columbia [dot] edu
+````
+
+````{card}
 Emily Kilroy (she/her) | *Undergraduate researcher*
 ^^^
 ```{image} people/emily.jpg
