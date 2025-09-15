@@ -65,7 +65,7 @@ email: wwh2122 [at] columbia [dot] edu
 ````
 
 ````{card}
-Emily Kilroy (she/her) | *Undergraduate researcher*
+Emily Kilroy (she/her) | *Postbac Reseacher*
 ^^^
 ```{image} people/emily.jpg
 :alt: emily
@@ -73,7 +73,7 @@ Emily Kilroy (she/her) | *Undergraduate researcher*
 :width: 300px
 :align: left
 ```
-I am currently a 3rd year undergraduate student at Columbia University pursuing a B.A. in Biochemistry. I am most recently from northern New Jersey, but previously lived in 4 other states before coming to NYC. Prior to joining the lab, I completed an internship in the pharmaceutical industry, where I became fascinated with studying proteins and their potential to be developed into therapeutics. Outside of the lab I am a member of the Women's Rowing team at Columbia and enjoy reading, painting, and baking hyper-realistic cakes.
+I am a recent graduate of Columbia University, where I recieved a B.A. in Biochemistry. I am most recently from northern New Jersey, but previously lived in 4 other states before coming to NYC. Prior to joining the lab, I completed an internship in the pharmaceutical industry, where I became fascinated with studying proteins and their potential to be developed into therapeutics. Outside of the lab I am a member of the Women's Rowing team at Columbia and enjoy reading, painting, and baking hyper-realistic cakes.
 +++
 email: erk2172 [at] columbia [dot] edu
 ````
