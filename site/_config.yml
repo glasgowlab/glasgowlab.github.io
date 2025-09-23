@@ -18,7 +18,6 @@ execute:
   execute_notebooks: auto
   allow_errors: true
   exclude_patterns:
-    - '6_advbiochem.ipynb'
     - '7_LacI_demo.ipynb'
     - 'rosettacon2022.md'
     - '9_sequence_logos.md'
