@@ -20,10 +20,11 @@ __Bold__ indicates our lab members.
 +++
 +++
 
-__Chenlin Lu__\*, __Kyle C. Weber__\*, Roberto Vera Alvarez, Bruce D. Pascal, and __Anum Glasgow__. [HXMS: a standardized file format for HX/MS data.](https://www.biorxiv.org/content/10.1101/2025.10.14.682397v1) *bioRxiv*, October 2025.
+__Chenlin Lu__\*, __Kyle C. Weber__\*, Roberto Vera Alvarez, Bruce D. Pascal, and __Anum Glasgow__. [HXMS: a standardized file format for HX/MS data.](https://www.biorxiv.org/content/10.1101/2025.10.14.682397v1) *bioRxiv*, October 2025. (\* co-first authors)
 <br/>
 <br/>
 Check out PFLink: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink)
+<br/>
 <br/>
 <br/>
 
