@@ -13,7 +13,17 @@
 ## Publications
 
 __Bold__ indicates our lab members.
+<br/>
+<br/>
 
++++
++++
++++
+
+__Chenlin Lu__\*, __Kyle C. Weber__\*, Roberto Vera Alvarez, Bruce D. Pascal, and __Anum Glasgow__. [HXMS: a standardized file format for HX/MS data.](https://www.biorxiv.org/content/10.1101/2025.10.14.682397v1) *bioRxiv*, October 2025.
+<br/>
+<br/>
+Check out PFLink: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink)
 <br/>
 <br/>
 
@@ -52,10 +62,10 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 :alt: Derive site-resolved ∆Gop
 ```
 
-__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, __Savannah McBride__ and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.biorxiv.org/content/10.1101/2024.08.04.606547v2) *accepted, Nature Chemical Biology*, June 2025.  (\* co-first authors)
+__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, __Savannah K. McBride__ and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.nature.com/articles/s41589-025-02049-1) *Nature Chemical Biology*, October 2025.  (\* co-first authors)
 <br/>
 <br/>
-Check out PIGEON-FEATHER: [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
+Check out PIGEON-FEATHER: [PDF](https://rdcu.be/eLtCF) / [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
 
 <br/>
 <br/>
