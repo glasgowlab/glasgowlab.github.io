@@ -20,7 +20,7 @@ __Bold__ indicates our lab members.
 +++
 +++
 
-__Chenlin Lu__\*, __Kyle C. Weber__\*, Savannah K. McBride, Andrew Reckers, and __Anum Glasgow__. [A machine learning method for calculating highly localized protein stabilities.](https://www.biorxiv.org/content/10.1101/2025.10.21.683809v1) *bioRxiv*, October 2025. (\* co-first authors)
+__Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers__, and __Anum Glasgow__. [A machine learning method for calculating highly localized protein stabilities.](https://www.biorxiv.org/content/10.1101/2025.10.21.683809v1) *bioRxiv*, October 2025. (\* co-first authors)
 <br/>
 <br/>
 Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov-file) / [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFNet)
