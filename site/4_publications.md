@@ -81,7 +81,7 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 <br/>
 
 Ryan S. Roark, Andrew J. Schaub, Wei Shi, Maple Wang, Fabiana A. Bahna, Jordan E. Becker, Andrea Biju, Sue Chong, Haijuan Du, Yicheng Guo, Hsiang Hong, Phinikoula S. Katsamba, Seetha M. Mannepalli, Adam S. Olia, Li Ou, Sarah K. Rubin, Yosef Sabo, Mehin Suleiman, __Malcolm L. Wells__, Baoshan Zhang, Cheng Cheng, __Anum Glasgow__, David D. Ho, Yaoxing Huang, Theodore C. Pierson, Reda Rawi, Tongqing Zhou, Lawrence Shapiro\*, and Peter D. Kwong\*. [Prefusion structure, evasion and neutralization of HSV-1 glycoprotein B.](https://www.nature.com/articles/s41564-025-02153-x) *Nature
-Microbiology*, 10, 2025. (*co-corresponding authors)
+Microbiology*, 10, October 2025. (*co-corresponding authors)
 
 <br/>
 <br/>
