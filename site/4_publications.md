@@ -54,7 +54,7 @@ Check out PFLink: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink
 +++
 +++
 
-Prashath Karunaraj, Remkes Scheele, __Malcolm L. Wells__, Ruchita Rathod, Sophia Abrahamson, Lila C. Taylor, Ipek S. Gokulu, Lamia Chowdhury, Abiha Kazmi, Weixiao Song, Peter Hornbeck, Jing Li, __Anum Glasgow__, and Neil Vasan. [A hotspot phosphorylation site on SHP2 drives oncoprotein activation and drug resistance.](https://www.biorxiv.org/content/10.1101/2025.06.11.659120v1.full) *bioRxiv*, June 2025.
+Prashath Karunaraj\*, Remkes Scheele\*, __Malcolm L. Wells__, Ruchita Rathod, Sophia Abrahamson, Lila C. Taylor, Ipek S. Gokulu, Lamia Chowdhury, Abiha Kazmi, Weixiao Song, Peter Hornbeck, Jing Li, __Anum Glasgow__, and Neil Vasan. [A hotspot phosphorylation site on SHP2 drives oncoprotein activation and drug resistance.](https://www.biorxiv.org/content/10.1101/2025.06.11.659120v1.full) *bioRxiv*, June 2025. (\* co-first authors)
 
 <br/>
 <br/>
