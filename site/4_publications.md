@@ -54,7 +54,7 @@ Check out PFLink: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink
 +++
 +++
 
-Prashath Karunaraj, Remkes Scheele, __Malcolm L. Wells__, Ruchita Rathod, Sophia Abrahamson, Lila C. Taylor, Ipek S. Gokulu, Lamia Chowdhury, Abiha Kazmi, Weixiao Song, Peter Hornbeck, Jing Li, __Anum Glasgow__ and Neil Vasan. [A hotspot phosphorylation site on SHP2 drives oncoprotein activation and drug resistance.](https://www.biorxiv.org/content/10.1101/2025.06.11.659120v1.full) *bioRxiv*, June 2025.
+Prashath Karunaraj, Remkes Scheele, __Malcolm L. Wells__, Ruchita Rathod, Sophia Abrahamson, Lila C. Taylor, Ipek S. Gokulu, Lamia Chowdhury, Abiha Kazmi, Weixiao Song, Peter Hornbeck, Jing Li, __Anum Glasgow__, and Neil Vasan. [A hotspot phosphorylation site on SHP2 drives oncoprotein activation and drug resistance.](https://www.biorxiv.org/content/10.1101/2025.06.11.659120v1.full) *bioRxiv*, June 2025.
 
 <br/>
 <br/>
@@ -67,7 +67,7 @@ Prashath Karunaraj, Remkes Scheele, __Malcolm L. Wells__, Ruchita Rathod, Sophia
 <br/>
 <br/>
 
-__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, Zhen Gong and __Anum Glasgow__. [Conserved energetic changes drive function in an ancient protein fold.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v1) *bioRxiv*, April 2025.  (\* co-first authors)
+__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, Zhen Gong, and __Anum Glasgow__. [Conserved energetic changes drive function in an ancient protein fold.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v1) *bioRxiv*, April 2025.  (\* co-first authors)
 <br/>
 <br/>
 
@@ -80,7 +80,7 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 <br/>
 <br/>
 
-Ryan S. Roark, Andrew J. Schaub, Wei Shi, Maple Wang, Fabiana A. Bahna, Jordan E. Becker, Andrea Biju, Sue Chong, Haijuan Du, Yicheng Guo, Hsiang Hong, Phinikoula S. Katsamba, Seetha M. Mannepalli, Adam S. Olia, Li Ou, Sarah K. Rubin, Yosef Sabo, Mehin Suleiman, __Malcolm L. Wells__, Baoshan Zhang, Cheng Cheng, __Anum Glasgow__, David D. Ho, Yaoxing Huang, Theodore C. Pierson, Reda Rawi, Tongqing Zhou, Lawrence Shapiro\* and Peter D. Kwong\*, [Prefusion structure, evasion and neutralization of HSV-1 glycoprotein B.](https://www.nature.com/articles/s41564-025-02153-x) *Nature
+Ryan S. Roark, Andrew J. Schaub, Wei Shi, Maple Wang, Fabiana A. Bahna, Jordan E. Becker, Andrea Biju, Sue Chong, Haijuan Du, Yicheng Guo, Hsiang Hong, Phinikoula S. Katsamba, Seetha M. Mannepalli, Adam S. Olia, Li Ou, Sarah K. Rubin, Yosef Sabo, Mehin Suleiman, __Malcolm L. Wells__, Baoshan Zhang, Cheng Cheng, __Anum Glasgow__, David D. Ho, Yaoxing Huang, Theodore C. Pierson, Reda Rawi, Tongqing Zhou, Lawrence Shapiro\*, and Peter D. Kwong\*. [Prefusion structure, evasion and neutralization of HSV-1 glycoprotein B.](https://www.nature.com/articles/s41564-025-02153-x) *Nature
 Microbiology*, 10, 2025. (*co-corresponding authors)
 
 <br/>
@@ -98,7 +98,7 @@ Microbiology*, 10, 2025. (*co-corresponding authors)
 :alt: Derive site-resolved ∆Gop
 ```
 
-__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, __Savannah K. McBride__ and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.nature.com/articles/s41589-025-02049-1) *Nature Chemical Biology*, October 2025.  (\* co-first authors)
+__Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, __Savannah K. McBride__, and __Anum Glasgow__. [Site-resolved energetic information from HX/MS experiments.](https://www.nature.com/articles/s41589-025-02049-1) *Nature Chemical Biology*, October 2025.  (\* co-first authors)
 <br/>
 <br/>
 Check out PIGEON-FEATHER: [PDF](https://rdcu.be/eLtCF) / [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
@@ -145,7 +145,7 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 +++
 
 
-Birte Höcker, Peilong Lu, __Anum Glasgow__, Debora S. Marks, Pranam Chatterjee, Joanna S. G. Slusky, Ora Schueler-Furman, and Possu Huang, [How can the protein design community best support biologists who want to harness AI tools for protein structure prediction and design?](https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(23)00212-0) *Cell Systems* 14(8), August 2023. (Invited commentary.)
+Birte Höcker, Peilong Lu, __Anum Glasgow__, Debora S. Marks, Pranam Chatterjee, Joanna S. G. Slusky, Ora Schueler-Furman, and Possu Huang. [How can the protein design community best support biologists who want to harness AI tools for protein structure prediction and design?](https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(23)00212-0) *Cell Systems* 14(8), August 2023. (Invited commentary.)
 
 <br/>
 <br/>
@@ -200,7 +200,7 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 +++
 +++
 
-Jeff Glasgow\*, __Anum Glasgow__\*, Tanja Kortemme and James A. Wells, [Reply to Liu *et al.*: Specific mutations matter in specificity and catalysis in ACE2.](https://www.pnas.org/doi/full/10.1073/pnas.2024450118) *Proceedings of the National Academy of Sciences*, 118(15), April 2021. (\* co-first authors)
+Jeff Glasgow\*, __Anum Glasgow__\*, Tanja Kortemme and James A. Wells. [Reply to Liu *et al.*: Specific mutations matter in specificity and catalysis in ACE2.](https://www.pnas.org/doi/full/10.1073/pnas.2024450118) *Proceedings of the National Academy of Sciences*, 118(15), April 2021. (\* co-first authors)
 
 <br/>
 <br/>
