@@ -14,9 +14,10 @@
 
 __Bold__ indicates our lab members.
 <br/>
-<br/>
 
-### Preprints
+#### Preprints
+<br/>
+<br/>
 +++
 +++
 +++
@@ -67,14 +68,13 @@ Prashath Karunaraj, Remkes Scheele, __Malcolm L. Wells__, Ruchita Rathod, Sophia
 __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, Zhen Gong, and __Anum Glasgow__. [Conserved energetic changes drive function in an ancient protein fold.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v1) *bioRxiv*, April 2025.  (\* co-first authors)
 <br/>
 <br/>
-<br/>
 
 
 +++
 +++
 +++
 
-### Published in peer-reviewed journals
+#### Published in peer-reviewed journals
 <br/>
 <br/>
 
