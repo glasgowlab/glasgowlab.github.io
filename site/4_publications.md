@@ -14,10 +14,12 @@
 
 __Bold__ indicates our lab members.
 <br/>
+<br/>
 
 #### Preprints
+
 <br/>
-<br/>
+
 +++
 +++
 +++
@@ -65,7 +67,7 @@ Prashath Karunaraj, Remkes Scheele, __Malcolm L. Wells__, Ruchita Rathod, Sophia
 <br/>
 <br/>
 
-__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, Zhen Gong, and __Anum Glasgow__. [Conserved energetic changes drive function in an ancient protein fold.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v1) *bioRxiv*, April 2025.  (\* co-first authors)
+__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, Zhen Gong and __Anum Glasgow__. [Conserved energetic changes drive function in an ancient protein fold.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v1) *bioRxiv*, April 2025.  (\* co-first authors)
 <br/>
 <br/>
 
@@ -74,11 +76,11 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 +++
 +++
 
-#### Published in peer-reviewed journals
+#### Peer-reviewed
 <br/>
 <br/>
 
-Ryan S. Roark, Andrew J. Schaub, Wei Shi, Maple Wang, Fabiana A. Bahna, Jordan E. Becker, Andrea Biju, Sue Chong, Haijuan Du, Yicheng Guo, Hsiang Hong, Phinikoula S. Katsamba, Seetha M. Mannepalli, Adam S. Olia, Li Ou, Sarah K. Rubin, Yosef Sabo, Mehin Suleiman, __Malcolm L. Wells__, Baoshan Zhang, Cheng Cheng, __Anum Glasgow__, David D. Ho, Yaoxing Huang, Theodore C. Pierson, Reda Rawi, Tongqing Zhou, Lawrence Shapiro\* & Peter D. Kwong\*, [Prefusion structure, evasion and neutralization of HSV-1 glycoprotein B.](https://www.nature.com/articles/s41564-025-02153-x) *Nature
+Ryan S. Roark, Andrew J. Schaub, Wei Shi, Maple Wang, Fabiana A. Bahna, Jordan E. Becker, Andrea Biju, Sue Chong, Haijuan Du, Yicheng Guo, Hsiang Hong, Phinikoula S. Katsamba, Seetha M. Mannepalli, Adam S. Olia, Li Ou, Sarah K. Rubin, Yosef Sabo, Mehin Suleiman, __Malcolm L. Wells__, Baoshan Zhang, Cheng Cheng, __Anum Glasgow__, David D. Ho, Yaoxing Huang, Theodore C. Pierson, Reda Rawi, Tongqing Zhou, Lawrence Shapiro\* and Peter D. Kwong\*, [Prefusion structure, evasion and neutralization of HSV-1 glycoprotein B.](https://www.nature.com/articles/s41564-025-02153-x) *Nature
 Microbiology*, 10, 2025. (*co-corresponding authors)
 
 <br/>
@@ -171,7 +173,7 @@ __Anum Glasgow\*__, Helen T. Hobbs, Zion R. Perry, __Malcolm L. Wells__, Susan M
 +++
 +++
 
-Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. Rizo, Thomas H. Pospiech Jr., Irene Lui, Mathew T. Laurie, Jeff Glasgow, Chau Q. Le, Yun Zhang, Devan Diwanji, Evelyn Hernandez, Jocelyne Lopez, Komal Ishwar Pawar, Sergei Pourmal, Amber M. Smith, Fengbo Zhou, QCRG Structural Biology Consortium, Joseph DeRisi, Tanja Kortemme, Oren S. Rosenberg, __Anum Glasgow__\*, Kevin K. Leung\*, James A. Wells\*, and Kliment A. Verba\*. [Computational pipeline provides mechanistic understanding of Omicron variant of concern neutralizing engineered ACE2 receptor traps.](https://www.cell.com/structure/fulltext/S0969-2126(23)00030-8) *Structure* 31, 1–12, February 2023. (\* co-corresponding authors)
+Soumya G. Remesh, Gregory E. Merz, Axel F. Brilot, Un Seng Chio, Alexandrea N. Rizo, Thomas H. Pospiech Jr., Irene Lui, Mathew T. Laurie, Jeff Glasgow, Chau Q. Le, Yun Zhang, Devan Diwanji, Evelyn Hernandez, Jocelyne Lopez, Komal Ishwar Pawar, Sergei Pourmal, Amber M. Smith, Fengbo Zhou, QCRG Structural Biology Consortium, Joseph DeRisi, Tanja Kortemme, Oren S. Rosenberg, __Anum Glasgow__\*, Kevin K. Leung\*, James A. Wells\*, and Kliment A. Verba\*. [Computational pipeline provides mechanistic understanding of Omicron variant of concern neutralizing engineered ACE2 receptor traps.](https://www.cell.com/structure/fulltext/S0969-2126(23)00030-8) *Structure* 31, February 2023. (\* co-corresponding authors)
 <br/>
 <br/>
 +++
@@ -188,7 +190,7 @@ __Pre-CUMC publications__
 :align: left
 :alt: Solution-based serology to detect COVID antibodies.
 ```
-Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Irene Lui, Katarina Pance, Shion A. Lim, Jeff E. Glasgow, __Anum A. Glasgow__, Keirstinne Turcios, Nikita S. Iyer, Leonel Torres, Michael J. Peluso, Timothy J. Henrich, Taia T. Wang, Cristina M. Tato, Kevin K. Leung, Bryan Greenhouse, and James A. Wells. [Engineering luminescent biosensors for point-of-care SARS-CoV-2 antibody detection.](https://www.doi.org/10.1038/s41587-021-00878-8) *Nature Biotechnology*, 39(8):928–935, August 2021. (\* co-first authors)
+Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Irene Lui, Katarina Pance, Shion A. Lim, Jeff E. Glasgow, __Anum A. Glasgow__, Keirstinne Turcios, Nikita S. Iyer, Leonel Torres, Michael J. Peluso, Timothy J. Henrich, Taia T. Wang, Cristina M. Tato, Kevin K. Leung, Bryan Greenhouse, and James A. Wells. [Engineering luminescent biosensors for point-of-care SARS-CoV-2 antibody detection.](https://www.doi.org/10.1038/s41587-021-00878-8) *Nature Biotechnology*, 39(8), August 2021. (\* co-first authors)
 
 <br/>
 <br/>
@@ -198,7 +200,7 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 +++
 +++
 
-Jeff Glasgow\*, __Anum Glasgow__\*, Tanja Kortemme and James A. Wells, [Reply to Liu *et al.*: Specific mutations matter in specificity and catalysis in ACE2.](https://www.pnas.org/doi/full/10.1073/pnas.2024450118) *Proceedings of the National Academy of Sciences*, 118(15) e2024450118, April 2021. (\* co-first authors)
+Jeff Glasgow\*, __Anum Glasgow__\*, Tanja Kortemme and James A. Wells, [Reply to Liu *et al.*: Specific mutations matter in specificity and catalysis in ACE2.](https://www.pnas.org/doi/full/10.1073/pnas.2024450118) *Proceedings of the National Academy of Sciences*, 118(15), April 2021. (\* co-first authors)
 
 <br/>
 <br/>
@@ -218,7 +220,7 @@ Jeff Glasgow\*, __Anum Glasgow__\*, Tanja Kortemme and James A. Wells, [Reply to
 <br/>
 <br/>
 
-__Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. [Engineered ACE2 receptor traps potently neutralize SARS-CoV-2.](https://www.doi.org/10.1073/pnas.2016093117) *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020. (\* co-first authors)
+__Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. [Engineered ACE2 receptor traps potently neutralize SARS-CoV-2.](https://www.doi.org/10.1073/pnas.2016093117) *Proceedings of the National Academy of Sciences*, 117(45), November 2020. (\* co-first authors)
 
 +++
 +++
@@ -235,7 +237,7 @@ __Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Ya
 :alt: De novo design of a protein-based biosensor.
 ```
 
-__Anum A. Glasgow\*__, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan Ritterson, Amanda L. Loshbaugh, Jenna Pellegrino, Cody Krivacic, Roland A. Pache, Kyle A. Barlow, Noah Ollikainen, Deborah Jeon, Mark J. S. Kelly, James S. Fraser, and Tanja Kortemme. [Computational design of a modular protein sense/response system.](https://www.doi.org/10.1126/science.aax8780) *Science*, 366(6468):1024–1028, November 2019. (\* co-first authors)
+__Anum A. Glasgow\*__, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan Ritterson, Amanda L. Loshbaugh, Jenna Pellegrino, Cody Krivacic, Roland A. Pache, Kyle A. Barlow, Noah Ollikainen, Deborah Jeon, Mark J. S. Kelly, James S. Fraser, and Tanja Kortemme. [Computational design of a modular protein sense/response system.](https://www.doi.org/10.1126/science.aax8780) *Science*, 366(6468), November 2019. (\* co-first authors)
 
 +++
 +++
@@ -244,7 +246,7 @@ __Anum A. Glasgow\*__, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, 
 <br/>
 <br/>
 
-__Anum Azam Glasgow__ and Danielle Tullman-Ercek. [Type III Secretion Filaments as Templates for Metallic Nanostructure Synthesis.](https://www.doi.org/10.1007/978-1-4939-7893-9_12) *Methods in Molecular Biology*, 1798:155–171, 2018.
+__Anum Azam Glasgow__ and Danielle Tullman-Ercek. [Type III Secretion Filaments as Templates for Metallic Nanostructure Synthesis.](https://www.doi.org/10.1007/978-1-4939-7893-9_12) *Methods in Molecular Biology*, 1798, 2018.
 
 +++
 +++
@@ -261,7 +263,7 @@ __Anum Azam Glasgow__ and Danielle Tullman-Ercek. [Type III Secretion Filaments 
 
 <br/>
 
-__Anum Azam Glasgow__, Han Teng Wong, and Danielle Tullman-Ercek. [A Secretion-Amplification Role for Salmonella enterica Translocon Protein SipD.](https://www.doi.org/10.1021/acssynbio.6b00335) *ACS Synthetic Biology*, 6(6):1006–1015, June 2017.
+__Anum Azam Glasgow__, Han Teng Wong, and Danielle Tullman-Ercek. [A Secretion-Amplification Role for Salmonella enterica Translocon Protein SipD.](https://www.doi.org/10.1021/acssynbio.6b00335) *ACS Synthetic Biology*, 6(6), June 2017.
 
 +++
 +++
@@ -276,7 +278,7 @@ __Anum Azam Glasgow__, Han Teng Wong, and Danielle Tullman-Ercek. [A Secretion-A
 :alt: Filament-templated metal rods on cells.
 ```
 
-__Anum Azam__ and Danielle Tullman-Ercek. [Type-III secretion filaments as scaffolds for inorganic nanostructures.](https://www.doi.org/10.1098/rsif.2015.0938) *Journal of the Royal Society Interface*, 13(114):20150938, January 2016.
+__Anum Azam__ and Danielle Tullman-Ercek. [Type-III secretion filaments as scaffolds for inorganic nanostructures.](https://www.doi.org/10.1098/rsif.2015.0938) *Journal of the Royal Society Interface*, 13(114), January 2016.
 
 +++
 +++
@@ -285,7 +287,7 @@ __Anum Azam__ and Danielle Tullman-Ercek. [Type-III secretion filaments as scaff
 <br/>
 
 __Anum Azam__, Cheng Li, Kevin J. Metcalf, and Danielle Tullman-Ercek. [Type III secretion as a generalizable strategy for the production of full-length biopolymer-forming proteins.](https://www.doi.org/10.1002/bit.25656
-) *Biotechnology and Bioengineering*, 113(11):2313–2320, November 2016.
+) *Biotechnology and Bioengineering*, 113(11), November 2016.
 
 +++
 +++
@@ -293,7 +295,7 @@ __Anum Azam__, Cheng Li, Kevin J. Metcalf, and Danielle Tullman-Ercek. [Type III
 <br/>
 <br/>
 
-Kevin J. Metcalf, Casey Finnerty, __Anum Azam__, Elias Valdivia, and Danielle Tullman-Ercek. [Using Transcriptional Control To Increase Titers of Secreted Heterologous Proteins by the Type III Secretion System.](https://www.doi.org/10.1128/AEM.01330-14) *Applied and Environmental Microbiology*, 80(19):5927–5934, October 2014.
+Kevin J. Metcalf, Casey Finnerty, __Anum Azam__, Elias Valdivia, and Danielle Tullman-Ercek. [Using Transcriptional Control To Increase Titers of Secreted Heterologous Proteins by the Type III Secretion System.](https://www.doi.org/10.1128/AEM.01330-14) *Applied and Environmental Microbiology*, 80(19), October 2014.
 
 +++
 +++
@@ -309,7 +311,7 @@ Kevin J. Metcalf, Casey Finnerty, __Anum Azam__, Elias Valdivia, and Danielle Tu
 ```
 <br/>
 
-__Anum Azam__, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gracias. [Self-folding micropatterned polymeric containers.](https://www.doi.org/10.1007/s10544-010-9470-x) *Biomedical Microdevices*, 13(1):51–58, February 2011.
+__Anum Azam__, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gracias. [Self-folding micropatterned polymeric containers.](https://www.doi.org/10.1007/s10544-010-9470-x) *Biomedical Microdevices*, 13(1), February 2011.
 
 +++
 +++
@@ -317,7 +319,7 @@ __Anum Azam__, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gra
 <br/>
 <br/>
 
-Jeong-Hyun Cho, __Anum Azam__, and David H. Gracias. [Three Dimensional Nanofabrication Using Surface Forces.](https://www.doi.org/10.1021/la1013889) *Langmuir*, 26(21):16534–16539, November 2010.
+Jeong-Hyun Cho, __Anum Azam__, and David H. Gracias. [Three Dimensional Nanofabrication Using Surface Forces.](https://www.doi.org/10.1021/la1013889) *Langmuir*, 26(21), November 2010.
 
 +++
 +++
@@ -335,12 +337,12 @@ Jeong-Hyun Cho, __Anum Azam__, and David H. Gracias. [Three Dimensional Nanofabr
 <br/>
 <br/>
 
-David J. Filipiak\*, __Anum Azam\*__, Timothy G. Leong, and David H. Gracias. [Hierarchical self-assembly of complex polyhedral microcontainers.](https://www.doi.org/10.1088/0960-1317/19/7/075012) *Journal of Micromechanics and Microengineering*, 19(7):075012, June 2009. (\* co-first authors)
+David J. Filipiak\*, __Anum Azam\*__, Timothy G. Leong, and David H. Gracias. [Hierarchical self-assembly of complex polyhedral microcontainers.](https://www.doi.org/10.1088/0960-1317/19/7/075012) *Journal of Micromechanics and Microengineering*, 19(7), June 2009. (\* co-first authors)
 
 <br/>
 <br/>
 <br/>
 
-__Anum Azam__, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. [Compactness Determines the Success of Cube and Octahedron Self-Assembly.](https://www.doi.org/10.1371/journal.pone.0004451) *PLOS ONE*, 4(2):e4451, February 2009.
+__Anum Azam__, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. [Compactness Determines the Success of Cube and Octahedron Self-Assembly.](https://www.doi.org/10.1371/journal.pone.0004451) *PLOS ONE*, 4(2), February 2009.
 
 <!-- #endregion -->
