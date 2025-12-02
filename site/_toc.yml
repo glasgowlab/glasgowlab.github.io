@@ -1,9 +1,8 @@
-format: jb-book
 root: 1_intro
-chapters:
+entries:
 - file: 2_people
 - file: 3_projects
 - file: 4_publications
 - file: 5_recruit
-- file: 8_news
-- file: 6_advbiochem.ipynb
+- file: 6_news
+
