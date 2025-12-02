@@ -67,7 +67,7 @@ Prashath Karunaraj\*, Remkes Scheele\*, __Malcolm L. Wells__, Ruchita Rathod, So
 <br/>
 <br/>
 
-__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, __Erin Ahern__, Zhen Gong, __Ethan Chen__, and __Anum Glasgow__. [Distinct energetic blueprints diversify function of conserved protein folds.][https://www.biorxiv.org/content/10.1101/2025.04.02.646877v2] *bioRxiv*, April 2025.  (\* co-first authors)
+__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, __Erin Ahern__, Zhen Gong, __Ethan Chen__, and __Anum Glasgow__. [Distinct energetic blueprints diversify function of conserved protein folds.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v2) *bioRxiv*, April 2025.  (\* co-first authors)
 <br/>
 <br/>
 
