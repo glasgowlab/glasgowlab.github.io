@@ -19,9 +19,7 @@ __Bold__ indicates our lab members.
 #### Preprints
 
 <br/>
-+++
-+++
-+++
+
 
 <img src="ref_figures/PFK.png" height="220"/>
 
