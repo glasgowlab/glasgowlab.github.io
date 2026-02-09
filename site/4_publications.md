@@ -20,9 +20,10 @@ __Bold__ indicates our lab members.
 
 <br/>
 
-
 <img src="ref_figures/PFK.png" height="220"/>
+
 <br/>
+
 __Chenlin Lu__\*, __Belen Sundberg__\*, __Malcolm L. Wells__, __Kyle C. Weber__, Zhen Gong, and __Anum Glasgow__. [Bidirectional allosteric ligand regulation in a central glycolytic enzyme.](https://www.biorxiv.org/content/10.64898/2026.02.05.704047v1) *bioRxiv*, February 2026. (\* co-first authors)
 <br/>
 <br/>
