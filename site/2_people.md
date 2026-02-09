@@ -22,15 +22,15 @@ Come talk to us at our group meeting in the Hammer 5 conference room at 1 pm on 
 <br>
 
 ````{card}
-Erin Ahern (she/her) | *[Postbac researcher](https://www.rosettacommons.org/about/post-baccalaureate-program)*
+Karen Garcia (she/her) | *Undergraduate researcher*
 ^^^
-```{image} people/erin.png
-:alt: erin
+```{image} people/karen_garcia.jpg
+:alt: karen
 :class: bg-primary mb-1
 :width: 300px
 :align: left
 ```
-I earned my B.A. in Biophysics at Columbia University. I grew up in New York City and love going to college here as well. Before joining the lab, I was a Rosetta Intern at the Schoeder Lab in Leipzig, Germany. I became fascinated by computational methods to engineer binder proteins with the potential use for therapeutics. At the Glasgow lab, I am working on PARROTS, a pipeline to rapidly engineer antiviral therapeutics and experimentally test binders. Outside of the lab, I enjoy exploring museums, going to concerts, traveling, and hiking.
+I am a current undergraduate at Columbia Engineering, originally from Los Angeles, California. I am majoring in Chemical Engineering with a specialization in Biotechnology and Biopharmaceuticals, and minoring in Computer Science. Before joining the lab, I was an NSF REU intern with Rosetta Commons, where I worked in the Drew Lab at UIC, designing _de novo_ binders to disrupt the HIV-1 capsid. I am interested in exploring new computational tools and the intersection of computational design and wet-lab experimentation for therapeutic development. Outside of the lab, I enjoy traveling, hiking, watercolor painting, and photography.
 +++
 email: eca2133 [at] columbia [dot] edu
 ````
@@ -79,6 +79,20 @@ email: erk2172 [at] columbia [dot] edu
 ````
 
 ````{card}
+Erica Kokor (she/they) | *Undergraduate researcher*
+^^^
+```{image} people/erica_kokor.jpeg
+:alt: emily
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
+I am a Junior in Columbia College studying Biochemistry. I mostly grew up in Central California, but spent my early years just outside of Chicago and in Southern California. Prior to joining the Glasgow Lab, I was a Laidlaw Scholar at Columbia, working in the [K=1](https://k1project.columbia.edu/) project under Professor Emlyn Hughes. Outside of the lab, I enjoy baking, reading, and playing instruments!
++++
+email: erk2172 [at] columbia [dot] edu
+````
+
+````{card}
 Chenlin Lu (he/him) | *Postdoctoral research fellow*
 ^^^
 ```{image} people/chenlin.jpg
@@ -101,7 +115,7 @@ Savannah McBride (she/her) | *Graduate student*
 :width: 300px
 :align: left
 ```
-I am a second-year PhD student in the Department of Genetics and Development. I received my B.A. in Biology from Reed College in Portland, OR. Prior to starting graduate school, I was a research assistant in Dr. Fikadu Tafesse's lab at OHSU, where I worked on COVID antibody research and evaluated novel small molecules as antiviral therapeutics. I am interested in exploring new methods of protein design and understanding how protein conformational dynamics underlie protein function. Outside of the lab, I enjoy exploring NYC, going to stand-up comedy shows, and sitting in Central Park with my friends.
+I am a PhD student in the Department of Genetics and Development. I received my B.A. in Biology from Reed College in Portland, OR. Prior to starting graduate school, I was a research assistant in Dr. Fikadu Tafesse's lab at OHSU, where I worked on COVID antibody research and evaluated novel small molecules as antiviral therapeutics. I am interested in exploring new methods of protein design and understanding how protein conformational dynamics underlie protein function. Outside of the lab, I enjoy exploring NYC, going to stand-up comedy shows, and sitting in Central Park with my friends.
 +++
 email: skm2191 [at] cumc [dot] columbia [dot] edu
 ````
@@ -157,7 +171,7 @@ Belen Sundberg (she/her) | *Graduate student*
 :width: 300px
 :align: left
 ```
-I am a second year PhD candidate in the Integrated Program in Cellular, Molecular, and Biomedical Studies at Columbia University. Before beginning my PhD, I received my B.A. in Biology from NYU and worked as a technician at Columbia’s Chio Laboratory, investigating redox adaptations acquired by Pancreatic Ductal Adenocarcinoma cells to survive persistent oxidative stress. At the Glasgow lab, my work is centered on understanding the allosteric regulation of conserved, key glycolytic enzyme PFK-1. A more detailed picture of PFK-1's conformational ensemble will allow for the rational design of new classes of allosteric therapeutics to target this essential enzyme in diseases such as cancer. Additionally, uncovering the differences in allosteric mechanisms between human and pathogenic orthologs of PFK-1 can inform the design of cool new antibiotics.
+I am a PhD candidate in the Integrated Program in Cellular, Molecular, and Biomedical Studies at Columbia University. Before beginning my PhD, I received my B.A. in Biology from NYU and worked as a technician at Columbia’s Chio Laboratory, investigating redox adaptations acquired by Pancreatic Ductal Adenocarcinoma cells to survive persistent oxidative stress. At the Glasgow lab, my work is centered on understanding the allosteric regulation of conserved, key glycolytic enzyme PFK-1. A more detailed picture of PFK-1's conformational ensemble will allow for the rational design of new classes of allosteric therapeutics to target this essential enzyme in diseases such as cancer. Additionally, uncovering the differences in allosteric mechanisms between human and pathogenic orthologs of PFK-1 can inform the design of cool new antibiotics.
 +++
 email: bs3281 [at] cumc [dot] columbia [dot] edu
 ````
@@ -171,23 +185,9 @@ Kyle C Weber (he/him) | *Graduate student*
 :width: 300px
 :align: left
 ```
-I am a first year Graduate student in the Integrated Program of Cellular, Molecular, and Biomedical Studies at Columbia. I will soon join the Glasgow lab after rotations. I received my bachelor’s degree from the University of Florida in Biotechnology as well as a minor in Bioinformatics. My previous research focused on mitigating the effects of citrus greening, a bacterial pathogenic infection, in citrus plants. I specialized in RNA-Seq experiments, genome assemblies, and isoform discovery to uncover mechanisms of resistance. My current interests are in metabolic engineering and synthetic biology. I wish to create novel enzymes and transcription factors for the use in synthetic systems.
+I am a graduate student in the Integrated Program of Cellular, Molecular, and Biomedical Studies at Columbia. I will soon join the Glasgow lab after rotations. I received my bachelor’s degree from the University of Florida in Biotechnology as well as a minor in Bioinformatics. My previous research focused on mitigating the effects of citrus greening, a bacterial pathogenic infection, in citrus plants. I specialized in RNA-Seq experiments, genome assemblies, and isoform discovery to uncover mechanisms of resistance. My current interests are in metabolic engineering and synthetic biology. I wish to create novel enzymes and transcription factors for the use in synthetic systems.
 +++
 email: kcw2152 [at] cumc [dot] columbia [dot] edu
-````
-
-````{card}
-Malcolm Wells (he/him) | *Graduate student*
-^^^
-```{image} people/malcolm.jpeg
-:alt: malcolm
-:class: bg-primary mb-1
-:width: 300px
-:align: left
-```
-I am a PhD student in physics at Columbia. I did my undergrad also in physics at Columbia, and before starting here I did research in condensed matter physics and genomics labs. I am excited about protein biophysics and currently studying allostery using HDX mass spectrometry.
-+++
-email: mw3079 [at] columbia [dot] edu
 ````
 
 ````{card}
