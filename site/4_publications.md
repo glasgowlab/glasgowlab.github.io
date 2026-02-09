@@ -23,12 +23,8 @@ __Bold__ indicates our lab members.
 +++
 +++
 
-```{image} ref_figures/PFK.png
-:height: 300px
-:class: bg-primary mb-1
-:align: left
-:alt: PFK alternating hydrophobic cores.
-```
+<img src="ref_figures/PFK.png" height="220"/>
+
 <br/>
 <br/>
 
