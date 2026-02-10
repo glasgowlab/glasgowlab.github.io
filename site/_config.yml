@@ -22,7 +22,7 @@ execute:
     - 'rosettacon2022.md'
     - '9_sequence_logos.md'
 
-only_build_toc_files: true
+only_build_toc_files: false
 exclude_patterns: [7_LacI_demo.ipynb, rosettacon2022.md, 9_sequence_logos.md]
 
 launch_buttons:
