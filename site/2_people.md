@@ -19,8 +19,6 @@
 <br>
 Come talk to us at our group meeting in the Hammer 5 conference room at 1 pm on Thursdays.   
 <br>
-[Alumni](site/alumni.md)
-<br>
 <br>
 
 ````{card}
@@ -206,3 +204,4 @@ Are you interested in joining us?
 We are excited to have you.
 <br/>
 ````
+[Lab alumni.](./alumni.md)
