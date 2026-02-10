@@ -205,4 +205,4 @@ We are excited to have you.
 <br/>
 ````
 
-[Lab alumni.](people/alumni.md)
+[Lab alumni.](./people/alumni.md)
