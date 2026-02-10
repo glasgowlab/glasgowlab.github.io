@@ -204,4 +204,5 @@ Are you interested in joining us?
 We are excited to have you.
 <br/>
 ````
-[Lab alumni.](./alumni.md)
+
+[Lab alumni.](alumni.md)
