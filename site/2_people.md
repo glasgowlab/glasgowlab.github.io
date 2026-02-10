@@ -17,7 +17,9 @@
 :align: center
 ```
 <br>
-Come talk to us at our group meeting in the Hammer 5 conference room at 1 pm on Thursdays.
+Come talk to us at our group meeting in the Hammer 5 conference room at 1 pm on Thursdays.   
+<br>
+[Alumni](site/alumni.md)
 <br>
 <br>
 
