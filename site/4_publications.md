@@ -66,7 +66,7 @@ Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov
 __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, __Erin Ahern__, Zhen Gong, __Ethan Chen__, and __Anum Glasgow__. [Distinct energetic blueprints diversify function of conserved protein folds.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v2) *accepted in principle, Nature Chemistry*, March 2026.  (\* co-first authors)
 <br/>
 <br/>
-
+<br/>
 
 +++
 +++
