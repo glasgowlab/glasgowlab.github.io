@@ -53,27 +53,6 @@ Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov
 +++
 +++
 
-__Kyle C. Weber__\*, __Chenlin Lu__\*, Roberto Vera Alvarez, Bruce D. Pascal, and __Anum Glasgow__. [HXMS: a standardized file format for HX/MS data.](https://www.biorxiv.org/content/10.1101/2025.10.14.682397v1) *bioRxiv*, October 2025. (\* co-first authors)
-<br/>
-<br/>
-Check out PFLink: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink)
-<br/>
-<br/>
-<br/>
-<br/>
-
-+++
-+++
-+++
-
-Prashath Karunaraj\*, Remkes Scheele\*, __Malcolm L. Wells__, Ruchita Rathod, Sophia Abrahamson, Lila C. Taylor, Ipek S. Gokulu, Lamia Chowdhury, Abiha Kazmi, Weixiao Song, Peter Hornbeck, Jing Li, __Anum Glasgow__, and Neil Vasan. [A hotspot phosphorylation site on SHP2 drives oncoprotein activation and drug resistance.](https://www.biorxiv.org/content/10.1101/2025.06.11.659120v1.full) *bioRxiv*, June 2025. (\* co-first authors)
-
-<br/>
-<br/>
-
-+++
-+++
-+++
 <img src="ref_figures/fig4_v2_glab_website.png" height="220"/>
 
 <br/>
@@ -91,6 +70,28 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 #### Peer-reviewed
 <br/>
 <br/>
+
+__Kyle C. Weber__\*, __Chenlin Lu__\*, Roberto Vera Alvarez, Bruce D. Pascal, and __Anum Glasgow__. [HXMS: a standardized file format for HX/MS data.](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag113/8512511) *Bioinformatics*, March 2026. (\* co-first authors)
+<br/>
+<br/>
+Check out PFLink: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink)
+<br/>
+<br/>
+<br/>
+<br/>
+
++++
++++
++++
+
+Prashath Karunaraj\*, Remkes Scheele\*, __Malcolm L. Wells__, Ruchita Rathod, Sophia Abrahamson, Lila C. Taylor, Ipek S. Gokulu, Lamia Chowdhury, Abiha Kazmi, Weixiao Song, Peter Hornbeck, Jing Li, __Anum Glasgow__, and Neil Vasan. [A hotspot phosphorylation site on SHP2 drives oncoprotein activation and drug resistance.](https://www.nature.com/articles/s41467-026-70060-8) *Nature Communications*, March 2026. (\* co-first authors)
+
+<br/>
+<br/>
+
++++
++++
++++
 
 Ryan S. Roark, Andrew J. Schaub, Wei Shi, Maple Wang, Fabiana A. Bahna, Jordan E. Becker, Andrea Biju, Sue Chong, Haijuan Du, Yicheng Guo, Hsiang Hong, Phinikoula S. Katsamba, Seetha M. Mannepalli, Adam S. Olia, Li Ou, Sarah K. Rubin, Yosef Sabo, Mehin Suleiman, __Malcolm L. Wells__, Baoshan Zhang, Cheng Cheng, __Anum Glasgow__, David D. Ho, Yaoxing Huang, Theodore C. Pierson, Reda Rawi, Tongqing Zhou, Lawrence Shapiro\*, and Peter D. Kwong\*. [Prefusion structure, evasion and neutralization of HSV-1 glycoprotein B.](https://www.nature.com/articles/s41564-025-02153-x) *Nature
 Microbiology*, 10, October 2025. (*co-corresponding authors)
