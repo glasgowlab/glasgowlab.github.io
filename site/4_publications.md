@@ -53,12 +53,17 @@ Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov
 +++
 +++
 
+
+#### Peer-reviewed
+<br/>
+<br/>
+
 <img src="ref_figures/fig4_v2_glab_website.png" height="220"/>
 
 <br/>
 <br/>
 
-__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, __Erin Ahern__, Zhen Gong, __Ethan Chen__, and __Anum Glasgow__. [Distinct energetic blueprints diversify function of conserved protein folds.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v2) *bioRxiv*, April 2025.  (\* co-first authors)
+__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, __Erin Ahern__, Zhen Gong, __Ethan Chen__, and __Anum Glasgow__. [Distinct energetic blueprints diversify function of conserved protein folds.](https://www.biorxiv.org/content/10.1101/2025.04.02.646877v2) *accepted in principle, Nature Chemistry*, March 2026.  (\* co-first authors)
 <br/>
 <br/>
 
@@ -66,10 +71,6 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 +++
 +++
 +++
-
-#### Peer-reviewed
-<br/>
-<br/>
 
 __Kyle C. Weber__\*, __Chenlin Lu__\*, Roberto Vera Alvarez, Bruce D. Pascal, and __Anum Glasgow__. [HXMS: a standardized file format for HX/MS data.](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag113/8512511) *Bioinformatics*, March 2026. (\* co-first authors)
 <br/>
