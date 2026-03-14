@@ -75,8 +75,7 @@ __Kyle C. Weber__\*, __Chenlin Lu__\*, Roberto Vera Alvarez, Bruce D. Pascal, an
 <br/>
 <br/>
 Check out PFLink: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink)
-<br/>
-<br/>
+
 <br/>
 <br/>
 
