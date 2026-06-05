@@ -63,7 +63,7 @@ Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov
 <br/>
 <br/>
 
-__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, __Erin Ahern__, Zhen Gong, __Ethan Chen__, and __Anum Glasgow__. [Distinct energetic blueprints diversify function of conserved protein folds.][https://www.nature.com/articles/s41557-026-02163-0.epdf?sharing_token=jfX5_7nY7pYSR4HjYwmE79RgN0jAjWel9jnR3ZoTv0ONqEAYZYleXzY8W4XJRHvYNZI8_OTaKrvchQwuydztcitsmgLvyc5OE0zhufh-XC1G-0ouvPavtsrsXXjbzt92gCGCfiTIMU_0RpjiYXOrM_oJoO5MThoXH3MY7xPRRl8%3D] *Nature Chemistry*, 2026.  (\* co-first authors)
+__Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber__\*, __Erin Ahern__, Zhen Gong, __Ethan Chen__, and __Anum Glasgow__. [Distinct energetic blueprints diversify function of conserved protein folds.](https://www.nature.com/articles/s41557-026-02163-0.epdf?sharing_token=jfX5_7nY7pYSR4HjYwmE79RgN0jAjWel9jnR3ZoTv0ONqEAYZYleXzY8W4XJRHvYNZI8_OTaKrvchQwuydztcitsmgLvyc5OE0zhufh-XC1G-0ouvPavtsrsXXjbzt92gCGCfiTIMU_0RpjiYXOrM_oJoO5MThoXH3MY7xPRRl8%3D) *Nature Chemistry*, 2026.  (\* co-first authors)
 <br/>
 <br/>
 <br/>
