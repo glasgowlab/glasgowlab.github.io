@@ -56,8 +56,6 @@ Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 
 <img src="ref_figures/fig4_v2_glab_website.png" height="220"/>
 
