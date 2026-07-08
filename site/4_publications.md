@@ -30,6 +30,12 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 <br/>
 <br/>
 
++++
++++
++++
+
+
+#### Peer-reviewed
 
 +++
 +++
@@ -40,21 +46,13 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 <br/>
 <br/>
 
-__Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers__, and __Anum Glasgow__. [A machine learning method for calculating highly localized protein stabilities.](https://www.biorxiv.org/content/10.1101/2025.10.21.683809v1) *bioRxiv*, October 2025. (\* co-first authors)
+__Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers__, and __Anum Glasgow__. [A machine learning method for calculating highly localized protein stabilities.](https://www.biorxiv.org/content/10.1101/2025.10.21.683809v1) *accepted, Nature Communications*, July 2026. (\* co-first authors)
 <br/>
 <br/>
 Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov-file) / [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFNet) / [Tutorials](https://github.com/glasgowlab/PFNet/tree/main/notebooks)
 <br/>
 <br/>
 <br/>
-<br/>
-
-+++
-+++
-+++
-
-
-#### Peer-reviewed
 <br/>
 <br/>
 
