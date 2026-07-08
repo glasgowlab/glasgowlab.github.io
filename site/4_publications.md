@@ -52,7 +52,7 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 __Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers__, and __Anum Glasgow__. [A machine learning method for calculating highly localized protein stabilities.](https://www.biorxiv.org/content/10.1101/2025.10.21.683809v1) *accepted, Nature Communications*, July 2026. (\* co-first authors)
 <br/>
 <br/>
-Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov-file) / [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFNet) / [Tutorials](https://github.com/glasgowlab/PFNet/tree/main/notebooks)
+* Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov-file) / [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFNet) / [Tutorials](https://github.com/glasgowlab/PFNet/tree/main/notebooks)
 <br/>
 <br/>
 <br/>
@@ -74,7 +74,7 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 __Kyle C. Weber__\*, __Chenlin Lu__\*, Roberto Vera Alvarez, Bruce D. Pascal, and __Anum Glasgow__. [HXMS: a standardized file format for HX-MS data.](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag113/8512511) *Bioinformatics*, 2026. (\* co-first authors)
 <br/>
 <br/>
-Check out PFLink, a tool for converting HX-MS datasets to .hxms format: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink)
+* Check out PFLink, a tool for converting HX-MS datasets to .hxms format: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink)
 
 <br/>
 <br/>
@@ -113,7 +113,7 @@ Microbiology*, 2025. (*co-corresponding authors)
 __Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, __Savannah K. McBride__, and __Anum Glasgow__. [Site-resolved energetic information from HX-MS experiments.](https://www.nature.com/articles/s41589-025-02049-1) *Nature Chemical Biology*, 2025.  (\* co-first authors)
 <br/>
 <br/>
-Check out PIGEON-FEATHER: [PDF](https://rdcu.be/eLtCF) / [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
+* Check out PIGEON-FEATHER: [PDF](https://rdcu.be/eLtCF) / [Github repo](https://github.com/glasgowlab/PIGEON-FEATHER) / [Documentation](http://glasgowlab.org/PIGEON-FEATHER)
 
 <br/>
 <br/>
@@ -134,7 +134,7 @@ Check out PIGEON-FEATHER: [PDF](https://rdcu.be/eLtCF) / [Github repo](https://g
 __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing protein-ligand interactions.](https://onlinelibrary.wiley.com/doi/10.1002/pro.5027) *Protein Science*, 2024.
 <br/>
 <br/>
-Check out MAGPIE: [Google CoLab](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb) / [Github repo](https://github.com/glasgowlab/MAGPIE/tree/local-version) / [Tutorial](https://magpie-docs.readthedocs.io/en/latest/Introduction.html)
+* Check out MAGPIE: [Google CoLab](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb) / [Github repo](https://github.com/glasgowlab/MAGPIE/tree/local-version) / [Tutorial](https://magpie-docs.readthedocs.io/en/latest/Introduction.html)
 <br/>
 <br/>
 <br/>
