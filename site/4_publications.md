@@ -45,7 +45,7 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 <br/>
 
 ```{image} ref_figures/PFNetpng.png
-:height: 170px
+:height: 160px
 :class: bg-white
 :align: left
 :alt: PFNet method.
@@ -116,7 +116,7 @@ Microbiology*, 2025. (*co-corresponding authors)
 
 
 ```{image} ref_figures/20240720_fig1_glab_website.png
-:height: 140px
+:height: 160px
 :class: mb-1 mt-0
 :align: right
 :alt: Derive site-resolved ∆Gop
