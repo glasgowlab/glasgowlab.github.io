@@ -45,13 +45,12 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 <br/>
 
 ```{image} ref_figures/PFNetpng.png
-:height: 160px
-:class: bg-primary mb-1
+:height: 170px
+:class: bg-white
 :align: left
 :alt: PFNet method.
 ```
 
-<br/>
 <br/>
 
 __Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers__, and __Anum Glasgow__. [A machine learning method for calculating highly localized protein stabilities.](https://www.biorxiv.org/content/10.1101/2025.10.21.683809v1) *accepted, Nature Communications*, July 2026. (\* co-first authors)
