@@ -52,13 +52,14 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 __Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers__, and __Anum Glasgow__. [A machine learning method for calculating highly localized protein stabilities.](https://www.biorxiv.org/content/10.1101/2025.10.21.683809v1) *accepted, Nature Communications*, July 2026. (\* co-first authors)
 <br/>
 <br/>
-* Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov-file) / [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFNet) / [Tutorials](https://github.com/glasgowlab/PFNet/tree/main/notebooks)
+&rarr; Check out PFNet: [Github repo](https://github.com/glasgowlab/PFNet?tab=readme-ov-file) / [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFNet) / [Tutorials](https://github.com/glasgowlab/PFNet/tree/main/notebooks)
 <br/>
 <br/>
 <br/>
 
 <img src="ref_figures/fig4_v2_glab_website.png" height="220"/>
 
+<br/>
 <br/>
 <br/>
 
@@ -76,6 +77,7 @@ __Kyle C. Weber__\*, __Chenlin Lu__\*, Roberto Vera Alvarez, Bruce D. Pascal, an
 <br/>
 * Check out PFLink, a tool for converting HX-MS datasets to .hxms format: [HuggingFace](https://huggingface.co/spaces/glasgow-lab/PFLink)
 
+<br/>
 <br/>
 <br/>
 
