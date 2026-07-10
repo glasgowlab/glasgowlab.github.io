@@ -56,10 +56,8 @@ __Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers
 <br/>
 <br/>
 
-<img src="ref_figures/fig4_v2_glab_website.png" height="220"/>
+<img src="ref_figures/fig4_v2_glab_website.png" height="100"/>
 
-<br/>
-<br/>
 <br/>
 <br/>
 
@@ -67,6 +65,7 @@ __Malcolm L. Wells__\*, __Chenlin Lu__\*, __Daniel Sultanov__\*, __Kyle C. Weber
 <br/>
 <br/>
 <br/>
+<br>
 
 +++
 +++
@@ -137,6 +136,7 @@ __Chenlin Lu__\*, __Malcolm L. Wells__\*, __Andrew Reckers__, __Savannah K. McBr
 __Daniel C. Pineda Rodriguez__, __Kyle C. Weber__, __Belen Sundberg__, and __Anum Glasgow__. [MAGPIE: an interactive tool for visualizing and analyzing protein-ligand interactions.](https://onlinelibrary.wiley.com/doi/10.1002/pro.5027) *Protein Science*, 2024.
 <br/>
 &rarr; Check out MAGPIE: [Google CoLab](https://colab.research.google.com/github/glasgowlab/MAGPIE/blob/GoogleColab/MAGPIE_COLAB.ipynb) / [Github repo](https://github.com/glasgowlab/MAGPIE/tree/local-version) / [Tutorial](https://magpie-docs.readthedocs.io/en/latest/Introduction.html)
+<br/>
 <br/>
 <br/>
 
