@@ -60,7 +60,7 @@ __Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers
 ```{image} ref_figures/fig4_v2_glab_website.png
 :height: 200px
 :class: bg-primary mb-1
-:align: left
+:align: right
 :alt: Ligand binding energies.
 ```
 
