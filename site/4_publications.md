@@ -44,7 +44,12 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 <br/>
 <br/>
 
-<img src="ref_figures/PFNetpng.png" height="220"/>
+```{image} ref_figures/PFNetpng.png
+:height: 160px
+:class: bg-primary mb-1
+:align: left
+:alt: PFNet method.
+```
 
 <br/>
 <br/>
@@ -166,7 +171,6 @@ Stephanie F. Maurina\*, John P. O'Sullivan\*, Geetika Sharma\*, __Daniel C. Pine
 
 Birte Höcker, Peilong Lu, __Anum Glasgow__, Debora S. Marks, Pranam Chatterjee, Joanna S. G. Slusky, Ora Schueler-Furman, and Possu Huang. [How can the protein design community best support biologists who want to harness AI tools for protein structure prediction and design?](https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(23)00212-0) *Cell Systems*, 2023. (Invited commentary.)
 
-<br/>
 <br/>
 <br/>
 
