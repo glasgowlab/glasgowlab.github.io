@@ -89,7 +89,7 @@ Erica Kokor (she/they) | *Undergraduate researcher*
 ```
 I am a Junior in Columbia College studying Biochemistry. I mostly grew up in Central California, but spent my early years just outside of Chicago and in Southern California. Prior to joining the Glasgow Lab, I was a Laidlaw Scholar at Columbia, working in the [K=1](https://k1project.columbia.edu/) project under Professor Emlyn Hughes. Outside of the lab, I enjoy baking, reading, and playing instruments!
 +++
-email: erk2172 [at] columbia [dot] edu
+email: ek3381 [at] columbia [dot] edu
 ````
 
 ````{card}
