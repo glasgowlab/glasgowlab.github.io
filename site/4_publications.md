@@ -22,7 +22,7 @@ __Bold__ indicates our lab members.
 <br/>
 <br/>
 
-_Check back soon!_
+_Check back soon! We preprint all of our work ahead of publication._
 <br/>
 <br/>
 
@@ -36,7 +36,12 @@ _Check back soon!_
 
 <br/>
 
-<img src="ref_figures/PFK.png" height="220"/>
+```{image} ref_figures/PFK.png
+:height: 220px
+:class: bg-white
+:align: right
+:alt: PFK1.
+```
 
 <br/>
 
@@ -50,7 +55,6 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 +++
 +++
 
-<br/>
 <br/>
 <br/>
 
