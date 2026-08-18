@@ -18,17 +18,14 @@ __Bold__ indicates our lab members.
 
 #### Preprints
 
-<br/>
-
-<img src="ref_figures/PFK.png" height="220"/>
 
 <br/>
+<br/>
 
-__Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__, Zhen Gong, and __Anum Glasgow__. [Bidirectional allosteric ligand regulation in a central glycolytic enzyme.](https://www.biorxiv.org/content/10.64898/2026.02.05.704047v1) *bioRxiv*, February 2026. (\* co-first authors)
+_Check back soon!_
 <br/>
 <br/>
-<br/>
-<br/>
+
 
 +++
 +++
@@ -37,10 +34,23 @@ __Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__,
 
 #### Peer-reviewed
 
+<br/>
+
+<img src="ref_figures/PFK.png" height="220"/>
+
+<br/>
+
+__Belen Sundberg__\*, __Chenlin Lu__\*, __Malcolm L. Wells__, __Kyle C. Weber__, Zhen Gong, and __Anum Glasgow__. [Bidirectional allosteric ligand regulation in a central glycolytic enzyme.](https://pubs.acs.org/jacsat/article-abstract/doi/10.1021/jacs.6c08065/5268292/Bidirectional-Allosteric-Ligand-Regulation-in-a?redirectedFrom=fulltext) *Journal of the American Chemical Society*, August 2026. (\* co-first authors)
+<br/>
+<br/>
+<br/>
+<br/>
+
 +++
 +++
 +++
 
+<br/>
 <br/>
 <br/>
 
@@ -60,6 +70,9 @@ __Chenlin Lu__\*, __Kyle C. Weber__\*, __Savannah K. McBride__, __Andrew Reckers
 <br/>
 <br/>
 
++++
++++
++++
 
 ```{image} ref_figures/fig4_v2_glab_website.png
 :height: 200px
