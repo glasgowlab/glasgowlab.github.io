@@ -32,7 +32,7 @@ Karen Garcia (she/her) | *Undergraduate researcher*
 ```
 I am a current undergraduate at Columbia Engineering, originally from Los Angeles, California. I am majoring in Chemical Engineering with a specialization in Biotechnology and Biopharmaceuticals, and minoring in Computer Science. Before joining the lab, I was an NSF REU intern with Rosetta Commons, where I worked in the Drew Lab at UIC, designing _de novo_ binders to disrupt the HIV-1 capsid. I am interested in exploring new computational tools and the intersection of computational design and wet-lab experimentation for therapeutic development. Outside of the lab, I enjoy traveling, hiking, watercolor painting, and photography.
 +++
-email: eca2133 [at] columbia [dot] edu
+email: kgg2122 [at] columbia [dot] edu
 ````
 
 ````{card}
