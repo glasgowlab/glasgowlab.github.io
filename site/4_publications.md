@@ -22,7 +22,8 @@ __Bold__ indicates our lab members.
 <br/>
 <br/>
 
-_Check back soon! We preprint all of our work ahead of publication._
+Jennifer R. Gamarra, Sei Higuchi, Timothy L. Yuan, Yuke Xie, Cong Liu, Niroshan Shanmugarajah, Hang Yang, Meredith O. Kelly, Sarah A. Hannou, Kathrin Schilling, Ana Navas-Acien, Eunhee Choi, __Anum Glasgow__, Inna I. Astapova, Mark A. Herman, and  Rebecca A. Haeusler. [Manganese availability determines insulin sensitivity by enhancing Akt activity.](https://www.biorxiv.org/content/10.64898/2026.09.02.746017v2.full) *bioRxiv*, 2026.
+
 <br/>
 <br/>
 
