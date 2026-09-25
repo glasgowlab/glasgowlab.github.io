@@ -131,7 +131,7 @@
 :alt: karen poster
 `````
  
-`````{image} people/other_photos/20260925_update/presentations/chenlin_rcon.jpg
+`````{image} people/other_photos/20260925_update/presentations/chenlin_rcon.png
 :class: gal-img ar-79
 :alt: chenlin rcon
 `````
@@ -144,11 +144,54 @@
   - Chenlin got his K99/R00! This is a huge deal! He will be an amazing PI.
   - Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after our program, which was successful with several awards! 
   - Malcolm defended his Ph.D., wow! Our first Ph.D. He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
-<br><br>
-<img src="people/other_photos/20260925_update/graduation/defense_announcement.jpg" width="350"/>
-<br>
-_Savannah made this amazing poster announcing Malcolm's defense._
-<br><br>
+``````{grid} 1 1 2 2
+:gutter: 3
+ 
+`````{grid-item}
+:columns: 12 12 4 4
+ 
+````{image} people/other_photos/20260925_update/graduation/defense_announcement.jpg
+:width: 100%
+:alt: Poster announcing Malcolm's thesis defense
+````
+ 
+<sub>_Savannah made this amazing poster announcing Malcolm's defense._</sub>
+`````
+ 
+`````{grid-item}
+:columns: 12 12 8 8
+:child-align: center
+ 
+**Photos from Malcolm's graduation party.**
+ 
+````{toggle}
+<div class="jrow">
+ 
+```{image} people/other_photos/20260925_update/graduation/congrats_banner.jpg
+:class: gal-img ar-133
+:alt: congrats banner
+```
+ 
+```{image} people/other_photos/20260925_update/graduation/cake.jpg
+:class: gal-img ar-75
+:alt: cake
+```
+ 
+```{image} people/other_photos/20260925_update/graduation/balloon.jpg
+:class: gal-img ar-75
+:alt: balloon
+```
+ 
+```{image} people/other_photos/20260925_update/graduation/malcolm.jpg
+:class: gal-img ar-75
+:alt: malcolm
+```
+ 
+</div>
+ 
+````
+`````
+``````
 
 **Photos from Malcolm's graduation party.**
 ```{toggle}
@@ -174,7 +217,7 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_moving.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_lab.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/microfluidizer/chenlin_belen_microfluidizer.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/microfluidizer/ladies_microfluidizer.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/microfluidizer/ladies_microfluidizer.jpeg" width="250"/>
 <br>
 <br>
 
