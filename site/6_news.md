@@ -46,7 +46,7 @@
   - Fellowships: Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after ours here, which was successful with several awards! 
   - Malcolm defended his Ph.D., wow! He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
 
-<summary><b>Click for photos of our posters and talks</b></summary>
+Click for photos of our posters and talks
 ```{toggle}
 <img src="people/other_photos/20260925_update/presentations/poster_pfnet.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/presentations/poster_session.jpg" width="400"/>
