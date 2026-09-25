@@ -143,7 +143,7 @@
   - We earned some poster prizes, including Will and our future postdoc, Karol, at the Protein Society meeting!
   - Chenlin got his K99/R00! This is a huge deal! He will be an amazing PI.
   - Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after our program, which was successful with several awards! 
-  - Malcolm defended his Ph.D., wow! Our first Ph.D. He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
+  - Malcolm defended his Ph.D., wow! Our lab's first Ph.D. He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
 ``````{grid} 1 1 2 2
 :gutter: 3
  
@@ -193,21 +193,24 @@
 `````
 ``````
 
-**Photos from Malcolm's graduation party.**
-```{toggle}
-<img src="people/other_photos/20260925_update/graduation/congrats_banner.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/graduation/cake.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/graduation/balloon.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/graduation/malcolm.jpg" width="250"/>
-```
-
 **Computational workshop.** Thanks to Kyle and Belen for presenting detailed PIGEON and PARROTS workflows. It was super fun to develop protein inhibitors to various targets in real time, as a lab! The next day, we discussed how we should ethically use AI tools to take our research to the next level.
-<br><br>
-<img src="people/other_photos/20260925_update/workshop/workshop_parrots.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/workshop/workshop_coding.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/workshop/workshop_whiteboard.jpg" width="250"/>
-<br>
-<br>
+<div class="jrow">
+``````{image} people/other_photos/20260925_update/workshop/workshop_parrots.jpg
+:class: gal-img ar-133
+:alt: workshop parrots
+``````
+ 
+``````{image} people/other_photos/20260925_update/workshop/workshop_coding.jpg
+:class: gal-img ar-133
+:alt: workshop coding
+``````
+ 
+``````{image} people/other_photos/20260925_update/workshop/workshop_whiteboard.jpg
+:class: gal-img ar-75
+:alt: workshop whiteboard
+``````
+ 
+</div>
 
 **New equipment.** Thanks to a generous friend at AbCellera, we received a lot of supplies and a microfluidizer when the company closed its Boston site!
 <br><br>
@@ -222,33 +225,90 @@
 <br>
 
 **Photos by Editha Mesina.** Belen's mom, [Editha Mesina](https://tisch.nyu.edu/about/directory/photo/96572533), who is a professor of photography at NYU, took these awesome photos of the lab when she visited.
-<br>
-<img src="people/other_photos/20260925_update/mesina/lab_panorama.jpg" width="800"/>
-<br>
+``````{image} people/other_photos/20260925_update/mesina/lab_panorama.jpg
+:width: 100%
+:alt: panorama of the lab
+``````
+ 
+<div style="height:0.8em"></div>
  
 **Click for more of these cool photos.**
 <br>
-```{toggle}
-<img src="people/other_photos/20260925_update/mesina/lab_group.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/mesina/lab_bench_work.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/mesina/lab_purification.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/mesina/lab_pipetting.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/mesina/lab_portrait.jpg" width="300"/>
-<img src="people/other_photos/20260925_update/mesina/lab_standing.jpg" width="250"/>
-```
+``````{toggle}
+<div class="jrow">
+ 
+`````{image} people/other_photos/20260925_update/mesina/lab_group.jpg
+:class: gal-img ar-126
+:alt: lab group
+`````
+ 
+`````{image} people/other_photos/20260925_update/mesina/lab_bench_work.jpg
+:class: gal-img ar-150
+:alt: lab bench work
+`````
+ 
+`````{image} people/other_photos/20260925_update/mesina/lab_purification.jpg
+:class: gal-img ar-150
+:alt: lab purification
+`````
+ 
+`````{image} people/other_photos/20260925_update/mesina/lab_pipetting.jpg
+:class: gal-img ar-150
+:alt: lab pipetting
+`````
+ 
+`````{image} people/other_photos/20260925_update/mesina/lab_portrait.jpg
+:class: gal-img ar-77
+:alt: lab portrait
+`````
+ 
+`````{image} people/other_photos/20260925_update/mesina/lab_standing.jpg
+:class: gal-img ar-67
+:alt: lab standing
+`````
+ 
+</div>
+``````
 
 <br>
 
 **Babies in the lab.** We're up to three Glasgow Lab babies. Awesome!
 <br>
-```{toggle}
-<img src="people/other_photos/20260925_update/baby/pregnant_lab.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/baby/baby_laptop.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/baby/baby_bench.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/baby/baby_lab_visit.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/baby/baby_inspector.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/baby/baby_feeding.jpg" width="250"/>
-```
+``````{toggle}
+<div class="jrow">
+ 
+`````{image} people/other_photos/20260925_update/baby/pregnant_lab.jpg
+:class: gal-img ar-75
+:alt: pregnant lab
+`````
+ 
+`````{image} people/other_photos/20260925_update/baby/baby_laptop.jpg
+:class: gal-img ar-133
+:alt: baby laptop
+`````
+ 
+`````{image} people/other_photos/20260925_update/baby/baby_bench.jpg
+:class: gal-img ar-75
+:alt: baby bench
+`````
+ 
+`````{image} people/other_photos/20260925_update/baby/baby_lab_visit.jpg
+:class: gal-img ar-75
+:alt: baby lab visit
+`````
+ 
+`````{image} people/other_photos/20260925_update/baby/baby_inspector.jpg
+:class: gal-img ar-75
+:alt: baby inspector
+`````
+ 
+`````{image} people/other_photos/20260925_update/baby/baby_feeding.jpg
+:class: gal-img ar-75
+:alt: baby feeding
+`````
+ 
+</div>
+``````
 <br>
 
 **Grants.** We are grateful for continued research funding from NIH NIGMS, NIBIB, and NIDDK (R35, R21, R01), our NSF grant, support from the Rosetta Commons and the American Cancer Society, private funds from industry partners, and a Paul Marks Scholar Award.
