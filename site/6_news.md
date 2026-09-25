@@ -157,6 +157,10 @@
  
 <sub>_Savannah made this amazing poster._</sub>
 
+`````
+ 
+`````{grid-item}
+:columns: 12 12 8 8
  
 ````{image} people/other_photos/20260925_update/graduation/cake.jpg
 :class: gal-img ar-75
@@ -166,12 +170,8 @@
 <sub>_Emily made this amazing cake._</sub>
 
 `````
- 
-`````{grid-item}
-:columns: 12 12 8 8
-:child-align: top
- 
-**More photos.**
+``````
+**More photos from Malcolm's party.**
  
 ````{toggle}
 <div class="jrow">
@@ -192,10 +192,7 @@
 ```
  
 </div>
- 
-````
-`````
-``````
+
 
 **Computational workshop.** Thanks to Kyle and Belen for presenting detailed PIGEON and PARROTS workflows. It was super fun to develop protein inhibitors to various targets in real time, as a lab! The next day, we discussed how we should ethically use AI tools to take our research to the next level.
 <div class="jrow">
