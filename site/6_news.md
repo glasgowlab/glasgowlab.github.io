@@ -61,6 +61,11 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 <img src="people/other_photos/20260925_update/presentations/talk_design.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/presentations/talk_pfk.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/presentations/talk_histogram.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/belen_rcon.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/poster_group_selfie.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/poster_chenlin_stowers.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/karen_poster.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/chenlin_rcon.png" width="400"/>
 ```
 
 **Photos from Malcolm's graduation party.**
