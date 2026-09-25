@@ -24,7 +24,7 @@
 - [PFNet](https://www.nature.com/articles/s41467-026-75590-9) is published in _Nature Communications_! Congrats to Chenlin, Kyle, Savannah, and Andrew!
 - Our [PFK paper](https://pubs.acs.org/jacsat/article-abstract/doi/10.1021/jacs.6c08065/5268292/Bidirectional-Allosteric-Ligand-Regulation-in-a) is published in _JACS_! What a journey. Congrats to Belen and Chenlin!
 
-<br>
+<br><br>
 <img src="people/other_photos/20260925_update/papers/nchembio_cover.jpg" width="300"/>
 <br>
 
@@ -42,13 +42,11 @@
   - Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after our program, which was successful with several awards! 
   - Malcolm defended his Ph.D., wow! Our first Ph.D. He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
 
-<br>
-
+<br><br>
 <img src="people/other_photos/20260925_update/graduation/defense_announcement.jpg" width="350"/>
+<br>
 _Savannah made this amazing poster announcing Malcolm's defense._
-
-<br>
-<br>
+<br><br>
 
 **Click for photos of our posters and talks.**
 ```{toggle}
@@ -127,7 +125,7 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 Watch this space for more cool science!
  
 
-**Click for more lab photos.***
+**Click for more lab photos.**
 <br>
 <img src="people/other_photos/20260925_update/group/group_20250630.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/group/group_hammer.jpg" width="400"/>
