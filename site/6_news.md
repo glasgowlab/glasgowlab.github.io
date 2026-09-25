@@ -11,6 +11,139 @@
 
 # News
 
+**9/25/2026** Wow, it's been two years since the last news update! There is lots of good news to share from the lab.
+ 
+- **Several papers are out.**
+  - [PIGEON-FEATHER](https://www.nature.com/articles/s41589-025-02049-1) is published in _Nature Chemical Biology_ as the cover article! Congrats to Chenlin, Malcolm, Andrew, and Savannah!
+  - The [PFLink](https://academic.oup.com/bioinformatics/article/42/4/btag113/8512511) paper is published in _Bioinformatics_! Congrats to Kyle and Chenlin, and our collaborators at HDX Workbench!
+  - Our paper on how different energetic blueprints evolved in the VFT fold, [Distinct energetic blueprints diversify function of conserved protein folds](https://www.nature.com/articles/s41557-026-02163-0), is published in _Nature Chemistry_! Congrats to Malcolm, Chenlin, Daniel, Kyle, and coauthors! Check out Erin's cool work in this paper on rationally engineering allosteric transcription factors using the blueprint that we discovered.
+  - We have three collaborations out.
+    - with the Vasan lab on the role of SHP2 in drug resistance ([A hotspot phosphorylation site on SHP2 drives oncoprotein activation and drug resistance](https://www.nature.com/articles/s41467-026-70060-8), _Nature Communications_)
+    - with the Kwong and Shapiro labs on HSV-1 glycoprotein B immunoevasion ([Prefusion structure, evasion and neutralization of HSV-1 glycoprotein B](https://www.nature.com/articles/s41564-025-02153-x), _Nature Microbiology_)
+    - with Becky Haeusler and Jenn Gamarra on manganese and insulin sensitivity ([Manganese availability determines insulin sensitivity by enhancing Akt activity](https://www.biorxiv.org/content/10.64898/2026.09.02.746017v2.abstract)), which was accepted at the _Journal of Clinical Investigation_!
+  - [PFNet](https://www.nature.com/articles/s41467-026-75590-9) is published in _Nature Communications_! Congrats to Chenlin, Kyle, Savannah, and Andrew!
+  - Our [PFK paper](https://pubs.acs.org/jacsat/article-abstract/doi/10.1021/jacs.6c08065/5268292/Bidirectional-Allosteric-Ligand-Regulation-in-a) is published in _JACS_! What a journey. Congrats to Belen and Chenlin!
+<br><br>
+<img src="people/other_photos/20260925_update/papers/nchembio_cover.jpg" width="300"/>
+<img src="people/other_photos/20260925_update/papers/pfk_figure.jpg" width="500"/>
+<br><br>
+ 
+- **Major progress on hard projects.**
+  - Daniel and Kyle are aggressively designing proteins to bind and activate a super-challenging target and performing our most complex HX experiments yet to solve its mechanism.
+  - The PARROTS team (Emily, Belen, Erica, Erin, and others) has successfully validated a robust design pipeline for HSA traps and is now performing functional assays.
+  - The lysozyme team (Andrew, Savannah, and Chloe) has collected a staggering amount of data and is now in the analysis stage.
+  - Andrew and Savannah have solved a fascinating mystery of p53 epistasis and are now performing simulations to fill in details for their experiments.
+  - Several lab members are involved in interesting medical collaborations, spanning basic biophysics to cancer mechanisms to designing CAR T therapies.
+- **Undergraduates and postbacs.**
+  - We've graduated some strong scientists: Erin, Emily, and Steven!
+    - Erin joined the biophysics graduate program at UCSF!
+    - Emily is joining the CUMC graduate program!
+    - Steven is staying in our lab as a CUMC graduate student!
+  - We recruited excellent undergraduate researchers Karen, Erica, and Bissan! Karen and Erica, along with Chloe for the third year running, procured their own external funding to do research over the summer.
+- **Awards and presentations.**
+  - Almost everyone has presented their work somewhere, from poster presentations to department talks to major conferences.
+  - We earned poster prizes, including Will and our future postdoc, Karol, at the Protein Society meeting!
+  - Chenlin got his K99/R00! This is a huge deal! He will be an amazing PI.
+  - Fellowships: Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after ours here, which was successful with several awards! 
+  - Malcolm defended his Ph.D., wow! He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
+<details>
+<summary><b>Click for photos of our posters and talks</b></summary>
+<br>
+<img src="people/other_photos/20260925_update/presentations/poster_pfnet.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/poster_session.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/poster_columbia.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/poster_sweet_proteins.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/poster_prize_group.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/conference_pair.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/talk_vft_fold.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/talk_feather.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/talk_design.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/talk_pfk.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/presentations/talk_histogram.jpg" width="400"/>
+<br><br>
+</details>
+<br><br>
+<img src="people/other_photos/20260925_update/graduation/defense_announcement.jpg" width="350"/>
+<br>
+_Savannah made this amazing poster announcing Malcolm's defense._
+<br><br>
+ 
+<details>
+<summary><b>Photos from Malcolm's graduation party</b></summary>
+<br>
+<img src="people/other_photos/20260925_update/graduation/congrats_banner.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/graduation/cake.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/graduation/balloon.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/graduation/malcolm.jpg" width="250"/>
+<video src="people/other_photos/20260925_update/graduation/malcolm_champagne.mp4" poster="people/other_photos/20260925_update/graduation/malcolm_champagne_poster.jpg" width="250" controls></video>
+<br><br>
+</details>
+- **Computational workshop.** Thanks to Kyle and Belen for presenting detailed PIGEON and PARROTS workflows. It was super fun to develop protein inhibitors to various targets in real time, as a lab! The next day, we discussed how we should ethically use AI tools to take our research to the next level.
+<br><br>
+<img src="people/other_photos/20260925_update/workshop/workshop_parrots.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/workshop/workshop_coding.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/workshop/workshop_whiteboard.jpg" width="250"/>
+<br><br>
+ 
+- **New equipment.** Thanks to a generous friend at AbCellera, we received a lot of supplies and a microfluidizer when the company closed its Boston site!
+<br><br>
+<img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_dock.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_car.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_team.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_moving.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_lab.jpg" width="250"/>
+<br><br>
+ 
+- **Photos by Editha Mesina.** Belen's mom, [Editha Mesina](https://tisch.nyu.edu/about/directory/photo/96572533), who is a professor of photography at NYU, took these awesome photos of the lab when she visited.
+<br><br>
+<img src="people/other_photos/20260925_update/mesina/lab_panorama.jpg" width="800"/>
+<br><br>
+ 
+<details>
+<summary><b>Click for more cool photos</b></summary>
+<br>
+<img src="people/other_photos/20260925_update/mesina/lab_group.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/mesina/lab_bench_work.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/mesina/lab_purification.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/mesina/lab_pipetting.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/mesina/lab_portrait.jpg" width="300"/>
+<img src="people/other_photos/20260925_update/mesina/lab_standing.jpg" width="250"/>
+<br><br>
+</details>
+- **Babies in the lab.** We're up to three Glasgow Lab babies. Awesome!
+<details>
+<summary><b>Click for baby photos</b></summary>
+<br>
+<img src="people/other_photos/20260925_update/baby/pregnant_lab.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/baby/baby_laptop.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/baby/baby_bench.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/baby/baby_magnets.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/baby/baby_lab_visit.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/baby/baby_couch.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/baby/baby_feeding.jpg" width="250"/>
+<br><br>
+</details>
+- **Grants.** We are grateful for continued research funding from NIH NIGMS, NIBIB, and NIDDK (R35, R21, R01), our NSF grant, support from the Rosetta Commons and the American Cancer Society, private funds from industry partners, and a Paul Marks Scholar Award.
+Watch this space for more cool science!
+ 
+<details>
+<summary><b>Click for more lab photos</b></summary>
+<br>
+<img src="people/other_photos/20260925_update/group/group_20250630.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/group_hammer.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/group_selfie_winter.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/group_selfie_street.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/lab_dinner_1.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/lab_dinner_2.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/lunch_trio.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/group/celebration_toast.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/science_march.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/group/lab_meeting_halloween.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/plants.jpg" width="400"/>
+<br><br>
+</details>
+
+
 **9/4/2024** A new academic year begins after a super-fast summer.
 
 Many updates from the last year:
