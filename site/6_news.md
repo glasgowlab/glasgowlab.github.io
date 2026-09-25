@@ -48,7 +48,7 @@
   - Malcolm defended his Ph.D., wow! He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
 <details>
 <summary><b>Click for photos of our posters and talks</b></summary>
-<br>
+```{toggle}
 <img src="people/other_photos/20260925_update/presentations/poster_pfnet.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/presentations/poster_session.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/presentations/poster_columbia.jpg" width="400"/>
@@ -60,6 +60,7 @@
 <img src="people/other_photos/20260925_update/presentations/talk_design.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/presentations/talk_pfk.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/presentations/talk_histogram.jpg" width="400"/>
+```
 <br><br>
 </details>
 <br><br>
