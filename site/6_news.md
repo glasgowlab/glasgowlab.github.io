@@ -25,7 +25,6 @@
   - Our [PFK paper](https://pubs.acs.org/jacsat/article-abstract/doi/10.1021/jacs.6c08065/5268292/Bidirectional-Allosteric-Ligand-Regulation-in-a) is published in _JACS_! What a journey. Congrats to Belen and Chenlin!
 <br><br>
 <img src="people/other_photos/20260925_update/papers/nchembio_cover.jpg" width="300"/>
-<img src="people/other_photos/20260925_update/papers/pfk_figure.jpg" width="500"/>
 <br><br>
  
 - **Major progress on hard projects.**
@@ -46,7 +45,7 @@
   - Chenlin got his K99/R00! This is a huge deal! He will be an amazing PI.
   - Fellowships: Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after ours here, which was successful with several awards! 
   - Malcolm defended his Ph.D., wow! He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
-<details>
+
 <summary><b>Click for photos of our posters and talks</b></summary>
 ```{toggle}
 <img src="people/other_photos/20260925_update/presentations/poster_pfnet.jpg" width="400"/>
@@ -62,7 +61,7 @@
 <img src="people/other_photos/20260925_update/presentations/talk_histogram.jpg" width="400"/>
 ```
 <br><br>
-</details>
+
 <br><br>
 <img src="people/other_photos/20260925_update/graduation/defense_announcement.jpg" width="350"/>
 <br>
