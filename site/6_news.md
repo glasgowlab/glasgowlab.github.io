@@ -127,6 +127,7 @@ Watch this space for more cool science!
 
 **Click for more lab photos.**
 <br>
+```{toggle}
 <img src="people/other_photos/20260925_update/group/group_20250630.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/group/group_hammer.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/group/group_selfie_winter.jpg" width="400"/>
@@ -138,7 +139,7 @@ Watch this space for more cool science!
 <img src="people/other_photos/20260925_update/group/science_march.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/group/lab_meeting_halloween.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/group/plants.jpg" width="400"/>
-``
+```
 <br>
 
 
