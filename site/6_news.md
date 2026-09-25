@@ -51,6 +51,94 @@
   - We recruited excellent undergraduate researchers Karen, Erica, and Bissan! Karen and Erica, along with Chloe for the third year running, procured their own external funding to do research over the summer.
 
 **Awards and presentations.**
+
+**Click for photos of our posters and talks.**
+``````{toggle}
+<div class="jrow">
+ 
+`````{image} people/other_photos/20260925_update/presentations/poster_pfnet.jpg
+:class: gal-img ar-133
+:alt: poster pfnet
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/poster_session.jpg
+:class: gal-img ar-133
+:alt: poster session
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/poster_columbia.jpg
+:class: gal-img ar-133
+:alt: poster columbia
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/poster_sweet_proteins.jpg
+:class: gal-img ar-133
+:alt: poster sweet proteins
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/poster_prize_group.jpg
+:class: gal-img ar-133
+:alt: poster prize group
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/conference_pair.jpg
+:class: gal-img ar-133
+:alt: conference pair
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/talk_vft_fold.jpg
+:class: gal-img ar-133
+:alt: talk vft fold
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/talk_feather.jpg
+:class: gal-img ar-133
+:alt: talk feather
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/talk_design.jpg
+:class: gal-img ar-133
+:alt: talk design
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/talk_pfk.jpg
+:class: gal-img ar-133
+:alt: talk pfk
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/talk_histogram.jpg
+:class: gal-img ar-133
+:alt: talk histogram
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/belen_rcon.jpg
+:class: gal-img ar-133
+:alt: belen rcon
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/poster_group_selfie.jpg
+:class: gal-img ar-133
+:alt: poster group selfie
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/poster_chenlin_stowers.jpg
+:class: gal-img ar-133
+:alt: poster chenlin stowers
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/karen_poster.jpg
+:class: gal-img ar-75
+:alt: karen poster
+`````
+ 
+`````{image} people/other_photos/20260925_update/presentations/chenlin_rcon.jpg
+:class: gal-img ar-79
+:alt: chenlin rcon
+`````
+ 
+</div>
+``````
+
   - Almost everyone in the lab presented their work somewhere, from poster presentations to department talks to major conferences.
   - We earned some poster prizes, including Will and our future postdoc, Karol, at the Protein Society meeting!
   - Chenlin got his K99/R00! This is a huge deal! He will be an amazing PI.
@@ -61,26 +149,6 @@
 <br>
 _Savannah made this amazing poster announcing Malcolm's defense._
 <br><br>
-
-**Click for photos of our posters and talks.**
-```{toggle}
-<img src="people/other_photos/20260925_update/presentations/poster_pfnet.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/poster_session.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/poster_columbia.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/poster_sweet_proteins.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/poster_prize_group.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/conference_pair.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/talk_vft_fold.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/talk_feather.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/talk_design.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/talk_pfk.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/talk_histogram.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/belen_rcon.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/poster_group_selfie.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/poster_chenlin_stowers.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/karen_poster.jpg" width="400"/>
-<img src="people/other_photos/20260925_update/presentations/chenlin_rcon.png" width="400"/>
-```
 
 **Photos from Malcolm's graduation party.**
 ```{toggle}
