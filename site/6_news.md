@@ -12,7 +12,13 @@
 # News
 
 **9/25/2026** Wow, it's been two years since the last news update! There is lots of good news to share from the lab.
+
+``````{grid} 1 1 2 2
+:gutter: 3
  
+`````{grid-item}
+:columns: 12 12 8 8
+
 **Several papers are out.**
 - [PIGEON-FEATHER](https://www.nature.com/articles/s41589-025-02049-1) is published in _Nature Chemical Biology_ as the cover article! Congrats to Chenlin, Malcolm, Andrew, and Savannah!
 - The [PFLink](https://academic.oup.com/bioinformatics/article/42/4/btag113/8512511) paper is published in _Bioinformatics_! Congrats to Kyle and Chenlin, and our collaborators at HDX Workbench!
@@ -23,10 +29,19 @@
   - with Becky Haeusler and Jenn Gamarra on manganese and insulin sensitivity ([Manganese availability determines insulin sensitivity by enhancing Akt activity](https://www.biorxiv.org/content/10.64898/2026.09.02.746017v2.abstract)), which was accepted at the _Journal of Clinical Investigation_!
 - [PFNet](https://www.nature.com/articles/s41467-026-75590-9) is published in _Nature Communications_! Congrats to Chenlin, Kyle, Savannah, and Andrew!
 - Our [PFK paper](https://pubs.acs.org/jacsat/article-abstract/doi/10.1021/jacs.6c08065/5268292/Bidirectional-Allosteric-Ligand-Regulation-in-a) is published in _JACS_! What a journey. Congrats to Belen and Chenlin!
+`````
 
-<br><br>
-<img src="people/other_photos/20260925_update/papers/nchembio_cover.jpg" width="300"/>
-<br>
+`````{grid-item}
+:columns: 12 12 4 4
+
+````{image} people/other_photos/20260925_update/papers/nchembio_cover.jpg
+:width: 100%
+:alt: Cover of Nature Chemical Biology, February 2026
+````
+ 
+<sub>_Nature Chemical Biology_, February 2026</sub>
+`````
+``````
 
 **Undergraduates and postbacs.**
   - We've graduated some strong scientists: Erin, Emily, and Steven!
@@ -90,6 +105,8 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_team.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_moving.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_lab.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/microfluidizer/chenlin_belen_microfluidizer.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/microfluidizer/ladies_microfluidizer.jpg" width="250"/>
 <br>
 <br>
 
@@ -125,7 +142,7 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 
 **Grants.** We are grateful for continued research funding from NIH NIGMS, NIBIB, and NIDDK (R35, R21, R01), our NSF grant, support from the Rosetta Commons and the American Cancer Society, private funds from industry partners, and a Paul Marks Scholar Award.
 
-Watch this space for more cool science!
+**Watch this space for more cool science!!!**
  
 
 **Click for more lab photos.**
