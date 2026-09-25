@@ -160,7 +160,7 @@
  
 `````{grid-item}
 :columns: 12 12 8 8
-:child-align: center
+:child-align: top
  
 **Photos from Malcolm's graduation party.**
  
@@ -195,6 +195,7 @@
 
 **Computational workshop.** Thanks to Kyle and Belen for presenting detailed PIGEON and PARROTS workflows. It was super fun to develop protein inhibitors to various targets in real time, as a lab! The next day, we discussed how we should ethically use AI tools to take our research to the next level.
 <div class="jrow">
+
 ``````{image} people/other_photos/20260925_update/workshop/workshop_parrots.jpg
 :class: gal-img ar-133
 :alt: workshop parrots
