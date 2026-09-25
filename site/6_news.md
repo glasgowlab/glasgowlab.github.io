@@ -24,6 +24,7 @@
 - [PFNet](https://www.nature.com/articles/s41467-026-75590-9) is published in _Nature Communications_! Congrats to Chenlin, Kyle, Savannah, and Andrew!
 - Our [PFK paper](https://pubs.acs.org/jacsat/article-abstract/doi/10.1021/jacs.6c08065/5268292/Bidirectional-Allosteric-Ligand-Regulation-in-a) is published in _JACS_! What a journey. Congrats to Belen and Chenlin!
 
+<br>
 <img src="people/other_photos/20260925_update/papers/nchembio_cover.jpg" width="300"/>
 <br>
 
@@ -35,11 +36,13 @@
   - We recruited excellent undergraduate researchers Karen, Erica, and Bissan! Karen and Erica, along with Chloe for the third year running, procured their own external funding to do research over the summer.
 
 **Awards and presentations.**
-  - Almost everyone has presented their work somewhere, from poster presentations to department talks to major conferences.
-  - We earned poster prizes, including Will and our future postdoc, Karol, at the Protein Society meeting!
+  - Almost everyone in the lab presented their work somewhere, from poster presentations to department talks to major conferences.
+  - We earned some poster prizes, including Will and our future postdoc, Karol, at the Protein Society meeting!
   - Chenlin got his K99/R00! This is a huge deal! He will be an amazing PI.
-  - Fellowships: Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after ours here, which was successful with several awards! 
-  - Malcolm defended his Ph.D., wow! He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
+  - Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after our program, which was successful with several awards! 
+  - Malcolm defended his Ph.D., wow! Our first Ph.D. He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
+
+<br>
 
 <img src="people/other_photos/20260925_update/graduation/defense_announcement.jpg" width="350"/>
 _Savannah made this amazing poster announcing Malcolm's defense._
@@ -77,6 +80,7 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 <img src="people/other_photos/20260925_update/workshop/workshop_whiteboard.jpg" width="250"/>
 <br>
 <br>
+
 **New equipment.** Thanks to a generous friend at AbCellera, we received a lot of supplies and a microfluidizer when the company closed its Boston site!
 <br><br>
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_dock.jpg" width="400"/>
@@ -86,12 +90,13 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_lab.jpg" width="250"/>
 <br>
 <br>
+
 **Photos by Editha Mesina.** Belen's mom, [Editha Mesina](https://tisch.nyu.edu/about/directory/photo/96572533), who is a professor of photography at NYU, took these awesome photos of the lab when she visited.
 <br>
 <img src="people/other_photos/20260925_update/mesina/lab_panorama.jpg" width="800"/>
 <br>
  
-**Click for more cool photos.**
+**Click for more of these cool photos.**
 <br>
 ```{toggle}
 <img src="people/other_photos/20260925_update/mesina/lab_group.jpg" width="400"/>
@@ -103,7 +108,9 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 ```
 
 <br>
+
 **Babies in the lab.** We're up to three Glasgow Lab babies. Awesome!
+<br>
 ```{toggle}
 <img src="people/other_photos/20260925_update/baby/pregnant_lab.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/baby/baby_laptop.jpg" width="400"/>
