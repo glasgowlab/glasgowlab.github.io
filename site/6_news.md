@@ -155,14 +155,23 @@
 :alt: Poster announcing Malcolm's thesis defense
 ````
  
-<sub>_Savannah made this amazing poster announcing Malcolm's defense._</sub>
+<sub>_Savannah made this amazing poster._</sub>
+
+ 
+````{image} people/other_photos/20260925_update/graduation/cake.jpg
+:class: gal-img ar-75
+:alt: cake
+````
+
+<sub>_Emily made this amazing cake._</sub>
+
 `````
  
 `````{grid-item}
 :columns: 12 12 8 8
 :child-align: top
  
-**Photos from Malcolm's graduation party.**
+**More photos.**
  
 ````{toggle}
 <div class="jrow">
@@ -170,11 +179,6 @@
 ```{image} people/other_photos/20260925_update/graduation/congrats_banner.jpg
 :class: gal-img ar-133
 :alt: congrats banner
-```
- 
-```{image} people/other_photos/20260925_update/graduation/cake.jpg
-:class: gal-img ar-75
-:alt: cake
 ```
  
 ```{image} people/other_photos/20260925_update/graduation/balloon.jpg
@@ -212,6 +216,8 @@
 ``````
  
 </div>
+
+<br><br>
 
 **New equipment.** Thanks to a generous friend at AbCellera, we received a lot of supplies and a microfluidizer when the company closed its Boston site!
 <br><br>
