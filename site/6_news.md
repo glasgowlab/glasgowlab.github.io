@@ -56,7 +56,7 @@
 <img src="people/other_photos/20260925_update/presentations/talk_pfk.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/presentations/talk_histogram.jpg" width="400"/>
 ```
-<br><br>
+
 <img src="people/other_photos/20260925_update/graduation/defense_announcement.jpg" width="350"/>
 <br><br>
 _Savannah made this amazing poster announcing Malcolm's defense._
@@ -68,7 +68,6 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 <img src="people/other_photos/20260925_update/graduation/cake.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/graduation/balloon.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/graduation/malcolm.jpg" width="250"/>
-<video src="people/other_photos/20260925_update/graduation/malcolm_champagne.mp4" poster="people/other_photos/20260925_update/graduation/malcolm_champagne_poster.jpg" width="250" controls></video>
 ```
 
 **Computational workshop.** Thanks to Kyle and Belen for presenting detailed PIGEON and PARROTS workflows. It was super fun to develop protein inhibitors to various targets in real time, as a lab! The next day, we discussed how we should ethically use AI tools to take our research to the next level.
