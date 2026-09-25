@@ -41,7 +41,6 @@
   - Chenlin got his K99/R00! This is a huge deal! He will be an amazing PI.
   - Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after our program, which was successful with several awards! 
   - Malcolm defended his Ph.D., wow! Our first Ph.D. He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
-
 <br><br>
 <img src="people/other_photos/20260925_update/graduation/defense_announcement.jpg" width="350"/>
 <br>
@@ -118,9 +117,8 @@ _Savannah made this amazing poster announcing Malcolm's defense._
 <img src="people/other_photos/20260925_update/baby/pregnant_lab.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/baby/baby_laptop.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/baby/baby_bench.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/baby/baby_magnets.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/baby/baby_lab_visit.jpg" width="250"/>
-<img src="people/other_photos/20260925_update/baby/baby_couch.jpg" width="250"/>
+<img src="people/other_photos/20260925_update/baby/baby_inspector.jpg" width="250"/>
 <img src="people/other_photos/20260925_update/baby/baby_feeding.jpg" width="250"/>
 ```
 <br>
@@ -135,6 +133,7 @@ Watch this space for more cool science!
 ```{toggle}
 <img src="people/other_photos/20260925_update/group/group_20250630.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/group/group_hammer.jpg" width="400"/>
+<img src="people/other_photos/20260925_update/group/andrew_rinat.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/group/group_selfie_winter.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/group/group_selfie_street.jpg" width="400"/>
 <img src="people/other_photos/20260925_update/group/lab_dinner_1.jpg" width="400"/>
