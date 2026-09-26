@@ -142,35 +142,36 @@
   - Almost everyone in the lab presented their work somewhere, from poster presentations to department talks to major conferences.
   - We earned some poster prizes, including Will and our future postdoc, Karol, at the Protein Society meeting!
   - Chenlin got his K99/R00! This is a huge deal! He will be an amazing PI.
-  - Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after our program, which was successful with several awards! 
+  - Erin and Daniel Pineda both earned NSF graduate fellowships! Daniel also started an NSF GRFP writing class in their graduate program at UC Berkeley, modeled after our program, which was successful with several awards.
+  - Steven earned a spot on the Molecular Biophysics & Structural Biology T32 Training Grant!
   - Malcolm defended his Ph.D., wow! Our lab's first Ph.D. He's now doing exciting work in the proteomics and cryo-EM space as a postdoc at NYSBC.
+
 ``````{grid} 1 1 2 2
 :gutter: 3
- 
+
 `````{grid-item}
-:columns: 12 12 4 4
- 
+:columns: 12 12 6 6
+
 ````{image} people/other_photos/20260925_update/graduation/defense_announcement.jpg
 :width: 100%
 :alt: Poster announcing Malcolm's thesis defense
 ````
- 
-<sub>_Savannah made this amazing poster._</sub>
 
+<sub>_Savannah made this amazing poster._</sub>
 `````
- 
+
 `````{grid-item}
-:columns: 12 12 8 8
- 
+:columns: 12 12 6 6
+
 ````{image} people/other_photos/20260925_update/graduation/cake.jpg
-:class: gal-img ar-75
-:alt: cake
+:width: 100%
+:alt: Cake for Malcolm's graduation party
 ````
 
 <sub>_Emily made this amazing cake._</sub>
-
 `````
 ``````
+
 **More photos from Malcolm's party.**
  
 ````{toggle}
