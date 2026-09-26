@@ -194,6 +194,9 @@
  
 </div>
 
+````
+<br>
+
 **New equipment.** Thanks to a generous friend at AbCellera, we received a lot of supplies and a microfluidizer when the company closed its Boston site!
 <br><br>
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_dock.jpg" width="400"/>
@@ -208,7 +211,6 @@
  
 <div style="height:0.8em"></div>
 
-````
 
 **Photos by Editha Mesina.** Belen's mom, [Editha Mesina](https://tisch.nyu.edu/about/directory/photo/96572533), who is a professor of photography at NYU, took these awesome photos of the lab when she visited.
 ``````{image} people/other_photos/20260925_update/mesina/lab_panorama.jpg
