@@ -27,7 +27,7 @@ exclude_patterns: [7_LacI_demo.ipynb, rosettacon2022.md, 9_sequence_logos.md]
 
 launch_buttons:
   notebook_interface: "jupyterlab"
-  thebe: true
+  thebe: false
   binderhub_url: "https://mybinder.org/"
   colab_url: "https://colab.research.google.com"
 
