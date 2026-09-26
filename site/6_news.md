@@ -205,14 +205,14 @@
 <img src="people/other_photos/20260925_update/microfluidizer/ladies_microfluidizer.jpeg" width="250"/>
 <br>
 <br>
+ 
+<div style="height:0.8em"></div>
 
 **Photos by Editha Mesina.** Belen's mom, [Editha Mesina](https://tisch.nyu.edu/about/directory/photo/96572533), who is a professor of photography at NYU, took these awesome photos of the lab when she visited.
 ``````{image} people/other_photos/20260925_update/mesina/lab_panorama.jpg
 :width: 100%
 :alt: panorama of the lab
 ``````
- 
-<div style="height:0.8em"></div>
  
 **Click for more of these cool photos.**
 <br>
