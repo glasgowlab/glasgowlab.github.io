@@ -208,11 +208,14 @@
  
 <div style="height:0.8em"></div>
 
+````
+
 **Photos by Editha Mesina.** Belen's mom, [Editha Mesina](https://tisch.nyu.edu/about/directory/photo/96572533), who is a professor of photography at NYU, took these awesome photos of the lab when she visited.
 ``````{image} people/other_photos/20260925_update/mesina/lab_panorama.jpg
 :width: 100%
 :alt: panorama of the lab
 ``````
+
  
 **Click for more of these cool photos.**
 <br>
