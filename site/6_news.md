@@ -194,29 +194,6 @@
  
 </div>
 
-
-**Computational workshop.** Thanks to Kyle and Belen for presenting detailed PIGEON and PARROTS workflows. It was super fun to develop protein inhibitors to various targets in real time, as a lab! The next day, we discussed how we should ethically use AI tools to take our research to the next level.
-<div class="jrow">
-
-``````{image} people/other_photos/20260925_update/workshop/workshop_parrots.jpg
-:class: gal-img ar-133
-:alt: workshop parrots
-``````
- 
-``````{image} people/other_photos/20260925_update/workshop/workshop_coding.jpg
-:class: gal-img ar-133
-:alt: workshop coding
-``````
- 
-``````{image} people/other_photos/20260925_update/workshop/workshop_whiteboard.jpg
-:class: gal-img ar-75
-:alt: workshop whiteboard
-``````
- 
-</div>
-
-<br><br>
-
 **New equipment.** Thanks to a generous friend at AbCellera, we received a lot of supplies and a microfluidizer when the company closed its Boston site!
 <br><br>
 <img src="people/other_photos/20260925_update/microfluidizer/microfluidizer_dock.jpg" width="400"/>
@@ -275,7 +252,29 @@
 </div>
 ``````
 
-<br>
+<br><br>
+
+**Computational workshop.** Thanks to Kyle and Belen for presenting detailed PIGEON and PARROTS workflows. It was super fun to develop protein inhibitors to various targets in real time, as a lab! The next day, we discussed how we should ethically use AI tools to take our research to the next level.
+<div class="jrow">
+
+``````{image} people/other_photos/20260925_update/workshop/workshop_parrots.jpg
+:class: gal-img ar-133
+:alt: workshop parrots
+``````
+ 
+``````{image} people/other_photos/20260925_update/workshop/workshop_coding.jpg
+:class: gal-img ar-133
+:alt: workshop coding
+``````
+ 
+``````{image} people/other_photos/20260925_update/workshop/workshop_whiteboard.jpg
+:class: gal-img ar-75
+:alt: workshop whiteboard
+``````
+ 
+</div>
+
+<br><br>
 
 **Babies in the lab.** We're up to three Glasgow Lab babies. Awesome!
 <br>
@@ -318,9 +317,6 @@
 
 **Grants.** We are grateful for continued research funding from NIH NIGMS, NIBIB, and NIDDK (R35, R21, R01), our NSF grant, support from the Rosetta Commons and the American Cancer Society, private funds from industry partners, and a Paul Marks Scholar Award.
 
-**Watch this space for more cool science!!!**
- 
-
 **Click for more lab photos.**
 <br>
 ```{toggle}
@@ -339,8 +335,9 @@
 ```
 <br>
 
-
-
+**Watch this space for more cool science!!!**
+ 
+---
 **9/4/2024** A new academic year begins after a super-fast summer.
 
 Many updates from the last year:
